@@ -65,9 +65,12 @@ class IntakeLoader:
             if page_text:
                 text += page_text + "\n"
 
-        return {
-            "content": text.strip(),
-            "page_count": len(reader.pages),
+        return { 
+            "extraction": {
+                "status": "success",
+                "content": text.strip(),
+                "page_count": len(reader.pages),
+            }
         }
 
     def _load_docx(self, file_path: Path) -> dict:
@@ -83,8 +86,11 @@ class IntakeLoader:
         )
 
         return {
-            "content": text.strip(),
-            "paragraph_count": len(document.paragraphs),
+            "extraction": {
+                "status": "success",
+                "content": text.strip(),
+                "paragraph_count": len(document.paragraphs),
+            }
         }
 
     def _load_txt(self, file_path: Path) -> dict:
@@ -101,7 +107,10 @@ class IntakeLoader:
             text = file.read()
 
         return {
-            "content": text,
+            "extraction": {
+                "status": "success",
+                "content": text,
+            }
         }
 
     def _load_csv(self, file_path: Path) -> dict:
@@ -112,10 +121,13 @@ class IntakeLoader:
         dataframe = pd.read_csv(file_path)
 
         return {
-            "content": dataframe.to_string(index=False),
-            "row_count": len(dataframe),
-            "column_count": len(dataframe.columns),
-            "columns": dataframe.columns.tolist(),
+            "extraction": {
+                "status": "success",
+                "content": dataframe.to_string(index=False),
+                "row_count": len(dataframe),
+                "column_count": len(dataframe.columns),
+                "columns": dataframe.columns.tolist(),
+            }
         }
 
     def _load_json(self, file_path: Path) -> dict:
@@ -132,8 +144,11 @@ class IntakeLoader:
             data = json.load(file)
 
         return {
-            "content": json.dumps(
-                data,
-                indent=4
-            ),
+            "extraction": {
+                "status": "success",
+                "content": json.dumps(
+                    data,
+                    indent=4
+                ),
+            }
         }

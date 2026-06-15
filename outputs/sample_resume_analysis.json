@@ -1,0 +1,9 @@
+{
+    "document_type": "'Resume'", 
+    "document_category": "'Candidate Profile'", 
+    "subject_area": "Information Technolog", 
+    "language": "English", 
+    "confidence": 1.0, 
+    "matched_keywords": ["education", "skills", "experience", "project", "certification"], 
+    "explanation": "Detected document as Resume because the following keywords were found: education, skills, experience, project, certification"
+}

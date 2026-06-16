@@ -1,4 +1,5 @@
 from datetime import datetime
+import time
 
 
 class ProcessingTrace:
@@ -83,3 +84,44 @@ class ProcessingTrace:
                     else "PARTIAL"
                 )
         }
+    
+
+    def replay_trace(
+        self,
+        delay=0.3
+    ):
+
+        total = len(self.steps)
+
+        for index, step in enumerate(
+            self.steps,
+            start=1
+        ):
+
+            print(
+                f"[{index}/{total}] "
+                f"{step['step']}",
+                end="",
+                flush=True
+            )
+
+            for _ in range(3):
+
+                time.sleep(delay)
+
+                print(
+                    ".",
+                    end="",
+                    flush=True
+                )
+
+            print(
+                f" DONE"
+            )
+
+            print(
+                f"    {step['details']}"
+            )
+
+            print()
+        

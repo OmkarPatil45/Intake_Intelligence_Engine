@@ -16,12 +16,11 @@ from analysis.content_analyzer import ContentAnalyzer
 loader = IntakeLoader()
 analyzer = ContentAnalyzer()
 
-result = loader.load("dataset/DATA.csv")
+result = loader.load("dataset/BI_REPORT.pdf")
 content = result["extraction"]["content"]
 
 analysis_result = analyzer.analyze(content)
-print("Analysis result:\n")
-print(analysis_result)
+
 
 
 
@@ -34,8 +33,7 @@ entities = extractor.extract(
     result["extraction"]["content"]
 )
 
-print("\nEntities:\n")
-print(entities)
+
 
 #
 from analysis.classification_engine import (
@@ -49,8 +47,7 @@ classification = (
         content
     )
 )
-print("\nClassification_report:\n")
-print(classification)
+
 
 # recommendation engine
 from analysis.recommendation_engine import (RecommendationEngine)
@@ -58,8 +55,7 @@ from analysis.recommendation_engine import (RecommendationEngine)
 recommender = RecommendationEngine()
 
 recommendations = (recommender.generate(classification))
-print("\nRecommendation Report:\n")
-print(recommendations)
+
 
 #
 
@@ -159,9 +155,7 @@ print("\n" + "=" * 60)
 print("PROCESSING TRACE")
 print("=" * 60)
 
-print(
-    trace.get_human_readable_trace()
-)
+trace.replay_trace(delay=1)
 
 print("\n" + "=" * 60)
 print("TRACE SUMMARY")
@@ -170,3 +164,15 @@ print("=" * 60)
 print(
     trace.get_summary()
 )
+
+print("Analysis result:\n")
+print(analysis_result)
+
+print("\nEntities:\n")
+print(entities)
+
+print("\nClassification_report:\n")
+print(classification)
+
+print("\nRecommendation Report:\n")
+print(recommendations)

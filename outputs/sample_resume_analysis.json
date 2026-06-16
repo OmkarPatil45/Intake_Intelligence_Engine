@@ -1,9 +1,21 @@
-{
-    "document_type": "'Resume'", 
-    "document_category": "'Candidate Profile'", 
-    "subject_area": "Information Technolog", 
-    "language": "English", 
-    "confidence": 1.0, 
-    "matched_keywords": ["education", "skills", "experience", "project", "certification"], 
-    "explanation": "Detected document as Resume because the following keywords were found: education, skills, experience, project, certification"
-}
+[
+    {
+        "document_type": "Resume",
+        "document_category": "Candidate Profile",
+        "subject_area": "Information Technology",
+        "language": "English",
+        "confidence": 1.0,
+        "matched_keywords": ["education", "skills", "experience", "project", "certification"],
+        "explanation": "Detected document as Resume because the following keywords were found: education, skills, experience, project, certification"
+    },
+    
+    
+    {
+        "primary_category": "AI",
+        "secondary_category": "Education",
+        "confidence_score": 0.4,
+        "matched_keywords": ["machine learning", "rag", "chatbot", "data science"],
+        "classification_explanation": "Detected keywords: machine learning, rag, chatbot, data science"
+    }
+]
+

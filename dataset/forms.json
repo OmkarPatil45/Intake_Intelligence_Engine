@@ -1,0 +1,13 @@
+[
+    {
+        "name": "John Doe",
+        "email": "john@yahoo.com",
+        "birthDate": "15 fen 2000",
+        "location": "Mumbai",
+        "student_id": 45,
+        "std": "HSC",
+        "marks": "65%",
+        "phone": 911234567810
+
+    }
+]

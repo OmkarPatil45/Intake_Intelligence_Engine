@@ -7,11 +7,32 @@ class QueryEngine:
     def __init__(self,output_folder="outputs"):
         self.output_folder=Path(output_folder)
 
+    # def _load_packages(self):
+    #     packages=[]
+    #     for file in self.output_folder.glob("*.json"):
+    #         with open(file,"r",encoding="utf-8") as f:
+    #             data = json.load(f)
+    #             print(f"{file.name} -> {type(data)}")
+    #            # old -> packages.append(json.load(f))
+    #             packages.append(data)
+    #     return packages
+
     def _load_packages(self):
         packages=[]
+
         for file in self.output_folder.glob("*.json"):
-            with open(file,"r",encoding="utf-8") as f:
-                packages.append(json.load(f))
+            try:
+                with open(file,"r",encoding="utf-8") as f:
+                    data=json.load(f)
+
+                    if isinstance(data,dict):
+                        packages.append(data)
+
+                    else:
+                        print(f"Skipping {file.name}")
+            except Exception as e:
+                print(f"Error loading "f"{file.name}: {e}")
+
         return packages
 
     def search_by_keyword(self,keyword):

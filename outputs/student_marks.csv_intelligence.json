@@ -1,0 +1,143 @@
+{
+    "source": {
+        "source_type": "csv"
+    },
+    "metadata": {
+        "file_name": "student_marks.csv",
+        "file_extension": ".csv",
+        "file_size_bytes": 2128
+    },
+    "analysis": {
+        "document_type": "Unknown",
+        "document_category": "Unknown",
+        "subject_area": "Unknown",
+        "language": "English",
+        "confidence": 0.0,
+        "matched_keywords": [],
+        "explanation": "No matching document patterns found."
+    },
+    "entities": {
+        "names": [
+            "Student_ID"
+        ],
+        "organizations": [
+            "S002",
+            "S038"
+        ],
+        "technologies": [],
+        "skills": [],
+        "locations": [
+            "NaN"
+        ],
+        "dates": [
+            "44",
+            "49",
+            "70",
+            "76",
+            "S046"
+        ],
+        "emails": [],
+        "phone_numbers": []
+    },
+    "classification": {
+        "primary_category": "Education",
+        "secondary_category": "AI",
+        "confidence_score": 0.12,
+        "matched_keywords": [
+            "student"
+        ],
+        "classification_explanation": "Detected keywords: student"
+    },
+    "recommendations": {
+        "related_domains": [
+            "E-Learning",
+            "Student Analytics",
+            "Academic Research"
+        ],
+        "recommended_tags": [
+            "education",
+            "learning",
+            "students",
+            "academic"
+        ],
+        "recommended_use_cases": [
+            "Learning Platforms",
+            "Student Evaluation",
+            "Course Recommendation"
+        ],
+        "recommended_classifications": [
+            "Education"
+        ],
+        "recommendation_explanation": "The document was classified under 'Education' with confidence score 0.12. Based on this classification, related domains, tags and use cases have been recommended to enrich downstream intelligence processing.",
+        "intelligence_summary": "This document primarily belongs to the Education domain. It is strongly associated with E-Learning, Student Analytics. The extracted intelligence can be used for classification, search, and knowledge management purposes. Additional recommendations have been generated to enrich future analysis."
+    },
+    "processing_trace": [
+        {
+            "timestamp": "2026-06-17 10:10:52",
+            "step": "File Received",
+            "status": "SUCCESS",
+            "details": "student_marks.csv received"
+        },
+        {
+            "timestamp": "2026-06-17 10:10:52",
+            "step": "Source Detection",
+            "status": "SUCCESS",
+            "details": "Detected source type: csv"
+        },
+        {
+            "timestamp": "2026-06-17 10:10:52",
+            "step": "Content Extraction",
+            "status": "SUCCESS",
+            "details": "5507 characters extracted"
+        },
+        {
+            "timestamp": "2026-06-17 10:10:52",
+            "step": "CSV Metadata",
+            "status": "SUCCESS",
+            "details": "101 rows, 6 columns"
+        },
+        {
+            "timestamp": "2026-06-17 10:10:52",
+            "step": "Content Understanding",
+            "status": "SUCCESS",
+            "details": "Detected Unknown"
+        },
+        {
+            "timestamp": "2026-06-17 10:10:52",
+            "step": "Entity Extraction",
+            "status": "SUCCESS",
+            "details": "9 entities extracted"
+        },
+        {
+            "timestamp": "2026-06-17 10:10:52",
+            "step": "Classification",
+            "status": "SUCCESS",
+            "details": "Primary Category: Education"
+        },
+        {
+            "timestamp": "2026-06-17 10:10:52",
+            "step": "Recommendation Generation",
+            "status": "SUCCESS",
+            "details": "4 tags recommended"
+        },
+        {
+            "timestamp": "2026-06-17 10:10:52",
+            "step": "Intelligence Package",
+            "status": "SUCCESS",
+            "details": "Final intelligence package generated"
+        }
+    ],
+    "structured_output": {
+        "document_type": "Unknown",
+        "primary_category": "Education",
+        "secondary_category": "AI",
+        "confidence_score": 0.12,
+        "recommended_tags": [
+            "education",
+            "learning",
+            "students",
+            "academic"
+        ],
+        "entity_count": 9
+    }
+}

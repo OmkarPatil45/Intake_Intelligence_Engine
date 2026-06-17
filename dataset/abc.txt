@@ -1,0 +1,5 @@
+Why NoSQL DB id used ?
+Handles unstructured, rapidly changing data.
+Performance
+Easy JOIN operations
+Fast Read-Write Operations

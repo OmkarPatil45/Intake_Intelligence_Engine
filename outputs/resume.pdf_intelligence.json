@@ -1,0 +1,208 @@
+{
+    "source": {
+        "source_type": "pdf"
+    },
+    "metadata": {
+        "file_name": "resume.pdf",
+        "file_extension": ".pdf",
+        "file_size_bytes": 157109
+    },
+    "analysis": {
+        "document_type": "Resume",
+        "document_category": "Candidate Profile",
+        "subject_area": "Information Technology",
+        "language": "English",
+        "confidence": 1.0,
+        "matched_keywords": [
+            "education",
+            "skills",
+            "experience",
+            "project",
+            "certification"
+        ],
+        "explanation": "Detected document as Resume because the following keywords were found: education, skills, experience, project, certification"
+    },
+    "entities": {
+        "names": [
+            "Developedaclient-",
+            "SAHIL SANGALE",
+            "Vidhyamandir Deolali Camp"
+        ],
+        "organizations": [
+            "CERTIFICATIONS",
+            "IIT",
+            "ML",
+            "Pandas",
+            "RAG",
+            "SQL",
+            "Unsupervised Learning",
+            "Web Technologies",
+            "\u2022NPTEL - Data Science For Engineering",
+            "\u2022TNS India Foundation"
+        ],
+        "technologies": [
+            "bootstrap",
+            "c",
+            "css",
+            "data science",
+            "express",
+            "git",
+            "github",
+            "html",
+            "javascript",
+            "machine learning",
+            "mongodb",
+            "node.js",
+            "numpy",
+            "pandas",
+            "python",
+            "react",
+            "react.js",
+            "scikit-learn",
+            "sql"
+        ],
+        "skills": [
+            "bootstrap",
+            "c",
+            "css",
+            "data science",
+            "express",
+            "git",
+            "github",
+            "html",
+            "javascript",
+            "machine learning",
+            "mongodb",
+            "node.js",
+            "numpy",
+            "pandas",
+            "python",
+            "react",
+            "react.js",
+            "scikit-learn",
+            "sql"
+        ],
+        "locations": [
+            "\u2022RAG"
+        ],
+        "dates": [
+            "March 2020",
+            "March 2022",
+            "May 2026"
+        ],
+        "emails": [
+            "pesahilsangale024@gmail.com"
+        ],
+        "phone_numbers": [
+            "+91 9604249736"
+        ]
+    },
+    "classification": {
+        "primary_category": "AI",
+        "secondary_category": "Education",
+        "confidence_score": 0.4,
+        "matched_keywords": [
+            "machine learning",
+            "rag",
+            "chatbot",
+            "data science"
+        ],
+        "classification_explanation": "Detected keywords: machine learning, rag, chatbot, data science"
+    },
+    "recommendations": {
+        "related_domains": [
+            "Machine Learning",
+            "Data Science",
+            "Natural Language Processing",
+            "Computer Vision"
+        ],
+        "recommended_tags": [
+            "artificial-intelligence",
+            "machine-learning",
+            "deep-learning",
+            "chatbot",
+            "automation"
+        ],
+        "recommended_use_cases": [
+            "Intelligent Assistants",
+            "Predictive Analytics",
+            "Document Intelligence",
+            "Recommendation Systems"
+        ],
+        "recommended_classifications": [
+            "AI"
+        ],
+        "recommendation_explanation": "The document was classified under 'AI' with confidence score 0.4. Based on this classification, related domains, tags and use cases have been recommended to enrich downstream intelligence processing.",
+        "intelligence_summary": "This document primarily belongs to the AI domain. It is strongly associated with Machine Learning, Data Science. The extracted intelligence can be used for classification, search, and knowledge management purposes. Additional recommendations have been generated to enrich future analysis."
+    },
+    "processing_trace": [
+        {
+            "timestamp": "2026-06-17 11:02:21",
+            "step": "File Received",
+            "status": "SUCCESS",
+            "details": "resume.pdf received"
+        },
+        {
+            "timestamp": "2026-06-17 11:02:21",
+            "step": "Source Detection",
+            "status": "SUCCESS",
+            "details": "Detected source type: pdf"
+        },
+        {
+            "timestamp": "2026-06-17 11:02:21",
+            "step": "Content Extraction",
+            "status": "SUCCESS",
+            "details": "2219 characters extracted"
+        },
+        {
+            "timestamp": "2026-06-17 11:02:21",
+            "step": "PDF Metadata",
+            "status": "SUCCESS",
+            "details": "1 pages detected"
+        },
+        {
+            "timestamp": "2026-06-17 11:02:21",
+            "step": "Content Understanding",
+            "status": "SUCCESS",
+            "details": "Detected Resume"
+        },
+        {
+            "timestamp": "2026-06-17 11:02:21",
+            "step": "Entity Extraction",
+            "status": "SUCCESS",
+            "details": "57 entities extracted"
+        },
+        {
+            "timestamp": "2026-06-17 11:02:21",
+            "step": "Classification",
+            "status": "SUCCESS",
+            "details": "Primary Category: AI"
+        },
+        {
+            "timestamp": "2026-06-17 11:02:21",
+            "step": "Recommendation Generation",
+            "status": "SUCCESS",
+            "details": "5 tags recommended"
+        },
+        {
+            "timestamp": "2026-06-17 11:02:21",
+            "step": "Intelligence Package",
+            "status": "SUCCESS",
+            "details": "Final intelligence package generated"
+        }
+    ],
+    "structured_output": {
+        "document_type": "Resume",
+        "primary_category": "AI",
+        "secondary_category": "Education",
+        "confidence_score": 0.4,
+        "recommended_tags": [
+            "artificial-intelligence",
+            "machine-learning",
+            "deep-learning",
+            "chatbot",
+            "automation"
+        ],
+        "entity_count": 57
+    }
+}

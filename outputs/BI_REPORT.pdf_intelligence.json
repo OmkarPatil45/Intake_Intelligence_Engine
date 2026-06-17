@@ -1,0 +1,166 @@
+{
+    "source": {
+        "source_type": "pdf"
+    },
+    "metadata": {
+        "file_name": "BI_REPORT.pdf",
+        "file_extension": ".pdf",
+        "file_size_bytes": 834779
+    },
+    "analysis": {
+        "document_type": "Project Submission",
+        "document_category": "Project",
+        "subject_area": "Technology",
+        "language": "English",
+        "confidence": 0.4,
+        "matched_keywords": [
+            "project",
+            "features"
+        ],
+        "explanation": "Detected document as Project Submission because the following keywords were found: project, features"
+    },
+    "entities": {
+        "names": [
+            "(A.Y 2024 -2025)",
+            "Algorithms",
+            "Batch",
+            "Loading",
+            "Min-Max",
+            "Omkar Patil  VU4F2223",
+            "Swaroop Sawant",
+            "Toge",
+            "bill ing"
+        ],
+        "organizations": [
+            "Business  Intelligence \nMini Project Report",
+            "Churn",
+            "Cyber Threat Intelligence",
+            "Dataset",
+            "LabelEncoder",
+            "Pandas  \n \n \nData  Visualization  \n \n \n \n \n\nData  Preprocessing  \n \n \n \n \n \n\n   Correlation Heatmap  \n \n \n     Input  \n \n \n \n \n     Output  \n \n\n  ROC & Precision - Recall Curve",
+            "Prathamesh Thakare",
+            "Precision -Recall Curve",
+            "Random  Forest  & XGBoost  Models",
+            "Random  Forest  Regressor  (Supervised  Learning",
+            "Random Forest Classifier",
+            "Recall \nCurve",
+            "Remaining  Useful  Life",
+            "StandardScaler",
+            "The Random Forest Classifier",
+            "The Recall Curve",
+            "XGBoost Classifier",
+            "featu",
+            "noisy data",
+            "\u2022 Data",
+            "\u2022 Feature"
+        ],
+        "technologies": [
+            "machine learning",
+            "pandas"
+        ],
+        "skills": [
+            "machine learning",
+            "pandas"
+        ],
+        "locations": [],
+        "dates": [
+            "2024",
+            "Monthly",
+            "monthly"
+        ],
+        "emails": [],
+        "phone_numbers": []
+    },
+    "classification": {
+        "primary_category": "AI",
+        "secondary_category": "Healthcare",
+        "confidence_score": 0.2,
+        "matched_keywords": [
+            "machine learning",
+            "rag"
+        ],
+        "classification_explanation": "Detected keywords: machine learning, rag"
+    },
+    "recommendations": {
+        "related_domains": [
+            "Machine Learning",
+            "Data Science",
+            "Natural Language Processing",
+            "Computer Vision"
+        ],
+        "recommended_tags": [
+            "artificial-intelligence",
+            "machine-learning",
+            "deep-learning",
+            "chatbot",
+            "automation"
+        ],
+        "recommended_use_cases": [
+            "Intelligent Assistants",
+            "Predictive Analytics",
+            "Document Intelligence",
+            "Recommendation Systems"
+        ],
+        "recommended_classifications": [
+            "AI"
+        ],
+        "recommendation_explanation": "The document was classified under 'AI' with confidence score 0.2. Based on this classification, related domains, tags and use cases have been recommended to enrich downstream intelligence processing.",
+        "intelligence_summary": "This document primarily belongs to the AI domain. It is strongly associated with Machine Learning, Data Science. The extracted intelligence can be used for classification, search, and knowledge management purposes. Additional recommendations have been generated to enrich future analysis."
+    },
+    "processing_trace": {
+        "execution_timestamp": "2026-06-17 15:13:20",
+        "overall_status": "SUCCESS",
+        "processing_trace": [
+            {
+                "step": "File Received",
+                "details": "BI_REPORT.pdf received"
+            },
+            {
+                "step": "Source Detection",
+                "details": "Detected source type: pdf"
+            },
+            {
+                "step": "Content Extraction",
+                "details": "9637 characters extracted"
+            },
+            {
+                "step": "PDF Metadata",
+                "details": "13 pages detected"
+            },
+            {
+                "step": "Content Understanding",
+                "details": "Detected Project Submission"
+            },
+            {
+                "step": "Entity Extraction",
+                "details": "37 entities extracted"
+            },
+            {
+                "step": "Classification",
+                "details": "Primary Category: AI"
+            },
+            {
+                "step": "Recommendation Generation",
+                "details": "5 tags recommended"
+            },
+            {
+                "step": "Intelligence Package",
+                "details": "Final intelligence package generated"
+            }
+        ]
+    },
+    "structured_output": {
+        "document_type": "Project Submission",
+        "primary_category": "AI",
+        "secondary_category": "Healthcare",
+        "confidence_score": 0.2,
+        "recommended_tags": [
+            "artificial-intelligence",
+            "machine-learning",
+            "deep-learning",
+            "chatbot",
+            "automation"
+        ],
+        "entity_count": 37
+    }
+}

@@ -1,0 +1,129 @@
+{
+    "source": {
+        "source_type": "json"
+    },
+    "metadata": {
+        "file_name": "forms.json",
+        "file_extension": ".json",
+        "file_size_bytes": 259
+    },
+    "analysis": {
+        "document_type": "Application Form",
+        "document_category": "Form",
+        "subject_area": "Administrative",
+        "language": "English",
+        "confidence": 0.4,
+        "matched_keywords": [
+            "email",
+            "phone"
+        ],
+        "explanation": "Detected document as Application Form because the following keywords were found: email, phone"
+    },
+    "entities": {
+        "names": [
+            "John Doe"
+        ],
+        "organizations": [],
+        "technologies": [],
+        "skills": [],
+        "locations": [
+            "Mumbai"
+        ],
+        "dates": [
+            "911234567810"
+        ],
+        "emails": [
+            "john@yahoo.com"
+        ],
+        "phone_numbers": [
+            "9112345678"
+        ]
+    },
+    "classification": {
+        "primary_category": "Education",
+        "secondary_category": "AI",
+        "confidence_score": 0.12,
+        "matched_keywords": [
+            "student"
+        ],
+        "classification_explanation": "Detected keywords: student"
+    },
+    "recommendations": {
+        "related_domains": [
+            "E-Learning",
+            "Student Analytics",
+            "Academic Research"
+        ],
+        "recommended_tags": [
+            "education",
+            "learning",
+            "students",
+            "academic"
+        ],
+        "recommended_use_cases": [
+            "Learning Platforms",
+            "Student Evaluation",
+            "Course Recommendation"
+        ],
+        "recommended_classifications": [
+            "Education"
+        ],
+        "recommendation_explanation": "The document was classified under 'Education' with confidence score 0.12. Based on this classification, related domains, tags and use cases have been recommended to enrich downstream intelligence processing.",
+        "intelligence_summary": "This document primarily belongs to the Education domain. It is strongly associated with E-Learning, Student Analytics. The extracted intelligence can be used for classification, search, and knowledge management purposes. Additional recommendations have been generated to enrich future analysis."
+    },
+    "processing_trace": {
+        "execution_timestamp": "2026-06-17 12:46:10",
+        "overall_status": "SUCCESS",
+        "processing_trace": [
+            {
+                "step": "File Received",
+                "details": "forms.json received"
+            },
+            {
+                "step": "Source Detection",
+                "details": "Detected source type: json"
+            },
+            {
+                "step": "Content Extraction",
+                "details": "246 characters extracted"
+            },
+            {
+                "step": "JSON Metadata",
+                "details": "JSON structure loaded"
+            },
+            {
+                "step": "Content Understanding",
+                "details": "Detected Application Form"
+            },
+            {
+                "step": "Entity Extraction",
+                "details": "5 entities extracted"
+            },
+            {
+                "step": "Classification",
+                "details": "Primary Category: Education"
+            },
+            {
+                "step": "Recommendation Generation",
+                "details": "4 tags recommended"
+            },
+            {
+                "step": "Intelligence Package",
+                "details": "Final intelligence package generated"
+            }
+        ]
+    },
+    "structured_output": {
+        "document_type": "Application Form",
+        "primary_category": "Education",
+        "secondary_category": "AI",
+        "confidence_score": 0.12,
+        "recommended_tags": [
+            "education",
+            "learning",
+            "students",
+            "academic"
+        ],
+        "entity_count": 5
+    }
+}

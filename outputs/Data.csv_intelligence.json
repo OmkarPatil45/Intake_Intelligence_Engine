@@ -1,0 +1,157 @@
+{
+    "source": {
+        "source_type": "csv"
+    },
+    "metadata": {
+        "file_name": "Data.csv",
+        "file_extension": ".csv",
+        "file_size_bytes": 428
+    },
+    "analysis": {
+        "document_type": "Unknown",
+        "document_category": "Unknown",
+        "subject_area": "Unknown",
+        "language": "English",
+        "confidence": 0.0,
+        "matched_keywords": [],
+        "explanation": "No matching document patterns found."
+    },
+    "entities": {
+        "names": [
+            "Louisana"
+        ],
+        "organizations": [
+            "Nighthawks"
+        ],
+        "technologies": [],
+        "skills": [],
+        "locations": [
+            "Alaska",
+            "Arizona",
+            "California",
+            "Florida",
+            "Georgia",
+            "Iowa",
+            "Maine",
+            "Oregon",
+            "Texas",
+            "Washington",
+            "Wyoming"
+        ],
+        "dates": [
+            "1005",
+            "1006",
+            "1045",
+            "1099",
+            "1592",
+            "8  1099"
+        ],
+        "emails": [],
+        "phone_numbers": []
+    },
+    "classification": {
+        "primary_category": "AI",
+        "secondary_category": "Education",
+        "confidence_score": 0.1,
+        "matched_keywords": [
+            "rag"
+        ],
+        "classification_explanation": "Detected keywords: rag"
+    },
+    "recommendations": {
+        "related_domains": [
+            "Machine Learning",
+            "Data Science",
+            "Natural Language Processing",
+            "Computer Vision"
+        ],
+        "recommended_tags": [
+            "artificial-intelligence",
+            "machine-learning",
+            "deep-learning",
+            "chatbot",
+            "automation"
+        ],
+        "recommended_use_cases": [
+            "Intelligent Assistants",
+            "Predictive Analytics",
+            "Document Intelligence",
+            "Recommendation Systems"
+        ],
+        "recommended_classifications": [
+            "AI"
+        ],
+        "recommendation_explanation": "The document was classified under 'AI' with confidence score 0.1. Based on this classification, related domains, tags and use cases have been recommended to enrich downstream intelligence processing.",
+        "intelligence_summary": "This document primarily belongs to the AI domain. It is strongly associated with Machine Learning, Data Science. The extracted intelligence can be used for classification, search, and knowledge management purposes. Additional recommendations have been generated to enrich future analysis."
+    },
+    "processing_trace": [
+        {
+            "timestamp": "2026-06-17 12:13:20",
+            "step": "File Received",
+            "status": "SUCCESS",
+            "details": "Data.csv received"
+        },
+        {
+            "timestamp": "2026-06-17 12:13:20",
+            "step": "Source Detection",
+            "status": "SUCCESS",
+            "details": "Detected source type: csv"
+        },
+        {
+            "timestamp": "2026-06-17 12:13:20",
+            "step": "Content Extraction",
+            "status": "SUCCESS",
+            "details": "688 characters extracted"
+        },
+        {
+            "timestamp": "2026-06-17 12:13:20",
+            "step": "CSV Metadata",
+            "status": "SUCCESS",
+            "details": "12 rows, 6 columns"
+        },
+        {
+            "timestamp": "2026-06-17 12:13:20",
+            "step": "Content Understanding",
+            "status": "SUCCESS",
+            "details": "Detected Unknown"
+        },
+        {
+            "timestamp": "2026-06-17 12:13:20",
+            "step": "Entity Extraction",
+            "status": "SUCCESS",
+            "details": "19 entities extracted"
+        },
+        {
+            "timestamp": "2026-06-17 12:13:20",
+            "step": "Classification",
+            "status": "SUCCESS",
+            "details": "Primary Category: AI"
+        },
+        {
+            "timestamp": "2026-06-17 12:13:20",
+            "step": "Recommendation Generation",
+            "status": "SUCCESS",
+            "details": "5 tags recommended"
+        },
+        {
+            "timestamp": "2026-06-17 12:13:20",
+            "step": "Intelligence Package",
+            "status": "SUCCESS",
+            "details": "Final intelligence package generated"
+        }
+    ],
+    "structured_output": {
+        "document_type": "Unknown",
+        "primary_category": "AI",
+        "secondary_category": "Education",
+        "confidence_score": 0.1,
+        "recommended_tags": [
+            "artificial-intelligence",
+            "machine-learning",
+            "deep-learning",
+            "chatbot",
+            "automation"
+        ],
+        "entity_count": 19
+    }
+}

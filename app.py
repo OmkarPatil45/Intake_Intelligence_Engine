@@ -1,12 +1,16 @@
-# from intake.intake_loader import IntakeLoader
+from package.intelligence_package_builder import IntelligencePackageBuilder
+import json
 
-# loader = IntakeLoader()
+from intake.intake_loader import IntakeLoader
+from search.review_cli import ReviewCLI
 
-# result = loader.load(
-#     "dataset/BI_REPORT.pdf"
-# )
+loader = IntakeLoader()
 
-# print(result)
+result = loader.load(
+    "dataset/resume.pdf"
+)
+
+
 
 
 
@@ -16,7 +20,7 @@ from analysis.content_analyzer import ContentAnalyzer
 loader = IntakeLoader()
 analyzer = ContentAnalyzer()
 
-result = loader.load("dataset/BI_REPORT.pdf")
+# result = loader.load("dataset/BI_REPORT.pdf")
 content = result["extraction"]["content"]
 
 analysis_result = analyzer.analyze(content)
@@ -151,6 +155,23 @@ trace.add_step(
         f"{len(recommendations['recommended_tags'])} tags recommended"
     )
 
+# intelligence 
+trace.add_step(
+    "Intelligence Package",
+    "SUCCESS",
+    "Final intelligence package generated"
+)
+
+package_builder=IntelligencePackageBuilder()
+intelligence_package = package_builder.build(
+    intake_result=result,
+    analysis_result=analysis_result,
+    entities=entities,
+    classification=classification,
+    recommendations=recommendations,
+    processing_trace=trace.get_trace()
+)
+
 print("\n" + "=" * 60)
 print("PROCESSING TRACE")
 print("=" * 60)
@@ -165,6 +186,7 @@ print(
     trace.get_summary()
 )
 
+print(result)
 print("Analysis result:\n")
 print(analysis_result)
 
@@ -176,3 +198,24 @@ print(classification)
 
 print("\nRecommendation Report:\n")
 print(recommendations)
+
+print("\nIntelligence Package:\n")
+print(json.dumps(intelligence_package,indent=4))
+
+output_file=(
+    f"outputs/"
+    f"{result['metadata']['file_name']}"
+    f"_intelligence.json"
+)
+
+with open(output_file,"w",encoding="utf-8") as file:
+
+    json.dump(intelligence_package,file,indent=4)
+
+print(
+    f"\nIntelligence Package saved at:\n"
+    f"{output_file}"
+)
+
+review = ReviewCLI()
+review.run()

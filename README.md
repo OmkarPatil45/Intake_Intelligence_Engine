@@ -146,10 +146,25 @@ Intake_Intelligence_Engine/
 │
 ├── review_packets/
 │   └── REVIEW_PACKET.md
+|
+├── requirement.txt
 │
 └── README.md
 
 ```
+## Install Dependencies
+
+```bash
+pip install -r requirements.txt
+```
+
+
+## Install spaCy Language Model
+
+```bash
+python -m spacy download en_core_web_sm
+```
+
 ## Technology Stack
 Python 3.11+, 
 PyPDF2, 
@@ -256,3 +271,10 @@ Semantic Retrieval
 Multi-language Support
 
 LLM-assisted Recommendations
+
+## Demo Video
+
+A complete demonstration of the project can be viewed here:
+
+🔗 YouTube Demo:
+https://www.youtube.com/watch?v=uOuFA8z2c7E

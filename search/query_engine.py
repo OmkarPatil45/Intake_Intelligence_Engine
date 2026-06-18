@@ -28,11 +28,8 @@ class QueryEngine:
                     if isinstance(data,dict):
                         packages.append(data)
 
-                    else:
-                        print(f"Skipping {file.name}")
-            except Exception as e:
-                print(f"Error loading "f"{file.name}: {e}")
-
+            except Exception:
+                pass
         return packages
 
     def search_by_keyword(self,keyword):

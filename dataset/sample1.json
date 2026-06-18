@@ -1,0 +1,65 @@
+{
+  "records": [
+    {
+      "id": "rec9L7D09MFoYd47z",
+      "fields": {
+        "Student First Name": "Bart",
+        "Student Last Name": "Simpson",
+        "Parent First Name": "Homer",
+        "Parent Last Name": "Simpson",
+        "Email": "doh@thesimpsons.net",
+        "Phone": "1234567890",
+        "Instrument": [
+          "piano"
+        ],
+        "Teacher": [
+          "Edna Krabapple"
+        ],
+        "Type": "child",
+        "Days Since First Lesson": "6"
+      },
+      "createdTime": "2021-07-12T22:38:49.000Z"
+    },
+    {
+      "id": "rechGNEs6DnLKDBDf",
+      "fields": {
+        "Student First Name": "Lisa",
+        "Student Last Name": "Simpson",
+        "Parent First Name": "Homer",
+        "Parent Last Name": "Simpson",
+        "Email": "doh@thesimpsons.net",
+        "Phone": "1234567890",
+        "Instrument": [
+          "piano"
+        ],
+        "Teacher": [
+          "Mr. Hoover"
+        ],
+        "Type": "child",
+        "Days Since First Lesson": "6"
+      },
+      "createdTime": "2021-07-12T22:40:42.000Z"
+    },
+    {
+      "id": "recbz6Y6AEUVxQQGj",
+      "fields": {
+        "Student First Name": "Bobby",
+        "Student Last Name": "Hill",
+        "Parent First Name": "Hank",
+        "Parent Last Name": "Hill",
+        "Email": "propane@propaneaccessories.net",
+        "Phone": "8872394789",
+        "Instrument": [
+          "piano"
+        ],
+        "Teacher": [
+          "Cotton Hill"
+        ],
+        "Type": "child",
+        "Days Since First Lesson": "6"
+      },
+      "createdTime": "2021-07-12T23:33:10.000Z"
+    }
+
+  ]
+}

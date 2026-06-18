@@ -1,70 +1,38 @@
-from package.intelligence_package_builder import IntelligencePackageBuilder
-import json
-
-from intake.intake_loader import IntakeLoader
-from search.review_cli import ReviewCLI
-
-loader = IntakeLoader()
-
-result = loader.load(
-    "dataset/BI_REPORT.pdf"
-)
-
-
-
-
-
 from intake.intake_loader import IntakeLoader
 from analysis.content_analyzer import ContentAnalyzer
+from package.intelligence_package_builder import IntelligencePackageBuilder
+import json
+from search.review_cli import ReviewCLI
+from analysis.entity_extractor import EntityExtractor
+from analysis.classification_engine import (ClassificationEngine)
+from analysis.recommendation_engine import (RecommendationEngine)
+from processing.processing_trace import ProcessingTrace
+
+
+loader = IntakeLoader()
+result = loader.load("dataset/Sample1.txt")
 
 loader = IntakeLoader()
 analyzer = ContentAnalyzer()
 
-# result = loader.load("dataset/BI_REPORT.pdf")
 content = result["extraction"]["content"]
 
 analysis_result = analyzer.analyze(content)
 
-
-
-
 #
-from analysis.entity_extractor import EntityExtractor
-
 extractor = EntityExtractor()
 
-entities = extractor.extract(
-    result["extraction"]["content"]
-)
-
-
-
+entities = extractor.extract(result["extraction"]["content"])
 #
-from analysis.classification_engine import (
-    ClassificationEngine
-)
-
 classifier = ClassificationEngine()
 
-classification = (
-    classifier.classify(
-        content
-    )
-)
-
+classification = (classifier.classify(content))
 
 # recommendation engine
-from analysis.recommendation_engine import (RecommendationEngine)
-
 recommender = RecommendationEngine()
-
 recommendations = (recommender.generate(classification))
 
-
 #
-
-from processing.processing_trace import ProcessingTrace
-
 trace = ProcessingTrace()
 
 # Intake Layer Trace
@@ -164,15 +132,13 @@ print("\n" + "=" * 60)
 print("PROCESSING TRACE")
 print("=" * 60)
 
-trace.replay_trace(delay=1)
+trace.replay_trace(delay = 0.2)
 
 print("\n" + "=" * 60)
 print("TRACE SUMMARY")
 print("=" * 60)
 
-print(
-    trace.get_summary()
-)
+print(trace.get_summary())
 
 print(result)
 print("Analysis result:\n")
@@ -197,7 +163,6 @@ output_file=(
 )
 
 with open(output_file,"w",encoding="utf-8") as file:
-
     json.dump(intelligence_package,file,indent=4)
 
 print(

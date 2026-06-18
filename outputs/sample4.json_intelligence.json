@@ -1,0 +1,120 @@
+{
+    "source": {
+        "source_type": "json"
+    },
+    "metadata": {
+        "file_name": "sample4.json",
+        "file_extension": ".json",
+        "file_size_bytes": 564
+    },
+    "analysis": {
+        "document_type": "Unknown",
+        "document_category": "Unknown",
+        "subject_area": "Unknown",
+        "language": "English",
+        "confidence": 0.0,
+        "matched_keywords": [],
+        "explanation": "No matching document patterns found."
+    },
+    "entities": {
+        "names": [
+            "Jackson",
+            "James",
+            "Joe"
+        ],
+        "organizations": [],
+        "technologies": [],
+        "skills": [],
+        "locations": [],
+        "dates": [],
+        "emails": [],
+        "phone_numbers": [
+            "7349282382"
+        ]
+    },
+    "classification": {
+        "primary_category": "Healthcare",
+        "secondary_category": "Agriculture",
+        "confidence_score": 0.14,
+        "matched_keywords": [
+            "health"
+        ],
+        "classification_explanation": "Detected keywords: health"
+    },
+    "recommendations": {
+        "related_domains": [
+            "Medical Analytics",
+            "Telemedicine",
+            "Health Informatics"
+        ],
+        "recommended_tags": [
+            "healthcare",
+            "medical",
+            "patient-care"
+        ],
+        "recommended_use_cases": [
+            "Disease Prediction",
+            "Patient Monitoring",
+            "Clinical Decision Support"
+        ],
+        "recommended_classifications": [
+            "Healthcare"
+        ],
+        "recommendation_explanation": "The document was classified under 'Healthcare' with confidence score 0.14. Based on this classification, related domains, tags and use cases have been recommended to enrich downstream intelligence processing.",
+        "intelligence_summary": "This document primarily belongs to the Healthcare domain. It is strongly associated with Medical Analytics, Telemedicine. The extracted intelligence can be used for classification, search, and knowledge management purposes. Additional recommendations have been generated to enrich future analysis."
+    },
+    "processing_trace": {
+        "execution_timestamp": "2026-06-18 10:47:17",
+        "overall_status": "SUCCESS",
+        "processing_trace": [
+            {
+                "step": "File Received",
+                "details": "sample4.json received"
+            },
+            {
+                "step": "Source Detection",
+                "details": "Detected source type: json"
+            },
+            {
+                "step": "Content Extraction",
+                "details": "681 characters extracted"
+            },
+            {
+                "step": "JSON Metadata",
+                "details": "JSON structure loaded"
+            },
+            {
+                "step": "Content Understanding",
+                "details": "Detected Unknown"
+            },
+            {
+                "step": "Entity Extraction",
+                "details": "4 entities extracted"
+            },
+            {
+                "step": "Classification",
+                "details": "Primary Category: Healthcare"
+            },
+            {
+                "step": "Recommendation Generation",
+                "details": "3 tags recommended"
+            },
+            {
+                "step": "Intelligence Package",
+                "details": "Final intelligence package generated"
+            }
+        ]
+    },
+    "structured_output": {
+        "document_type": "Unknown",
+        "primary_category": "Healthcare",
+        "secondary_category": "Agriculture",
+        "confidence_score": 0.14,
+        "recommended_tags": [
+            "healthcare",
+            "medical",
+            "patient-care"
+        ],
+        "entity_count": 4
+    }
+}

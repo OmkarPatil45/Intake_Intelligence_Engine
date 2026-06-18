@@ -1,0 +1,187 @@
+{
+    "source": {
+        "source_type": "docx"
+    },
+    "metadata": {
+        "file_name": "docFile2.docx",
+        "file_extension": ".docx",
+        "file_size_bytes": 2725097
+    },
+    "analysis": {
+        "document_type": "Project Submission",
+        "document_category": "Project",
+        "subject_area": "Technology",
+        "language": "English",
+        "confidence": 0.8,
+        "matched_keywords": [
+            "project",
+            "objective",
+            "technology",
+            "implementation"
+        ],
+        "explanation": "Detected document as Project Submission because the following keywords were found: project, objective, technology, implementation"
+    },
+    "entities": {
+        "names": [
+            "Ankur Chavan",
+            "CV",
+            "Citizens",
+            "Design",
+            "Gemini Pro",
+            "JSON",
+            "Lok Seva Mitra",
+            "LokSeva Mitra",
+            "ON\n Lok Seva Mitra\n\nSubmitted",
+            "Omkar Patil",
+            "SYNOPSIS REPORT",
+            "Swaroop Sawant",
+            "Vasantdada Patil Educational Complex"
+        ],
+        "organizations": [
+            "AI",
+            "Anand Dane (VU4F2223094",
+            "Bachelor of Engineering",
+            "CHAPTER5\n\nReferences",
+            "CLI",
+            "College of Engineering & Visual Arts",
+            "Data Extraction",
+            "Department of Information Technology",
+            "Eastern Express Highway",
+            "Farmers",
+            "Google Generative AI Documentation",
+            "Googletrans Python Library",
+            "LokSeva",
+            "LokSeva Mitra",
+            "Marathi",
+            "Near Everard Nagar",
+            "Objectives",
+            "Prathamesh Thakare",
+            "Project Guide",
+            "Software",
+            "UNIVERSITY OF MUMBAI\nAcademic",
+            "WhatsApp",
+            "jargon-free",
+            "the University of Mumbai"
+        ],
+        "technologies": [
+            "artificial intelligence",
+            "express",
+            "github",
+            "python"
+        ],
+        "skills": [
+            "artificial intelligence",
+            "express",
+            "github",
+            "python"
+        ],
+        "locations": [
+            "Chunabhatti",
+            "Hindi",
+            "India",
+            "Mumbai",
+            "Pratishthan"
+        ],
+        "dates": [
+            "2025-26",
+            "400022",
+            "vector"
+        ],
+        "emails": [],
+        "phone_numbers": []
+    },
+    "classification": {
+        "primary_category": "AI",
+        "secondary_category": "Education",
+        "confidence_score": 0.4,
+        "matched_keywords": [
+            "artificial intelligence",
+            "llm",
+            "rag",
+            "chatbot"
+        ],
+        "classification_explanation": "Detected keywords: artificial intelligence, llm, rag, chatbot"
+    },
+    "recommendations": {
+        "related_domains": [
+            "Machine Learning",
+            "Data Science",
+            "Natural Language Processing",
+            "Computer Vision"
+        ],
+        "recommended_tags": [
+            "artificial-intelligence",
+            "machine-learning",
+            "deep-learning",
+            "chatbot",
+            "automation"
+        ],
+        "recommended_use_cases": [
+            "Intelligent Assistants",
+            "Predictive Analytics",
+            "Document Intelligence",
+            "Recommendation Systems"
+        ],
+        "recommended_classifications": [
+            "AI"
+        ],
+        "recommendation_explanation": "The document was classified under 'AI' with confidence score 0.4. Based on this classification, related domains, tags and use cases have been recommended to enrich downstream intelligence processing.",
+        "intelligence_summary": "This document primarily belongs to the AI domain. It is strongly associated with Machine Learning, Data Science. The extracted intelligence can be used for classification, search, and knowledge management purposes. Additional recommendations have been generated to enrich future analysis."
+    },
+    "processing_trace": {
+        "execution_timestamp": "2026-06-18 11:57:37",
+        "overall_status": "SUCCESS",
+        "processing_trace": [
+            {
+                "step": "File Received",
+                "details": "docFile2.docx received"
+            },
+            {
+                "step": "Source Detection",
+                "details": "Detected source type: docx"
+            },
+            {
+                "step": "Content Extraction",
+                "details": "13189 characters extracted"
+            },
+            {
+                "step": "DOCX Metadata",
+                "details": "187 paragraphs detected"
+            },
+            {
+                "step": "Content Understanding",
+                "details": "Detected Project Submission"
+            },
+            {
+                "step": "Entity Extraction",
+                "details": "53 entities extracted"
+            },
+            {
+                "step": "Classification",
+                "details": "Primary Category: AI"
+            },
+            {
+                "step": "Recommendation Generation",
+                "details": "5 tags recommended"
+            },
+            {
+                "step": "Intelligence Package",
+                "details": "Final intelligence package generated"
+            }
+        ]
+    },
+    "structured_output": {
+        "document_type": "Project Submission",
+        "primary_category": "AI",
+        "secondary_category": "Education",
+        "confidence_score": 0.4,
+        "recommended_tags": [
+            "artificial-intelligence",
+            "machine-learning",
+            "deep-learning",
+            "chatbot",
+            "automation"
+        ],
+        "entity_count": 53
+    }
+}

@@ -3,38 +3,41 @@
         "source_type": "csv"
     },
     "metadata": {
-        "file_name": "student_marks.csv",
+        "file_name": "StudentsPerformance.csv",
         "file_extension": ".csv",
-        "file_size_bytes": 2128
+        "file_size_bytes": 72036
     },
     "analysis": {
-        "document_type": "Unknown",
-        "document_category": "Unknown",
-        "subject_area": "Unknown",
+        "document_type": "Resume",
+        "document_category": "Candidate Profile",
+        "subject_area": "Information Technology",
         "language": "English",
-        "confidence": 0.0,
-        "matched_keywords": [],
-        "explanation": "No matching document patterns found."
+        "confidence": 0.2,
+        "matched_keywords": [
+            "education"
+        ],
+        "explanation": "Detected document as Resume because the following keywords were found: education"
     },
     "entities": {
-        "names": [
-            "Student_ID"
-        ],
+        "names": [],
         "organizations": [
-            "S002",
-            "S038"
+            "C             master's"
         ],
-        "technologies": [],
-        "skills": [],
-        "locations": [
-            "NaN"
+        "technologies": [
+            "c"
         ],
+        "skills": [
+            "c"
+        ],
+        "locations": [],
         "dates": [
-            "44",
-            "49",
+            "45",
+            "46",
+            "58",
             "70",
+            "72",
             "76",
-            "S046"
+            "80"
         ],
         "emails": [],
         "phone_numbers": []
@@ -42,11 +45,13 @@
     "classification": {
         "primary_category": "Education",
         "secondary_category": "AI",
-        "confidence_score": 0.12,
+        "confidence_score": 0.38,
         "matched_keywords": [
-            "student"
+            "college",
+            "course",
+            "education"
         ],
-        "classification_explanation": "Detected keywords: student"
+        "classification_explanation": "Detected keywords: college, course, education"
     },
     "recommendations": {
         "related_domains": [
@@ -68,16 +73,16 @@
         "recommended_classifications": [
             "Education"
         ],
-        "recommendation_explanation": "The document was classified under 'Education' with confidence score 0.12. Based on this classification, related domains, tags and use cases have been recommended to enrich downstream intelligence processing.",
+        "recommendation_explanation": "The document was classified under 'Education' with confidence score 0.38. Based on this classification, related domains, tags and use cases have been recommended to enrich downstream intelligence processing.",
         "intelligence_summary": "This document primarily belongs to the Education domain. It is strongly associated with E-Learning, Student Analytics. The extracted intelligence can be used for classification, search, and knowledge management purposes. Additional recommendations have been generated to enrich future analysis."
     },
     "processing_trace": {
-        "execution_timestamp": "2026-06-18 11:26:36",
+        "execution_timestamp": "2026-06-18 12:19:05",
         "overall_status": "SUCCESS",
         "processing_trace": [
             {
                 "step": "File Received",
-                "details": "student_marks.csv received"
+                "details": "StudentsPerformance.csv received"
             },
             {
                 "step": "Source Detection",
@@ -85,19 +90,19 @@
             },
             {
                 "step": "Content Extraction",
-                "details": "5507 characters extracted"
+                "details": "129128 characters extracted"
             },
             {
                 "step": "CSV Metadata",
-                "details": "101 rows, 6 columns"
+                "details": "1000 rows, 8 columns"
             },
             {
                 "step": "Content Understanding",
-                "details": "Detected Unknown"
+                "details": "Detected Resume"
             },
             {
                 "step": "Entity Extraction",
-                "details": "9 entities extracted"
+                "details": "10 entities extracted"
             },
             {
                 "step": "Classification",
@@ -114,16 +119,16 @@
         ]
     },
     "structured_output": {
-        "document_type": "Unknown",
+        "document_type": "Resume",
         "primary_category": "Education",
         "secondary_category": "AI",
-        "confidence_score": 0.12,
+        "confidence_score": 0.38,
         "recommended_tags": [
             "education",
             "learning",
             "students",
             "academic"
         ],
-        "entity_count": 9
+        "entity_count": 10
     }
 }

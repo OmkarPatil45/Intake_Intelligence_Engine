@@ -1,0 +1,173 @@
+{
+    "source": {
+        "source_type": "txt"
+    },
+    "metadata": {
+        "file_name": "Sample3.txt",
+        "file_extension": ".txt",
+        "file_size_bytes": 6513
+    },
+    "analysis": {
+        "document_type": "News Article",
+        "document_category": "Media",
+        "subject_area": "Journalism",
+        "language": "English",
+        "confidence": 0.4,
+        "matched_keywords": [
+            "published",
+            "news"
+        ],
+        "explanation": "Detected document as News Article because the following keywords were found: published, news"
+    },
+    "entities": {
+        "names": [
+            "Bada Bing",
+            "Bada Bing Club",
+            "Bill Peppe",
+            "Carley",
+            "Chris Carley",
+            "Chris Christie",
+            "Deborah",
+            "Edie Falco",
+            "Falco",
+            "Gandolfini",
+            "Holsten",
+            "James",
+            "James Gandolfini",
+            "Jersey",
+            "John Klekamp",
+            "Joseph Gannascoli",
+            "Louise Boyle",
+            "Marc Baron",
+            "Michael",
+            "Michael Imperioli",
+            "Peter Fatouros",
+            "Robert Iler",
+            "Satin Dolls",
+            "Sopranos",
+            "Tony",
+            "Tony Soprano",
+            "Vito Spatafore",
+            "Westwood"
+        ],
+        "organizations": [
+            "Bada Bing Club",
+            "HBO",
+            "Ice Cream Shop",
+            "Location",
+            "MailOnline",
+            "Ridge Diner",
+            "Rutgers",
+            "Soprano",
+            "Vito Spatafore",
+            "the Bada Bing Club"
+        ],
+        "technologies": [],
+        "skills": [],
+        "locations": [
+            "Bloomfield",
+            "Brooklyn",
+            "Jersey",
+            "Liliana",
+            "Little Italy",
+            "New Jersey",
+            "New York",
+            "New York City's",
+            "Rome",
+            "Satin Dolls",
+            "Sicily"
+        ],
+        "dates": [
+            "1961",
+            "20 June 2013",
+            "2003",
+            "51-year-old",
+            "Wednesday",
+            "nine-month-old"
+        ],
+        "emails": [],
+        "phone_numbers": []
+    },
+    "classification": {
+        "primary_category": "Healthcare",
+        "secondary_category": "AI",
+        "confidence_score": 0.29,
+        "matched_keywords": [
+            "hospital",
+            "doctor"
+        ],
+        "classification_explanation": "Detected keywords: hospital, doctor"
+    },
+    "recommendations": {
+        "related_domains": [
+            "Medical Analytics",
+            "Telemedicine",
+            "Health Informatics"
+        ],
+        "recommended_tags": [
+            "healthcare",
+            "medical",
+            "patient-care"
+        ],
+        "recommended_use_cases": [
+            "Disease Prediction",
+            "Patient Monitoring",
+            "Clinical Decision Support"
+        ],
+        "recommended_classifications": [
+            "Healthcare"
+        ],
+        "recommendation_explanation": "The document was classified under 'Healthcare' with confidence score 0.29. Based on this classification, related domains, tags and use cases have been recommended to enrich downstream intelligence processing.",
+        "intelligence_summary": "This document primarily belongs to the Healthcare domain. It is strongly associated with Medical Analytics, Telemedicine. The extracted intelligence can be used for classification, search, and knowledge management purposes. Additional recommendations have been generated to enrich future analysis."
+    },
+    "processing_trace": {
+        "execution_timestamp": "2026-06-18 11:47:48",
+        "overall_status": "SUCCESS",
+        "processing_trace": [
+            {
+                "step": "File Received",
+                "details": "Sample3.txt received"
+            },
+            {
+                "step": "Source Detection",
+                "details": "Detected source type: txt"
+            },
+            {
+                "step": "Content Extraction",
+                "details": "6508 characters extracted"
+            },
+            {
+                "step": "Content Understanding",
+                "details": "Detected News Article"
+            },
+            {
+                "step": "Entity Extraction",
+                "details": "55 entities extracted"
+            },
+            {
+                "step": "Classification",
+                "details": "Primary Category: Healthcare"
+            },
+            {
+                "step": "Recommendation Generation",
+                "details": "3 tags recommended"
+            },
+            {
+                "step": "Intelligence Package",
+                "details": "Final intelligence package generated"
+            }
+        ]
+    },
+    "structured_output": {
+        "document_type": "News Article",
+        "primary_category": "Healthcare",
+        "secondary_category": "AI",
+        "confidence_score": 0.29,
+        "recommended_tags": [
+            "healthcare",
+            "medical",
+            "patient-care"
+        ],
+        "entity_count": 55
+    }
+}

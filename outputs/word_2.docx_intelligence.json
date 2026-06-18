@@ -1,0 +1,134 @@
+{
+    "source": {
+        "source_type": "docx"
+    },
+    "metadata": {
+        "file_name": "word_2.docx",
+        "file_extension": ".docx",
+        "file_size_bytes": 14643
+    },
+    "analysis": {
+        "document_type": "Unknown",
+        "document_category": "Unknown",
+        "subject_area": "Unknown",
+        "language": "English",
+        "confidence": 0.0,
+        "matched_keywords": [],
+        "explanation": "No matching document patterns found."
+    },
+    "entities": {
+        "names": [
+            "Austin",
+            "Innovation Way",
+            "MUTUAL NON-DISCLOSURE AGREEMENT"
+        ],
+        "organizations": [
+            "Disclosing Party",
+            "Nexus Data Solutions Ltd",
+            "Nexus Data Solutions Ltd.",
+            "TX",
+            "The Receiving Party",
+            "Vanguard Tech Analytics Inc",
+            "Vanguard Tech Analytics Inc.",
+            "the Confidential Information",
+            "the Effective Date"
+        ],
+        "technologies": [],
+        "skills": [],
+        "locations": [
+            "Boston",
+            "MA"
+        ],
+        "dates": [
+            "3) years",
+            "this 17th day of June, 2026"
+        ],
+        "emails": [],
+        "phone_numbers": []
+    },
+    "classification": {
+        "primary_category": "Marine",
+        "secondary_category": "AI",
+        "confidence_score": 0.17,
+        "matched_keywords": [
+            "ship"
+        ],
+        "classification_explanation": "Detected keywords: ship"
+    },
+    "recommendations": {
+        "related_domains": [
+            "Ocean Analytics",
+            "Coastal Management",
+            "Fishery Systems"
+        ],
+        "recommended_tags": [
+            "marine",
+            "ocean",
+            "coastal"
+        ],
+        "recommended_use_cases": [
+            "Marine Monitoring",
+            "Fishery Forecasting",
+            "Environmental Analysis"
+        ],
+        "recommended_classifications": [
+            "Marine"
+        ],
+        "recommendation_explanation": "The document was classified under 'Marine' with confidence score 0.17. Based on this classification, related domains, tags and use cases have been recommended to enrich downstream intelligence processing.",
+        "intelligence_summary": "This document primarily belongs to the Marine domain. It is strongly associated with Ocean Analytics, Coastal Management. The extracted intelligence can be used for classification, search, and knowledge management purposes. Additional recommendations have been generated to enrich future analysis."
+    },
+    "processing_trace": {
+        "execution_timestamp": "2026-06-17 23:50:18",
+        "overall_status": "SUCCESS",
+        "processing_trace": [
+            {
+                "step": "File Received",
+                "details": "word_2.docx received"
+            },
+            {
+                "step": "Source Detection",
+                "details": "Detected source type: docx"
+            },
+            {
+                "step": "Content Extraction",
+                "details": "1663 characters extracted"
+            },
+            {
+                "step": "DOCX Metadata",
+                "details": "24 paragraphs detected"
+            },
+            {
+                "step": "Content Understanding",
+                "details": "Detected Unknown"
+            },
+            {
+                "step": "Entity Extraction",
+                "details": "16 entities extracted"
+            },
+            {
+                "step": "Classification",
+                "details": "Primary Category: Marine"
+            },
+            {
+                "step": "Recommendation Generation",
+                "details": "3 tags recommended"
+            },
+            {
+                "step": "Intelligence Package",
+                "details": "Final intelligence package generated"
+            }
+        ]
+    },
+    "structured_output": {
+        "document_type": "Unknown",
+        "primary_category": "Marine",
+        "secondary_category": "AI",
+        "confidence_score": 0.17,
+        "recommended_tags": [
+            "marine",
+            "ocean",
+            "coastal"
+        ],
+        "entity_count": 16
+    }
+}

@@ -1,0 +1,130 @@
+{
+    "source": {
+        "source_type": "json"
+    },
+    "metadata": {
+        "file_name": "sample2.json",
+        "file_extension": ".json",
+        "file_size_bytes": 1138
+    },
+    "analysis": {
+        "document_type": "Application Form",
+        "document_category": "Form",
+        "subject_area": "Administrative",
+        "language": "English",
+        "confidence": 0.2,
+        "matched_keywords": [
+            "phone"
+        ],
+        "explanation": "Detected document as Application Form because the following keywords were found: phone"
+    },
+    "entities": {
+        "names": [
+            "Vihaan Sharma"
+        ],
+        "organizations": [
+            "OrderStatus",
+            "TX",
+            "TotalAmount",
+            "UnitPrice"
+        ],
+        "technologies": [],
+        "skills": [],
+        "locations": [
+            "Fort Worth",
+            "India",
+            "Washington"
+        ],
+        "dates": [
+            "2023-01-31",
+            "2023-12-30"
+        ],
+        "emails": [],
+        "phone_numbers": []
+    },
+    "classification": {
+        "primary_category": "Agriculture",
+        "secondary_category": "Marine",
+        "confidence_score": 0.17,
+        "matched_keywords": [
+            "crop"
+        ],
+        "classification_explanation": "Detected keywords: crop"
+    },
+    "recommendations": {
+        "related_domains": [
+            "Smart Farming",
+            "AgriTech",
+            "Crop Analytics"
+        ],
+        "recommended_tags": [
+            "agriculture",
+            "crop-management",
+            "farming"
+        ],
+        "recommended_use_cases": [
+            "Crop Yield Prediction",
+            "Irrigation Planning",
+            "Farm Monitoring"
+        ],
+        "recommended_classifications": [
+            "Agriculture"
+        ],
+        "recommendation_explanation": "The document was classified under 'Agriculture' with confidence score 0.17. Based on this classification, related domains, tags and use cases have been recommended to enrich downstream intelligence processing.",
+        "intelligence_summary": "This document primarily belongs to the Agriculture domain. It is strongly associated with Smart Farming, AgriTech. The extracted intelligence can be used for classification, search, and knowledge management purposes. Additional recommendations have been generated to enrich future analysis."
+    },
+    "processing_trace": {
+        "execution_timestamp": "2026-06-18 10:59:52",
+        "overall_status": "SUCCESS",
+        "processing_trace": [
+            {
+                "step": "File Received",
+                "details": "sample2.json received"
+            },
+            {
+                "step": "Source Detection",
+                "details": "Detected source type: json"
+            },
+            {
+                "step": "Content Extraction",
+                "details": "1306 characters extracted"
+            },
+            {
+                "step": "JSON Metadata",
+                "details": "JSON structure loaded"
+            },
+            {
+                "step": "Content Understanding",
+                "details": "Detected Application Form"
+            },
+            {
+                "step": "Entity Extraction",
+                "details": "10 entities extracted"
+            },
+            {
+                "step": "Classification",
+                "details": "Primary Category: Agriculture"
+            },
+            {
+                "step": "Recommendation Generation",
+                "details": "3 tags recommended"
+            },
+            {
+                "step": "Intelligence Package",
+                "details": "Final intelligence package generated"
+            }
+        ]
+    },
+    "structured_output": {
+        "document_type": "Application Form",
+        "primary_category": "Agriculture",
+        "secondary_category": "Marine",
+        "confidence_score": 0.17,
+        "recommended_tags": [
+            "agriculture",
+            "crop-management",
+            "farming"
+        ],
+        "entity_count": 10
+    }
+}

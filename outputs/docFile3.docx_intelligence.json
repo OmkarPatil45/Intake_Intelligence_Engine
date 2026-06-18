@@ -1,50 +1,36 @@
 {
     "source": {
-        "source_type": "csv"
+        "source_type": "docx"
     },
     "metadata": {
-        "file_name": "Data.csv",
-        "file_extension": ".csv",
-        "file_size_bytes": 428
+        "file_name": "docFile3.docx",
+        "file_extension": ".docx",
+        "file_size_bytes": 65349
     },
     "analysis": {
-        "document_type": "Unknown",
-        "document_category": "Unknown",
-        "subject_area": "Unknown",
+        "document_type": "Research Paper",
+        "document_category": "Research",
+        "subject_area": "Academic",
         "language": "English",
-        "confidence": 0.0,
-        "matched_keywords": [],
-        "explanation": "No matching document patterns found."
+        "confidence": 0.2,
+        "matched_keywords": [
+            "conclusion"
+        ],
+        "explanation": "Detected document as Research Paper because the following keywords were found: conclusion"
     },
     "entities": {
         "names": [
-            "Louisana"
+            "Omkar Patil\t\t\t\t\t\t\t     \tID"
         ],
-        "organizations": [
-            "Nighthawks"
-        ],
+        "organizations": [],
         "technologies": [],
         "skills": [],
-        "locations": [
-            "Alaska",
-            "Arizona",
-            "California",
-            "Florida",
-            "Georgia",
-            "Iowa",
-            "Maine",
-            "Oregon",
-            "Texas",
-            "Washington",
-            "Wyoming"
-        ],
+        "locations": [],
         "dates": [
-            "1005",
-            "1006",
-            "1045",
-            "1099",
-            "1592",
-            "8  1099"
+            "100 1234",
+            "1235",
+            "200 1236",
+            "250 1237"
         ],
         "emails": [],
         "phone_numbers": []
@@ -52,11 +38,9 @@
     "classification": {
         "primary_category": "AI",
         "secondary_category": "Education",
-        "confidence_score": 0.1,
-        "matched_keywords": [
-            "rag"
-        ],
-        "classification_explanation": "Detected keywords: rag"
+        "confidence_score": 0.0,
+        "matched_keywords": [],
+        "classification_explanation": "Detected keywords: "
     },
     "recommendations": {
         "related_domains": [
@@ -81,36 +65,36 @@
         "recommended_classifications": [
             "AI"
         ],
-        "recommendation_explanation": "The document was classified under 'AI' with confidence score 0.1. Based on this classification, related domains, tags and use cases have been recommended to enrich downstream intelligence processing.",
+        "recommendation_explanation": "The document was classified under 'AI' with confidence score 0.0. Based on this classification, related domains, tags and use cases have been recommended to enrich downstream intelligence processing.",
         "intelligence_summary": "This document primarily belongs to the AI domain. It is strongly associated with Machine Learning, Data Science. The extracted intelligence can be used for classification, search, and knowledge management purposes. Additional recommendations have been generated to enrich future analysis."
     },
     "processing_trace": {
-        "execution_timestamp": "2026-06-18 12:10:23",
+        "execution_timestamp": "2026-06-18 12:00:28",
         "overall_status": "SUCCESS",
         "processing_trace": [
             {
                 "step": "File Received",
-                "details": "Data.csv received"
+                "details": "docFile3.docx received"
             },
             {
                 "step": "Source Detection",
-                "details": "Detected source type: csv"
+                "details": "Detected source type: docx"
             },
             {
                 "step": "Content Extraction",
-                "details": "688 characters extracted"
+                "details": "1068 characters extracted"
             },
             {
-                "step": "CSV Metadata",
-                "details": "12 rows, 6 columns"
+                "step": "DOCX Metadata",
+                "details": "53 paragraphs detected"
             },
             {
                 "step": "Content Understanding",
-                "details": "Detected Unknown"
+                "details": "Detected Research Paper"
             },
             {
                 "step": "Entity Extraction",
-                "details": "19 entities extracted"
+                "details": "5 entities extracted"
             },
             {
                 "step": "Classification",
@@ -127,10 +111,10 @@
         ]
     },
     "structured_output": {
-        "document_type": "Unknown",
+        "document_type": "Research Paper",
         "primary_category": "AI",
         "secondary_category": "Education",
-        "confidence_score": 0.1,
+        "confidence_score": 0.0,
         "recommended_tags": [
             "artificial-intelligence",
             "machine-learning",
@@ -138,6 +122,6 @@
             "chatbot",
             "automation"
         ],
-        "entity_count": 19
+        "entity_count": 5
     }
 }

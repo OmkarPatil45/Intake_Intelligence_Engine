@@ -1,0 +1,166 @@
+{
+    "source": {
+        "source_type": "txt"
+    },
+    "metadata": {
+        "file_name": "Sample1.txt",
+        "file_extension": ".txt",
+        "file_size_bytes": 6336
+    },
+    "analysis": {
+        "document_type": "Research Paper",
+        "document_category": "Research",
+        "subject_area": "Academic",
+        "language": "English",
+        "confidence": 0.2,
+        "matched_keywords": [
+            "conclusion"
+        ],
+        "explanation": "Detected document as Research Paper because the following keywords were found: conclusion"
+    },
+    "entities": {
+        "names": [
+            "Anthony Kennedy",
+            "Barack Obama",
+            "Donald Verrilli",
+            "Elena Kagan",
+            "John Roberts",
+            "Kagan",
+            "Kennedy",
+            "Obama",
+            "Peter Keisler",
+            "Samuel Alito",
+            "Sonia Sotomayor",
+            "Sotomayor",
+            "Verrilli",
+            "marijuana legalization"
+        ],
+        "organizations": [
+            "American Chemistry Council",
+            "CNN",
+            "Capitol Hill",
+            "Chamber of Commerce",
+            "Congress",
+            "Defense of Marriage Act",
+            "EPA",
+            "Energy-Intensive Manufacturers Working Group on Greenhouse Gas Regulation",
+            "Southeastern Legal Foundation",
+            "Supreme Court",
+            "The Supreme Court",
+            "The White House",
+            "U.S. Solicitor",
+            "Utility Air Regulatory Group",
+            "gases--",
+            "the Chamber of Commerce",
+            "the Environmental Protection Agency",
+            "the White House"
+        ],
+        "technologies": [],
+        "skills": [],
+        "locations": [
+            "Texas",
+            "Virginia",
+            "emissions--",
+            "the United States"
+        ],
+        "dates": [
+            "12-1146",
+            "12-1248",
+            "12-1254",
+            "12-1268",
+            "12-1269",
+            "12-1272",
+            "2007",
+            "December",
+            "June",
+            "Monday",
+            "just last week",
+            "last summer",
+            "recent years"
+        ],
+        "emails": [],
+        "phone_numbers": []
+    },
+    "classification": {
+        "primary_category": "Governance",
+        "secondary_category": "Healthcare",
+        "confidence_score": 0.33,
+        "matched_keywords": [
+            "government",
+            "administration"
+        ],
+        "classification_explanation": "Detected keywords: government, administration"
+    },
+    "recommendations": {
+        "related_domains": [
+            "Public Administration",
+            "Citizen Services",
+            "Policy Analytics"
+        ],
+        "recommended_tags": [
+            "governance",
+            "public-services",
+            "government"
+        ],
+        "recommended_use_cases": [
+            "Citizen Portals",
+            "Policy Analysis",
+            "Grievance Management"
+        ],
+        "recommended_classifications": [
+            "Governance"
+        ],
+        "recommendation_explanation": "The document was classified under 'Governance' with confidence score 0.33. Based on this classification, related domains, tags and use cases have been recommended to enrich downstream intelligence processing.",
+        "intelligence_summary": "This document primarily belongs to the Governance domain. It is strongly associated with Public Administration, Citizen Services. The extracted intelligence can be used for classification, search, and knowledge management purposes. Additional recommendations have been generated to enrich future analysis."
+    },
+    "processing_trace": {
+        "execution_timestamp": "2026-06-18 11:46:09",
+        "overall_status": "SUCCESS",
+        "processing_trace": [
+            {
+                "step": "File Received",
+                "details": "Sample1.txt received"
+            },
+            {
+                "step": "Source Detection",
+                "details": "Detected source type: txt"
+            },
+            {
+                "step": "Content Extraction",
+                "details": "6336 characters extracted"
+            },
+            {
+                "step": "Content Understanding",
+                "details": "Detected Research Paper"
+            },
+            {
+                "step": "Entity Extraction",
+                "details": "49 entities extracted"
+            },
+            {
+                "step": "Classification",
+                "details": "Primary Category: Governance"
+            },
+            {
+                "step": "Recommendation Generation",
+                "details": "3 tags recommended"
+            },
+            {
+                "step": "Intelligence Package",
+                "details": "Final intelligence package generated"
+            }
+        ]
+    },
+    "structured_output": {
+        "document_type": "Research Paper",
+        "primary_category": "Governance",
+        "secondary_category": "Healthcare",
+        "confidence_score": 0.33,
+        "recommended_tags": [
+            "governance",
+            "public-services",
+            "government"
+        ],
+        "entity_count": 49
+    }
+}

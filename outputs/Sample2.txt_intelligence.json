@@ -1,40 +1,73 @@
 {
     "source": {
-        "source_type": "csv"
+        "source_type": "txt"
     },
     "metadata": {
-        "file_name": "student_marks.csv",
-        "file_extension": ".csv",
-        "file_size_bytes": 2128
+        "file_name": "Sample2.txt",
+        "file_extension": ".txt",
+        "file_size_bytes": 5599
     },
     "analysis": {
-        "document_type": "Unknown",
-        "document_category": "Unknown",
-        "subject_area": "Unknown",
+        "document_type": "News Article",
+        "document_category": "Media",
+        "subject_area": "Journalism",
         "language": "English",
-        "confidence": 0.0,
-        "matched_keywords": [],
-        "explanation": "No matching document patterns found."
+        "confidence": 0.2,
+        "matched_keywords": [
+            "news"
+        ],
+        "explanation": "Detected document as News Article because the following keywords were found: news"
     },
     "entities": {
         "names": [
-            "Student_ID"
+            "Butch\u00c2  Harmon \u00e2\u20ac",
+            "Fowler",
+            "Garcia",
+            "McIlroy",
+            "Mickelson",
+            "Phil",
+            "Phil Mickelson",
+            "Phil Mickleson",
+            "Rickie Fowler",
+            "Rory",
+            "Rory McIlroy",
+            "Sergio Garcia",
+            "Tiger"
         ],
         "organizations": [
-            "S002",
-            "S038"
+            "Fowler",
+            "Hoylake",
+            "McIlroy",
+            "Olklahoma State University",
+            "Wells Fargo Championship"
         ],
         "technologies": [],
         "skills": [],
         "locations": [
-            "NaN"
+            "Florida",
+            "Muirfield"
         ],
         "dates": [
-            "44",
-            "49",
+            "11",
+            "12\u00c2",
+            "2007",
             "70",
-            "76",
-            "S046"
+            "Saturday",
+            "Tuesday",
+            "day",
+            "day three",
+            "just a few months",
+            "last month",
+            "last year",
+            "last year's",
+            "so many years",
+            "this past year",
+            "this week",
+            "this year",
+            "today",
+            "tomorrow",
+            "two years ago",
+            "yesterday"
         ],
         "emails": [],
         "phone_numbers": []
@@ -42,11 +75,12 @@
     "classification": {
         "primary_category": "Education",
         "secondary_category": "AI",
-        "confidence_score": 0.12,
+        "confidence_score": 0.25,
         "matched_keywords": [
-            "student"
+            "university",
+            "course"
         ],
-        "classification_explanation": "Detected keywords: student"
+        "classification_explanation": "Detected keywords: university, course"
     },
     "recommendations": {
         "related_domains": [
@@ -68,36 +102,32 @@
         "recommended_classifications": [
             "Education"
         ],
-        "recommendation_explanation": "The document was classified under 'Education' with confidence score 0.12. Based on this classification, related domains, tags and use cases have been recommended to enrich downstream intelligence processing.",
+        "recommendation_explanation": "The document was classified under 'Education' with confidence score 0.25. Based on this classification, related domains, tags and use cases have been recommended to enrich downstream intelligence processing.",
         "intelligence_summary": "This document primarily belongs to the Education domain. It is strongly associated with E-Learning, Student Analytics. The extracted intelligence can be used for classification, search, and knowledge management purposes. Additional recommendations have been generated to enrich future analysis."
     },
     "processing_trace": {
-        "execution_timestamp": "2026-06-18 11:26:36",
+        "execution_timestamp": "2026-06-18 11:45:25",
         "overall_status": "SUCCESS",
         "processing_trace": [
             {
                 "step": "File Received",
-                "details": "student_marks.csv received"
+                "details": "Sample2.txt received"
             },
             {
                 "step": "Source Detection",
-                "details": "Detected source type: csv"
+                "details": "Detected source type: txt"
             },
             {
                 "step": "Content Extraction",
-                "details": "5507 characters extracted"
-            },
-            {
-                "step": "CSV Metadata",
-                "details": "101 rows, 6 columns"
+                "details": "5556 characters extracted"
             },
             {
                 "step": "Content Understanding",
-                "details": "Detected Unknown"
+                "details": "Detected News Article"
             },
             {
                 "step": "Entity Extraction",
-                "details": "9 entities extracted"
+                "details": "40 entities extracted"
             },
             {
                 "step": "Classification",
@@ -114,16 +144,16 @@
         ]
     },
     "structured_output": {
-        "document_type": "Unknown",
+        "document_type": "News Article",
         "primary_category": "Education",
         "secondary_category": "AI",
-        "confidence_score": 0.12,
+        "confidence_score": 0.25,
         "recommended_tags": [
             "education",
             "learning",
             "students",
             "academic"
         ],
-        "entity_count": 9
+        "entity_count": 40
     }
 }

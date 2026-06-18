@@ -1,0 +1,150 @@
+{
+    "source": {
+        "source_type": "txt"
+    },
+    "metadata": {
+        "file_name": "Sample4.txt",
+        "file_extension": ".txt",
+        "file_size_bytes": 5515
+    },
+    "analysis": {
+        "document_type": "Research Paper",
+        "document_category": "Research",
+        "subject_area": "Academic",
+        "language": "English",
+        "confidence": 0.2,
+        "matched_keywords": [
+            "conclusion"
+        ],
+        "explanation": "Detected document as Research Paper because the following keywords were found: conclusion"
+    },
+    "entities": {
+        "names": [
+            "Anthony Kennedy",
+            "Barack Obama",
+            "Donald Verrilli",
+            "Elena Kagan",
+            "John Roberts",
+            "Kagan",
+            "Kennedy",
+            "Obama",
+            "Peter Keisler",
+            "Samuel Alito",
+            "Sonia Sotomayor",
+            "Sotomayor",
+            "Verrilli",
+            "marijuana legalization"
+        ],
+        "organizations": [
+            "Capitol Hill",
+            "Congress",
+            "Defense of Marriage Act",
+            "EPA",
+            "Supreme Court",
+            "The Supreme Court",
+            "The White House",
+            "U.S. Solicitor",
+            "gases--",
+            "the Environmental Protection Agency",
+            "the White House"
+        ],
+        "technologies": [],
+        "skills": [],
+        "locations": [
+            "Texas",
+            "Virginia",
+            "emissions--"
+        ],
+        "dates": [
+            "2007",
+            "June",
+            "Monday",
+            "just last week",
+            "last summer",
+            "recent years"
+        ],
+        "emails": [],
+        "phone_numbers": []
+    },
+    "classification": {
+        "primary_category": "Healthcare",
+        "secondary_category": "Governance",
+        "confidence_score": 0.14,
+        "matched_keywords": [
+            "health"
+        ],
+        "classification_explanation": "Detected keywords: health"
+    },
+    "recommendations": {
+        "related_domains": [
+            "Medical Analytics",
+            "Telemedicine",
+            "Health Informatics"
+        ],
+        "recommended_tags": [
+            "healthcare",
+            "medical",
+            "patient-care"
+        ],
+        "recommended_use_cases": [
+            "Disease Prediction",
+            "Patient Monitoring",
+            "Clinical Decision Support"
+        ],
+        "recommended_classifications": [
+            "Healthcare"
+        ],
+        "recommendation_explanation": "The document was classified under 'Healthcare' with confidence score 0.14. Based on this classification, related domains, tags and use cases have been recommended to enrich downstream intelligence processing.",
+        "intelligence_summary": "This document primarily belongs to the Healthcare domain. It is strongly associated with Medical Analytics, Telemedicine. The extracted intelligence can be used for classification, search, and knowledge management purposes. Additional recommendations have been generated to enrich future analysis."
+    },
+    "processing_trace": {
+        "execution_timestamp": "2026-06-18 11:50:05",
+        "overall_status": "SUCCESS",
+        "processing_trace": [
+            {
+                "step": "File Received",
+                "details": "Sample4.txt received"
+            },
+            {
+                "step": "Source Detection",
+                "details": "Detected source type: txt"
+            },
+            {
+                "step": "Content Extraction",
+                "details": "5515 characters extracted"
+            },
+            {
+                "step": "Content Understanding",
+                "details": "Detected Research Paper"
+            },
+            {
+                "step": "Entity Extraction",
+                "details": "34 entities extracted"
+            },
+            {
+                "step": "Classification",
+                "details": "Primary Category: Healthcare"
+            },
+            {
+                "step": "Recommendation Generation",
+                "details": "3 tags recommended"
+            },
+            {
+                "step": "Intelligence Package",
+                "details": "Final intelligence package generated"
+            }
+        ]
+    },
+    "structured_output": {
+        "document_type": "Research Paper",
+        "primary_category": "Healthcare",
+        "secondary_category": "Governance",
+        "confidence_score": 0.14,
+        "recommended_tags": [
+            "healthcare",
+            "medical",
+            "patient-care"
+        ],
+        "entity_count": 34
+    }
+}

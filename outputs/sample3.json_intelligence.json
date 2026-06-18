@@ -1,0 +1,207 @@
+{
+    "source": {
+        "source_type": "json"
+    },
+    "metadata": {
+        "file_name": "sample3.json",
+        "file_extension": ".json",
+        "file_size_bytes": 10382
+    },
+    "analysis": {
+        "document_type": "Project Submission",
+        "document_category": "Project",
+        "subject_area": "Technology",
+        "language": "English",
+        "confidence": 0.2,
+        "matched_keywords": [
+            "technology"
+        ],
+        "explanation": "Detected document as Project Submission because the following keywords were found: technology"
+    },
+    "entities": {
+        "names": [
+            "Austria",
+            "Edinburgh",
+            "Konya",
+            "Paulo",
+            "Uffizi"
+        ],
+        "organizations": [
+            "\"Kaohsiung Museum of Fine Arts",
+            "\"Shenzhen Museum\"",
+            "American Museum of Natural History",
+            "British Museum",
+            "China National Silk Museum",
+            "China Science and Technology Museum",
+            "Chinese Aviation Museum",
+            "Crafts Museum",
+            "Hubei Provincial Museum",
+            "Louis Vuitton Foundation",
+            "Mevlana Museum",
+            "Moscow Kremlin Museum",
+            "Mus\\u00e9e National d'Histoire Naturelle",
+            "Mus\\u00e9e de l'Orangerie",
+            "Nanjing Museum",
+            "National Museum",
+            "National Museum of Anthropology",
+            "National Museum of China",
+            "National Museum of Korea",
+            "National Museum of Natural History",
+            "National Museum of Natural Science",
+            "National Museum of Scotland",
+            "National Palace Museum",
+            "Palacio de Cristal",
+            "Shanghai Museum East",
+            "Smithsonian Museum of American History",
+            "State Russian Museum",
+            "The National Art Center",
+            "Tokyo National Museum",
+            "UTC"
+        ],
+        "technologies": [
+            "c"
+        ],
+        "skills": [
+            "c"
+        ],
+        "locations": [
+            "Australia",
+            "Beijing",
+            "Brazil",
+            "China",
+            "D.C.",
+            "France",
+            "Fuzhou",
+            "Galleria",
+            "Greece",
+            "Hangzhou",
+            "Hong Kong",
+            "Italy",
+            "Japan",
+            "Kaohsiung",
+            "London",
+            "Los Angeles",
+            "Madrid",
+            "Mexico",
+            "Mexico City",
+            "Moscow",
+            "Nanjing",
+            "Netherlands",
+            "New York City",
+            "Paris",
+            "Poland",
+            "Rome",
+            "Russia",
+            "Seoul",
+            "Shanghai",
+            "Shenzhen",
+            "Singapore",
+            "South Kensington",
+            "South Korea",
+            "Spain",
+            "Taipei",
+            "Taiwan",
+            "Tokyo",
+            "Turkey",
+            "United Kingdom",
+            "Vatican City",
+            "Vienna",
+            "Washington",
+            "Wuhan"
+        ],
+        "dates": [
+            "2023",
+            "2024",
+            "54",
+            "November 06, 2025",
+            "annual"
+        ],
+        "emails": [],
+        "phone_numbers": []
+    },
+    "classification": {
+        "primary_category": "Agriculture",
+        "secondary_category": "AI",
+        "confidence_score": 0.17,
+        "matched_keywords": [
+            "crop"
+        ],
+        "classification_explanation": "Detected keywords: crop"
+    },
+    "recommendations": {
+        "related_domains": [
+            "Smart Farming",
+            "AgriTech",
+            "Crop Analytics"
+        ],
+        "recommended_tags": [
+            "agriculture",
+            "crop-management",
+            "farming"
+        ],
+        "recommended_use_cases": [
+            "Crop Yield Prediction",
+            "Irrigation Planning",
+            "Farm Monitoring"
+        ],
+        "recommended_classifications": [
+            "Agriculture"
+        ],
+        "recommendation_explanation": "The document was classified under 'Agriculture' with confidence score 0.17. Based on this classification, related domains, tags and use cases have been recommended to enrich downstream intelligence processing.",
+        "intelligence_summary": "This document primarily belongs to the Agriculture domain. It is strongly associated with Smart Farming, AgriTech. The extracted intelligence can be used for classification, search, and knowledge management purposes. Additional recommendations have been generated to enrich future analysis."
+    },
+    "processing_trace": {
+        "execution_timestamp": "2026-06-18 10:50:32",
+        "overall_status": "SUCCESS",
+        "processing_trace": [
+            {
+                "step": "File Received",
+                "details": "sample3.json received"
+            },
+            {
+                "step": "Source Detection",
+                "details": "Detected source type: json"
+            },
+            {
+                "step": "Content Extraction",
+                "details": "12734 characters extracted"
+            },
+            {
+                "step": "JSON Metadata",
+                "details": "JSON structure loaded"
+            },
+            {
+                "step": "Content Understanding",
+                "details": "Detected Project Submission"
+            },
+            {
+                "step": "Entity Extraction",
+                "details": "85 entities extracted"
+            },
+            {
+                "step": "Classification",
+                "details": "Primary Category: Agriculture"
+            },
+            {
+                "step": "Recommendation Generation",
+                "details": "3 tags recommended"
+            },
+            {
+                "step": "Intelligence Package",
+                "details": "Final intelligence package generated"
+            }
+        ]
+    },
+    "structured_output": {
+        "document_type": "Project Submission",
+        "primary_category": "Agriculture",
+        "secondary_category": "AI",
+        "confidence_score": 0.17,
+        "recommended_tags": [
+            "agriculture",
+            "crop-management",
+            "farming"
+        ],
+        "entity_count": 85
+    }
+}

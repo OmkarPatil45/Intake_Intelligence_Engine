@@ -1,0 +1,186 @@
+{
+    "source": {
+        "source_type": "pdf"
+    },
+    "metadata": {
+        "file_name": "file_2.pdf",
+        "file_extension": ".pdf",
+        "file_size_bytes": 4160723
+    },
+    "analysis": {
+        "document_type": "Research Paper",
+        "document_category": "Research",
+        "subject_area": "Academic",
+        "language": "English",
+        "confidence": 0.4,
+        "matched_keywords": [
+            "methodology",
+            "references"
+        ],
+        "explanation": "Detected document as Research Paper because the following keywords were found: methodology, references"
+    },
+    "entities": {
+        "names": [
+            "647x Contents",
+            "Biedermeier Furniture",
+            "Cham Heidelberg",
+            "Computational Loads",
+            "DOI 10.1007/978-3-319-19533-9",
+            "Jerzy Smardzewski",
+            "Stools"
+        ],
+        "organizations": [
+            "2.1 Characteristics of Furniture",
+            "3 Ergonomics of Furniture",
+            "3.2.3 Construction and Technology Requirements",
+            "3.4.4 Requirements for Kitchen Furniture",
+            "4.5.1 Wood",
+            "4.8.6 Joints of Rear Wall",
+            "5 Technical Documentation",
+            "5.8 Technical Documentation of Skeletal Furniture",
+            "5.9 Technical Documentation of Upholstered Furniture",
+            "6128.4.3 Modelling of Stiffness of Conical Springs",
+            "Aesthetic Requirements",
+            "Anthropometric Measures",
+            "Art Deco Furniture",
+            "Baroque Furniture",
+            "Congress Control Number",
+            "Constructions of Chairs",
+            "Contents of Technical Documentation",
+            "Cross Sections of Elements of Chair",
+            "Early Twentieth-Century Furniture",
+            "Experimental Testing of Stiffness of Seats",
+            "Internal Forces",
+            "International Publishing AG",
+            "Joints with Mechanical Connectors",
+            "Mathematical Models of Foams",
+            "Numerical Modelling of Human-Bed Systems",
+            "Parallel Systems",
+            "Polyurethane Foams",
+            "Poznan University of Life Sciences\nPoznanPoland",
+            "Preface\nWood",
+            "Renaissance Furniture",
+            "Requirements for Office Furniture",
+            "Requirements for School Furniture",
+            "Shape-Adhesive Joints",
+            "Springer International Publishing",
+            "Springer Science+Business Media",
+            "Stool Frames",
+            "Strength of Case Furniture",
+            "Technical Documentation of Case Furniture",
+            "Technical and Economy Requirements",
+            "Wood-Based Materials"
+        ],
+        "technologies": [
+            "express"
+        ],
+        "skills": [
+            "express"
+        ],
+        "locations": [
+            "Chairs",
+            "Egypt",
+            "London",
+            "New York",
+            "Persia",
+            "Switzerland"
+        ],
+        "dates": [
+            "2015",
+            "8 5",
+            "Today",
+            "several millennia",
+            "this day",
+            "thousands of years"
+        ],
+        "emails": [],
+        "phone_numbers": []
+    },
+    "classification": {
+        "primary_category": "Infrastructure",
+        "secondary_category": "Education",
+        "confidence_score": 0.5,
+        "matched_keywords": [
+            "road",
+            "construction",
+            "building"
+        ],
+        "classification_explanation": "Detected keywords: road, construction, building"
+    },
+    "recommendations": {
+        "related_domains": [
+            "Smart Cities",
+            "Transportation",
+            "Urban Planning"
+        ],
+        "recommended_tags": [
+            "infrastructure",
+            "construction",
+            "urban-development"
+        ],
+        "recommended_use_cases": [
+            "Road Planning",
+            "Traffic Analytics",
+            "Asset Management"
+        ],
+        "recommended_classifications": [
+            "Infrastructure"
+        ],
+        "recommendation_explanation": "The document was classified under 'Infrastructure' with confidence score 0.5. Based on this classification, related domains, tags and use cases have been recommended to enrich downstream intelligence processing.",
+        "intelligence_summary": "This document primarily belongs to the Infrastructure domain. It is strongly associated with Smart Cities, Transportation. The extracted intelligence can be used for classification, search, and knowledge management purposes. Additional recommendations have been generated to enrich future analysis."
+    },
+    "processing_trace": {
+        "execution_timestamp": "2026-06-18 10:33:25",
+        "overall_status": "SUCCESS",
+        "processing_trace": [
+            {
+                "step": "File Received",
+                "details": "file_2.pdf received"
+            },
+            {
+                "step": "Source Detection",
+                "details": "Detected source type: pdf"
+            },
+            {
+                "step": "Content Extraction",
+                "details": "13975 characters extracted"
+            },
+            {
+                "step": "PDF Metadata",
+                "details": "9 pages detected"
+            },
+            {
+                "step": "Content Understanding",
+                "details": "Detected Research Paper"
+            },
+            {
+                "step": "Entity Extraction",
+                "details": "61 entities extracted"
+            },
+            {
+                "step": "Classification",
+                "details": "Primary Category: Infrastructure"
+            },
+            {
+                "step": "Recommendation Generation",
+                "details": "3 tags recommended"
+            },
+            {
+                "step": "Intelligence Package",
+                "details": "Final intelligence package generated"
+            }
+        ]
+    },
+    "structured_output": {
+        "document_type": "Research Paper",
+        "primary_category": "Infrastructure",
+        "secondary_category": "Education",
+        "confidence_score": 0.5,
+        "recommended_tags": [
+            "infrastructure",
+            "construction",
+            "urban-development"
+        ],
+        "entity_count": 61
+    }
+}

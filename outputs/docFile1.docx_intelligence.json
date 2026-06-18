@@ -1,57 +1,51 @@
 {
     "source": {
-        "source_type": "csv"
+        "source_type": "docx"
     },
     "metadata": {
-        "file_name": "Data.csv",
-        "file_extension": ".csv",
-        "file_size_bytes": 428
+        "file_name": "docFile1.docx",
+        "file_extension": ".docx",
+        "file_size_bytes": 1311881
     },
     "analysis": {
-        "document_type": "Unknown",
-        "document_category": "Unknown",
-        "subject_area": "Unknown",
+        "document_type": "Project Submission",
+        "document_category": "Project",
+        "subject_area": "Technology",
         "language": "English",
-        "confidence": 0.0,
-        "matched_keywords": [],
-        "explanation": "No matching document patterns found."
+        "confidence": 0.4,
+        "matched_keywords": [
+            "technology",
+            "features"
+        ],
+        "explanation": "Detected document as Project Submission because the following keywords were found: technology, features"
     },
     "entities": {
         "names": [
-            "Louisana"
+            "Convert",
+            "Kindles"
         ],
         "organizations": [
-            "Nighthawks"
+            "Bulleted List",
+            "Bulleted List\nOne",
+            "Footnotes & Endnotes\nFootnotes",
+            "Images\nImages",
+            "Microsoft",
+            "Next",
+            "Ubuntu",
+            "the Table of Contents"
         ],
         "technologies": [],
         "skills": [],
-        "locations": [
-            "Alaska",
-            "Arizona",
-            "California",
-            "Florida",
-            "Georgia",
-            "Iowa",
-            "Maine",
-            "Oregon",
-            "Texas",
-            "Washington",
-            "Wyoming"
-        ],
+        "locations": [],
         "dates": [
-            "1005",
-            "1006",
-            "1045",
-            "1099",
-            "1592",
-            "8  1099"
+            "2007"
         ],
         "emails": [],
         "phone_numbers": []
     },
     "classification": {
         "primary_category": "AI",
-        "secondary_category": "Education",
+        "secondary_category": "Governance",
         "confidence_score": 0.1,
         "matched_keywords": [
             "rag"
@@ -85,32 +79,32 @@
         "intelligence_summary": "This document primarily belongs to the AI domain. It is strongly associated with Machine Learning, Data Science. The extracted intelligence can be used for classification, search, and knowledge management purposes. Additional recommendations have been generated to enrich future analysis."
     },
     "processing_trace": {
-        "execution_timestamp": "2026-06-18 12:10:23",
+        "execution_timestamp": "2026-06-18 11:56:00",
         "overall_status": "SUCCESS",
         "processing_trace": [
             {
                 "step": "File Received",
-                "details": "Data.csv received"
+                "details": "docFile1.docx received"
             },
             {
                 "step": "Source Detection",
-                "details": "Detected source type: csv"
+                "details": "Detected source type: docx"
             },
             {
                 "step": "Content Extraction",
-                "details": "688 characters extracted"
+                "details": "8183 characters extracted"
             },
             {
-                "step": "CSV Metadata",
-                "details": "12 rows, 6 columns"
+                "step": "DOCX Metadata",
+                "details": "90 paragraphs detected"
             },
             {
                 "step": "Content Understanding",
-                "details": "Detected Unknown"
+                "details": "Detected Project Submission"
             },
             {
                 "step": "Entity Extraction",
-                "details": "19 entities extracted"
+                "details": "11 entities extracted"
             },
             {
                 "step": "Classification",
@@ -127,9 +121,9 @@
         ]
     },
     "structured_output": {
-        "document_type": "Unknown",
+        "document_type": "Project Submission",
         "primary_category": "AI",
-        "secondary_category": "Education",
+        "secondary_category": "Governance",
         "confidence_score": 0.1,
         "recommended_tags": [
             "artificial-intelligence",
@@ -138,6 +132,6 @@
             "chatbot",
             "automation"
         ],
-        "entity_count": 19
+        "entity_count": 11
     }
 }

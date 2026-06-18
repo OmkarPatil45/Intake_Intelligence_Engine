@@ -1,0 +1,186 @@
+{
+    "source": {
+        "source_type": "pdf"
+    },
+    "metadata": {
+        "file_name": "file_3.pdf",
+        "file_extension": ".pdf",
+        "file_size_bytes": 384093
+    },
+    "analysis": {
+        "document_type": "Research Paper",
+        "document_category": "Research",
+        "subject_area": "Academic",
+        "language": "English",
+        "confidence": 0.6,
+        "matched_keywords": [
+            "abstract",
+            "references",
+            "literature review"
+        ],
+        "explanation": "Detected document as Research Paper because the following keywords were found: abstract, references, literature review"
+    },
+    "entities": {
+        "names": [
+            "Ben Schneiderman",
+            "Endangered Species",
+            "Kirtland\u2019s Warbler",
+            "Miguel Cairo",
+            "REFERENCE  METADATA",
+            "Ruffed  \nGrouse",
+            "Spruce Grouse",
+            "Steven Few",
+            "TECHNICAL  DOCUMENTATION",
+            "b. \nMETADATA",
+            "bird metric",
+            "type s. \nAbundance/Occurrence - Any"
+        ],
+        "organizations": [
+            "CRITERIA",
+            "Control/Impact - Samples",
+            "DECIMAL",
+            "Dimensions",
+            "ESA",
+            "Edward  \nTufte",
+            "EndNote",
+            "Forest  Type/Tree  Species - Samples",
+            "Grouse",
+            "JMP",
+            "KEYWORD",
+            "Keyword  Search",
+            "MAP",
+            "Microsoft Academic",
+            "NO TARGET BIRD SPECIES - We",
+            "Peregrine Falcon",
+            "ProQuest",
+            "SCALE - Studies",
+            "Sharp",
+            "Swainson\u2019s  Warblers",
+            "Systematic",
+            "TARGET",
+            "Threatened",
+            "USDA\u2019s Natural Resources Conservation S",
+            "USFWS",
+            "Woodpecker",
+            "config uration metrics",
+            "grey",
+            "managem ent",
+            "the Collaboration for Environmental Evidence"
+        ],
+        "technologies": [
+            "c"
+        ],
+        "skills": [
+            "c"
+        ],
+        "locations": [
+            "Canada",
+            "North  America",
+            "US",
+            "Unit ed States",
+            "Wild Turkey",
+            "Woodcock",
+            "describ ed vegetation"
+        ],
+        "dates": [
+            "1 -4 year",
+            "3 years",
+            "MAY",
+            "annual",
+            "every day",
+            "four -digit  year",
+            "spring",
+            "the past half century",
+            "winter",
+            "years"
+        ],
+        "emails": [],
+        "phone_numbers": []
+    },
+    "classification": {
+        "primary_category": "Agriculture",
+        "secondary_category": "Governance",
+        "confidence_score": 0.33,
+        "matched_keywords": [
+            "crop",
+            "harvest"
+        ],
+        "classification_explanation": "Detected keywords: crop, harvest"
+    },
+    "recommendations": {
+        "related_domains": [
+            "Smart Farming",
+            "AgriTech",
+            "Crop Analytics"
+        ],
+        "recommended_tags": [
+            "agriculture",
+            "crop-management",
+            "farming"
+        ],
+        "recommended_use_cases": [
+            "Crop Yield Prediction",
+            "Irrigation Planning",
+            "Farm Monitoring"
+        ],
+        "recommended_classifications": [
+            "Agriculture"
+        ],
+        "recommendation_explanation": "The document was classified under 'Agriculture' with confidence score 0.33. Based on this classification, related domains, tags and use cases have been recommended to enrich downstream intelligence processing.",
+        "intelligence_summary": "This document primarily belongs to the Agriculture domain. It is strongly associated with Smart Farming, AgriTech. The extracted intelligence can be used for classification, search, and knowledge management purposes. Additional recommendations have been generated to enrich future analysis."
+    },
+    "processing_trace": {
+        "execution_timestamp": "2026-06-18 10:37:38",
+        "overall_status": "SUCCESS",
+        "processing_trace": [
+            {
+                "step": "File Received",
+                "details": "file_3.pdf received"
+            },
+            {
+                "step": "Source Detection",
+                "details": "Detected source type: pdf"
+            },
+            {
+                "step": "Content Extraction",
+                "details": "26504 characters extracted"
+            },
+            {
+                "step": "PDF Metadata",
+                "details": "9 pages detected"
+            },
+            {
+                "step": "Content Understanding",
+                "details": "Detected Research Paper"
+            },
+            {
+                "step": "Entity Extraction",
+                "details": "61 entities extracted"
+            },
+            {
+                "step": "Classification",
+                "details": "Primary Category: Agriculture"
+            },
+            {
+                "step": "Recommendation Generation",
+                "details": "3 tags recommended"
+            },
+            {
+                "step": "Intelligence Package",
+                "details": "Final intelligence package generated"
+            }
+        ]
+    },
+    "structured_output": {
+        "document_type": "Research Paper",
+        "primary_category": "Agriculture",
+        "secondary_category": "Governance",
+        "confidence_score": 0.33,
+        "recommended_tags": [
+            "agriculture",
+            "crop-management",
+            "farming"
+        ],
+        "entity_count": 61
+    }
+}

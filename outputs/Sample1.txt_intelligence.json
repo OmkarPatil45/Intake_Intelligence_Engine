@@ -25,15 +25,9 @@
             "Donald Verrilli",
             "Elena Kagan",
             "John Roberts",
-            "Kagan",
-            "Kennedy",
-            "Obama",
             "Peter Keisler",
             "Samuel Alito",
-            "Sonia Sotomayor",
-            "Sotomayor",
-            "Verrilli",
-            "marijuana legalization"
+            "Sonia Sotomayor"
         ],
         "organizations": [
             "American Chemistry Council",
@@ -44,39 +38,22 @@
             "Defense of Marriage Act",
             "EPA",
             "Energy-Intensive Manufacturers Working Group on Greenhouse Gas Regulation",
+            "Environmental Protection Agency",
             "Southeastern Legal Foundation",
             "Supreme Court",
-            "The Supreme Court",
-            "The White House",
             "U.S. Solicitor",
             "Utility Air Regulatory Group",
-            "gases--",
-            "the Chamber of Commerce",
-            "the Environmental Protection Agency",
-            "the White House"
+            "White House"
         ],
         "technologies": [],
         "skills": [],
         "locations": [
             "Texas",
             "Virginia",
-            "emissions--",
             "the United States"
         ],
         "dates": [
-            "12-1146",
-            "12-1248",
-            "12-1254",
-            "12-1268",
-            "12-1269",
-            "12-1272",
-            "2007",
-            "December",
-            "June",
-            "Monday",
-            "just last week",
-            "last summer",
-            "recent years"
+            "2007"
         ],
         "emails": [],
         "phone_numbers": []
@@ -114,7 +91,7 @@
         "intelligence_summary": "This document primarily belongs to the Governance domain. It is strongly associated with Public Administration, Citizen Services. The extracted intelligence can be used for classification, search, and knowledge management purposes. Additional recommendations have been generated to enrich future analysis."
     },
     "processing_trace": {
-        "execution_timestamp": "2026-06-18 11:46:09",
+        "execution_timestamp": "2026-06-19 16:01:44",
         "overall_status": "SUCCESS",
         "processing_trace": [
             {
@@ -135,11 +112,23 @@
             },
             {
                 "step": "Entity Extraction",
-                "details": "49 entities extracted"
+                "details": "26 entities extracted"
+            },
+            {
+                "step": "Entity Validation",
+                "details": "26 validated, 9 rejected"
+            },
+            {
+                "step": "Evidence Generation",
+                "details": "26 evidence records generated"
             },
             {
                 "step": "Classification",
                 "details": "Primary Category: Governance"
+            },
+            {
+                "step": "Confidence Scoring",
+                "details": "Confidence Score: 90"
             },
             {
                 "step": "Recommendation Generation",
@@ -161,6 +150,6 @@
             "public-services",
             "government"
         ],
-        "entity_count": 49
+        "entity_count": 26
     }
 }

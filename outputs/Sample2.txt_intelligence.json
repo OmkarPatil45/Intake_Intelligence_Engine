@@ -21,15 +21,9 @@
     "entities": {
         "names": [
             "Butch\u00c2  Harmon \u00e2\u20ac",
-            "Fowler",
-            "Garcia",
-            "McIlroy",
-            "Mickelson",
-            "Phil",
             "Phil Mickelson",
             "Phil Mickleson",
             "Rickie Fowler",
-            "Rory",
             "Rory McIlroy",
             "Sergio Garcia",
             "Tiger"
@@ -48,26 +42,7 @@
             "Muirfield"
         ],
         "dates": [
-            "11",
-            "12\u00c2",
-            "2007",
-            "70",
-            "Saturday",
-            "Tuesday",
-            "day",
-            "day three",
-            "just a few months",
-            "last month",
-            "last year",
-            "last year's",
-            "so many years",
-            "this past year",
-            "this week",
-            "this year",
-            "today",
-            "tomorrow",
-            "two years ago",
-            "yesterday"
+            "2007"
         ],
         "emails": [],
         "phone_numbers": []
@@ -80,7 +55,16 @@
             "university",
             "course"
         ],
-        "classification_explanation": "Detected keywords: university, course"
+        "evidence_used": [],
+        "rejected_categories": {
+            "AI": "Only 1 supporting keyword(s) found",
+            "Marine": "Only 1 supporting keyword(s) found",
+            "Healthcare": "No supporting keywords found",
+            "Agriculture": "No supporting keywords found",
+            "Governance": "No supporting keywords found",
+            "Infrastructure": "No supporting keywords found"
+        },
+        "classification_explanation": "Education selected because it contains 2 supporting keyword(s): university, course"
     },
     "recommendations": {
         "related_domains": [
@@ -106,7 +90,7 @@
         "intelligence_summary": "This document primarily belongs to the Education domain. It is strongly associated with E-Learning, Student Analytics. The extracted intelligence can be used for classification, search, and knowledge management purposes. Additional recommendations have been generated to enrich future analysis."
     },
     "processing_trace": {
-        "execution_timestamp": "2026-06-18 11:45:25",
+        "execution_timestamp": "2026-06-19 18:56:23",
         "overall_status": "SUCCESS",
         "processing_trace": [
             {
@@ -127,11 +111,23 @@
             },
             {
                 "step": "Entity Extraction",
-                "details": "40 entities extracted"
+                "details": "15 entities extracted"
+            },
+            {
+                "step": "Entity Validation",
+                "details": "15 validated, 0 rejected"
+            },
+            {
+                "step": "Evidence Generation",
+                "details": "15 evidence records generated"
             },
             {
                 "step": "Classification",
                 "details": "Primary Category: Education"
+            },
+            {
+                "step": "Confidence Scoring",
+                "details": "Confidence Score: 90"
             },
             {
                 "step": "Recommendation Generation",
@@ -154,6 +150,6 @@
             "students",
             "academic"
         ],
-        "entity_count": 40
+        "entity_count": 15
     }
 }

@@ -1,8 +1,9 @@
 # REVIEW_PACKET.md
 
 # Universal Intake Intelligence Engine v1
+# Explainable Intelligence & Evidence Graph Engine v2
 
-## 1. Entry Point
+## 1. Updated Entry Point
 
 Application Entry File:
 
@@ -20,199 +21,124 @@ The application orchestrates the complete intelligence pipeline from document in
 
 ---
 
-## 2. Three Core Files
-
-### 1. intake/intake_loader.py
+## 2. New Core Modules
+### entity_validator.py
 
 Purpose:
+Remove false-positive entities
+Generate rejection explanations
 
-* Loads incoming files
-* Extracts content
-* Extracts metadata
-* Supports PDF, DOCX, TXT, CSV and JSON
+Outputs:
+Validated Entities
+Rejected Entities
 
-Responsibilities:
+### evidence_engine.py
 
-```text
-File Loading
-Content Extraction
-Metadata Extraction
-Source Preparation
-```
+Purpose:
+Generate evidence supporting extracted entities.
+
+Outputs:
+Supporting sentence
+Supporting paragraph
+Supporting keywords
+Evidence confidence
+Evidence reasoning
+
+### confidence_engine.py
+
+Purpose:
+Generate explainable confidence scores.
+
+Factors:
+Evidence count
+Entity validation quality
+Document completeness
+
+Outputs:
+Confidence score
+Confidence explanation
+
+### relationship_engine.py
+
+Purpose:
+Detect cross-document intelligence relationships.
+
+Supports:
+same_person
+same_organization
+same_technology
+same_project
+
+Outputs:
+relationship_graph.json
+
 
 ---
 
-### 2. analysis/entity_extractor.py
+---
 
-Purpose:
-
-* Extracts structured entities from content
-
-Extracted Entities:
+## 3. Evidence Generation Flow
 
 ```text
-Names
-Organizations
-Technologies
-Skills
-Locations
-Dates
-Emails
-Phone Numbers
-```
+Entity
+      │
+      ▼
+Sentence Matching
+      │
+      ▼
+Evidence Collection
+      │
+      ▼
+Evidence Report
 
-Responsibilities:
-
-```text
-Information Extraction
-Entity Structuring
-Intelligence Preparation
 ```
+Each evidence record contains:
+Sentence
+Paragraph
+Keywords
+Confidence
+Reason
 
 ---
 
-### 3. package/intelligence_package_builder.py
+## 4. Confidence Scoring Logic
 
-Purpose:
+Confidence is computed using:
 
-* Generates deterministic intelligence packages
-
-Responsibilities:
-
-```text
-Package Assembly
-Output Structuring
-JSON Generation
-```
+Evidence Count
+      +
+Validated Entities
+      +
+Document Completeness
+      -
+Contradictory Signals
 
 Output:
 
-```json
 {
-  "source": {},
-  "metadata": {},
-  "analysis": {},
-  "entities": {},
-  "classification": {},
-  "recommendations": {},
-  "processing_trace": {},
-  "structured_output": {}
+    "score": 90,
+    "explanation": "Confidence derived from supporting evidence and validated entities."
 }
-```
 
 ---
 
-## 3. Execution Flow
-
-```text
-Input Document
-      │
-      ▼
-Universal Intake Layer
-      │
-      ▼
-Content Understanding Layer
-      │
-      ▼
-Entity Intelligence Layer
-      │
-      ▼
-Classification Layer
-      │
-      ▼
-Recommendation Layer
-      │
-      ▼
-Processing Visibility Layer
-      │
-      ▼
-Intelligence Package Generator
-      │
-      ▼
-Search & Retrieval Layer
-      │
-      ▼
-CLI Review Interface
+## 5. Relationship Detection Flow
 ```
-
----
-
-## 4. Real Input Example
-
-Input File:
-
-```text
-resume.pdf
-```
-
-Sample Content:
-
-```text
-SAHIL SANGALE
-
-Email:
-sahilsangale024@gmail.com
-
-Skills:
-Python
-React.js
-Node.js
-MongoDB
-
-Education:
-B.E Information Technology
+Document A
+        │
+        ▼
+Shared Entity Detection
+        ▲
+        │
+Document B
 
 ```
 
-Detected Source Type:
-
-```text
-PDF
-```
-
----
-
-## 5. Real Output Example
-
-Document Understanding:
-
-```json
-{
-  "document_type":"Resume",
-  "document_category":"Candidate Profile",
-  "subject_area":"Information Technology"
-}
-```
-
-Entity Extraction:
-
-```json
-{
-  "names":[
-    "SAHIL SANGALE"
-  ],
-
-  "technologies":[
-    "Python",
-    "React.js",
-    "MongoDB"
-  ],
-
-  "emails":[
-    "sahilsangale024@gmail.com"
-  ]
-}
-```
-
-Classification:
-
-```json
-{
-  "primary_category":"AI",
-  "secondary_category":"Education",
-  "confidence_score":0.85
-}
-```
+Relationships are generated when:
+Same Person detected
+Same Organization detected
+Same Technology detected
+Same Project detected
 
 ---
 
@@ -250,120 +176,71 @@ File not found
 
 ---
 
-## 7. Processing Trace Example
+## 7. Example Evidence Output
+{
+    "Python": [
+        {
+            "paragraph": 6,
+            "sentence": "Developed backend services using Python.",
+            "keywords": ["Python"],
+            "reason": "Entity explicitly mentioned",
+            "confidence": 1.0
+        }
+    ]
+}
 
-Execution Timestamp:
+---
 
-```text
-2026-06-17 15:44:04
+## 8. Example Relationship Output
 ```
-
-Overall Status:
-
-```text
-SUCCESS
-```
-
-Workflow:
-
-```text
-[1/8] File Received
-      → resume.pdf received
-
-[2/8] Source Detection
-      → Detected source type: pdf
-
-[3/8] Content Extraction
-      → 4218 characters extracted
-
-[4/8] Content Understanding
-      → Detected Resume
-
-[5/8] Entity Extraction
-      → 18 entities extracted
-
-[6/8] Classification
-      → Primary Category: AI
-
-[7/8] Recommendation Generation
-      → 5 tags recommended
-
-[8/8] Intelligence Package
-      → Final intelligence package generated
+{
+    "source": "resume.pdf",
+    "target": "project.docx",
+    "relationship": "same_technology",
+    "entity": "python"
+}
 ```
 
 ---
 
-## 8. Proof of Execution
+## 9. Proof of Deterministic Execution
 
-Dataset Statistics:
+The engine uses:
+Rule-based classification
+Rule-based confidence scoring
+Rule-based relationship generation
+Rule-based evidence generation
 
-```text
-PDF Files      : 5
-DOCX Files     : 5
-TXT Files      : 5
-CSV Files      : 5
-JSON Files     : 5
+No stochastic decision-making is used.
 
-Total Inputs   : 25+
-```
+Given identical input files:
+Same entities are extracted
+Same evidence is produced
+Same classifications are generated
+Same confidence scores are assigned
+Same relationships are detected
 
-Sample Generated Files:
+Therefore execution remains deterministic and reproducible.
 
-```text
-outputs/
+## 10. Change Log
+### Test 1
+Intake Layer
+Content Understanding Layer
+Entity Extraction Layer
+Classification Layer
+Recommendation Layer
+Search Layer
+Processing Trace Layer
 
-resume.pdf_intelligence.json
+### Test 2
 
-BI_REPORT.pdf_intelligence.json
+Added:
+Entity Validation
+Evidence Engine
+Confidence Engine
+Explainable Classification
+Relationship Engine
+Search Upgrade
+Explainable Intelligence Dashboard
+Relationship Graph Generation
 
-student_marks.csv_intelligence.json
-
-forms.json_intelligence.json
-
-government_scheme_analysis.pdf_intelligence.json & 20+ more
-```
-
-Execution Command:
-
-```bash
-python app.py
-```
-
-Execution Result:
-
-```text
-SUCCESS
-
-All pipeline stages completed.
-
-Intelligence Package generated.
-
-Search & Retrieval Interface available.
-```
-
----
-## Demo Video
-
-Demo Video Link:
-
-https://www.youtube.com/watch?v=uOuFA8z2c7E
-
-Duration: 5–10 Minutes
-
-Contents:
-1. System Overview
-2. Architecture Walkthrough
-3. Processing Pipeline Demonstration
-4. Intelligence Package Generation
-5. Search & Retrieval Demonstration
-6. Review Interface Demonstration
-
-
-## Reviewer Notes
-
-The Universal Intake Intelligence Engine was designed as an explainable intelligence processing system.
-
-Every output generated by the system can be traced back through the Processing Visibility Layer, ensuring transparency, reproducibility and deterministic intelligence generation.
-
-The system supports multiple document formats and transforms unstructured information into structured intelligence packages suitable for downstream consumption by future BHIV ecosystem products.

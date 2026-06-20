@@ -182,6 +182,7 @@ The system generates intelligence packages inside the outputs directory.
 
 Example Outputs :-
 Confidence Report
+``` 
 {
     "score": 90,
     "supporting_evidence_count": 48,
@@ -189,14 +190,17 @@ Confidence Report
     "document_completeness": 0.5,
     "contradictory_evidence_count": 0
 }
+```
 
 Relationship Graph (check outputs/relationship_graph.json)
+```
 {
     "source": "resume.pdf",
     "target": "project.docx",
     "relationship": "same_technology",
     "entity": "python"
 }
+```
 
 ## Future Enhancements
 Web Dashboard

@@ -58,6 +58,538 @@
         "emails": [],
         "phone_numbers": []
     },
+    "rejected_entities": [
+        {
+            "entity": "marijuana legalization",
+            "entity_type": "PERSON",
+            "reason": "Improper capitalization"
+        },
+        {
+            "entity": "gases--",
+            "entity_type": "ORG",
+            "reason": "Contains invalid punctuation pattern"
+        },
+        {
+            "entity": "emissions--",
+            "entity_type": "GPE",
+            "reason": "Contains invalid punctuation pattern"
+        },
+        {
+            "entity": "12-1146",
+            "entity_type": "dates",
+            "reason": "Document reference number"
+        },
+        {
+            "entity": "12-1248",
+            "entity_type": "dates",
+            "reason": "Document reference number"
+        },
+        {
+            "entity": "12-1254",
+            "entity_type": "dates",
+            "reason": "Document reference number"
+        },
+        {
+            "entity": "12-1268",
+            "entity_type": "dates",
+            "reason": "Document reference number"
+        },
+        {
+            "entity": "12-1269",
+            "entity_type": "dates",
+            "reason": "Document reference number"
+        },
+        {
+            "entity": "12-1272",
+            "entity_type": "dates",
+            "reason": "Document reference number"
+        }
+    ],
+    "evidence_report": {
+        "Anthony Kennedy": [
+            {
+                "paragraph": 1,
+                "sentence": "\"So if your side can't even come to one interpretation, why shouldn't we defer to the agency?\" But Justice Anthony Kennedy, who could prove the court's decisive fifth vote, bluntly addressed U.S.",
+                "keywords": [
+                    "Anthony Kennedy"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            }
+        ],
+        "Barack Obama": [
+            {
+                "paragraph": 1,
+                "sentence": "In the larger political sphere, this issue could be major test of executive authority, with many conservative groups painting President Barack Obama as misusing his power and ignoring the will of the legislature.",
+                "keywords": [
+                    "Barack Obama"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            }
+        ],
+        "Donald Verrilli": [
+            {
+                "paragraph": 1,
+                "sentence": "Solicitor General Donald Verrilli.",
+                "keywords": [
+                    "Donald Verrilli"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            }
+        ],
+        "Elena Kagan": [
+            {
+                "paragraph": 1,
+                "sentence": "Justice Elena Kagan, the most vocal backer of the administration, said the Clean Air Act was originally passed and amended before a clear understanding of the effect greenhouses gases were having on the planet.",
+                "keywords": [
+                    "Elena Kagan"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            }
+        ],
+        "John Roberts": [
+            {
+                "paragraph": 1,
+                "sentence": "\"Could it do this for another pollutant, something other than any of the greenhouse gases?\" After Kennedy and Chief Justice John Roberts pressed the point, Verrilli suggested the EPA could broaden its discretionary authority, absent a specific congressional mandate.",
+                "keywords": [
+                    "John Roberts"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            }
+        ],
+        "Peter Keisler": [
+            {
+                "paragraph": 1,
+                "sentence": "\"We have to think about it, along the parameter of separation of powers and whether the way in which the agency has perceived it here has arrogated an exceptional and troubling degree of discretion to design its own climate change program,\" Peter Keisler, the attorney representing the private groups bringing suit, told the court.",
+                "keywords": [
+                    "Peter Keisler"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            }
+        ],
+        "Samuel Alito": [
+            {
+                "paragraph": 1,
+                "sentence": "\"Are greenhouse gases the only air pollutant for which EPA has the authority to change the statutory thresholds?\" asked Justice Samuel Alito.",
+                "keywords": [
+                    "Samuel Alito"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            }
+        ],
+        "Sonia Sotomayor": [
+            {
+                "paragraph": 1,
+                "sentence": "Justice Sonia Sotomayor said the half-dozen parties opposing the EPA cannot even agree on defining an \"air pollutant\" for regulatory purposes .",
+                "keywords": [
+                    "Sonia Sotomayor"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            }
+        ],
+        "American Chemistry Council": [
+            {
+                "paragraph": 1,
+                "sentence": "EPA (12-1254); American Chemistry Council v.",
+                "keywords": [
+                    "American Chemistry Council"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            }
+        ],
+        "CNN": [
+            {
+                "paragraph": 1,
+                "sentence": "(CNN) -- The Supreme Court tried mightily to wade through a cloud of bureaucratic regulations Monday over setting clear air standards, a high-stakes environmental and economic fight pitting the Obama administration against a coalition of states and utilities.",
+                "keywords": [
+                    "CNN"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            }
+        ],
+        "Capitol Hill": [
+            {
+                "paragraph": 1,
+                "sentence": "The White House said ongoing stalemates on Capitol Hill prompted the President to act.",
+                "keywords": [
+                    "Capitol Hill"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            }
+        ],
+        "Chamber of Commerce": [
+            {
+                "paragraph": 1,
+                "sentence": "Many business groups hope the conservative majority will limit the reach of government in this and a range of regulatory areas, which the Chamber of Commerce and others say is hurting the economy and stifling innovation.",
+                "keywords": [
+                    "Chamber of Commerce"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            },
+            {
+                "paragraph": 1,
+                "sentence": "The cases argued Monday are Chamber of Commerce of the United States v.",
+                "keywords": [
+                    "Chamber of Commerce"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            }
+        ],
+        "Congress": [
+            {
+                "paragraph": 1,
+                "sentence": "Republicans in Congress and their allies have expressed similar concerns over discretionary executive branch changes and delays in implementing the Obamacare health reform law, a tepid federal response to recent state marijuana legalization, and a refusal to defend a law that did not recognize legally-married same-sex couples for federal purposes.",
+                "keywords": [
+                    "Congress"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            },
+            {
+                "paragraph": 1,
+                "sentence": "Defining \"air pollutant\" within the context of greenhouse gases -- and the ability of the EPA to exercise its rulemaking authority absent what it says was a clear congressional mandate -- took up much of the courtroom debate.",
+                "keywords": [
+                    "Congress"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            },
+            {
+                "paragraph": 1,
+                "sentence": "\"Could it do this for another pollutant, something other than any of the greenhouse gases?\" After Kennedy and Chief Justice John Roberts pressed the point, Verrilli suggested the EPA could broaden its discretionary authority, absent a specific congressional mandate.",
+                "keywords": [
+                    "Congress"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            }
+        ],
+        "Defense of Marriage Act": [
+            {
+                "paragraph": 1,
+                "sentence": "The high court last summer struck down that provision in the federal Defense of Marriage Act.",
+                "keywords": [
+                    "Defense of Marriage Act"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            }
+        ],
+        "EPA": [
+            {
+                "paragraph": 1,
+                "sentence": "The justices on Monday heard six separate appeals, which were consolidated into more than 100 minutes of often dense oral arguments.",
+                "keywords": [
+                    "EPA"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            },
+            {
+                "paragraph": 1,
+                "sentence": "Defining \"air pollutant\" within the context of greenhouse gases -- and the ability of the EPA to exercise its rulemaking authority absent what it says was a clear congressional mandate -- took up much of the courtroom debate.",
+                "keywords": [
+                    "EPA"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            },
+            {
+                "paragraph": 1,
+                "sentence": "Justice Sonia Sotomayor said the half-dozen parties opposing the EPA cannot even agree on defining an \"air pollutant\" for regulatory purposes .",
+                "keywords": [
+                    "EPA"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            },
+            {
+                "paragraph": 1,
+                "sentence": "\"That to me is the quintessential ambiguity in a statute where we give deference to the\" EPA, said Sotomayor.",
+                "keywords": [
+                    "EPA"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            },
+            {
+                "paragraph": 1,
+                "sentence": "The justices had previously rejected three other related appeals, including one from Virginia -- broader challenges to the EPA's power over carbon emissions.",
+                "keywords": [
+                    "EPA"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            },
+            {
+                "paragraph": 1,
+                "sentence": "\"We have to think about it, along the parameter of separation of powers and whether the way in which the agency has perceived it here has arrogated an exceptional and troubling degree of discretion to design its own climate change program,\" Peter Keisler, the attorney representing the private groups bringing suit, told the court.",
+                "keywords": [
+                    "EPA"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            },
+            {
+                "paragraph": 1,
+                "sentence": "She said the EPA made a careful determination that they were different from pollution sources that cause breathing and other health problems, such as smog, and could apply different monitoring standards.",
+                "keywords": [
+                    "EPA"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            },
+            {
+                "paragraph": 1,
+                "sentence": "\"It's the gravest environmental problem that we face now as far as EPA's judgment, and it is one that gets worse with the passage of time,\" he said.",
+                "keywords": [
+                    "EPA"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            },
+            {
+                "paragraph": 1,
+                "sentence": "\"Are greenhouse gases the only air pollutant for which EPA has the authority to change the statutory thresholds?\" asked Justice Samuel Alito.",
+                "keywords": [
+                    "EPA"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            },
+            {
+                "paragraph": 1,
+                "sentence": "\"Could it do this for another pollutant, something other than any of the greenhouse gases?\" After Kennedy and Chief Justice John Roberts pressed the point, Verrilli suggested the EPA could broaden its discretionary authority, absent a specific congressional mandate.",
+                "keywords": [
+                    "EPA"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            },
+            {
+                "paragraph": 1,
+                "sentence": "The justices in December heard arguments over the EPA's ability to measure emissions from an upwind state that is polluting a downwind state, requiring upwind states to pay for greenhouse gas reductions.",
+                "keywords": [
+                    "EPA"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            },
+            {
+                "paragraph": 1,
+                "sentence": "EPA (12-1272); Texas v.",
+                "keywords": [
+                    "EPA"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            },
+            {
+                "paragraph": 1,
+                "sentence": "EPA (12-1269); Southeastern Legal Foundation v.",
+                "keywords": [
+                    "EPA"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            },
+            {
+                "paragraph": 1,
+                "sentence": "EPA (12-1268); Energy-Intensive Manufacturers Working Group on Greenhouse Gas Regulation v.",
+                "keywords": [
+                    "EPA"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            },
+            {
+                "paragraph": 1,
+                "sentence": "EPA (12-1254); American Chemistry Council v.",
+                "keywords": [
+                    "EPA"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            },
+            {
+                "paragraph": 1,
+                "sentence": "EPA (12-1248); and Utility Air Regulatory Group v.",
+                "keywords": [
+                    "EPA"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            },
+            {
+                "paragraph": 1,
+                "sentence": "EPA (12-1146).",
+                "keywords": [
+                    "EPA"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            }
+        ],
+        "Energy-Intensive Manufacturers Working Group on Greenhouse Gas Regulation": [
+            {
+                "paragraph": 1,
+                "sentence": "EPA (12-1268); Energy-Intensive Manufacturers Working Group on Greenhouse Gas Regulation v.",
+                "keywords": [
+                    "Energy-Intensive Manufacturers Working Group on Greenhouse Gas Regulation"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            }
+        ],
+        "Environmental Protection Agency": [
+            {
+                "paragraph": 1,
+                "sentence": "At issue is narrow, but potentially far-reaching -- whether the Environmental Protection Agency can tighten emissions standards for \"stationary\" greenhouse gas sources, such as power plants, in what the administration says is an effort to stem the effects of climate change and global warming.",
+                "keywords": [
+                    "Environmental Protection Agency"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            }
+        ],
+        "Southeastern Legal Foundation": [
+            {
+                "paragraph": 1,
+                "sentence": "EPA (12-1269); Southeastern Legal Foundation v.",
+                "keywords": [
+                    "Southeastern Legal Foundation"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            }
+        ],
+        "Supreme Court": [
+            {
+                "paragraph": 1,
+                "sentence": "(CNN) -- The Supreme Court tried mightily to wade through a cloud of bureaucratic regulations Monday over setting clear air standards, a high-stakes environmental and economic fight pitting the Obama administration against a coalition of states and utilities.",
+                "keywords": [
+                    "Supreme Court"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            },
+            {
+                "paragraph": 1,
+                "sentence": "The Supreme Court, in 2007, affirmed the conclusions by much of the scientific community that greenhouse gases-- including carbon dioxide, methane and nitrous oxide emissions-- are an air pollutant, but that case dealt with emissions from motor vehicles.",
+                "keywords": [
+                    "Supreme Court"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            },
+            {
+                "paragraph": 1,
+                "sentence": "Some progressive groups worry the conservative majority Supreme Court has been overly friendly to corporate interests in recent years, and could rule in this case against the administration.",
+                "keywords": [
+                    "Supreme Court"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            }
+        ],
+        "U.S. Solicitor": [],
+        "Utility Air Regulatory Group": [
+            {
+                "paragraph": 1,
+                "sentence": "EPA (12-1248); and Utility Air Regulatory Group v.",
+                "keywords": [
+                    "Utility Air Regulatory Group"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            }
+        ],
+        "White House": [
+            {
+                "paragraph": 1,
+                "sentence": "The White House said ongoing stalemates on Capitol Hill prompted the President to act.",
+                "keywords": [
+                    "White House"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            },
+            {
+                "paragraph": 1,
+                "sentence": "A coalition of 15 states backs the White House.",
+                "keywords": [
+                    "White House"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            }
+        ],
+        "Texas": [
+            {
+                "paragraph": 1,
+                "sentence": "Texas and 16 other the states in the South and Midwest were among the parties whose cases are under review by the high court.",
+                "keywords": [
+                    "Texas"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            },
+            {
+                "paragraph": 1,
+                "sentence": "EPA (12-1272); Texas v.",
+                "keywords": [
+                    "Texas"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            }
+        ],
+        "Virginia": [
+            {
+                "paragraph": 1,
+                "sentence": "The justices had previously rejected three other related appeals, including one from Virginia -- broader challenges to the EPA's power over carbon emissions.",
+                "keywords": [
+                    "Virginia"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            }
+        ],
+        "the United States": [
+            {
+                "paragraph": 1,
+                "sentence": "The cases argued Monday are Chamber of Commerce of the United States v.",
+                "keywords": [
+                    "the United States"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            }
+        ],
+        "2007": [
+            {
+                "paragraph": 1,
+                "sentence": "The Supreme Court, in 2007, affirmed the conclusions by much of the scientific community that greenhouse gases-- including carbon dioxide, methane and nitrous oxide emissions-- are an air pollutant, but that case dealt with emissions from motor vehicles.",
+                "keywords": [
+                    "2007"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            }
+        ]
+    },
     "classification": {
         "primary_category": "Governance",
         "secondary_category": "Healthcare",
@@ -66,7 +598,24 @@
             "government",
             "administration"
         ],
-        "classification_explanation": "Detected keywords: government, administration"
+        "evidence_used": [],
+        "rejected_categories": {
+            "Healthcare": "Only 1 supporting keyword(s) found",
+            "Infrastructure": "Only 1 supporting keyword(s) found",
+            "AI": "No supporting keywords found",
+            "Education": "No supporting keywords found",
+            "Agriculture": "No supporting keywords found",
+            "Marine": "No supporting keywords found"
+        },
+        "classification_explanation": "Governance selected because it contains 2 supporting keyword(s): government, administration"
+    },
+    "confidence": {
+        "score": 90,
+        "supporting_evidence_count": 48,
+        "validated_entity_count": 26,
+        "document_completeness": 0.5,
+        "contradictory_evidence_count": 0,
+        "explanation": "Confidence derived from 48 supporting evidences, 26 validated entities, and document completeness of 50%."
     },
     "recommendations": {
         "related_domains": [
@@ -91,7 +640,7 @@
         "intelligence_summary": "This document primarily belongs to the Governance domain. It is strongly associated with Public Administration, Citizen Services. The extracted intelligence can be used for classification, search, and knowledge management purposes. Additional recommendations have been generated to enrich future analysis."
     },
     "processing_trace": {
-        "execution_timestamp": "2026-06-19 16:01:44",
+        "execution_timestamp": "2026-06-20 11:50:00",
         "overall_status": "SUCCESS",
         "processing_trace": [
             {
@@ -144,12 +693,15 @@
         "document_type": "Research Paper",
         "primary_category": "Governance",
         "secondary_category": "Healthcare",
-        "confidence_score": 0.33,
+        "classification_confidence": 0.33,
+        "overall_confidence": 90,
         "recommended_tags": [
             "governance",
             "public-services",
             "government"
         ],
-        "entity_count": 26
+        "entity_count": 26,
+        "rejected_entity_count": 9,
+        "evidence_count": 48
     }
 }

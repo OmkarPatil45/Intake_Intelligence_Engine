@@ -20,24 +20,60 @@
         "names": [
             "Student_ID"
         ],
-        "organizations": [
-            "S002",
-            "S038"
-        ],
+        "organizations": [],
         "technologies": [],
         "skills": [],
         "locations": [
             "NaN"
         ],
-        "dates": [
-            "44",
-            "49",
-            "70",
-            "76",
-            "S046"
-        ],
+        "dates": [],
         "emails": [],
         "phone_numbers": []
+    },
+    "rejected_entities": [
+        {
+            "entity": "S002",
+            "entity_type": "ORG",
+            "reason": "Insufficient alphabetic content"
+        },
+        {
+            "entity": "S038",
+            "entity_type": "ORG",
+            "reason": "Insufficient alphabetic content"
+        }
+    ],
+    "evidence_report": {
+        "Student_ID": [
+            {
+                "paragraph": 1,
+                "sentence": "Student_ID  Maths  Stats  Physics  Chemistry  Biology",
+                "keywords": [
+                    "Student_ID"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            }
+        ],
+        "NaN": [
+            {
+                "paragraph": 5,
+                "sentence": "S004     23     55     90.0         81      NaN",
+                "keywords": [
+                    "NaN"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            },
+            {
+                "paragraph": 49,
+                "sentence": "S048     89      8      NaN         98     49.0",
+                "keywords": [
+                    "NaN"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            }
+        ]
     },
     "classification": {
         "primary_category": "Education",
@@ -46,7 +82,24 @@
         "matched_keywords": [
             "student"
         ],
-        "classification_explanation": "Detected keywords: student"
+        "evidence_used": [],
+        "rejected_categories": {
+            "AI": "No supporting keywords found",
+            "Healthcare": "No supporting keywords found",
+            "Agriculture": "No supporting keywords found",
+            "Governance": "No supporting keywords found",
+            "Infrastructure": "No supporting keywords found",
+            "Marine": "No supporting keywords found"
+        },
+        "classification_explanation": "Education selected because it contains 1 supporting keyword(s): student"
+    },
+    "confidence": {
+        "score": 24,
+        "supporting_evidence_count": 3,
+        "validated_entity_count": 2,
+        "document_completeness": 0.25,
+        "contradictory_evidence_count": 0,
+        "explanation": "Confidence derived from 3 supporting evidences, 2 validated entities, and document completeness of 25%."
     },
     "recommendations": {
         "related_domains": [
@@ -72,7 +125,7 @@
         "intelligence_summary": "This document primarily belongs to the Education domain. It is strongly associated with E-Learning, Student Analytics. The extracted intelligence can be used for classification, search, and knowledge management purposes. Additional recommendations have been generated to enrich future analysis."
     },
     "processing_trace": {
-        "execution_timestamp": "2026-06-18 11:26:36",
+        "execution_timestamp": "2026-06-20 12:02:44",
         "overall_status": "SUCCESS",
         "processing_trace": [
             {
@@ -97,11 +150,23 @@
             },
             {
                 "step": "Entity Extraction",
-                "details": "9 entities extracted"
+                "details": "2 entities extracted"
+            },
+            {
+                "step": "Entity Validation",
+                "details": "2 validated, 2 rejected"
+            },
+            {
+                "step": "Evidence Generation",
+                "details": "2 evidence records generated"
             },
             {
                 "step": "Classification",
                 "details": "Primary Category: Education"
+            },
+            {
+                "step": "Confidence Scoring",
+                "details": "Confidence Score: 24"
             },
             {
                 "step": "Recommendation Generation",
@@ -117,13 +182,16 @@
         "document_type": "Unknown",
         "primary_category": "Education",
         "secondary_category": "AI",
-        "confidence_score": 0.12,
+        "classification_confidence": 0.12,
+        "overall_confidence": 24,
         "recommended_tags": [
             "education",
             "learning",
             "students",
             "academic"
         ],
-        "entity_count": 9
+        "entity_count": 2,
+        "rejected_entity_count": 2,
+        "evidence_count": 3
     }
 }

@@ -24,7 +24,6 @@
         "names": [
             "Bookmark",
             "Docker",
-            "JSON",
             "Node",
             "OpenAI",
             "Postman",
@@ -36,9 +35,7 @@
             "Tara",
             "Tick",
             "Tools",
-            "Vercel",
-            "git config",
-            "git config --global user.email"
+            "Vercel"
         ],
         "organizations": [
             "API",
@@ -55,6 +52,7 @@
             "Local Postgres",
             "Mastra",
             "Mastra Project Setup",
+            "Mastra SDK",
             "Model Provider Account & API Key\nYou",
             "NAV",
             "POST",
@@ -62,6 +60,7 @@
             "Prettier",
             "Provue",
             "Provue Engineering Take-Home",
+            "Provue Engineering Take-Home: Build a Finance-Research",
             "Railway",
             "Railway Postgres",
             "SQL",
@@ -74,14 +73,9 @@
             "UPI/NEFT memos",
             "Windows Terminal",
             "Workflows",
-            "iTerm2",
-            "node --version npm --version",
-            "the Mastra SDK",
-            "the Provue Engineering Take-Home",
-            "the Provue Engineering Take-Home: Build a Finance-Research"
+            "iTerm2"
         ],
         "technologies": [
-            "c",
             "express",
             "git",
             "github",
@@ -91,7 +85,6 @@
             "typescript"
         ],
         "skills": [
-            "c",
             "express",
             "git",
             "github",
@@ -108,17 +101,2489 @@
             "Railway",
             "transactions.json  + funds.json  + \nholdings.json"
         ],
-        "dates": [
-            "14",
-            "14+",
-            "9+",
-            "monthly",
-            "postgresql-16"
-        ],
+        "dates": [],
         "emails": [
             "you@example.com"
         ],
         "phone_numbers": []
+    },
+    "rejected_entities": [
+        {
+            "entity": "JSON",
+            "entity_type": "PERSON",
+            "reason": "Generic operational term"
+        },
+        {
+            "entity": "git config",
+            "entity_type": "PERSON",
+            "reason": "Improper capitalization"
+        },
+        {
+            "entity": "git config --global user.email",
+            "entity_type": "PERSON",
+            "reason": "Contains invalid punctuation pattern"
+        },
+        {
+            "entity": "node --version npm --version",
+            "entity_type": "ORG",
+            "reason": "Contains invalid punctuation pattern"
+        },
+        {
+            "entity": "c",
+            "entity_type": "technologies",
+            "reason": "Entity too short"
+        },
+        {
+            "entity": "c",
+            "entity_type": "skills",
+            "reason": "Entity too short"
+        }
+    ],
+    "evidence_report": {
+        "Bookmark": [
+            {
+                "paragraph": 37,
+                "sentence": "Bookmark the docs you will actually need during the build:",
+                "keywords": [
+                    "Bookmark"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            }
+        ],
+        "Docker": [
+            {
+                "paragraph": 63,
+                "sentence": "Docker (fastest):",
+                "keywords": [
+                    "Docker"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            },
+            {
+                "paragraph": 64,
+                "sentence": "docker run -d --name provue-pg -p 5432:5432 -e POSTGRES_PASSWORD=postgres postgres:16",
+                "keywords": [
+                    "Docker"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            }
+        ],
+        "Node": [
+            {
+                "paragraph": 9,
+                "sentence": "Node.js and TypeScript",
+                "keywords": [
+                    "Node"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            },
+            {
+                "paragraph": 10,
+                "sentence": "Install Node.js",
+                "keywords": [
+                    "Node"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            },
+            {
+                "paragraph": 14,
+                "sentence": "works on your machine before the clock starts.Install Node.js v18 or newer  (LTS recommended) from https://nodejs.org/",
+                "keywords": [
+                    "Node"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            },
+            {
+                "paragraph": 16,
+                "sentence": "node --version npm --version",
+                "keywords": [
+                    "Node"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            },
+            {
+                "paragraph": 17,
+                "sentence": "You should see Node 18+ and npm 9+ printed",
+                "keywords": [
+                    "Node"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            },
+            {
+                "paragraph": 86,
+                "sentence": "Add a .gitignore  that excludes node_modules/ , .env, dist/, and any cached LLM logs",
+                "keywords": [
+                    "Node"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            },
+            {
+                "paragraph": 97,
+                "sentence": "Free tier or trial credits cover both a small Node service  and a small Postgres database .",
+                "keywords": [
+                    "Node"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            },
+            {
+                "paragraph": 100,
+                "sentence": "You have run a \"hello world\" Node deploy on this platform at least once before",
+                "keywords": [
+                    "Node"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            },
+            {
+                "paragraph": 151,
+                "sentence": "You can deploy a \"hello world\" Node service to your chosen platform and hit it from your browser",
+                "keywords": [
+                    "Node"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            },
+            {
+                "paragraph": 162,
+                "sentence": "Reach out before the clock starts \u2014 debugging Node or",
+                "keywords": [
+                    "Node"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            }
+        ],
+        "OpenAI": [
+            {
+                "paragraph": 32,
+                "sentence": "Install PostgresPick a model provider you have a key for: OpenAI , Anthropic , or Google",
+                "keywords": [
+                    "OpenAI"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            },
+            {
+                "paragraph": 43,
+                "sentence": "Account created with one of: OpenAI , Anthropic , or Google AI Studio",
+                "keywords": [
+                    "OpenAI"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            },
+            {
+                "paragraph": 50,
+                "sentence": "OPENAI_API_KEY=sk-...",
+                "keywords": [
+                    "OpenAI"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            },
+            {
+                "paragraph": 50,
+                "sentence": "npx tsx -e \"console.log('key length:', process.env.OPENAI_API_KEY?.length)\"",
+                "keywords": [
+                    "OpenAI"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            }
+        ],
+        "Postman": [
+            {
+                "paragraph": 112,
+                "sentence": "A way to send POST /ask  requests: curl, Postman , or the REST Client extension",
+                "keywords": [
+                    "Postman"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            }
+        ],
+        "Prisma": [
+            {
+                "paragraph": 73,
+                "sentence": "Decide upfront how you'll talk to Postgres: raw SQL  (pg), Drizzle , Prisma , Knex , or similar.",
+                "keywords": [
+                    "Prisma"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            }
+        ],
+        "Quickstart": [
+            {
+                "paragraph": 38,
+                "sentence": "Quickstart",
+                "keywords": [
+                    "Quickstart"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            }
+        ],
+        "Render": [
+            {
+                "paragraph": 77,
+                "sentence": "Pick a free-tier hosted Postgres for the deployed service: Neon , Supabase , Render Postgres , or",
+                "keywords": [
+                    "Render"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            },
+            {
+                "paragraph": 95,
+                "sentence": "your tools.Account on one of: Render , Railway , Fly.io , Vercel  (paired with hosted Postgres), Heroku , or your",
+                "keywords": [
+                    "Render"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            },
+            {
+                "paragraph": 98,
+                "sentence": "Render and Railway bundle both; Vercel needs a separate Postgres (Neon/Supabase).",
+                "keywords": [
+                    "Render"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            }
+        ],
+        "Setup Checklist": [
+            {
+                "paragraph": 2,
+                "sentence": "Pre-requisites Setup Checklist",
+                "keywords": [
+                    "Setup Checklist"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            },
+            {
+                "paragraph": 8,
+                "sentence": "\ud83d\udccb Setup Checklist",
+                "keywords": [
+                    "Setup Checklist"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            },
+            {
+                "paragraph": 25,
+                "sentence": "Provue Engineering Take-Home \u2014 Pre-requisites Setup Checklist 1",
+                "keywords": [
+                    "Setup Checklist"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            },
+            {
+                "paragraph": 56,
+                "sentence": "Provue Engineering Take-Home \u2014 Pre-requisites Setup Checklist 2",
+                "keywords": [
+                    "Setup Checklist"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            },
+            {
+                "paragraph": 87,
+                "sentence": "Provue Engineering Take-Home \u2014 Pre-requisites Setup Checklist 3",
+                "keywords": [
+                    "Setup Checklist"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            },
+            {
+                "paragraph": 121,
+                "sentence": "Provue Engineering Take-Home \u2014 Pre-requisites Setup Checklist 4",
+                "keywords": [
+                    "Setup Checklist"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            },
+            {
+                "paragraph": 158,
+                "sentence": "Provue Engineering Take-Home \u2014 Pre-requisites Setup Checklist 5",
+                "keywords": [
+                    "Setup Checklist"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            },
+            {
+                "paragraph": 164,
+                "sentence": "Setup Checklist \u2014 for the Provue Engineering Take-Home: Build a Finance-Research Agent.You have skimmed DESIGN.md  expectations \u2014 schema, indexes, formulas for spend, net spend,",
+                "keywords": [
+                    "Setup Checklist"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            },
+            {
+                "paragraph": 177,
+                "sentence": "Provue Engineering Take-Home \u2014 Pre-requisites Setup Checklist 6",
+                "keywords": [
+                    "Setup Checklist"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            }
+        ],
+        "Stuck": [
+            {
+                "paragraph": 160,
+                "sentence": "\ud83d\udcde Stuck?",
+                "keywords": [
+                    "Stuck"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            }
+        ],
+        "Tara": [
+            {
+                "paragraph": 3,
+                "sentence": "This checklist gets your environment ready to build Tara, the finance-research persona described in",
+                "keywords": [
+                    "Tara"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            },
+            {
+                "paragraph": 68,
+                "sentence": "createdb provue_tara # or, via psql: # psql -U postgres -c \"CREATE DATABASE provue_tara;\"",
+                "keywords": [
+                    "Tara"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            },
+            {
+                "paragraph": 70,
+                "sentence": "DATABASE_URL=postgres://postgres:postgres@localhost:5432/provue_tara",
+                "keywords": [
+                    "Tara"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            },
+            {
+                "paragraph": 149,
+                "sentence": "Local Postgres is running and accessible ; provue_tara  database exists and accepts a",
+                "keywords": [
+                    "Tara"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            }
+        ],
+        "Tick": [
+            {
+                "paragraph": 7,
+                "sentence": "Tick every item below before opening the assignment document.",
+                "keywords": [
+                    "Tick"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            }
+        ],
+        "Tools": [
+            {
+                "paragraph": 5,
+                "sentence": "the 8\u201310 hour budget should go into schema, tools, agent, and orchestration, not into installing",
+                "keywords": [
+                    "Tools"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            },
+            {
+                "paragraph": 23,
+                "sentence": "During the wizard, select at minimum: Agents  and Tools  (Workflows is optional for this",
+                "keywords": [
+                    "Tools"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            },
+            {
+                "paragraph": 29,
+                "sentence": "The assignment uses Postgres as the storage layer behind your tools.",
+                "keywords": [
+                    "Tools"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            },
+            {
+                "paragraph": 30,
+                "sentence": "seed data only \u2014 your ingest script will populate Postgres, and your tools will query Postgres at",
+                "keywords": [
+                    "Tools"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            },
+            {
+                "paragraph": 71,
+                "sentence": "Confirm a client tool can connect: psql (CLI), pgAdmin , DBeaver , or the VS Code SQLTools",
+                "keywords": [
+                    "Tools"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            },
+            {
+                "paragraph": 95,
+                "sentence": "your tools.Account on one of: Render , Railway , Fly.io , Vercel  (paired with hosted Postgres), Heroku , or your",
+                "keywords": [
+                    "Tools"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            },
+            {
+                "paragraph": 110,
+                "sentence": "SQLTools or PostgreSQL \u2014 for inspecting tables and running queries from the editor",
+                "keywords": [
+                    "Tools"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            },
+            {
+                "paragraph": 116,
+                "sentence": "The variation is the in-band signal that your tools must",
+                "keywords": [
+                    "Tools"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            },
+            {
+                "paragraph": 140,
+                "sentence": "tools filter and group by.",
+                "keywords": [
+                    "Tools"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            },
+            {
+                "paragraph": 167,
+                "sentence": "many tools and tables you intend to build",
+                "keywords": [
+                    "Tools"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            }
+        ],
+        "Vercel": [
+            {
+                "paragraph": 95,
+                "sentence": "your tools.Account on one of: Render , Railway , Fly.io , Vercel  (paired with hosted Postgres), Heroku , or your",
+                "keywords": [
+                    "Vercel"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            },
+            {
+                "paragraph": 98,
+                "sentence": "Render and Railway bundle both; Vercel needs a separate Postgres (Neon/Supabase).",
+                "keywords": [
+                    "Vercel"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            }
+        ],
+        "API": [
+            {
+                "paragraph": 26,
+                "sentence": "Model Provider Account & API Key",
+                "keywords": [
+                    "API"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            },
+            {
+                "paragraph": 45,
+                "sentence": "API key generated and stored in a password manager (never paste in chat, never commit)",
+                "keywords": [
+                    "API"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            },
+            {
+                "paragraph": 50,
+                "sentence": "OPENAI_API_KEY=sk-...",
+                "keywords": [
+                    "API"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            },
+            {
+                "paragraph": 50,
+                "sentence": "npx tsx -e \"console.log('key length:', process.env.OPENAI_API_KEY?.length)\"",
+                "keywords": [
+                    "API"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            },
+            {
+                "paragraph": 101,
+                "sentence": "You know how to set env vars on the platform \u2014 DATABASE_URL  and your model API key both",
+                "keywords": [
+                    "API"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            },
+            {
+                "paragraph": 148,
+                "sentence": "Model API key works from a script \u2014 non-zero token count returned",
+                "keywords": [
+                    "API"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            }
+        ],
+        "CLI": [
+            {
+                "paragraph": 13,
+                "sentence": "Scaffold a fresh project to make sure the CLI",
+                "keywords": [
+                    "CLI"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            },
+            {
+                "paragraph": 35,
+                "sentence": "Open the Mastra playground in the browser (the CLI prints the URL on startup) and confirm the",
+                "keywords": [
+                    "CLI"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            },
+            {
+                "paragraph": 71,
+                "sentence": "Confirm a client tool can connect: psql (CLI), pgAdmin , DBeaver , or the VS Code SQLTools",
+                "keywords": [
+                    "CLI"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            },
+            {
+                "paragraph": 99,
+                "sentence": "Deployment CLI installed if the platform uses one ( flyctl, railway )",
+                "keywords": [
+                    "CLI"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            },
+            {
+                "paragraph": 109,
+                "sentence": "REST Client (for hitting POST /ask  while developing)",
+                "keywords": [
+                    "CLI"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            },
+            {
+                "paragraph": 112,
+                "sentence": "A way to send POST /ask  requests: curl, Postman , or the REST Client extension",
+                "keywords": [
+                    "CLI"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            },
+            {
+                "paragraph": 150,
+                "sentence": "connection from psql or a client",
+                "keywords": [
+                    "CLI"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            }
+        ],
+        "DBeaver": [
+            {
+                "paragraph": 71,
+                "sentence": "Confirm a client tool can connect: psql (CLI), pgAdmin , DBeaver , or the VS Code SQLTools",
+                "keywords": [
+                    "DBeaver"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            }
+        ],
+        "Drizzle": [
+            {
+                "paragraph": 73,
+                "sentence": "Decide upfront how you'll talk to Postgres: raw SQL  (pg), Drizzle , Prisma , Knex , or similar.",
+                "keywords": [
+                    "Drizzle"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            }
+        ],
+        "ESLint": [
+            {
+                "paragraph": 107,
+                "sentence": "ESLint",
+                "keywords": [
+                    "ESLint"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            }
+        ],
+        "Express": [
+            {
+                "paragraph": 41,
+                "sentence": "Adding Mastra to an Express server",
+                "keywords": [
+                    "Express"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            },
+            {
+                "paragraph": 138,
+                "sentence": "Express 5 : a single POST /ask  route, JSON request and response",
+                "keywords": [
+                    "Express"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            }
+        ],
+        "GROUP BY": [
+            {
+                "paragraph": 139,
+                "sentence": "SQL fundamentals : WHERE, GROUP BY , aggregates, dates, joins.",
+                "keywords": [
+                    "GROUP BY"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            },
+            {
+                "paragraph": 140,
+                "sentence": "tools filter and group by.",
+                "keywords": [
+                    "GROUP BY"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            }
+        ],
+        "GitHub": [
+            {
+                "paragraph": 60,
+                "sentence": "GitHub Repository",
+                "keywords": [
+                    "GitHub"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            },
+            {
+                "paragraph": 81,
+                "sentence": "GitHub account ready (use a professional username \u2014 recruiters see it)",
+                "keywords": [
+                    "GitHub"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            },
+            {
+                "paragraph": 84,
+                "sentence": "SSH key added to GitHub or a personal access token configured for HTTPS",
+                "keywords": [
+                    "GitHub"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            },
+            {
+                "paragraph": 153,
+                "sentence": "An empty submission repo is on GitHub with .gitignore  and a stub README.md",
+                "keywords": [
+                    "GitHub"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            },
+            {
+                "paragraph": 168,
+                "sentence": "A GitHub repo (or zip) containing your schema, ingest script, code, README.md , DESIGN.md ,",
+                "keywords": [
+                    "GitHub"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            }
+        ],
+        "INSERT": [
+            {
+                "paragraph": 75,
+                "sentence": "Practice a tiny round-trip: CREATE TABLE , INSERT, SELECT from your chosen approach.",
+                "keywords": [
+                    "INSERT"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            }
+        ],
+        "LLM": [
+            {
+                "paragraph": 86,
+                "sentence": "Add a .gitignore  that excludes node_modules/ , .env, dist/, and any cached LLM logs",
+                "keywords": [
+                    "LLM"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            },
+            {
+                "paragraph": 131,
+                "sentence": "LLM tool calling : how the model emits a tool call, how the runtime executes it, how the result is",
+                "keywords": [
+                    "LLM"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            }
+        ],
+        "LTS": [
+            {
+                "paragraph": 14,
+                "sentence": "works on your machine before the clock starts.Install Node.js v18 or newer  (LTS recommended) from https://nodejs.org/",
+                "keywords": [
+                    "LTS"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            }
+        ],
+        "Local Postgres": [
+            {
+                "paragraph": 149,
+                "sentence": "Local Postgres is running and accessible ; provue_tara  database exists and accepts a",
+                "keywords": [
+                    "Local Postgres"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            }
+        ],
+        "Mastra": [
+            {
+                "paragraph": 12,
+                "sentence": "Mastra Project Setup",
+                "keywords": [
+                    "Mastra"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            },
+            {
+                "paragraph": 13,
+                "sentence": "The assignment must be built using the Mastra SDK .",
+                "keywords": [
+                    "Mastra"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            },
+            {
+                "paragraph": 22,
+                "sentence": "npm create mastra@latest",
+                "keywords": [
+                    "Mastra"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            },
+            {
+                "paragraph": 35,
+                "sentence": "Open the Mastra playground in the browser (the CLI prints the URL on startup) and confirm the",
+                "keywords": [
+                    "Mastra"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            },
+            {
+                "paragraph": 41,
+                "sentence": "Adding Mastra to an Express server",
+                "keywords": [
+                    "Mastra"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            },
+            {
+                "paragraph": 133,
+                "sentence": "Mastra primitives : createTool , Agent, the agent loop",
+                "keywords": [
+                    "Mastra"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            },
+            {
+                "paragraph": 147,
+                "sentence": "Mastra sandbox project boots and the sample agent answers a question",
+                "keywords": [
+                    "Mastra"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            }
+        ],
+        "Mastra Project Setup": [
+            {
+                "paragraph": 12,
+                "sentence": "Mastra Project Setup",
+                "keywords": [
+                    "Mastra Project Setup"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            }
+        ],
+        "Mastra SDK": [
+            {
+                "paragraph": 13,
+                "sentence": "The assignment must be built using the Mastra SDK .",
+                "keywords": [
+                    "Mastra SDK"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            }
+        ],
+        "Model Provider Account & API Key\nYou": [],
+        "NAV": [
+            {
+                "paragraph": 142,
+                "sentence": "holdings.json , where foreign keys belong, what your fund_nav  table looks like (one row per",
+                "keywords": [
+                    "NAV"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            },
+            {
+                "paragraph": 143,
+                "sentence": "(fund_id , date) NAV point).",
+                "keywords": [
+                    "NAV"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            },
+            {
+                "paragraph": 144,
+                "sentence": "Fund vs holding return math : period return (NAV change between two dates) vs the user's",
+                "keywords": [
+                    "NAV"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            }
+        ],
+        "POST": [
+            {
+                "paragraph": 28,
+                "sentence": "Postgres 14+",
+                "keywords": [
+                    "POST"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            },
+            {
+                "paragraph": 29,
+                "sentence": "The assignment uses Postgres as the storage layer behind your tools.",
+                "keywords": [
+                    "POST"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            },
+            {
+                "paragraph": 30,
+                "sentence": "seed data only \u2014 your ingest script will populate Postgres, and your tools will query Postgres at",
+                "keywords": [
+                    "POST"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            },
+            {
+                "paragraph": 32,
+                "sentence": "Install PostgresPick a model provider you have a key for: OpenAI , Anthropic , or Google",
+                "keywords": [
+                    "POST"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            },
+            {
+                "paragraph": 53,
+                "sentence": "Install Postgres 14 or newer .",
+                "keywords": [
+                    "POST"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            },
+            {
+                "paragraph": 54,
+                "sentence": "macOS (Homebrew): brew install postgresql@16  then",
+                "keywords": [
+                    "POST"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            },
+            {
+                "paragraph": 55,
+                "sentence": "brew services start postgresql@16",
+                "keywords": [
+                    "POST"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            },
+            {
+                "paragraph": 59,
+                "sentence": "Plan for managed Postgres at deploy time",
+                "keywords": [
+                    "POST"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            },
+            {
+                "paragraph": 61,
+                "sentence": "Ubuntu/Debian: sudo apt install postgresql-16",
+                "keywords": [
+                    "POST"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            },
+            {
+                "paragraph": 62,
+                "sentence": "Windows:  the installer from postgresql.org",
+                "keywords": [
+                    "POST"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            },
+            {
+                "paragraph": 64,
+                "sentence": "docker run -d --name provue-pg -p 5432:5432 -e POSTGRES_PASSWORD=postgres postgres:16",
+                "keywords": [
+                    "POST"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            },
+            {
+                "paragraph": 66,
+                "sentence": "psql -U postgres -c 'select 1'  connects.",
+                "keywords": [
+                    "POST"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            },
+            {
+                "paragraph": 68,
+                "sentence": "createdb provue_tara # or, via psql: # psql -U postgres -c \"CREATE DATABASE provue_tara;\"",
+                "keywords": [
+                    "POST"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            },
+            {
+                "paragraph": 70,
+                "sentence": "DATABASE_URL=postgres://postgres:postgres@localhost:5432/provue_tara",
+                "keywords": [
+                    "POST"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            },
+            {
+                "paragraph": 73,
+                "sentence": "Decide upfront how you'll talk to Postgres: raw SQL  (pg), Drizzle , Prisma , Knex , or similar.",
+                "keywords": [
+                    "POST"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            },
+            {
+                "paragraph": 77,
+                "sentence": "Pick a free-tier hosted Postgres for the deployed service: Neon , Supabase , Render Postgres , or",
+                "keywords": [
+                    "POST"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            },
+            {
+                "paragraph": 78,
+                "sentence": "Railway Postgres .",
+                "keywords": [
+                    "POST"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            },
+            {
+                "paragraph": 89,
+                "sentence": "The finished service must be reachable at a public URL, with a working Postgres connection on the",
+                "keywords": [
+                    "POST"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            },
+            {
+                "paragraph": 94,
+                "sentence": "your implementation must load them into Postgres via an ingest script and query the database from",
+                "keywords": [
+                    "POST"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            },
+            {
+                "paragraph": 95,
+                "sentence": "your tools.Account on one of: Render , Railway , Fly.io , Vercel  (paired with hosted Postgres), Heroku , or your",
+                "keywords": [
+                    "POST"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            },
+            {
+                "paragraph": 97,
+                "sentence": "Free tier or trial credits cover both a small Node service  and a small Postgres database .",
+                "keywords": [
+                    "POST"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            },
+            {
+                "paragraph": 98,
+                "sentence": "Render and Railway bundle both; Vercel needs a separate Postgres (Neon/Supabase).",
+                "keywords": [
+                    "POST"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            },
+            {
+                "paragraph": 109,
+                "sentence": "REST Client (for hitting POST /ask  while developing)",
+                "keywords": [
+                    "POST"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            },
+            {
+                "paragraph": 110,
+                "sentence": "SQLTools or PostgreSQL \u2014 for inspecting tables and running queries from the editor",
+                "keywords": [
+                    "POST"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            },
+            {
+                "paragraph": 112,
+                "sentence": "A way to send POST /ask  requests: curl, Postman , or the REST Client extension",
+                "keywords": [
+                    "POST"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            },
+            {
+                "paragraph": 127,
+                "sentence": "have never seen , then hits POST /ask .",
+                "keywords": [
+                    "POST"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            },
+            {
+                "paragraph": 138,
+                "sentence": "Express 5 : a single POST /ask  route, JSON request and response",
+                "keywords": [
+                    "POST"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            },
+            {
+                "paragraph": 149,
+                "sentence": "Local Postgres is running and accessible ; provue_tara  database exists and accepts a",
+                "keywords": [
+                    "POST"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            },
+            {
+                "paragraph": 152,
+                "sentence": "You have a hosted Postgres connection string ready for the deployed environment",
+                "keywords": [
+                    "POST"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            },
+            {
+                "paragraph": 163,
+                "sentence": "Postgres installs is not what the 8\u201310 hours are for.",
+                "keywords": [
+                    "POST"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            },
+            {
+                "paragraph": 166,
+                "sentence": "You know which model provider, which deployment target (app + Postgres), and roughly how",
+                "keywords": [
+                    "POST"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            },
+            {
+                "paragraph": 170,
+                "sentence": "A public URL where POST /ask  returns { \"answer\": \"...\" }  for any question, backed by a",
+                "keywords": [
+                    "POST"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            },
+            {
+                "paragraph": 171,
+                "sentence": "deployed Postgres",
+                "keywords": [
+                    "POST"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            }
+        ],
+        "Postgres": [
+            {
+                "paragraph": 28,
+                "sentence": "Postgres 14+",
+                "keywords": [
+                    "Postgres"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            },
+            {
+                "paragraph": 29,
+                "sentence": "The assignment uses Postgres as the storage layer behind your tools.",
+                "keywords": [
+                    "Postgres"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            },
+            {
+                "paragraph": 30,
+                "sentence": "seed data only \u2014 your ingest script will populate Postgres, and your tools will query Postgres at",
+                "keywords": [
+                    "Postgres"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            },
+            {
+                "paragraph": 32,
+                "sentence": "Install PostgresPick a model provider you have a key for: OpenAI , Anthropic , or Google",
+                "keywords": [
+                    "Postgres"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            },
+            {
+                "paragraph": 53,
+                "sentence": "Install Postgres 14 or newer .",
+                "keywords": [
+                    "Postgres"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            },
+            {
+                "paragraph": 54,
+                "sentence": "macOS (Homebrew): brew install postgresql@16  then",
+                "keywords": [
+                    "Postgres"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            },
+            {
+                "paragraph": 55,
+                "sentence": "brew services start postgresql@16",
+                "keywords": [
+                    "Postgres"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            },
+            {
+                "paragraph": 59,
+                "sentence": "Plan for managed Postgres at deploy time",
+                "keywords": [
+                    "Postgres"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            },
+            {
+                "paragraph": 61,
+                "sentence": "Ubuntu/Debian: sudo apt install postgresql-16",
+                "keywords": [
+                    "Postgres"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            },
+            {
+                "paragraph": 62,
+                "sentence": "Windows:  the installer from postgresql.org",
+                "keywords": [
+                    "Postgres"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            },
+            {
+                "paragraph": 64,
+                "sentence": "docker run -d --name provue-pg -p 5432:5432 -e POSTGRES_PASSWORD=postgres postgres:16",
+                "keywords": [
+                    "Postgres"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            },
+            {
+                "paragraph": 66,
+                "sentence": "psql -U postgres -c 'select 1'  connects.",
+                "keywords": [
+                    "Postgres"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            },
+            {
+                "paragraph": 68,
+                "sentence": "createdb provue_tara # or, via psql: # psql -U postgres -c \"CREATE DATABASE provue_tara;\"",
+                "keywords": [
+                    "Postgres"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            },
+            {
+                "paragraph": 70,
+                "sentence": "DATABASE_URL=postgres://postgres:postgres@localhost:5432/provue_tara",
+                "keywords": [
+                    "Postgres"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            },
+            {
+                "paragraph": 73,
+                "sentence": "Decide upfront how you'll talk to Postgres: raw SQL  (pg), Drizzle , Prisma , Knex , or similar.",
+                "keywords": [
+                    "Postgres"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            },
+            {
+                "paragraph": 77,
+                "sentence": "Pick a free-tier hosted Postgres for the deployed service: Neon , Supabase , Render Postgres , or",
+                "keywords": [
+                    "Postgres"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            },
+            {
+                "paragraph": 78,
+                "sentence": "Railway Postgres .",
+                "keywords": [
+                    "Postgres"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            },
+            {
+                "paragraph": 89,
+                "sentence": "The finished service must be reachable at a public URL, with a working Postgres connection on the",
+                "keywords": [
+                    "Postgres"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            },
+            {
+                "paragraph": 94,
+                "sentence": "your implementation must load them into Postgres via an ingest script and query the database from",
+                "keywords": [
+                    "Postgres"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            },
+            {
+                "paragraph": 95,
+                "sentence": "your tools.Account on one of: Render , Railway , Fly.io , Vercel  (paired with hosted Postgres), Heroku , or your",
+                "keywords": [
+                    "Postgres"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            },
+            {
+                "paragraph": 97,
+                "sentence": "Free tier or trial credits cover both a small Node service  and a small Postgres database .",
+                "keywords": [
+                    "Postgres"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            },
+            {
+                "paragraph": 98,
+                "sentence": "Render and Railway bundle both; Vercel needs a separate Postgres (Neon/Supabase).",
+                "keywords": [
+                    "Postgres"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            },
+            {
+                "paragraph": 110,
+                "sentence": "SQLTools or PostgreSQL \u2014 for inspecting tables and running queries from the editor",
+                "keywords": [
+                    "Postgres"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            },
+            {
+                "paragraph": 149,
+                "sentence": "Local Postgres is running and accessible ; provue_tara  database exists and accepts a",
+                "keywords": [
+                    "Postgres"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            },
+            {
+                "paragraph": 152,
+                "sentence": "You have a hosted Postgres connection string ready for the deployed environment",
+                "keywords": [
+                    "Postgres"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            },
+            {
+                "paragraph": 163,
+                "sentence": "Postgres installs is not what the 8\u201310 hours are for.",
+                "keywords": [
+                    "Postgres"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            },
+            {
+                "paragraph": 166,
+                "sentence": "You know which model provider, which deployment target (app + Postgres), and roughly how",
+                "keywords": [
+                    "Postgres"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            },
+            {
+                "paragraph": 171,
+                "sentence": "deployed Postgres",
+                "keywords": [
+                    "Postgres"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            }
+        ],
+        "Prettier": [
+            {
+                "paragraph": 106,
+                "sentence": "Prettier \u2014 code formatter",
+                "keywords": [
+                    "Prettier"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            }
+        ],
+        "Provue": [
+            {
+                "paragraph": 1,
+                "sentence": "Provue Engineering Take-Home \u2014",
+                "keywords": [
+                    "Provue"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            },
+            {
+                "paragraph": 4,
+                "sentence": "the Provue Engineering Take-Home assignment.",
+                "keywords": [
+                    "Provue"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            },
+            {
+                "paragraph": 25,
+                "sentence": "Provue Engineering Take-Home \u2014 Pre-requisites Setup Checklist 1",
+                "keywords": [
+                    "Provue"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            },
+            {
+                "paragraph": 52,
+                "sentence": "If you cannot get a key:  mention it in your README \u2014 Provue will help unblock you",
+                "keywords": [
+                    "Provue"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            },
+            {
+                "paragraph": 56,
+                "sentence": "Provue Engineering Take-Home \u2014 Pre-requisites Setup Checklist 2",
+                "keywords": [
+                    "Provue"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            },
+            {
+                "paragraph": 64,
+                "sentence": "docker run -d --name provue-pg -p 5432:5432 -e POSTGRES_PASSWORD=postgres postgres:16",
+                "keywords": [
+                    "Provue"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            },
+            {
+                "paragraph": 68,
+                "sentence": "createdb provue_tara # or, via psql: # psql -U postgres -c \"CREATE DATABASE provue_tara;\"",
+                "keywords": [
+                    "Provue"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            },
+            {
+                "paragraph": 70,
+                "sentence": "DATABASE_URL=postgres://postgres:postgres@localhost:5432/provue_tara",
+                "keywords": [
+                    "Provue"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            },
+            {
+                "paragraph": 87,
+                "sentence": "Provue Engineering Take-Home \u2014 Pre-requisites Setup Checklist 3",
+                "keywords": [
+                    "Provue"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            },
+            {
+                "paragraph": 121,
+                "sentence": "Provue Engineering Take-Home \u2014 Pre-requisites Setup Checklist 4",
+                "keywords": [
+                    "Provue"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            },
+            {
+                "paragraph": 126,
+                "sentence": "You understand the grading model: Provue runs your ingest script against a fourth snapshot you",
+                "keywords": [
+                    "Provue"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            },
+            {
+                "paragraph": 149,
+                "sentence": "Local Postgres is running and accessible ; provue_tara  database exists and accepts a",
+                "keywords": [
+                    "Provue"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            },
+            {
+                "paragraph": 158,
+                "sentence": "Provue Engineering Take-Home \u2014 Pre-requisites Setup Checklist 5",
+                "keywords": [
+                    "Provue"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            },
+            {
+                "paragraph": 164,
+                "sentence": "Setup Checklist \u2014 for the Provue Engineering Take-Home: Build a Finance-Research Agent.You have skimmed DESIGN.md  expectations \u2014 schema, indexes, formulas for spend, net spend,",
+                "keywords": [
+                    "Provue"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            },
+            {
+                "paragraph": 177,
+                "sentence": "Provue Engineering Take-Home \u2014 Pre-requisites Setup Checklist 6",
+                "keywords": [
+                    "Provue"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            }
+        ],
+        "Provue Engineering Take-Home": [
+            {
+                "paragraph": 1,
+                "sentence": "Provue Engineering Take-Home \u2014",
+                "keywords": [
+                    "Provue Engineering Take-Home"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            },
+            {
+                "paragraph": 4,
+                "sentence": "the Provue Engineering Take-Home assignment.",
+                "keywords": [
+                    "Provue Engineering Take-Home"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            },
+            {
+                "paragraph": 25,
+                "sentence": "Provue Engineering Take-Home \u2014 Pre-requisites Setup Checklist 1",
+                "keywords": [
+                    "Provue Engineering Take-Home"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            },
+            {
+                "paragraph": 56,
+                "sentence": "Provue Engineering Take-Home \u2014 Pre-requisites Setup Checklist 2",
+                "keywords": [
+                    "Provue Engineering Take-Home"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            },
+            {
+                "paragraph": 87,
+                "sentence": "Provue Engineering Take-Home \u2014 Pre-requisites Setup Checklist 3",
+                "keywords": [
+                    "Provue Engineering Take-Home"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            },
+            {
+                "paragraph": 121,
+                "sentence": "Provue Engineering Take-Home \u2014 Pre-requisites Setup Checklist 4",
+                "keywords": [
+                    "Provue Engineering Take-Home"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            },
+            {
+                "paragraph": 158,
+                "sentence": "Provue Engineering Take-Home \u2014 Pre-requisites Setup Checklist 5",
+                "keywords": [
+                    "Provue Engineering Take-Home"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            },
+            {
+                "paragraph": 164,
+                "sentence": "Setup Checklist \u2014 for the Provue Engineering Take-Home: Build a Finance-Research Agent.You have skimmed DESIGN.md  expectations \u2014 schema, indexes, formulas for spend, net spend,",
+                "keywords": [
+                    "Provue Engineering Take-Home"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            },
+            {
+                "paragraph": 177,
+                "sentence": "Provue Engineering Take-Home \u2014 Pre-requisites Setup Checklist 6",
+                "keywords": [
+                    "Provue Engineering Take-Home"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            }
+        ],
+        "Provue Engineering Take-Home: Build a Finance-Research": [
+            {
+                "paragraph": 164,
+                "sentence": "Setup Checklist \u2014 for the Provue Engineering Take-Home: Build a Finance-Research Agent.You have skimmed DESIGN.md  expectations \u2014 schema, indexes, formulas for spend, net spend,",
+                "keywords": [
+                    "Provue Engineering Take-Home: Build a Finance-Research"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            }
+        ],
+        "Railway": [
+            {
+                "paragraph": 78,
+                "sentence": "Railway Postgres .",
+                "keywords": [
+                    "Railway"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            },
+            {
+                "paragraph": 95,
+                "sentence": "your tools.Account on one of: Render , Railway , Fly.io , Vercel  (paired with hosted Postgres), Heroku , or your",
+                "keywords": [
+                    "Railway"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            },
+            {
+                "paragraph": 98,
+                "sentence": "Render and Railway bundle both; Vercel needs a separate Postgres (Neon/Supabase).",
+                "keywords": [
+                    "Railway"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            },
+            {
+                "paragraph": 99,
+                "sentence": "Deployment CLI installed if the platform uses one ( flyctl, railway )",
+                "keywords": [
+                    "Railway"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            }
+        ],
+        "Railway Postgres": [
+            {
+                "paragraph": 78,
+                "sentence": "Railway Postgres .",
+                "keywords": [
+                    "Railway Postgres"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            }
+        ],
+        "SQL": [
+            {
+                "paragraph": 42,
+                "sentence": "Text-to-SQL template (closest example)",
+                "keywords": [
+                    "SQL"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            },
+            {
+                "paragraph": 54,
+                "sentence": "macOS (Homebrew): brew install postgresql@16  then",
+                "keywords": [
+                    "SQL"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            },
+            {
+                "paragraph": 55,
+                "sentence": "brew services start postgresql@16",
+                "keywords": [
+                    "SQL"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            },
+            {
+                "paragraph": 61,
+                "sentence": "Ubuntu/Debian: sudo apt install postgresql-16",
+                "keywords": [
+                    "SQL"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            },
+            {
+                "paragraph": 62,
+                "sentence": "Windows:  the installer from postgresql.org",
+                "keywords": [
+                    "SQL"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            },
+            {
+                "paragraph": 65,
+                "sentence": "Verify the server is up: psql --version  prints a version, and",
+                "keywords": [
+                    "SQL"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            },
+            {
+                "paragraph": 66,
+                "sentence": "psql -U postgres -c 'select 1'  connects.",
+                "keywords": [
+                    "SQL"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            },
+            {
+                "paragraph": 68,
+                "sentence": "createdb provue_tara # or, via psql: # psql -U postgres -c \"CREATE DATABASE provue_tara;\"",
+                "keywords": [
+                    "SQL"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            },
+            {
+                "paragraph": 71,
+                "sentence": "Confirm a client tool can connect: psql (CLI), pgAdmin , DBeaver , or the VS Code SQLTools",
+                "keywords": [
+                    "SQL"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            },
+            {
+                "paragraph": 73,
+                "sentence": "Decide upfront how you'll talk to Postgres: raw SQL  (pg), Drizzle , Prisma , Knex , or similar.",
+                "keywords": [
+                    "SQL"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            },
+            {
+                "paragraph": 110,
+                "sentence": "SQLTools or PostgreSQL \u2014 for inspecting tables and running queries from the editor",
+                "keywords": [
+                    "SQL"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            },
+            {
+                "paragraph": 139,
+                "sentence": "SQL fundamentals : WHERE, GROUP BY , aggregates, dates, joins.",
+                "keywords": [
+                    "SQL"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            },
+            {
+                "paragraph": 150,
+                "sentence": "connection from psql or a client",
+                "keywords": [
+                    "SQL"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            }
+        ],
+        "SSH": [
+            {
+                "paragraph": 84,
+                "sentence": "SSH key added to GitHub or a personal access token configured for HTTPS",
+                "keywords": [
+                    "SSH"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            }
+        ],
+        "Sample Data": [
+            {
+                "paragraph": 92,
+                "sentence": "Sample Data and the Ingest Step",
+                "keywords": [
+                    "Sample Data"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            }
+        ],
+        "Swiggy / Swiggy Instamart": [
+            {
+                "paragraph": 119,
+                "sentence": "(Swiggy / Swiggy Instamart  / SWIGGY*ORDER  / SWIGGY BANGALORE ), self-transfers, missing",
+                "keywords": [
+                    "Swiggy / Swiggy Instamart"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            }
+        ],
+        "Terminal.app": [
+            {
+                "paragraph": 111,
+                "sentence": "A terminal you are comfortable in (Terminal.app, iTerm2, Windows Terminal, etc.)",
+                "keywords": [
+                    "Terminal.app"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            }
+        ],
+        "TypeScript": [
+            {
+                "paragraph": 9,
+                "sentence": "Node.js and TypeScript",
+                "keywords": [
+                    "TypeScript"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            },
+            {
+                "paragraph": 11,
+                "sentence": "TypeScript runner",
+                "keywords": [
+                    "TypeScript"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            },
+            {
+                "paragraph": 18,
+                "sentence": "You will run TypeScript scripts directly with tsx.",
+                "keywords": [
+                    "TypeScript"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            },
+            {
+                "paragraph": 19,
+                "sentence": "npm install -g tsx typescript",
+                "keywords": [
+                    "TypeScript"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            },
+            {
+                "paragraph": 105,
+                "sentence": "TypeScript & JavaScript Language Features (built-in)",
+                "keywords": [
+                    "TypeScript"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            }
+        ],
+        "TypeScript & JavaScript Language Features": [
+            {
+                "paragraph": 105,
+                "sentence": "TypeScript & JavaScript Language Features (built-in)",
+                "keywords": [
+                    "TypeScript & JavaScript Language Features"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            }
+        ],
+        "UPI/NEFT memos": [
+            {
+                "paragraph": 120,
+                "sentence": "categories ( uncategorized ), noisy UPI/NEFT memos.",
+                "keywords": [
+                    "UPI/NEFT memos"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            }
+        ],
+        "Windows Terminal": [
+            {
+                "paragraph": 111,
+                "sentence": "A terminal you are comfortable in (Terminal.app, iTerm2, Windows Terminal, etc.)",
+                "keywords": [
+                    "Windows Terminal"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            }
+        ],
+        "Workflows": [
+            {
+                "paragraph": 23,
+                "sentence": "During the wizard, select at minimum: Agents  and Tools  (Workflows is optional for this",
+                "keywords": [
+                    "Workflows"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            }
+        ],
+        "iTerm2": [
+            {
+                "paragraph": 111,
+                "sentence": "A terminal you are comfortable in (Terminal.app, iTerm2, Windows Terminal, etc.)",
+                "keywords": [
+                    "iTerm2"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            }
+        ],
+        "express": [
+            {
+                "paragraph": 41,
+                "sentence": "Adding Mastra to an Express server",
+                "keywords": [
+                    "express"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            },
+            {
+                "paragraph": 138,
+                "sentence": "Express 5 : a single POST /ask  route, JSON request and response",
+                "keywords": [
+                    "express"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            }
+        ],
+        "git": [
+            {
+                "paragraph": 51,
+                "sentence": "Add the key to a local .env file (which is in .gitignore )",
+                "keywords": [
+                    "git"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            },
+            {
+                "paragraph": 60,
+                "sentence": "GitHub Repository",
+                "keywords": [
+                    "git"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            },
+            {
+                "paragraph": 81,
+                "sentence": "GitHub account ready (use a professional username \u2014 recruiters see it)",
+                "keywords": [
+                    "git"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            },
+            {
+                "paragraph": 82,
+                "sentence": "Git installed and configured:",
+                "keywords": [
+                    "git"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            },
+            {
+                "paragraph": 83,
+                "sentence": "git config --global user.name \"Your Name\" git config --global user.email \"you@example.com\"",
+                "keywords": [
+                    "git"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            },
+            {
+                "paragraph": 84,
+                "sentence": "SSH key added to GitHub or a personal access token configured for HTTPS",
+                "keywords": [
+                    "git"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            },
+            {
+                "paragraph": 86,
+                "sentence": "Add a .gitignore  that excludes node_modules/ , .env, dist/, and any cached LLM logs",
+                "keywords": [
+                    "git"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            },
+            {
+                "paragraph": 108,
+                "sentence": "GitLens",
+                "keywords": [
+                    "git"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            },
+            {
+                "paragraph": 153,
+                "sentence": "An empty submission repo is on GitHub with .gitignore  and a stub README.md",
+                "keywords": [
+                    "git"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            },
+            {
+                "paragraph": 168,
+                "sentence": "A GitHub repo (or zip) containing your schema, ingest script, code, README.md , DESIGN.md ,",
+                "keywords": [
+                    "git"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            }
+        ],
+        "github": [
+            {
+                "paragraph": 60,
+                "sentence": "GitHub Repository",
+                "keywords": [
+                    "github"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            },
+            {
+                "paragraph": 81,
+                "sentence": "GitHub account ready (use a professional username \u2014 recruiters see it)",
+                "keywords": [
+                    "github"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            },
+            {
+                "paragraph": 84,
+                "sentence": "SSH key added to GitHub or a personal access token configured for HTTPS",
+                "keywords": [
+                    "github"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            },
+            {
+                "paragraph": 153,
+                "sentence": "An empty submission repo is on GitHub with .gitignore  and a stub README.md",
+                "keywords": [
+                    "github"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            },
+            {
+                "paragraph": 168,
+                "sentence": "A GitHub repo (or zip) containing your schema, ingest script, code, README.md , DESIGN.md ,",
+                "keywords": [
+                    "github"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            }
+        ],
+        "javascript": [
+            {
+                "paragraph": 105,
+                "sentence": "TypeScript & JavaScript Language Features (built-in)",
+                "keywords": [
+                    "javascript"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            }
+        ],
+        "node.js": [
+            {
+                "paragraph": 9,
+                "sentence": "Node.js and TypeScript",
+                "keywords": [
+                    "node.js"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            },
+            {
+                "paragraph": 10,
+                "sentence": "Install Node.js",
+                "keywords": [
+                    "node.js"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            },
+            {
+                "paragraph": 14,
+                "sentence": "works on your machine before the clock starts.Install Node.js v18 or newer  (LTS recommended) from https://nodejs.org/",
+                "keywords": [
+                    "node.js"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            }
+        ],
+        "sql": [
+            {
+                "paragraph": 42,
+                "sentence": "Text-to-SQL template (closest example)",
+                "keywords": [
+                    "sql"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            },
+            {
+                "paragraph": 54,
+                "sentence": "macOS (Homebrew): brew install postgresql@16  then",
+                "keywords": [
+                    "sql"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            },
+            {
+                "paragraph": 55,
+                "sentence": "brew services start postgresql@16",
+                "keywords": [
+                    "sql"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            },
+            {
+                "paragraph": 61,
+                "sentence": "Ubuntu/Debian: sudo apt install postgresql-16",
+                "keywords": [
+                    "sql"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            },
+            {
+                "paragraph": 62,
+                "sentence": "Windows:  the installer from postgresql.org",
+                "keywords": [
+                    "sql"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            },
+            {
+                "paragraph": 65,
+                "sentence": "Verify the server is up: psql --version  prints a version, and",
+                "keywords": [
+                    "sql"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            },
+            {
+                "paragraph": 66,
+                "sentence": "psql -U postgres -c 'select 1'  connects.",
+                "keywords": [
+                    "sql"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            },
+            {
+                "paragraph": 68,
+                "sentence": "createdb provue_tara # or, via psql: # psql -U postgres -c \"CREATE DATABASE provue_tara;\"",
+                "keywords": [
+                    "sql"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            },
+            {
+                "paragraph": 71,
+                "sentence": "Confirm a client tool can connect: psql (CLI), pgAdmin , DBeaver , or the VS Code SQLTools",
+                "keywords": [
+                    "sql"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            },
+            {
+                "paragraph": 73,
+                "sentence": "Decide upfront how you'll talk to Postgres: raw SQL  (pg), Drizzle , Prisma , Knex , or similar.",
+                "keywords": [
+                    "sql"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            },
+            {
+                "paragraph": 110,
+                "sentence": "SQLTools or PostgreSQL \u2014 for inspecting tables and running queries from the editor",
+                "keywords": [
+                    "sql"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            },
+            {
+                "paragraph": 139,
+                "sentence": "SQL fundamentals : WHERE, GROUP BY , aggregates, dates, joins.",
+                "keywords": [
+                    "sql"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            },
+            {
+                "paragraph": 150,
+                "sentence": "connection from psql or a client",
+                "keywords": [
+                    "sql"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            }
+        ],
+        "typescript": [
+            {
+                "paragraph": 9,
+                "sentence": "Node.js and TypeScript",
+                "keywords": [
+                    "typescript"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            },
+            {
+                "paragraph": 11,
+                "sentence": "TypeScript runner",
+                "keywords": [
+                    "typescript"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            },
+            {
+                "paragraph": 18,
+                "sentence": "You will run TypeScript scripts directly with tsx.",
+                "keywords": [
+                    "typescript"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            },
+            {
+                "paragraph": 19,
+                "sentence": "npm install -g tsx typescript",
+                "keywords": [
+                    "typescript"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            },
+            {
+                "paragraph": 105,
+                "sentence": "TypeScript & JavaScript Language Features (built-in)",
+                "keywords": [
+                    "typescript"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            }
+        ],
+        "Cursor": [
+            {
+                "paragraph": 103,
+                "sentence": "Editor of choice installed: VS Code  or Cursor",
+                "keywords": [
+                    "Cursor"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            }
+        ],
+        "Heroku": [
+            {
+                "paragraph": 95,
+                "sentence": "your tools.Account on one of: Render , Railway , Fly.io , Vercel  (paired with hosted Postgres), Heroku , or your",
+                "keywords": [
+                    "Heroku"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            }
+        ],
+        "PostgreSQL": [
+            {
+                "paragraph": 54,
+                "sentence": "macOS (Homebrew): brew install postgresql@16  then",
+                "keywords": [
+                    "PostgreSQL"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            },
+            {
+                "paragraph": 55,
+                "sentence": "brew services start postgresql@16",
+                "keywords": [
+                    "PostgreSQL"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            },
+            {
+                "paragraph": 61,
+                "sentence": "Ubuntu/Debian: sudo apt install postgresql-16",
+                "keywords": [
+                    "PostgreSQL"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            },
+            {
+                "paragraph": 62,
+                "sentence": "Windows:  the installer from postgresql.org",
+                "keywords": [
+                    "PostgreSQL"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            },
+            {
+                "paragraph": 110,
+                "sentence": "SQLTools or PostgreSQL \u2014 for inspecting tables and running queries from the editor",
+                "keywords": [
+                    "PostgreSQL"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            }
+        ],
+        "transactions.json  + funds.json  + \nholdings.json": [],
+        "you@example.com": [
+            {
+                "paragraph": 83,
+                "sentence": "git config --global user.name \"Your Name\" git config --global user.email \"you@example.com\"",
+                "keywords": [
+                    "you@example.com"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            }
+        ]
     },
     "classification": {
         "primary_category": "AI",
@@ -128,7 +2593,24 @@
             "llm",
             "rag"
         ],
-        "classification_explanation": "Detected keywords: llm, rag"
+        "evidence_used": [],
+        "rejected_categories": {
+            "Infrastructure": "Only 1 supporting keyword(s) found",
+            "Marine": "Only 1 supporting keyword(s) found",
+            "Education": "No supporting keywords found",
+            "Healthcare": "No supporting keywords found",
+            "Agriculture": "No supporting keywords found",
+            "Governance": "No supporting keywords found"
+        },
+        "classification_explanation": "AI selected because it contains 2 supporting keyword(s): llm, rag"
+    },
+    "confidence": {
+        "score": 95,
+        "supporting_evidence_count": 258,
+        "validated_entity_count": 71,
+        "document_completeness": 0.75,
+        "contradictory_evidence_count": 0,
+        "explanation": "Confidence derived from 258 supporting evidences, 71 validated entities, and document completeness of 75%."
     },
     "recommendations": {
         "related_domains": [
@@ -157,7 +2639,7 @@
         "intelligence_summary": "This document primarily belongs to the AI domain. It is strongly associated with Machine Learning, Data Science. The extracted intelligence can be used for classification, search, and knowledge management purposes. Additional recommendations have been generated to enrich future analysis."
     },
     "processing_trace": {
-        "execution_timestamp": "2026-06-18 10:40:08",
+        "execution_timestamp": "2026-06-20 11:58:47",
         "overall_status": "SUCCESS",
         "processing_trace": [
             {
@@ -182,11 +2664,23 @@
             },
             {
                 "step": "Entity Extraction",
-                "details": "83 entities extracted"
+                "details": "71 entities extracted"
+            },
+            {
+                "step": "Entity Validation",
+                "details": "71 validated, 6 rejected"
+            },
+            {
+                "step": "Evidence Generation",
+                "details": "62 evidence records generated"
             },
             {
                 "step": "Classification",
                 "details": "Primary Category: AI"
+            },
+            {
+                "step": "Confidence Scoring",
+                "details": "Confidence Score: 95"
             },
             {
                 "step": "Recommendation Generation",
@@ -202,7 +2696,8 @@
         "document_type": "Technical Document",
         "primary_category": "AI",
         "secondary_category": "Infrastructure",
-        "confidence_score": 0.2,
+        "classification_confidence": 0.2,
+        "overall_confidence": 95,
         "recommended_tags": [
             "artificial-intelligence",
             "machine-learning",
@@ -210,6 +2705,8 @@
             "chatbot",
             "automation"
         ],
-        "entity_count": 83
+        "entity_count": 71,
+        "rejected_entity_count": 6,
+        "evidence_count": 258
     }
 }

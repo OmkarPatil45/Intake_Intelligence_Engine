@@ -93,6 +93,653 @@
         ],
         "phone_numbers": []
     },
+    "rejected_entities": [
+        {
+            "entity": "Chatbot",
+            "entity_type": "PERSON",
+            "reason": "Software concept, not a person"
+        },
+        {
+            "entity": "HTML5",
+            "entity_type": "PERSON",
+            "reason": "Technology term, not a person"
+        },
+        {
+            "entity": "Machine Learning",
+            "entity_type": "PERSON",
+            "reason": "Academic concept, not a person"
+        },
+        {
+            "entity": "React.js",
+            "entity_type": "PERSON",
+            "reason": "Frontend framework, not a person"
+        },
+        {
+            "entity": "Bootstrap",
+            "entity_type": "ORG",
+            "reason": "Technology term, not an organization"
+        },
+        {
+            "entity": "CRUD",
+            "entity_type": "ORG",
+            "reason": "Software operation pattern"
+        },
+        {
+            "entity": "CSS",
+            "entity_type": "ORG",
+            "reason": "Technology term, not an organization"
+        },
+        {
+            "entity": "Database Systems",
+            "entity_type": "ORG",
+            "reason": "Generic technical concept"
+        },
+        {
+            "entity": "HTML",
+            "entity_type": "ORG",
+            "reason": "Technology term, not an organization"
+        },
+        {
+            "entity": "JavaScript",
+            "entity_type": "ORG",
+            "reason": "Programming language, not an organization"
+        },
+        {
+            "entity": "c",
+            "entity_type": "technologies",
+            "reason": "Entity too short"
+        },
+        {
+            "entity": "c",
+            "entity_type": "skills",
+            "reason": "Entity too short"
+        },
+        {
+            "entity": "AI",
+            "entity_type": "GPE",
+            "reason": "Technology domain, not a location"
+        },
+        {
+            "entity": "C++",
+            "entity_type": "GPE",
+            "reason": "Insufficient alphabetic content"
+        },
+        {
+            "entity": "NumPy",
+            "entity_type": "GPE",
+            "reason": "Python library, not a location"
+        },
+        {
+            "entity": "Python",
+            "entity_type": "GPE",
+            "reason": "Programming language, not a location"
+        },
+        {
+            "entity": "+91 9604249736",
+            "entity_type": "phone_numbers",
+            "reason": "Insufficient alphabetic content"
+        }
+    ],
+    "evidence_report": {
+        "Developedaclient-": [
+            {
+                "paragraph": 35,
+                "sentence": "Developedaclient-",
+                "keywords": [
+                    "Developedaclient-"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            }
+        ],
+        "SAHIL SANGALE": [
+            {
+                "paragraph": 1,
+                "sentence": "SAHIL SANGALE",
+                "keywords": [
+                    "SAHIL SANGALE"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            }
+        ],
+        "Vidhyamandir Deolali Camp": [
+            {
+                "paragraph": 20,
+                "sentence": "\u2022Nutan Vidhyamandir Deolali Camp",
+                "keywords": [
+                    "Vidhyamandir Deolali Camp"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            }
+        ],
+        "CERTIFICATIONS": [
+            {
+                "paragraph": 41,
+                "sentence": "CERTIFICATIONS",
+                "keywords": [
+                    "CERTIFICATIONS"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            }
+        ],
+        "IIT": [
+            {
+                "paragraph": 43,
+                "sentence": "\u2022Web Development Cource - Apna College-Shraddha Khapra, IIT Alumni",
+                "keywords": [
+                    "IIT"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            }
+        ],
+        "ML": [
+            {
+                "paragraph": 9,
+                "sentence": "\u2022Web Technologies:HTML5, CSS3, Bootstrap, JavaScript, React.js, Node.js",
+                "keywords": [
+                    "ML"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            },
+            {
+                "paragraph": 26,
+                "sentence": "Built frontend with HTML, CSS, JavaScript, backend with Node.js/Express, and MongoDB",
+                "keywords": [
+                    "ML"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            },
+            {
+                "paragraph": 28,
+                "sentence": "seamless user experience.",
+                "keywords": [
+                    "ML"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            },
+            {
+                "paragraph": 32,
+                "sentence": "for an interactive and seamless learning experience.",
+                "keywords": [
+                    "ML"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            },
+            {
+                "paragraph": 35,
+                "sentence": "Hands-onexperiencewithHTML,CSS,andJavaScript, enhancingdevelopmentskills.",
+                "keywords": [
+                    "ML"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            },
+            {
+                "paragraph": 37,
+                "sentence": "\u2022TNS India Foundation \u2013 AI&ML",
+                "keywords": [
+                    "ML"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            },
+            {
+                "paragraph": 38,
+                "sentence": "Hands-on experience in Python, data preprocessing, and ML model development using Pandas, NumPy,",
+                "keywords": [
+                    "ML"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            }
+        ],
+        "Pandas": [
+            {
+                "paragraph": 38,
+                "sentence": "Hands-on experience in Python, data preprocessing, and ML model development using Pandas, NumPy,",
+                "keywords": [
+                    "Pandas"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            }
+        ],
+        "RAG": [
+            {
+                "paragraph": 29,
+                "sentence": "\u2022RAG-Based AI Teaching Assistant with Chatbot",
+                "keywords": [
+                    "RAG"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            },
+            {
+                "paragraph": 30,
+                "sentence": "Developed an AI teaching assistant using RAG to provide accurate, context-aware answers directly",
+                "keywords": [
+                    "RAG"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            }
+        ],
+        "SQL": [
+            {
+                "paragraph": 10,
+                "sentence": "\u2022Databases:SQL, MongoDB",
+                "keywords": [
+                    "SQL"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            }
+        ],
+        "Unsupervised Learning": [
+            {
+                "paragraph": 11,
+                "sentence": "\u2022Machine Learning:Supervised Learning, Unsupervised Learning",
+                "keywords": [
+                    "Unsupervised Learning"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            }
+        ],
+        "Web Technologies": [
+            {
+                "paragraph": 4,
+                "sentence": "\u2022Results-driven Software Developer with solid expertise in Web Technologies, Object-Oriented Program-",
+                "keywords": [
+                    "Web Technologies"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            },
+            {
+                "paragraph": 9,
+                "sentence": "\u2022Web Technologies:HTML5, CSS3, Bootstrap, JavaScript, React.js, Node.js",
+                "keywords": [
+                    "Web Technologies"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            }
+        ],
+        "\u2022NPTEL - Data Science For Engineering": [
+            {
+                "paragraph": 42,
+                "sentence": "\u2022NPTEL - Data Science For Engineering",
+                "keywords": [
+                    "\u2022NPTEL - Data Science For Engineering"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            }
+        ],
+        "\u2022TNS India Foundation": [
+            {
+                "paragraph": 37,
+                "sentence": "\u2022TNS India Foundation \u2013 AI&ML",
+                "keywords": [
+                    "\u2022TNS India Foundation"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            }
+        ],
+        "bootstrap": [
+            {
+                "paragraph": 9,
+                "sentence": "\u2022Web Technologies:HTML5, CSS3, Bootstrap, JavaScript, React.js, Node.js",
+                "keywords": [
+                    "bootstrap"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            }
+        ],
+        "css": [
+            {
+                "paragraph": 9,
+                "sentence": "\u2022Web Technologies:HTML5, CSS3, Bootstrap, JavaScript, React.js, Node.js",
+                "keywords": [
+                    "css"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            },
+            {
+                "paragraph": 26,
+                "sentence": "Built frontend with HTML, CSS, JavaScript, backend with Node.js/Express, and MongoDB",
+                "keywords": [
+                    "css"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            },
+            {
+                "paragraph": 35,
+                "sentence": "Hands-onexperiencewithHTML,CSS,andJavaScript, enhancingdevelopmentskills.",
+                "keywords": [
+                    "css"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            }
+        ],
+        "data science": [
+            {
+                "paragraph": 42,
+                "sentence": "\u2022NPTEL - Data Science For Engineering",
+                "keywords": [
+                    "data science"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            }
+        ],
+        "express": [
+            {
+                "paragraph": 26,
+                "sentence": "Built frontend with HTML, CSS, JavaScript, backend with Node.js/Express, and MongoDB",
+                "keywords": [
+                    "express"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            }
+        ],
+        "git": [
+            {
+                "paragraph": 12,
+                "sentence": "\u2022Development Tools:Git, Github, VS Code, Hoppscotch",
+                "keywords": [
+                    "git"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            }
+        ],
+        "github": [
+            {
+                "paragraph": 12,
+                "sentence": "\u2022Development Tools:Git, Github, VS Code, Hoppscotch",
+                "keywords": [
+                    "github"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            }
+        ],
+        "html": [
+            {
+                "paragraph": 9,
+                "sentence": "\u2022Web Technologies:HTML5, CSS3, Bootstrap, JavaScript, React.js, Node.js",
+                "keywords": [
+                    "html"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            },
+            {
+                "paragraph": 26,
+                "sentence": "Built frontend with HTML, CSS, JavaScript, backend with Node.js/Express, and MongoDB",
+                "keywords": [
+                    "html"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            },
+            {
+                "paragraph": 35,
+                "sentence": "Hands-onexperiencewithHTML,CSS,andJavaScript, enhancingdevelopmentskills.",
+                "keywords": [
+                    "html"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            }
+        ],
+        "javascript": [
+            {
+                "paragraph": 9,
+                "sentence": "\u2022Web Technologies:HTML5, CSS3, Bootstrap, JavaScript, React.js, Node.js",
+                "keywords": [
+                    "javascript"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            },
+            {
+                "paragraph": 26,
+                "sentence": "Built frontend with HTML, CSS, JavaScript, backend with Node.js/Express, and MongoDB",
+                "keywords": [
+                    "javascript"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            },
+            {
+                "paragraph": 35,
+                "sentence": "Hands-onexperiencewithHTML,CSS,andJavaScript, enhancingdevelopmentskills.",
+                "keywords": [
+                    "javascript"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            }
+        ],
+        "machine learning": [
+            {
+                "paragraph": 5,
+                "sentence": "ming (OOP), Database Systems, and Machine Learning.",
+                "keywords": [
+                    "machine learning"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            },
+            {
+                "paragraph": 11,
+                "sentence": "\u2022Machine Learning:Supervised Learning, Unsupervised Learning",
+                "keywords": [
+                    "machine learning"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            }
+        ],
+        "mongodb": [
+            {
+                "paragraph": 10,
+                "sentence": "\u2022Databases:SQL, MongoDB",
+                "keywords": [
+                    "mongodb"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            },
+            {
+                "paragraph": 26,
+                "sentence": "Built frontend with HTML, CSS, JavaScript, backend with Node.js/Express, and MongoDB",
+                "keywords": [
+                    "mongodb"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            }
+        ],
+        "node.js": [
+            {
+                "paragraph": 9,
+                "sentence": "\u2022Web Technologies:HTML5, CSS3, Bootstrap, JavaScript, React.js, Node.js",
+                "keywords": [
+                    "node.js"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            },
+            {
+                "paragraph": 26,
+                "sentence": "Built frontend with HTML, CSS, JavaScript, backend with Node.js/Express, and MongoDB",
+                "keywords": [
+                    "node.js"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            }
+        ],
+        "numpy": [
+            {
+                "paragraph": 38,
+                "sentence": "Hands-on experience in Python, data preprocessing, and ML model development using Pandas, NumPy,",
+                "keywords": [
+                    "numpy"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            }
+        ],
+        "pandas": [
+            {
+                "paragraph": 38,
+                "sentence": "Hands-on experience in Python, data preprocessing, and ML model development using Pandas, NumPy,",
+                "keywords": [
+                    "pandas"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            }
+        ],
+        "python": [
+            {
+                "paragraph": 8,
+                "sentence": "\u2022Programming Languages:C++, Python",
+                "keywords": [
+                    "python"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            },
+            {
+                "paragraph": 38,
+                "sentence": "Hands-on experience in Python, data preprocessing, and ML model development using Pandas, NumPy,",
+                "keywords": [
+                    "python"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            }
+        ],
+        "react": [
+            {
+                "paragraph": 9,
+                "sentence": "\u2022Web Technologies:HTML5, CSS3, Bootstrap, JavaScript, React.js, Node.js",
+                "keywords": [
+                    "react"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            }
+        ],
+        "react.js": [
+            {
+                "paragraph": 9,
+                "sentence": "\u2022Web Technologies:HTML5, CSS3, Bootstrap, JavaScript, React.js, Node.js",
+                "keywords": [
+                    "react.js"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            }
+        ],
+        "scikit-learn": [
+            {
+                "paragraph": 39,
+                "sentence": "and Scikit-learn.",
+                "keywords": [
+                    "scikit-learn"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            }
+        ],
+        "sql": [
+            {
+                "paragraph": 10,
+                "sentence": "\u2022Databases:SQL, MongoDB",
+                "keywords": [
+                    "sql"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            }
+        ],
+        "\u2022RAG": [
+            {
+                "paragraph": 29,
+                "sentence": "\u2022RAG-Based AI Teaching Assistant with Chatbot",
+                "keywords": [
+                    "\u2022RAG"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            }
+        ],
+        "March 2020": [
+            {
+                "paragraph": 21,
+                "sentence": "Senior Secondary (Class X) March 2020",
+                "keywords": [
+                    "March 2020"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            }
+        ],
+        "March 2022": [
+            {
+                "paragraph": 18,
+                "sentence": "Higher Senior Secondary (ClassXII) March 2022",
+                "keywords": [
+                    "March 2022"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            }
+        ],
+        "May 2026": [
+            {
+                "paragraph": 15,
+                "sentence": "B.E in Information Technology Nov 2022 - May 2026",
+                "keywords": [
+                    "May 2026"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            }
+        ],
+        "pesahilsangale024@gmail.com": [
+            {
+                "paragraph": 2,
+                "sentence": "/envel\u2322pesahilsangale024@gmail.com |\u2642phone+91 9604249736 |/linkedinLinkedIn",
+                "keywords": [
+                    "pesahilsangale024@gmail.com"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            }
+        ]
+    },
     "classification": {
         "primary_category": "AI",
         "secondary_category": "Education",
@@ -103,7 +750,52 @@
             "chatbot",
             "data science"
         ],
-        "classification_explanation": "Detected keywords: machine learning, rag, chatbot, data science"
+        "evidence_used": [
+            {
+                "paragraph": 5,
+                "sentence": "ming (OOP), Database Systems, and Machine Learning.",
+                "keywords": [
+                    "machine learning"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            },
+            {
+                "paragraph": 11,
+                "sentence": "\u2022Machine Learning:Supervised Learning, Unsupervised Learning",
+                "keywords": [
+                    "machine learning"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            },
+            {
+                "paragraph": 42,
+                "sentence": "\u2022NPTEL - Data Science For Engineering",
+                "keywords": [
+                    "data science"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            }
+        ],
+        "rejected_categories": {
+            "Education": "Only 3 supporting keyword(s) found",
+            "Healthcare": "No supporting keywords found",
+            "Agriculture": "No supporting keywords found",
+            "Governance": "No supporting keywords found",
+            "Infrastructure": "No supporting keywords found",
+            "Marine": "No supporting keywords found"
+        },
+        "classification_explanation": "AI selected because it contains 4 supporting keyword(s): machine learning, rag, chatbot, data science"
+    },
+    "confidence": {
+        "score": 98,
+        "supporting_evidence_count": 54,
+        "validated_entity_count": 54,
+        "document_completeness": 0.88,
+        "contradictory_evidence_count": 0,
+        "explanation": "Confidence derived from 54 supporting evidences, 54 validated entities, and document completeness of 88%."
     },
     "recommendations": {
         "related_domains": [
@@ -132,7 +824,7 @@
         "intelligence_summary": "This document primarily belongs to the AI domain. It is strongly associated with Machine Learning, Data Science. The extracted intelligence can be used for classification, search, and knowledge management purposes. Additional recommendations have been generated to enrich future analysis."
     },
     "processing_trace": {
-        "execution_timestamp": "2026-06-19 15:32:20",
+        "execution_timestamp": "2026-06-20 11:57:17",
         "overall_status": "SUCCESS",
         "processing_trace": [
             {
@@ -172,6 +864,10 @@
                 "details": "Primary Category: AI"
             },
             {
+                "step": "Confidence Scoring",
+                "details": "Confidence Score: 98"
+            },
+            {
                 "step": "Recommendation Generation",
                 "details": "5 tags recommended"
             },
@@ -185,7 +881,8 @@
         "document_type": "Resume",
         "primary_category": "AI",
         "secondary_category": "Education",
-        "confidence_score": 0.4,
+        "classification_confidence": 0.4,
+        "overall_confidence": 98,
         "recommended_tags": [
             "artificial-intelligence",
             "machine-learning",
@@ -193,6 +890,8 @@
             "chatbot",
             "automation"
         ],
-        "entity_count": 54
+        "entity_count": 54,
+        "rejected_entity_count": 17,
+        "evidence_count": 54
     }
 }

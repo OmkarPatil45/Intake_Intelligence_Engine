@@ -26,21 +26,68 @@
         "technologies": [],
         "skills": [],
         "locations": [],
-        "dates": [
-            "100 1234",
-            "1235",
-            "200 1236",
-            "250 1237"
-        ],
+        "dates": [],
         "emails": [],
         "phone_numbers": []
+    },
+    "rejected_entities": [
+        {
+            "entity": "100 1234",
+            "entity_type": "dates",
+            "reason": "Insufficient alphabetic content"
+        },
+        {
+            "entity": "1235",
+            "entity_type": "dates",
+            "reason": "Numeric token"
+        },
+        {
+            "entity": "200 1236",
+            "entity_type": "dates",
+            "reason": "Insufficient alphabetic content"
+        },
+        {
+            "entity": "250 1237",
+            "entity_type": "dates",
+            "reason": "Insufficient alphabetic content"
+        }
+    ],
+    "evidence_report": {
+        "Omkar Patil\t\t\t\t\t\t\t     \tID": [
+            {
+                "paragraph": 1,
+                "sentence": "Name: Omkar Patil\t\t\t\t\t\t\t     \tID: VU4F2223108",
+                "keywords": [
+                    "Omkar Patil\t\t\t\t\t\t\t     \tID"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            }
+        ]
     },
     "classification": {
         "primary_category": "AI",
         "secondary_category": "Education",
         "confidence_score": 0.0,
         "matched_keywords": [],
-        "classification_explanation": "Detected keywords: "
+        "evidence_used": [],
+        "rejected_categories": {
+            "Education": "No supporting keywords found",
+            "Healthcare": "No supporting keywords found",
+            "Agriculture": "No supporting keywords found",
+            "Governance": "No supporting keywords found",
+            "Infrastructure": "No supporting keywords found",
+            "Marine": "No supporting keywords found"
+        },
+        "classification_explanation": "AI selected because it contains 0 supporting keyword(s): "
+    },
+    "confidence": {
+        "score": 9,
+        "supporting_evidence_count": 1,
+        "validated_entity_count": 1,
+        "document_completeness": 0.12,
+        "contradictory_evidence_count": 0,
+        "explanation": "Confidence derived from 1 supporting evidences, 1 validated entities, and document completeness of 12%."
     },
     "recommendations": {
         "related_domains": [
@@ -69,7 +116,7 @@
         "intelligence_summary": "This document primarily belongs to the AI domain. It is strongly associated with Machine Learning, Data Science. The extracted intelligence can be used for classification, search, and knowledge management purposes. Additional recommendations have been generated to enrich future analysis."
     },
     "processing_trace": {
-        "execution_timestamp": "2026-06-18 12:00:28",
+        "execution_timestamp": "2026-06-20 12:00:18",
         "overall_status": "SUCCESS",
         "processing_trace": [
             {
@@ -94,11 +141,23 @@
             },
             {
                 "step": "Entity Extraction",
-                "details": "5 entities extracted"
+                "details": "1 entities extracted"
+            },
+            {
+                "step": "Entity Validation",
+                "details": "1 validated, 4 rejected"
+            },
+            {
+                "step": "Evidence Generation",
+                "details": "1 evidence records generated"
             },
             {
                 "step": "Classification",
                 "details": "Primary Category: AI"
+            },
+            {
+                "step": "Confidence Scoring",
+                "details": "Confidence Score: 9"
             },
             {
                 "step": "Recommendation Generation",
@@ -114,7 +173,8 @@
         "document_type": "Research Paper",
         "primary_category": "AI",
         "secondary_category": "Education",
-        "confidence_score": 0.0,
+        "classification_confidence": 0.0,
+        "overall_confidence": 9,
         "recommended_tags": [
             "artificial-intelligence",
             "machine-learning",
@@ -122,6 +182,8 @@
             "chatbot",
             "automation"
         ],
-        "entity_count": 5
+        "entity_count": 1,
+        "rejected_entity_count": 4,
+        "evidence_count": 1
     }
 }

@@ -22,20 +22,15 @@
     "entities": {
         "names": [
             "(A.Y 2024 -2025)",
-            "Algorithms",
-            "Batch",
-            "Loading",
             "Min-Max",
             "Omkar Patil  VU4F2223",
             "Swaroop Sawant",
-            "Toge",
-            "bill ing"
+            "Toge"
         ],
         "organizations": [
             "Business  Intelligence \nMini Project Report",
             "Churn",
             "Cyber Threat Intelligence",
-            "Dataset",
             "LabelEncoder",
             "Pandas  \n \n \nData  Visualization  \n \n \n \n \n\nData  Preprocessing  \n \n \n \n \n \n\n   Correlation Heatmap  \n \n \n     Input  \n \n \n \n \n     Output  \n \n\n  ROC & Precision - Recall Curve",
             "Prathamesh Thakare",
@@ -44,13 +39,10 @@
             "Random  Forest  Regressor  (Supervised  Learning",
             "Random Forest Classifier",
             "Recall \nCurve",
+            "Recall Curve",
             "Remaining  Useful  Life",
             "StandardScaler",
-            "The Random Forest Classifier",
-            "The Recall Curve",
             "XGBoost Classifier",
-            "featu",
-            "noisy data",
             "\u2022 Data",
             "\u2022 Feature"
         ],
@@ -64,12 +56,579 @@
         ],
         "locations": [],
         "dates": [
-            "2024",
-            "Monthly",
-            "monthly"
+            "2024"
         ],
         "emails": [],
         "phone_numbers": []
+    },
+    "rejected_entities": [
+        {
+            "entity": "Algorithms",
+            "entity_type": "PERSON",
+            "reason": "Generic operational term"
+        },
+        {
+            "entity": "Batch",
+            "entity_type": "PERSON",
+            "reason": "Generic operational term"
+        },
+        {
+            "entity": "Loading",
+            "entity_type": "PERSON",
+            "reason": "Generic operational term"
+        },
+        {
+            "entity": "bill ing",
+            "entity_type": "PERSON",
+            "reason": "Improper capitalization"
+        },
+        {
+            "entity": "Dataset",
+            "entity_type": "ORG",
+            "reason": "Generic operational term"
+        },
+        {
+            "entity": "Random Forest",
+            "entity_type": "ORG",
+            "reason": "Machine learning algorithm"
+        },
+        {
+            "entity": "XGBoost",
+            "entity_type": "ORG",
+            "reason": "Machine learning algorithm"
+        },
+        {
+            "entity": "featu",
+            "entity_type": "ORG",
+            "reason": "Improper organization capitalization"
+        },
+        {
+            "entity": "noisy data",
+            "entity_type": "ORG",
+            "reason": "Improper organization capitalization"
+        },
+        {
+            "entity": "ROC",
+            "entity_type": "GPE",
+            "reason": "Evaluation metric, not a location"
+        }
+    ],
+    "evidence_report": {
+        "(A.Y 2024 -2025)": [
+            {
+                "paragraph": 7,
+                "sentence": "(A.Y 2024 -2025)",
+                "keywords": [
+                    "(A.Y 2024 -2025)"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            }
+        ],
+        "Min-Max": [
+            {
+                "paragraph": 129,
+                "sentence": "\u2022 Data  preprocessing,  including  outlier  removal  and Min-Max scaling,  significantly  improved",
+                "keywords": [
+                    "Min-Max"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            }
+        ],
+        "Omkar Patil  VU4F2223": [
+            {
+                "paragraph": 13,
+                "sentence": "Omkar Patil  VU4F2223 108",
+                "keywords": [
+                    "Omkar Patil  VU4F2223"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            }
+        ],
+        "Swaroop Sawant": [
+            {
+                "paragraph": 11,
+                "sentence": "Swaroop Sawant  VU4F2223 100",
+                "keywords": [
+                    "Swaroop Sawant"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            }
+        ],
+        "Toge": [
+            {
+                "paragraph": 94,
+                "sentence": "Toge ther, these curves provide comprehensive insight into a",
+                "keywords": [
+                    "Toge"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            }
+        ],
+        "Business  Intelligence \nMini Project Report": [],
+        "Churn": [
+            {
+                "paragraph": 4,
+                "sentence": "Churn Prediction",
+                "keywords": [
+                    "Churn"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            },
+            {
+                "paragraph": 16,
+                "sentence": "\u201cChurn Prediction Using Machine Learning \u201d",
+                "keywords": [
+                    "Churn"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            },
+            {
+                "paragraph": 20,
+                "sentence": "customer churn, where users discontinue their service, resulting in significant revenue losses and",
+                "keywords": [
+                    "Churn"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            },
+            {
+                "paragraph": 22,
+                "sentence": "Traditional methods of identifying churn are reactive and heavily reliant on manual reviews or",
+                "keywords": [
+                    "Churn"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            },
+            {
+                "paragraph": 24,
+                "sentence": "timely and accurate predictions, companies struggle to intervene  effectively and reduce churn",
+                "keywords": [
+                    "Churn"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            },
+            {
+                "paragraph": 26,
+                "sentence": "This project addresses the need for a proactive, data -driven Cyber Threat Intelligence and Churn",
+                "keywords": [
+                    "Churn"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            },
+            {
+                "paragraph": 29,
+                "sentence": "accurately predict whether a customer is likely to churn.",
+                "keywords": [
+                    "Churn"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            },
+            {
+                "paragraph": 32,
+                "sentence": "service type, and support history are analyzed to uncover their  impact on customer churn.",
+                "keywords": [
+                    "Churn"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            },
+            {
+                "paragraph": 34,
+                "sentence": "predictive models that classify churn with high accuracy.",
+                "keywords": [
+                    "Churn"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            },
+            {
+                "paragraph": 36,
+                "sentence": "Visualizations, including feature importance graphs, churn distributions, and correlation",
+                "keywords": [
+                    "Churn"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            },
+            {
+                "paragraph": 39,
+                "sentence": "apply targeted strategies to reduce churn, enhance customer satisfaction, and ensure long -term",
+                "keywords": [
+                    "Churn"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            },
+            {
+                "paragraph": 43,
+                "sentence": "It seems designed to analyze or predict customer churn \u2014that is, whether a customer",
+                "keywords": [
+                    "Churn"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            },
+            {
+                "paragraph": 51,
+                "sentence": "is a churn column that indicates whether or not the custom er has left the company, which is likely",
+                "keywords": [
+                    "Churn"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            },
+            {
+                "paragraph": 58,
+                "sentence": "represents customer churn.",
+                "keywords": [
+                    "Churn"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            },
+            {
+                "paragraph": 69,
+                "sentence": "Random Forest is particularly well -suited for churn",
+                "keywords": [
+                    "Churn"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            },
+            {
+                "paragraph": 73,
+                "sentence": "charges, and customer tenure as significant indicators  of churn behavior .",
+                "keywords": [
+                    "Churn"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            },
+            {
+                "paragraph": 79,
+                "sentence": "churn.",
+                "keywords": [
+                    "Churn"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            },
+            {
+                "paragraph": 119,
+                "sentence": "Churn vs Monthly  Charges Distribution",
+                "keywords": [
+                    "Churn"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            },
+            {
+                "paragraph": 136,
+                "sentence": "customer churn using telecom data.",
+                "keywords": [
+                    "Churn"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            },
+            {
+                "paragraph": 140,
+                "sentence": "reduce churn and improve customer retention.",
+                "keywords": [
+                    "Churn"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            }
+        ],
+        "Cyber Threat Intelligence": [
+            {
+                "paragraph": 26,
+                "sentence": "This project addresses the need for a proactive, data -driven Cyber Threat Intelligence and Churn",
+                "keywords": [
+                    "Cyber Threat Intelligence"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            }
+        ],
+        "LabelEncoder": [
+            {
+                "paragraph": 56,
+                "sentence": "Categorical columns are then encoded using LabelEncoder  to convert text labels into numerical",
+                "keywords": [
+                    "LabelEncoder"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            }
+        ],
+        "Pandas  \n \n \nData  Visualization  \n \n \n \n \n\nData  Preprocessing  \n \n \n \n \n \n\n   Correlation Heatmap  \n \n \n     Input  \n \n \n \n \n     Output  \n \n\n  ROC & Precision - Recall Curve": [],
+        "Prathamesh Thakare": [
+            {
+                "paragraph": 12,
+                "sentence": "Prathamesh Thakare  VU4F2223 103",
+                "keywords": [
+                    "Prathamesh Thakare"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            }
+        ],
+        "Precision -Recall Curve": [
+            {
+                "paragraph": 87,
+                "sentence": "The ROC (Receiver Operating Characteristic) curve and the Precision -Recall curve are key tools for",
+                "keywords": [
+                    "Precision -Recall Curve"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            },
+            {
+                "paragraph": 101,
+                "sentence": "Curve typically appears in the context of a Precision -Recall Curve, where it shows how recall varies",
+                "keywords": [
+                    "Precision -Recall Curve"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            }
+        ],
+        "Random  Forest  & XGBoost  Models": [
+            {
+                "paragraph": 122,
+                "sentence": "Train  Random  Forest  & XGBoost  Models",
+                "keywords": [
+                    "Random  Forest  & XGBoost  Models"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            },
+            {
+                "paragraph": 123,
+                "sentence": "Output of  Random  Forest  & XGBoost  Models",
+                "keywords": [
+                    "Random  Forest  & XGBoost  Models"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            }
+        ],
+        "Random  Forest  Regressor  (Supervised  Learning": [
+            {
+                "paragraph": 64,
+                "sentence": "Random  Forest  Regressor  (Supervised  Learning):",
+                "keywords": [
+                    "Random  Forest  Regressor  (Supervised  Learning"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            }
+        ],
+        "Random Forest Classifier": [
+            {
+                "paragraph": 33,
+                "sentence": "project uses machine learning models like Random Forest Classifier and XGBoost to train",
+                "keywords": [
+                    "Random Forest Classifier"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            },
+            {
+                "paragraph": 65,
+                "sentence": "The Random Forest Classifier is an ensemble learning algorithm that operates by",
+                "keywords": [
+                    "Random Forest Classifier"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            }
+        ],
+        "Recall \nCurve": [],
+        "Recall Curve": [
+            {
+                "paragraph": 87,
+                "sentence": "The ROC (Receiver Operating Characteristic) curve and the Precision -Recall curve are key tools for",
+                "keywords": [
+                    "Recall Curve"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            },
+            {
+                "paragraph": 97,
+                "sentence": "Information about  Recall Curve :",
+                "keywords": [
+                    "Recall Curve"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            },
+            {
+                "paragraph": 98,
+                "sentence": "The Recall Curve is a visualization that helps evaluate how well a classification model identifies",
+                "keywords": [
+                    "Recall Curve"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            },
+            {
+                "paragraph": 101,
+                "sentence": "Curve typically appears in the context of a Precision -Recall Curve, where it shows how recall varies",
+                "keywords": [
+                    "Recall Curve"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            },
+            {
+                "paragraph": 116,
+                "sentence": "ROC & Precision - Recall Curve :",
+                "keywords": [
+                    "Recall Curve"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            }
+        ],
+        "Remaining  Useful  Life": [
+            {
+                "paragraph": 127,
+                "sentence": "\u2022 The XGBoost  model  provided  the most  accurate  Remaining  Useful  Life (RUL)  predictions  among",
+                "keywords": [
+                    "Remaining  Useful  Life"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            }
+        ],
+        "StandardScaler": [
+            {
+                "paragraph": 59,
+                "sentence": "performance, the featu res are standardized using StandardScaler .",
+                "keywords": [
+                    "StandardScaler"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            }
+        ],
+        "XGBoost Classifier": [
+            {
+                "paragraph": 75,
+                "sentence": "XGBoost Classifier (Extreme Gradient Boosting) is a more advanced and powerful machine",
+                "keywords": [
+                    "XGBoost Classifier"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            }
+        ],
+        "\u2022 Data": [
+            {
+                "paragraph": 129,
+                "sentence": "\u2022 Data  preprocessing,  including  outlier  removal  and Min-Max scaling,  significantly  improved",
+                "keywords": [
+                    "\u2022 Data"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            }
+        ],
+        "\u2022 Feature": [
+            {
+                "paragraph": 131,
+                "sentence": "\u2022 Feature  selection  helped  reduce  noise  by focusing  only on the most  informative  sensor  readings.",
+                "keywords": [
+                    "\u2022 Feature"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            }
+        ],
+        "machine learning": [
+            {
+                "paragraph": 16,
+                "sentence": "\u201cChurn Prediction Using Machine Learning \u201d",
+                "keywords": [
+                    "machine learning"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            },
+            {
+                "paragraph": 27,
+                "sentence": "Prediction System using machine learning algorithms.",
+                "keywords": [
+                    "machine learning"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            },
+            {
+                "paragraph": 33,
+                "sentence": "project uses machine learning models like Random Forest Classifier and XGBoost to train",
+                "keywords": [
+                    "machine learning"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            },
+            {
+                "paragraph": 55,
+                "sentence": "machine learning.",
+                "keywords": [
+                    "machine learning"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            },
+            {
+                "paragraph": 135,
+                "sentence": "This project successfully implemented a machine learning -based system to predict",
+                "keywords": [
+                    "machine learning"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            }
+        ],
+        "pandas": [
+            {
+                "paragraph": 110,
+                "sentence": "Reading  Data  into Pandas",
+                "keywords": [
+                    "pandas"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            }
+        ],
+        "2024": [
+            {
+                "paragraph": 7,
+                "sentence": "(A.Y 2024 -2025)",
+                "keywords": [
+                    "2024"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            }
+        ]
     },
     "classification": {
         "primary_category": "AI",
@@ -79,7 +638,70 @@
             "machine learning",
             "rag"
         ],
-        "classification_explanation": "Detected keywords: machine learning, rag"
+        "evidence_used": [
+            {
+                "paragraph": 16,
+                "sentence": "\u201cChurn Prediction Using Machine Learning \u201d",
+                "keywords": [
+                    "machine learning"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            },
+            {
+                "paragraph": 27,
+                "sentence": "Prediction System using machine learning algorithms.",
+                "keywords": [
+                    "machine learning"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            },
+            {
+                "paragraph": 33,
+                "sentence": "project uses machine learning models like Random Forest Classifier and XGBoost to train",
+                "keywords": [
+                    "machine learning"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            },
+            {
+                "paragraph": 55,
+                "sentence": "machine learning.",
+                "keywords": [
+                    "machine learning"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            },
+            {
+                "paragraph": 135,
+                "sentence": "This project successfully implemented a machine learning -based system to predict",
+                "keywords": [
+                    "machine learning"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            }
+        ],
+        "rejected_categories": {
+            "Healthcare": "Only 2 supporting keyword(s) found",
+            "Education": "Only 1 supporting keyword(s) found",
+            "Governance": "Only 1 supporting keyword(s) found",
+            "Agriculture": "No supporting keywords found",
+            "Infrastructure": "No supporting keywords found",
+            "Marine": "No supporting keywords found"
+        },
+        "classification_explanation": "AI selected because it contains 2 supporting keyword(s): machine learning, rag"
+    },
+    "confidence": {
+        "score": 92,
+        "supporting_evidence_count": 52,
+        "validated_entity_count": 27,
+        "document_completeness": 0.62,
+        "contradictory_evidence_count": 0,
+        "explanation": "Confidence derived from 52 supporting evidences, 27 validated entities, and document completeness of 62%."
     },
     "recommendations": {
         "related_domains": [
@@ -108,7 +730,7 @@
         "intelligence_summary": "This document primarily belongs to the AI domain. It is strongly associated with Machine Learning, Data Science. The extracted intelligence can be used for classification, search, and knowledge management purposes. Additional recommendations have been generated to enrich future analysis."
     },
     "processing_trace": {
-        "execution_timestamp": "2026-06-17 15:13:20",
+        "execution_timestamp": "2026-06-20 11:56:43",
         "overall_status": "SUCCESS",
         "processing_trace": [
             {
@@ -133,11 +755,23 @@
             },
             {
                 "step": "Entity Extraction",
-                "details": "37 entities extracted"
+                "details": "27 entities extracted"
+            },
+            {
+                "step": "Entity Validation",
+                "details": "27 validated, 10 rejected"
+            },
+            {
+                "step": "Evidence Generation",
+                "details": "25 evidence records generated"
             },
             {
                 "step": "Classification",
                 "details": "Primary Category: AI"
+            },
+            {
+                "step": "Confidence Scoring",
+                "details": "Confidence Score: 92"
             },
             {
                 "step": "Recommendation Generation",
@@ -153,7 +787,8 @@
         "document_type": "Project Submission",
         "primary_category": "AI",
         "secondary_category": "Healthcare",
-        "confidence_score": 0.2,
+        "classification_confidence": 0.2,
+        "overall_confidence": 92,
         "recommended_tags": [
             "artificial-intelligence",
             "machine-learning",
@@ -161,6 +796,8 @@
             "chatbot",
             "automation"
         ],
-        "entity_count": 37
+        "entity_count": 27,
+        "rejected_entity_count": 10,
+        "evidence_count": 52
     }
 }

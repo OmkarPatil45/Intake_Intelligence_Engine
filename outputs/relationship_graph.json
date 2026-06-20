@@ -1,0 +1,406 @@
+{
+    "nodes": [
+        {
+            "id": "abc.txt",
+            "type": "document"
+        },
+        {
+            "id": "BI_REPORT.pdf",
+            "type": "document"
+        },
+        {
+            "id": "customers.csv",
+            "type": "document"
+        },
+        {
+            "id": "Data.csv",
+            "type": "document"
+        },
+        {
+            "id": "docFile1.docx",
+            "type": "document"
+        },
+        {
+            "id": "docFile2.docx",
+            "type": "document"
+        },
+        {
+            "id": "docFile3.docx",
+            "type": "document"
+        },
+        {
+            "id": "docFile4.docx",
+            "type": "document"
+        },
+        {
+            "id": "DS project.docx",
+            "type": "document"
+        },
+        {
+            "id": "file_2.pdf",
+            "type": "document"
+        },
+        {
+            "id": "file_3.pdf",
+            "type": "document"
+        },
+        {
+            "id": "file_4.pdf",
+            "type": "document"
+        },
+        {
+            "id": "forms.json",
+            "type": "document"
+        },
+        {
+            "id": "resume.pdf",
+            "type": "document"
+        },
+        {
+            "id": "sample1.json",
+            "type": "document"
+        },
+        {
+            "id": "Sample1.txt",
+            "type": "document"
+        },
+        {
+            "id": "sample2.json",
+            "type": "document"
+        },
+        {
+            "id": "Sample2.txt",
+            "type": "document"
+        },
+        {
+            "id": "sample3.json",
+            "type": "document"
+        },
+        {
+            "id": "sample3.txt",
+            "type": "document"
+        },
+        {
+            "id": "sample4.json",
+            "type": "document"
+        },
+        {
+            "id": "sample4.txt",
+            "type": "document"
+        },
+        {
+            "id": "StudentsPerformance.csv",
+            "type": "document"
+        },
+        {
+            "id": "student_marks.csv",
+            "type": "document"
+        },
+        {
+            "id": "user_device_.csv",
+            "type": "document"
+        }
+    ],
+    "relationships": [
+        {
+            "source": "BI_REPORT.pdf",
+            "target": "docFile2.docx",
+            "relationship": "same_person",
+            "entity": "Swaroop Sawant"
+        },
+        {
+            "source": "BI_REPORT.pdf",
+            "target": "docFile2.docx",
+            "relationship": "same_organization",
+            "entity": "Prathamesh Thakare"
+        },
+        {
+            "source": "BI_REPORT.pdf",
+            "target": "DS project.docx",
+            "relationship": "same_person",
+            "entity": "Swaroop Sawant"
+        },
+        {
+            "source": "BI_REPORT.pdf",
+            "target": "DS project.docx",
+            "relationship": "same_organization",
+            "entity": "Prathamesh Thakare"
+        },
+        {
+            "source": "BI_REPORT.pdf",
+            "target": "DS project.docx",
+            "relationship": "same_technology",
+            "entity": "machine learning"
+        },
+        {
+            "source": "BI_REPORT.pdf",
+            "target": "resume.pdf",
+            "relationship": "same_technology",
+            "entity": "machine learning"
+        },
+        {
+            "source": "BI_REPORT.pdf",
+            "target": "resume.pdf",
+            "relationship": "same_technology",
+            "entity": "pandas"
+        },
+        {
+            "source": "customers.csv",
+            "target": "file_3.pdf",
+            "relationship": "same_organization",
+            "entity": "Sharp"
+        },
+        {
+            "source": "customers.csv",
+            "target": "sample1.json",
+            "relationship": "same_person",
+            "entity": "Simpson"
+        },
+        {
+            "source": "customers.csv",
+            "target": "sample1.json",
+            "relationship": "same_person",
+            "entity": "Hill"
+        },
+        {
+            "source": "customers.csv",
+            "target": "sample3.txt",
+            "relationship": "same_person",
+            "entity": "Jersey"
+        },
+        {
+            "source": "docFile2.docx",
+            "target": "DS project.docx",
+            "relationship": "same_person",
+            "entity": "Swaroop Sawant"
+        },
+        {
+            "source": "docFile2.docx",
+            "target": "DS project.docx",
+            "relationship": "same_person",
+            "entity": "Omkar Patil"
+        },
+        {
+            "source": "docFile2.docx",
+            "target": "DS project.docx",
+            "relationship": "same_organization",
+            "entity": "University of Mumbai"
+        },
+        {
+            "source": "docFile2.docx",
+            "target": "DS project.docx",
+            "relationship": "same_organization",
+            "entity": "Prathamesh Thakare"
+        },
+        {
+            "source": "docFile2.docx",
+            "target": "DS project.docx",
+            "relationship": "same_organization",
+            "entity": "Department of Information Technology"
+        },
+        {
+            "source": "docFile2.docx",
+            "target": "file_2.pdf",
+            "relationship": "same_technology",
+            "entity": "express"
+        },
+        {
+            "source": "docFile2.docx",
+            "target": "file_4.pdf",
+            "relationship": "same_organization",
+            "entity": "CLI"
+        },
+        {
+            "source": "docFile2.docx",
+            "target": "file_4.pdf",
+            "relationship": "same_technology",
+            "entity": "github"
+        },
+        {
+            "source": "docFile2.docx",
+            "target": "file_4.pdf",
+            "relationship": "same_technology",
+            "entity": "express"
+        },
+        {
+            "source": "docFile2.docx",
+            "target": "resume.pdf",
+            "relationship": "same_technology",
+            "entity": "github"
+        },
+        {
+            "source": "docFile2.docx",
+            "target": "resume.pdf",
+            "relationship": "same_technology",
+            "entity": "python"
+        },
+        {
+            "source": "docFile2.docx",
+            "target": "resume.pdf",
+            "relationship": "same_technology",
+            "entity": "express"
+        },
+        {
+            "source": "DS project.docx",
+            "target": "resume.pdf",
+            "relationship": "same_technology",
+            "entity": "data science"
+        },
+        {
+            "source": "DS project.docx",
+            "target": "resume.pdf",
+            "relationship": "same_technology",
+            "entity": "machine learning"
+        },
+        {
+            "source": "file_2.pdf",
+            "target": "file_4.pdf",
+            "relationship": "same_technology",
+            "entity": "express"
+        },
+        {
+            "source": "file_2.pdf",
+            "target": "resume.pdf",
+            "relationship": "same_technology",
+            "entity": "express"
+        },
+        {
+            "source": "file_4.pdf",
+            "target": "resume.pdf",
+            "relationship": "same_organization",
+            "entity": "SQL"
+        },
+        {
+            "source": "file_4.pdf",
+            "target": "resume.pdf",
+            "relationship": "same_technology",
+            "entity": "sql"
+        },
+        {
+            "source": "file_4.pdf",
+            "target": "resume.pdf",
+            "relationship": "same_technology",
+            "entity": "express"
+        },
+        {
+            "source": "file_4.pdf",
+            "target": "resume.pdf",
+            "relationship": "same_technology",
+            "entity": "github"
+        },
+        {
+            "source": "file_4.pdf",
+            "target": "resume.pdf",
+            "relationship": "same_technology",
+            "entity": "node.js"
+        },
+        {
+            "source": "file_4.pdf",
+            "target": "resume.pdf",
+            "relationship": "same_technology",
+            "entity": "git"
+        },
+        {
+            "source": "file_4.pdf",
+            "target": "resume.pdf",
+            "relationship": "same_technology",
+            "entity": "javascript"
+        },
+        {
+            "source": "Sample1.txt",
+            "target": "sample4.txt",
+            "relationship": "same_person",
+            "entity": "Barack Obama"
+        },
+        {
+            "source": "Sample1.txt",
+            "target": "sample4.txt",
+            "relationship": "same_person",
+            "entity": "Sonia Sotomayor"
+        },
+        {
+            "source": "Sample1.txt",
+            "target": "sample4.txt",
+            "relationship": "same_person",
+            "entity": "Donald Verrilli"
+        },
+        {
+            "source": "Sample1.txt",
+            "target": "sample4.txt",
+            "relationship": "same_person",
+            "entity": "Elena Kagan"
+        },
+        {
+            "source": "Sample1.txt",
+            "target": "sample4.txt",
+            "relationship": "same_person",
+            "entity": "Samuel Alito"
+        },
+        {
+            "source": "Sample1.txt",
+            "target": "sample4.txt",
+            "relationship": "same_person",
+            "entity": "Anthony Kennedy"
+        },
+        {
+            "source": "Sample1.txt",
+            "target": "sample4.txt",
+            "relationship": "same_person",
+            "entity": "Peter Keisler"
+        },
+        {
+            "source": "Sample1.txt",
+            "target": "sample4.txt",
+            "relationship": "same_person",
+            "entity": "John Roberts"
+        },
+        {
+            "source": "Sample1.txt",
+            "target": "sample4.txt",
+            "relationship": "same_organization",
+            "entity": "Environmental Protection Agency"
+        },
+        {
+            "source": "Sample1.txt",
+            "target": "sample4.txt",
+            "relationship": "same_organization",
+            "entity": "White House"
+        },
+        {
+            "source": "Sample1.txt",
+            "target": "sample4.txt",
+            "relationship": "same_organization",
+            "entity": "EPA"
+        },
+        {
+            "source": "Sample1.txt",
+            "target": "sample4.txt",
+            "relationship": "same_organization",
+            "entity": "Supreme Court"
+        },
+        {
+            "source": "Sample1.txt",
+            "target": "sample4.txt",
+            "relationship": "same_organization",
+            "entity": "Capitol Hill"
+        },
+        {
+            "source": "Sample1.txt",
+            "target": "sample4.txt",
+            "relationship": "same_organization",
+            "entity": "U.S. Solicitor"
+        },
+        {
+            "source": "Sample1.txt",
+            "target": "sample4.txt",
+            "relationship": "same_organization",
+            "entity": "Congress"
+        },
+        {
+            "source": "Sample1.txt",
+            "target": "sample4.txt",
+            "relationship": "same_organization",
+            "entity": "Defense of Marriage Act"
+        }
+    ]
+}

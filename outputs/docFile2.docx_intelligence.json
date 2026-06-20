@@ -24,14 +24,11 @@
     "entities": {
         "names": [
             "Ankur Chavan",
-            "CV",
             "Citizens",
             "Design",
             "Gemini Pro",
-            "JSON",
             "Lok Seva Mitra",
             "LokSeva Mitra",
-            "ON\n Lok Seva Mitra\n\nSubmitted",
             "Omkar Patil",
             "SYNOPSIS REPORT",
             "Swaroop Sawant",
@@ -59,9 +56,8 @@
             "Project Guide",
             "Software",
             "UNIVERSITY OF MUMBAI\nAcademic",
-            "WhatsApp",
-            "jargon-free",
-            "the University of Mumbai"
+            "University of Mumbai",
+            "WhatsApp"
         ],
         "technologies": [
             "artificial intelligence",
@@ -82,13 +78,1419 @@
             "Mumbai",
             "Pratishthan"
         ],
-        "dates": [
-            "2025-26",
-            "400022",
-            "vector"
-        ],
+        "dates": [],
         "emails": [],
         "phone_numbers": []
+    },
+    "rejected_entities": [
+        {
+            "entity": "CV",
+            "entity_type": "PERSON",
+            "reason": "Generic operational term"
+        },
+        {
+            "entity": "JSON",
+            "entity_type": "PERSON",
+            "reason": "Generic operational term"
+        },
+        {
+            "entity": "ON\n Lok Seva Mitra\n\nSubmitted",
+            "entity_type": "PERSON",
+            "reason": "Unlikely person name"
+        },
+        {
+            "entity": "jargon-free",
+            "entity_type": "ORG",
+            "reason": "Improper organization capitalization"
+        },
+        {
+            "entity": "AI",
+            "entity_type": "GPE",
+            "reason": "Technology domain, not a location"
+        },
+        {
+            "entity": "2025-26",
+            "entity_type": "dates",
+            "reason": "Document reference number"
+        }
+    ],
+    "evidence_report": {
+        "Ankur Chavan": [
+            {
+                "paragraph": 8,
+                "sentence": "Ankur Chavan",
+                "keywords": [
+                    "Ankur Chavan"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            },
+            {
+                "paragraph": 17,
+                "sentence": "Ankur Chavan",
+                "keywords": [
+                    "Ankur Chavan"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            }
+        ],
+        "Citizens": [
+            {
+                "paragraph": 27,
+                "sentence": "By making complex government schemes easy to find and comprehend, LokSeva Mitra promotes inclusivity, transparency and accessibility, empowering citizens, reducing reliance on intermediaries, and ensuring that policy benefits effectively reach the people they are intended for.",
+                "keywords": [
+                    "Citizens"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            },
+            {
+                "paragraph": 48,
+                "sentence": "Accessing government schemes is often a challenging task for citizens, as the information is scattered        across multiple websites, presented in technical language, and frequently unavailable in regional languages.",
+                "keywords": [
+                    "Citizens"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            },
+            {
+                "paragraph": 53,
+                "sentence": "To simplify complex eligibility criteria into clear, easy-to-understand explanations for farmers and citizens.",
+                "keywords": [
+                    "Citizens"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            },
+            {
+                "paragraph": 56,
+                "sentence": "Farmers and rural citizens frequently miss out on the benefits of government schemes due to the inaccessibility of information, which is often fragmented, technical, and not available in their native languages.",
+                "keywords": [
+                    "Citizens"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            },
+            {
+                "paragraph": 56,
+                "sentence": "This lack of clarity can result in low adoption of welfare programs and prevent citizens from fully utilizing resources meant to support them.",
+                "keywords": [
+                    "Citizens"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            },
+            {
+                "paragraph": 62,
+                "sentence": "At present, citizens access information about government schemes through a variety of methods, including multiple official government portals, downloadable PDFs, and manual searches.",
+                "keywords": [
+                    "Citizens"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            },
+            {
+                "paragraph": 62,
+                "sentence": "As a result, citizens face challenges in understanding eligibility criteria, application procedures, and benefits, leading to low adoption rates of welfare programs and missed opportunities for support.",
+                "keywords": [
+                    "Citizens"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            },
+            {
+                "paragraph": 64,
+                "sentence": "Citizens, particularly farmers and rural communities, often face significant difficulties in accessing information about government schemes due to the fragmented, technical, and language-limited nature of existing resources.",
+                "keywords": [
+                    "Citizens"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            },
+            {
+                "paragraph": 64,
+                "sentence": "Such a system would not only reduce the manual effort required to search for and comprehend scheme details but also improve awareness, adoption, and utilization of government welfare programs, ensuring that citizens can benefit fully from the resources available to them.",
+                "keywords": [
+                    "Citizens"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            },
+            {
+                "paragraph": 66,
+                "sentence": "The primary problem addressed by this project is the difficulty citizens face in accessing and understanding government scheme information, which is often unstructured, fragmented, and available in technical language across multiple sources.",
+                "keywords": [
+                    "Citizens"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            },
+            {
+                "paragraph": 66,
+                "sentence": "By doing so, the system will enable citizens, particularly farmers and rural users, to easily find relevant scheme details, understand eligibility criteria, and take informed actions without being hindered by language barriers or the complexity of official documenta",
+                "keywords": [
+                    "Citizens"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            },
+            {
+                "paragraph": 70,
+                "sentence": "The LokSeva Mitra system is designed with a two-phase pipeline that ensures government scheme information is extracted, structured, and delivered to citizens in a simple, conversational format.",
+                "keywords": [
+                    "Citizens"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            },
+            {
+                "paragraph": 71,
+                "sentence": "The second phase \u2013 Conversational AI focuses on enabling citizens to interact with this knowledge base in a natural and accessible manner.",
+                "keywords": [
+                    "Citizens"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            },
+            {
+                "paragraph": 71,
+                "sentence": "Its scalable design allows future expansion to more schemes, integration with platforms such as web or WhatsApp chatbots, and automatic updates of scheme information, making it a comprehensive solution for bridging the gap between government resources and citizens.",
+                "keywords": [
+                    "Citizens"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            },
+            {
+                "paragraph": 80,
+                "sentence": "Lok Seva Mitra effectively addresses the persistent challenges faced by citizens, especially farmers, in accessing, understanding, and utilizing government schemes.",
+                "keywords": [
+                    "Citizens"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            },
+            {
+                "paragraph": 80,
+                "sentence": "By improving awareness, accessibility, and user engagement, LokSeva Mitra has the potential to contribute significantly to social inclusion and equitable access to government resources, making it a valuable tool for both citizens and policymakers..",
+                "keywords": [
+                    "Citizens"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            }
+        ],
+        "Design": [
+            {
+                "paragraph": 26,
+                "sentence": "This fragmentation and lack of clarity on eligibility, documentation, and application procedures prevent a significant portion of intended beneficiaries, like farmers, from utilizing the support systems designed for them, consequently diminishing the overall impact of these crucial policies.",
+                "keywords": [
+                    "Design"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            },
+            {
+                "paragraph": 27,
+                "sentence": "LokSeva Mitra is a solution designed to overcome this information barrier.",
+                "keywords": [
+                    "Design"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            },
+            {
+                "paragraph": 37,
+                "sentence": "Design and Implementation",
+                "keywords": [
+                    "Design"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            },
+            {
+                "paragraph": 39,
+                "sentence": "3.2 Software Architectural Design",
+                "keywords": [
+                    "Design"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            },
+            {
+                "paragraph": 48,
+                "sentence": "To address these challenges, Lok Seva Mitra is designed as a multilingual conversational AI assistant that consolidates scheme information, simplifies complex details, and provides clear, understandable guidance to users.",
+                "keywords": [
+                    "Design"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            },
+            {
+                "paragraph": 50,
+                "sentence": "The primary aim of this project is to design and develop an intelligent system that can efficiently extract government scheme information from multiple sources, convert and organize this unstructured data into a well-defined JSON format, and facilitate seamless retrieval of relevant details through FAISS-based vector search.",
+                "keywords": [
+                    "Design"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            },
+            {
+                "paragraph": 58,
+                "sentence": "The system is designed to provide structured scheme information, multilingual support, and eligibility guidance within this limited scope.",
+                "keywords": [
+                    "Design"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            },
+            {
+                "paragraph": 66,
+                "sentence": "The goal is to design an AI-powered system capable of automatically extracting structured knowledge from these unstructured documents, organizing the information in a standardized format, and providing simplified, multilingual responses to user queries.",
+                "keywords": [
+                    "Design"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            },
+            {
+                "paragraph": 68,
+                "sentence": "Design and Implementation",
+                "keywords": [
+                    "Design"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            },
+            {
+                "paragraph": 70,
+                "sentence": "The LokSeva Mitra system is designed with a two-phase pipeline that ensures government scheme information is extracted, structured, and delivered to citizens in a simple, conversational format.",
+                "keywords": [
+                    "Design"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            },
+            {
+                "paragraph": 71,
+                "sentence": "Its scalable design allows future expansion to more schemes, integration with platforms such as web or WhatsApp chatbots, and automatic updates of scheme information, making it a comprehensive solution for bridging the gap between government resources and citizens.",
+                "keywords": [
+                    "Design"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            },
+            {
+                "paragraph": 72,
+                "sentence": "3.2 Software Architectural Design",
+                "keywords": [
+                    "Design"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            },
+            {
+                "paragraph": 73,
+                "sentence": "Design",
+                "keywords": [
+                    "Design"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            }
+        ],
+        "Gemini Pro": [
+            {
+                "paragraph": 27,
+                "sentence": "This multilingual AI assistant employs a Retrieval-Augmented Generation (RAG) approach, combining generative AI (using Gemini Pro) with accurate information retrieval (using FAISS for vector search) to deliver clear and contextually relevant answers.",
+                "keywords": [
+                    "Gemini Pro"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            },
+            {
+                "paragraph": 50,
+                "sentence": "Furthermore, the system aims to integrate Gemini Pro for accurate, context-aware, and human-like query answering, ensuring that users receive precise, easy-to-understand, and actionable responses.",
+                "keywords": [
+                    "Gemini Pro"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            },
+            {
+                "paragraph": 71,
+                "sentence": "The system employs a Retrieval-Augmented Generation (RAG) model that combines the power of FAISS for vector-based semantic search with Gemini Pro for generating accurate, context-aware, and multilingual responses.",
+                "keywords": [
+                    "Gemini Pro"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            },
+            {
+                "paragraph": 71,
+                "sentence": "When a user queries the system, FAISS retrieves the most relevant scheme data, and Gemini Pro formulates a clear explanation in the user\u2019s preferred language.",
+                "keywords": [
+                    "Gemini Pro"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            }
+        ],
+        "Lok Seva Mitra": [
+            {
+                "paragraph": 4,
+                "sentence": "Lok Seva Mitra",
+                "keywords": [
+                    "Lok Seva Mitra"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            },
+            {
+                "paragraph": 48,
+                "sentence": "To address these challenges, Lok Seva Mitra is designed as a multilingual conversational AI assistant that consolidates scheme information, simplifies complex details, and provides clear, understandable guidance to users.",
+                "keywords": [
+                    "Lok Seva Mitra"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            },
+            {
+                "paragraph": 80,
+                "sentence": "Lok Seva Mitra effectively addresses the persistent challenges faced by citizens, especially farmers, in accessing, understanding, and utilizing government schemes.",
+                "keywords": [
+                    "Lok Seva Mitra"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            }
+        ],
+        "LokSeva Mitra": [
+            {
+                "paragraph": 15,
+                "sentence": "This is to certify that the project entitled \u201cLokSeva Mitra\u201d is a bonafide work of \u201cOmkar Patil (VU4F2223108), Prathamesh Thakare (VU4F2223103), Anand Dane (VU4F2223094), Swaroop Sawant (VU4F2223100)\u201d submitted to the University of Mumbai in partial fulfillment of the requirement for the award of the degree of \u201cBachelor of Engineering\u201d in \u201cInformation Technology\u201d.",
+                "keywords": [
+                    "LokSeva Mitra"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            },
+            {
+                "paragraph": 19,
+                "sentence": "This project report entitled \u201cLokSeva Mitra\u201d by Omkar Patil (VU4F2223108), Prathamesh Thakare (VU4F2223103) , Anand Dane (VU4F2223094), Swaroop Sawant (VU4F2223100) is approved for the degree of \u201cBachelor of Engineering\u201d in \u201cInformation Technology\u201d.",
+                "keywords": [
+                    "LokSeva Mitra"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            },
+            {
+                "paragraph": 27,
+                "sentence": "LokSeva Mitra is a solution designed to overcome this information barrier.",
+                "keywords": [
+                    "LokSeva Mitra"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            },
+            {
+                "paragraph": 27,
+                "sentence": "By making complex government schemes easy to find and comprehend, LokSeva Mitra promotes inclusivity, transparency and accessibility, empowering citizens, reducing reliance on intermediaries, and ensuring that policy benefits effectively reach the people they are intended for.",
+                "keywords": [
+                    "LokSeva Mitra"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            },
+            {
+                "paragraph": 70,
+                "sentence": "The LokSeva Mitra system is designed with a two-phase pipeline that ensures government scheme information is extracted, structured, and delivered to citizens in a simple, conversational format.",
+                "keywords": [
+                    "LokSeva Mitra"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            },
+            {
+                "paragraph": 71,
+                "sentence": "By merging structured data with advanced AI-driven conversational capabilities, LokSeva Mitra provides fast and accurate information access while enhancing inclusivity through multilingual support.",
+                "keywords": [
+                    "LokSeva Mitra"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            },
+            {
+                "paragraph": 80,
+                "sentence": "By improving awareness, accessibility, and user engagement, LokSeva Mitra has the potential to contribute significantly to social inclusion and equitable access to government resources, making it a valuable tool for both citizens and policymakers..",
+                "keywords": [
+                    "LokSeva Mitra"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            }
+        ],
+        "Omkar Patil": [
+            {
+                "paragraph": 15,
+                "sentence": "This is to certify that the project entitled \u201cLokSeva Mitra\u201d is a bonafide work of \u201cOmkar Patil (VU4F2223108), Prathamesh Thakare (VU4F2223103), Anand Dane (VU4F2223094), Swaroop Sawant (VU4F2223100)\u201d submitted to the University of Mumbai in partial fulfillment of the requirement for the award of the degree of \u201cBachelor of Engineering\u201d in \u201cInformation Technology\u201d.",
+                "keywords": [
+                    "Omkar Patil"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            },
+            {
+                "paragraph": 19,
+                "sentence": "This project report entitled \u201cLokSeva Mitra\u201d by Omkar Patil (VU4F2223108), Prathamesh Thakare (VU4F2223103) , Anand Dane (VU4F2223094), Swaroop Sawant (VU4F2223100) is approved for the degree of \u201cBachelor of Engineering\u201d in \u201cInformation Technology\u201d.",
+                "keywords": [
+                    "Omkar Patil"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            }
+        ],
+        "SYNOPSIS REPORT": [
+            {
+                "paragraph": 2,
+                "sentence": "SYNOPSIS REPORT",
+                "keywords": [
+                    "SYNOPSIS REPORT"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            }
+        ],
+        "Swaroop Sawant": [
+            {
+                "paragraph": 15,
+                "sentence": "This is to certify that the project entitled \u201cLokSeva Mitra\u201d is a bonafide work of \u201cOmkar Patil (VU4F2223108), Prathamesh Thakare (VU4F2223103), Anand Dane (VU4F2223094), Swaroop Sawant (VU4F2223100)\u201d submitted to the University of Mumbai in partial fulfillment of the requirement for the award of the degree of \u201cBachelor of Engineering\u201d in \u201cInformation Technology\u201d.",
+                "keywords": [
+                    "Swaroop Sawant"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            },
+            {
+                "paragraph": 19,
+                "sentence": "This project report entitled \u201cLokSeva Mitra\u201d by Omkar Patil (VU4F2223108), Prathamesh Thakare (VU4F2223103) , Anand Dane (VU4F2223094), Swaroop Sawant (VU4F2223100) is approved for the degree of \u201cBachelor of Engineering\u201d in \u201cInformation Technology\u201d.",
+                "keywords": [
+                    "Swaroop Sawant"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            }
+        ],
+        "Vasantdada Patil Educational Complex": [
+            {
+                "paragraph": 11,
+                "sentence": "Vasantdada Patil Educational Complex, Eastern Express Highway, Near Everard Nagar, Sion- Chunabhatti, Mumbai \u2013 400022.",
+                "keywords": [
+                    "Vasantdada Patil Educational Complex"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            }
+        ],
+        "AI": [
+            {
+                "paragraph": 11,
+                "sentence": "Vasantdada Patil Educational Complex, Eastern Express Highway, Near Everard Nagar, Sion- Chunabhatti, Mumbai \u2013 400022.",
+                "keywords": [
+                    "AI"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            },
+            {
+                "paragraph": 12,
+                "sentence": "UNIVERSITY OF MUMBAI",
+                "keywords": [
+                    "AI"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            },
+            {
+                "paragraph": 15,
+                "sentence": "This is to certify that the project entitled \u201cLokSeva Mitra\u201d is a bonafide work of \u201cOmkar Patil (VU4F2223108), Prathamesh Thakare (VU4F2223103), Anand Dane (VU4F2223094), Swaroop Sawant (VU4F2223100)\u201d submitted to the University of Mumbai in partial fulfillment of the requirement for the award of the degree of \u201cBachelor of Engineering\u201d in \u201cInformation Technology\u201d.",
+                "keywords": [
+                    "AI"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            },
+            {
+                "paragraph": 24,
+                "sentence": "Place: Mumbai - 22",
+                "keywords": [
+                    "AI"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            },
+            {
+                "paragraph": 26,
+                "sentence": "Government schemes in India, vital for providing financial aid and welfare benefits, especially to farmers and the economically weaker, suffer from inaccessibility and complexity.",
+                "keywords": [
+                    "AI"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            },
+            {
+                "paragraph": 26,
+                "sentence": "Information is scattered across various official portals, often presented in dense, legalistic language, and rarely available in regional languages.",
+                "keywords": [
+                    "AI"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            },
+            {
+                "paragraph": 27,
+                "sentence": "This multilingual AI assistant employs a Retrieval-Augmented Generation (RAG) approach, combining generative AI (using Gemini Pro) with accurate information retrieval (using FAISS for vector search) to deliver clear and contextually relevant answers.",
+                "keywords": [
+                    "AI"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            },
+            {
+                "paragraph": 27,
+                "sentence": "The system processes unstructured data from government PDFs into structured formats, extracting key details like scheme name, eligibility, and benefits.",
+                "keywords": [
+                    "AI"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            },
+            {
+                "paragraph": 30,
+                "sentence": "1.2 Aim and Objectives",
+                "keywords": [
+                    "AI"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            },
+            {
+                "paragraph": 48,
+                "sentence": "Accessing government schemes is often a challenging task for citizens, as the information is scattered        across multiple websites, presented in technical language, and frequently unavailable in regional languages.",
+                "keywords": [
+                    "AI"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            },
+            {
+                "paragraph": 48,
+                "sentence": "To address these challenges, Lok Seva Mitra is designed as a multilingual conversational AI assistant that consolidates scheme information, simplifies complex details, and provides clear, understandable guidance to users.",
+                "keywords": [
+                    "AI"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            },
+            {
+                "paragraph": 49,
+                "sentence": "1.2 Aim:",
+                "keywords": [
+                    "AI"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            },
+            {
+                "paragraph": 50,
+                "sentence": "The primary aim of this project is to design and develop an intelligent system that can efficiently extract government scheme information from multiple sources, convert and organize this unstructured data into a well-defined JSON format, and facilitate seamless retrieval of relevant details through FAISS-based vector search.",
+                "keywords": [
+                    "AI"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            },
+            {
+                "paragraph": 50,
+                "sentence": "Furthermore, the system aims to integrate Gemini Pro for accurate, context-aware, and human-like query answering, ensuring that users receive precise, easy-to-understand, and actionable responses.",
+                "keywords": [
+                    "AI"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            },
+            {
+                "paragraph": 56,
+                "sentence": "Farmers and rural citizens frequently miss out on the benefits of government schemes due to the inaccessibility of information, which is often fragmented, technical, and not available in their native languages.",
+                "keywords": [
+                    "AI"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            },
+            {
+                "paragraph": 56,
+                "sentence": "To address this gap, a conversational AI assistant that communicates in the user\u2019s preferred language can play a crucial role by providing accurate, easy-to-understand, and timely guidance.",
+                "keywords": [
+                    "AI"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            },
+            {
+                "paragraph": 58,
+                "sentence": "In the future, the project can be expanded to include a web-based or WhatsApp chatbot interface, integration with additional states and user domains, and automated updates to ensure that the latest scheme information is always available.",
+                "keywords": [
+                    "AI"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            },
+            {
+                "paragraph": 62,
+                "sentence": "Moreover, the content is frequently available only in a limited set of languages such as English, Hindi, or Marathi, which poses a significant barrier for farmers and rural communities who may be more comfortable with regional languages.",
+                "keywords": [
+                    "AI"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            },
+            {
+                "paragraph": 64,
+                "sentence": "An AI-based conversational assistant can address these challenges by providing instant, accurate, and easy-to-understand responses in the user\u2019s preferred language.",
+                "keywords": [
+                    "AI"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            },
+            {
+                "paragraph": 64,
+                "sentence": "Such a system would not only reduce the manual effort required to search for and comprehend scheme details but also improve awareness, adoption, and utilization of government welfare programs, ensuring that citizens can benefit fully from the resources available to them.",
+                "keywords": [
+                    "AI"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            },
+            {
+                "paragraph": 66,
+                "sentence": "The primary problem addressed by this project is the difficulty citizens face in accessing and understanding government scheme information, which is often unstructured, fragmented, and available in technical language across multiple sources.",
+                "keywords": [
+                    "AI"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            },
+            {
+                "paragraph": 66,
+                "sentence": "The goal is to design an AI-powered system capable of automatically extracting structured knowledge from these unstructured documents, organizing the information in a standardized format, and providing simplified, multilingual responses to user queries.",
+                "keywords": [
+                    "AI"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            },
+            {
+                "paragraph": 66,
+                "sentence": "By doing so, the system will enable citizens, particularly farmers and rural users, to easily find relevant scheme details, understand eligibility criteria, and take informed actions without being hindered by language barriers or the complexity of official documenta",
+                "keywords": [
+                    "AI"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            },
+            {
+                "paragraph": 70,
+                "sentence": "This structured representation captures key details including scheme name, eligibility conditions, benefits, and application process, making the data easier to search, index, and reuse.",
+                "keywords": [
+                    "AI"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            },
+            {
+                "paragraph": 71,
+                "sentence": "The second phase \u2013 Conversational AI focuses on enabling citizens to interact with this knowledge base in a natural and accessible manner.",
+                "keywords": [
+                    "AI"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            },
+            {
+                "paragraph": 71,
+                "sentence": "The system employs a Retrieval-Augmented Generation (RAG) model that combines the power of FAISS for vector-based semantic search with Gemini Pro for generating accurate, context-aware, and multilingual responses.",
+                "keywords": [
+                    "AI"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            },
+            {
+                "paragraph": 71,
+                "sentence": "When a user queries the system, FAISS retrieves the most relevant scheme data, and Gemini Pro formulates a clear explanation in the user\u2019s preferred language.",
+                "keywords": [
+                    "AI"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            },
+            {
+                "paragraph": 71,
+                "sentence": "This ensures that even complex eligibility criteria and procedural details are presented in an understandable way.",
+                "keywords": [
+                    "AI"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            },
+            {
+                "paragraph": 71,
+                "sentence": "By merging structured data with advanced AI-driven conversational capabilities, LokSeva Mitra provides fast and accurate information access while enhancing inclusivity through multilingual support.",
+                "keywords": [
+                    "AI"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            },
+            {
+                "paragraph": 80,
+                "sentence": "By providing a multilingual AI assistant, the system bridges the gap between complex, unstructured official documents and the end-users, presenting information in a simplified, clear, and actionable manner.",
+                "keywords": [
+                    "AI"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            },
+            {
+                "paragraph": 80,
+                "sentence": "This approach not only enhances accessibility but also empowers farmers to make informed decisions, complete applications accurately, and fully benefit from the welfare programs available to them.",
+                "keywords": [
+                    "AI"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            },
+            {
+                "paragraph": 83,
+                "sentence": "Google Generative AI Documentation \u2013 https://ai.google.dev",
+                "keywords": [
+                    "AI"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            },
+            {
+                "paragraph": 84,
+                "sentence": "FAISS: Facebook AI Similarity Search \u2013 https://github.com/facebookresearch/faiss",
+                "keywords": [
+                    "AI"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            }
+        ],
+        "Anand Dane (VU4F2223094": [
+            {
+                "paragraph": 15,
+                "sentence": "This is to certify that the project entitled \u201cLokSeva Mitra\u201d is a bonafide work of \u201cOmkar Patil (VU4F2223108), Prathamesh Thakare (VU4F2223103), Anand Dane (VU4F2223094), Swaroop Sawant (VU4F2223100)\u201d submitted to the University of Mumbai in partial fulfillment of the requirement for the award of the degree of \u201cBachelor of Engineering\u201d in \u201cInformation Technology\u201d.",
+                "keywords": [
+                    "Anand Dane (VU4F2223094"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            },
+            {
+                "paragraph": 19,
+                "sentence": "This project report entitled \u201cLokSeva Mitra\u201d by Omkar Patil (VU4F2223108), Prathamesh Thakare (VU4F2223103) , Anand Dane (VU4F2223094), Swaroop Sawant (VU4F2223100) is approved for the degree of \u201cBachelor of Engineering\u201d in \u201cInformation Technology\u201d.",
+                "keywords": [
+                    "Anand Dane (VU4F2223094"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            }
+        ],
+        "Bachelor of Engineering": [
+            {
+                "paragraph": 5,
+                "sentence": "Submitted in partial fulfillment of the requirements for the degree of Bachelor of Engineering in \u201cInformation Technology\u201d",
+                "keywords": [
+                    "Bachelor of Engineering"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            },
+            {
+                "paragraph": 15,
+                "sentence": "This is to certify that the project entitled \u201cLokSeva Mitra\u201d is a bonafide work of \u201cOmkar Patil (VU4F2223108), Prathamesh Thakare (VU4F2223103), Anand Dane (VU4F2223094), Swaroop Sawant (VU4F2223100)\u201d submitted to the University of Mumbai in partial fulfillment of the requirement for the award of the degree of \u201cBachelor of Engineering\u201d in \u201cInformation Technology\u201d.",
+                "keywords": [
+                    "Bachelor of Engineering"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            },
+            {
+                "paragraph": 19,
+                "sentence": "This project report entitled \u201cLokSeva Mitra\u201d by Omkar Patil (VU4F2223108), Prathamesh Thakare (VU4F2223103) , Anand Dane (VU4F2223094), Swaroop Sawant (VU4F2223100) is approved for the degree of \u201cBachelor of Engineering\u201d in \u201cInformation Technology\u201d.",
+                "keywords": [
+                    "Bachelor of Engineering"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            }
+        ],
+        "CHAPTER5\n\nReferences": [],
+        "CLI": [
+            {
+                "paragraph": 58,
+                "sentence": "The current implementation of the system is initially focused on 5\u201310 government schemes for          farmers in Maharashtra, delivered through a command-line interface (CLI) prototype to demonstrate    functionality.",
+                "keywords": [
+                    "CLI"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            }
+        ],
+        "College of Engineering & Visual Arts": [
+            {
+                "paragraph": 10,
+                "sentence": "Vasantdada Patil Pratishthan's College of Engineering & Visual Arts",
+                "keywords": [
+                    "College of Engineering & Visual Arts"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            }
+        ],
+        "Data Extraction": [
+            {
+                "paragraph": 70,
+                "sentence": "In the first phase \u2013 Data Extraction, unstructured content from official scheme documents, such as government PDFs and portals, is processed, cleaned, and transformed into a standardized JSON format.",
+                "keywords": [
+                    "Data Extraction"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            }
+        ],
+        "Department of Information Technology": [
+            {
+                "paragraph": 9,
+                "sentence": "Department of Information Technology",
+                "keywords": [
+                    "Department of Information Technology"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            }
+        ],
+        "Eastern Express Highway": [
+            {
+                "paragraph": 11,
+                "sentence": "Vasantdada Patil Educational Complex, Eastern Express Highway, Near Everard Nagar, Sion- Chunabhatti, Mumbai \u2013 400022.",
+                "keywords": [
+                    "Eastern Express Highway"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            }
+        ],
+        "Farmers": [
+            {
+                "paragraph": 26,
+                "sentence": "Government schemes in India, vital for providing financial aid and welfare benefits, especially to farmers and the economically weaker, suffer from inaccessibility and complexity.",
+                "keywords": [
+                    "Farmers"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            },
+            {
+                "paragraph": 26,
+                "sentence": "This fragmentation and lack of clarity on eligibility, documentation, and application procedures prevent a significant portion of intended beneficiaries, like farmers, from utilizing the support systems designed for them, consequently diminishing the overall impact of these crucial policies.",
+                "keywords": [
+                    "Farmers"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            },
+            {
+                "paragraph": 48,
+                "sentence": "This creates significant barriers, particularly for farmers and rural communities, who may find it difficult to understand eligibility criteria, application procedures, and benefits.",
+                "keywords": [
+                    "Farmers"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            },
+            {
+                "paragraph": 48,
+                "sentence": "Specifically targeted at farmers in Maharashtra, the system ensures that important government schemes are easily accessible, understandable, and  actionable, thereby promoting inclusivity, transparency, and better utilization of welfare programs.",
+                "keywords": [
+                    "Farmers"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            },
+            {
+                "paragraph": 53,
+                "sentence": "To simplify complex eligibility criteria into clear, easy-to-understand explanations for farmers and citizens.",
+                "keywords": [
+                    "Farmers"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            },
+            {
+                "paragraph": 56,
+                "sentence": "Farmers and rural citizens frequently miss out on the benefits of government schemes due to the inaccessibility of information, which is often fragmented, technical, and not available in their native languages.",
+                "keywords": [
+                    "Farmers"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            },
+            {
+                "paragraph": 56,
+                "sentence": "By simplifying the process of discovering and understanding government schemes, such a system has the potential to significantly improve awareness, accessibility, and adoption of welfare initiatives among farmers.",
+                "keywords": [
+                    "Farmers"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            },
+            {
+                "paragraph": 58,
+                "sentence": "The current implementation of the system is initially focused on 5\u201310 government schemes for          farmers in Maharashtra, delivered through a command-line interface (CLI) prototype to demonstrate    functionality.",
+                "keywords": [
+                    "Farmers"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            },
+            {
+                "paragraph": 62,
+                "sentence": "Moreover, the content is frequently available only in a limited set of languages such as English, Hindi, or Marathi, which poses a significant barrier for farmers and rural communities who may be more comfortable with regional languages.",
+                "keywords": [
+                    "Farmers"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            },
+            {
+                "paragraph": 64,
+                "sentence": "Citizens, particularly farmers and rural communities, often face significant difficulties in accessing information about government schemes due to the fragmented, technical, and language-limited nature of existing resources.",
+                "keywords": [
+                    "Farmers"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            },
+            {
+                "paragraph": 66,
+                "sentence": "By doing so, the system will enable citizens, particularly farmers and rural users, to easily find relevant scheme details, understand eligibility criteria, and take informed actions without being hindered by language barriers or the complexity of official documenta",
+                "keywords": [
+                    "Farmers"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            },
+            {
+                "paragraph": 80,
+                "sentence": "Lok Seva Mitra effectively addresses the persistent challenges faced by citizens, especially farmers, in accessing, understanding, and utilizing government schemes.",
+                "keywords": [
+                    "Farmers"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            },
+            {
+                "paragraph": 80,
+                "sentence": "This approach not only enhances accessibility but also empowers farmers to make informed decisions, complete applications accurately, and fully benefit from the welfare programs available to them.",
+                "keywords": [
+                    "Farmers"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            }
+        ],
+        "Google Generative AI Documentation": [
+            {
+                "paragraph": 83,
+                "sentence": "Google Generative AI Documentation \u2013 https://ai.google.dev",
+                "keywords": [
+                    "Google Generative AI Documentation"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            }
+        ],
+        "Googletrans Python Library": [
+            {
+                "paragraph": 86,
+                "sentence": "Googletrans Python Library \u2013 https://py-googletrans.readthedocs.io/",
+                "keywords": [
+                    "Googletrans Python Library"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            }
+        ],
+        "LokSeva": [
+            {
+                "paragraph": 15,
+                "sentence": "This is to certify that the project entitled \u201cLokSeva Mitra\u201d is a bonafide work of \u201cOmkar Patil (VU4F2223108), Prathamesh Thakare (VU4F2223103), Anand Dane (VU4F2223094), Swaroop Sawant (VU4F2223100)\u201d submitted to the University of Mumbai in partial fulfillment of the requirement for the award of the degree of \u201cBachelor of Engineering\u201d in \u201cInformation Technology\u201d.",
+                "keywords": [
+                    "LokSeva"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            },
+            {
+                "paragraph": 19,
+                "sentence": "This project report entitled \u201cLokSeva Mitra\u201d by Omkar Patil (VU4F2223108), Prathamesh Thakare (VU4F2223103) , Anand Dane (VU4F2223094), Swaroop Sawant (VU4F2223100) is approved for the degree of \u201cBachelor of Engineering\u201d in \u201cInformation Technology\u201d.",
+                "keywords": [
+                    "LokSeva"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            },
+            {
+                "paragraph": 27,
+                "sentence": "LokSeva Mitra is a solution designed to overcome this information barrier.",
+                "keywords": [
+                    "LokSeva"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            },
+            {
+                "paragraph": 27,
+                "sentence": "By making complex government schemes easy to find and comprehend, LokSeva Mitra promotes inclusivity, transparency and accessibility, empowering citizens, reducing reliance on intermediaries, and ensuring that policy benefits effectively reach the people they are intended for.",
+                "keywords": [
+                    "LokSeva"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            },
+            {
+                "paragraph": 70,
+                "sentence": "The LokSeva Mitra system is designed with a two-phase pipeline that ensures government scheme information is extracted, structured, and delivered to citizens in a simple, conversational format.",
+                "keywords": [
+                    "LokSeva"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            },
+            {
+                "paragraph": 71,
+                "sentence": "By merging structured data with advanced AI-driven conversational capabilities, LokSeva Mitra provides fast and accurate information access while enhancing inclusivity through multilingual support.",
+                "keywords": [
+                    "LokSeva"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            },
+            {
+                "paragraph": 80,
+                "sentence": "By improving awareness, accessibility, and user engagement, LokSeva Mitra has the potential to contribute significantly to social inclusion and equitable access to government resources, making it a valuable tool for both citizens and policymakers..",
+                "keywords": [
+                    "LokSeva"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            }
+        ],
+        "Marathi": [
+            {
+                "paragraph": 27,
+                "sentence": "Its unique strength is handling queries in languages like Marathi and English, providing simplified, jargon-free responses in the user's preferred language.",
+                "keywords": [
+                    "Marathi"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            },
+            {
+                "paragraph": 62,
+                "sentence": "Moreover, the content is frequently available only in a limited set of languages such as English, Hindi, or Marathi, which poses a significant barrier for farmers and rural communities who may be more comfortable with regional languages.",
+                "keywords": [
+                    "Marathi"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            }
+        ],
+        "Near Everard Nagar": [
+            {
+                "paragraph": 11,
+                "sentence": "Vasantdada Patil Educational Complex, Eastern Express Highway, Near Everard Nagar, Sion- Chunabhatti, Mumbai \u2013 400022.",
+                "keywords": [
+                    "Near Everard Nagar"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            }
+        ],
+        "Objectives": [
+            {
+                "paragraph": 30,
+                "sentence": "1.2 Aim and Objectives",
+                "keywords": [
+                    "Objectives"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            },
+            {
+                "paragraph": 51,
+                "sentence": "Objectives:",
+                "keywords": [
+                    "Objectives"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            }
+        ],
+        "Prathamesh Thakare": [
+            {
+                "paragraph": 15,
+                "sentence": "This is to certify that the project entitled \u201cLokSeva Mitra\u201d is a bonafide work of \u201cOmkar Patil (VU4F2223108), Prathamesh Thakare (VU4F2223103), Anand Dane (VU4F2223094), Swaroop Sawant (VU4F2223100)\u201d submitted to the University of Mumbai in partial fulfillment of the requirement for the award of the degree of \u201cBachelor of Engineering\u201d in \u201cInformation Technology\u201d.",
+                "keywords": [
+                    "Prathamesh Thakare"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            },
+            {
+                "paragraph": 19,
+                "sentence": "This project report entitled \u201cLokSeva Mitra\u201d by Omkar Patil (VU4F2223108), Prathamesh Thakare (VU4F2223103) , Anand Dane (VU4F2223094), Swaroop Sawant (VU4F2223100) is approved for the degree of \u201cBachelor of Engineering\u201d in \u201cInformation Technology\u201d.",
+                "keywords": [
+                    "Prathamesh Thakare"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            }
+        ],
+        "Project Guide": [
+            {
+                "paragraph": 16,
+                "sentence": "Project Guide",
+                "keywords": [
+                    "Project Guide"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            }
+        ],
+        "Software": [
+            {
+                "paragraph": 39,
+                "sentence": "3.2 Software Architectural Design",
+                "keywords": [
+                    "Software"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            },
+            {
+                "paragraph": 72,
+                "sentence": "3.2 Software Architectural Design",
+                "keywords": [
+                    "Software"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            }
+        ],
+        "UNIVERSITY OF MUMBAI\nAcademic": [],
+        "University of Mumbai": [
+            {
+                "paragraph": 12,
+                "sentence": "UNIVERSITY OF MUMBAI",
+                "keywords": [
+                    "University of Mumbai"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            },
+            {
+                "paragraph": 15,
+                "sentence": "This is to certify that the project entitled \u201cLokSeva Mitra\u201d is a bonafide work of \u201cOmkar Patil (VU4F2223108), Prathamesh Thakare (VU4F2223103), Anand Dane (VU4F2223094), Swaroop Sawant (VU4F2223100)\u201d submitted to the University of Mumbai in partial fulfillment of the requirement for the award of the degree of \u201cBachelor of Engineering\u201d in \u201cInformation Technology\u201d.",
+                "keywords": [
+                    "University of Mumbai"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            }
+        ],
+        "WhatsApp": [
+            {
+                "paragraph": 58,
+                "sentence": "In the future, the project can be expanded to include a web-based or WhatsApp chatbot interface, integration with additional states and user domains, and automated updates to ensure that the latest scheme information is always available.",
+                "keywords": [
+                    "WhatsApp"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            },
+            {
+                "paragraph": 71,
+                "sentence": "Its scalable design allows future expansion to more schemes, integration with platforms such as web or WhatsApp chatbots, and automatic updates of scheme information, making it a comprehensive solution for bridging the gap between government resources and citizens.",
+                "keywords": [
+                    "WhatsApp"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            }
+        ],
+        "artificial intelligence": [
+            {
+                "paragraph": 80,
+                "sentence": "The project showcases the practical and impactful application of artificial intelligence in addressing real-world social challenges, demonstrating how technology can drive tangible grassroots benefits.",
+                "keywords": [
+                    "artificial intelligence"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            }
+        ],
+        "express": [
+            {
+                "paragraph": 11,
+                "sentence": "Vasantdada Patil Educational Complex, Eastern Express Highway, Near Everard Nagar, Sion- Chunabhatti, Mumbai \u2013 400022.",
+                "keywords": [
+                    "express"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            }
+        ],
+        "github": [
+            {
+                "paragraph": 84,
+                "sentence": "FAISS: Facebook AI Similarity Search \u2013 https://github.com/facebookresearch/faiss",
+                "keywords": [
+                    "github"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            },
+            {
+                "paragraph": 85,
+                "sentence": "pdfplumber Documentation \u2013 https://github.com/jsvine/pdfplumber",
+                "keywords": [
+                    "github"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            }
+        ],
+        "python": [
+            {
+                "paragraph": 86,
+                "sentence": "Googletrans Python Library \u2013 https://py-googletrans.readthedocs.io/",
+                "keywords": [
+                    "python"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            }
+        ],
+        "Chunabhatti": [
+            {
+                "paragraph": 11,
+                "sentence": "Vasantdada Patil Educational Complex, Eastern Express Highway, Near Everard Nagar, Sion- Chunabhatti, Mumbai \u2013 400022.",
+                "keywords": [
+                    "Chunabhatti"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            }
+        ],
+        "Hindi": [
+            {
+                "paragraph": 62,
+                "sentence": "Moreover, the content is frequently available only in a limited set of languages such as English, Hindi, or Marathi, which poses a significant barrier for farmers and rural communities who may be more comfortable with regional languages.",
+                "keywords": [
+                    "Hindi"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            }
+        ],
+        "India": [
+            {
+                "paragraph": 26,
+                "sentence": "Government schemes in India, vital for providing financial aid and welfare benefits, especially to farmers and the economically weaker, suffer from inaccessibility and complexity.",
+                "keywords": [
+                    "India"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            },
+            {
+                "paragraph": 58,
+                "sentence": "This scalability ensures that the system can grow into a comprehensive platform for improving citizen access to government welfare programs across India.",
+                "keywords": [
+                    "India"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            }
+        ],
+        "Mumbai": [
+            {
+                "paragraph": 11,
+                "sentence": "Vasantdada Patil Educational Complex, Eastern Express Highway, Near Everard Nagar, Sion- Chunabhatti, Mumbai \u2013 400022.",
+                "keywords": [
+                    "Mumbai"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            },
+            {
+                "paragraph": 12,
+                "sentence": "UNIVERSITY OF MUMBAI",
+                "keywords": [
+                    "Mumbai"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            },
+            {
+                "paragraph": 15,
+                "sentence": "This is to certify that the project entitled \u201cLokSeva Mitra\u201d is a bonafide work of \u201cOmkar Patil (VU4F2223108), Prathamesh Thakare (VU4F2223103), Anand Dane (VU4F2223094), Swaroop Sawant (VU4F2223100)\u201d submitted to the University of Mumbai in partial fulfillment of the requirement for the award of the degree of \u201cBachelor of Engineering\u201d in \u201cInformation Technology\u201d.",
+                "keywords": [
+                    "Mumbai"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            },
+            {
+                "paragraph": 24,
+                "sentence": "Place: Mumbai - 22",
+                "keywords": [
+                    "Mumbai"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            }
+        ],
+        "Pratishthan": [
+            {
+                "paragraph": 10,
+                "sentence": "Vasantdada Patil Pratishthan's College of Engineering & Visual Arts",
+                "keywords": [
+                    "Pratishthan"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            }
+        ]
     },
     "classification": {
         "primary_category": "AI",
@@ -100,7 +1502,34 @@
             "rag",
             "chatbot"
         ],
-        "classification_explanation": "Detected keywords: artificial intelligence, llm, rag, chatbot"
+        "evidence_used": [
+            {
+                "paragraph": 80,
+                "sentence": "The project showcases the practical and impactful application of artificial intelligence in addressing real-world social challenges, demonstrating how technology can drive tangible grassroots benefits.",
+                "keywords": [
+                    "artificial intelligence"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            }
+        ],
+        "rejected_categories": {
+            "Education": "Only 3 supporting keyword(s) found",
+            "Governance": "Only 3 supporting keyword(s) found",
+            "Agriculture": "Only 1 supporting keyword(s) found",
+            "Infrastructure": "Only 1 supporting keyword(s) found",
+            "Healthcare": "No supporting keywords found",
+            "Marine": "No supporting keywords found"
+        },
+        "classification_explanation": "AI selected because it contains 4 supporting keyword(s): artificial intelligence, llm, rag, chatbot"
+    },
+    "confidence": {
+        "score": 92,
+        "supporting_evidence_count": 144,
+        "validated_entity_count": 46,
+        "document_completeness": 0.62,
+        "contradictory_evidence_count": 0,
+        "explanation": "Confidence derived from 144 supporting evidences, 46 validated entities, and document completeness of 62%."
     },
     "recommendations": {
         "related_domains": [
@@ -129,7 +1558,7 @@
         "intelligence_summary": "This document primarily belongs to the AI domain. It is strongly associated with Machine Learning, Data Science. The extracted intelligence can be used for classification, search, and knowledge management purposes. Additional recommendations have been generated to enrich future analysis."
     },
     "processing_trace": {
-        "execution_timestamp": "2026-06-18 11:57:37",
+        "execution_timestamp": "2026-06-20 12:00:04",
         "overall_status": "SUCCESS",
         "processing_trace": [
             {
@@ -154,11 +1583,23 @@
             },
             {
                 "step": "Entity Extraction",
-                "details": "53 entities extracted"
+                "details": "46 entities extracted"
+            },
+            {
+                "step": "Entity Validation",
+                "details": "46 validated, 6 rejected"
+            },
+            {
+                "step": "Evidence Generation",
+                "details": "41 evidence records generated"
             },
             {
                 "step": "Classification",
                 "details": "Primary Category: AI"
+            },
+            {
+                "step": "Confidence Scoring",
+                "details": "Confidence Score: 92"
             },
             {
                 "step": "Recommendation Generation",
@@ -174,7 +1615,8 @@
         "document_type": "Project Submission",
         "primary_category": "AI",
         "secondary_category": "Education",
-        "confidence_score": 0.4,
+        "classification_confidence": 0.4,
+        "overall_confidence": 92,
         "recommended_tags": [
             "artificial-intelligence",
             "machine-learning",
@@ -182,6 +1624,8 @@
             "chatbot",
             "automation"
         ],
-        "entity_count": 53
+        "entity_count": 46,
+        "rejected_entity_count": 6,
+        "evidence_count": 144
     }
 }

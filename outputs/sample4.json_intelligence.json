@@ -28,8 +28,48 @@
         "locations": [],
         "dates": [],
         "emails": [],
-        "phone_numbers": [
-            "7349282382"
+        "phone_numbers": []
+    },
+    "rejected_entities": [
+        {
+            "entity": "7349282382",
+            "entity_type": "phone_numbers",
+            "reason": "Numeric token"
+        }
+    ],
+    "evidence_report": {
+        "Jackson": [
+            {
+                "paragraph": 5,
+                "sentence": "\"lastName\": \"Jackson\",",
+                "keywords": [
+                    "Jackson"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            }
+        ],
+        "James": [
+            {
+                "paragraph": 12,
+                "sentence": "\"firstName\": \"James\",",
+                "keywords": [
+                    "James"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            }
+        ],
+        "Joe": [
+            {
+                "paragraph": 4,
+                "sentence": "\"firstName\": \"Joe\",",
+                "keywords": [
+                    "Joe"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            }
         ]
     },
     "classification": {
@@ -39,7 +79,24 @@
         "matched_keywords": [
             "health"
         ],
-        "classification_explanation": "Detected keywords: health"
+        "evidence_used": [],
+        "rejected_categories": {
+            "Agriculture": "Only 1 supporting keyword(s) found",
+            "AI": "No supporting keywords found",
+            "Education": "No supporting keywords found",
+            "Governance": "No supporting keywords found",
+            "Infrastructure": "No supporting keywords found",
+            "Marine": "No supporting keywords found"
+        },
+        "classification_explanation": "Healthcare selected because it contains 1 supporting keyword(s): health"
+    },
+    "confidence": {
+        "score": 23,
+        "supporting_evidence_count": 3,
+        "validated_entity_count": 3,
+        "document_completeness": 0.12,
+        "contradictory_evidence_count": 0,
+        "explanation": "Confidence derived from 3 supporting evidences, 3 validated entities, and document completeness of 12%."
     },
     "recommendations": {
         "related_domains": [
@@ -64,7 +121,7 @@
         "intelligence_summary": "This document primarily belongs to the Healthcare domain. It is strongly associated with Medical Analytics, Telemedicine. The extracted intelligence can be used for classification, search, and knowledge management purposes. Additional recommendations have been generated to enrich future analysis."
     },
     "processing_trace": {
-        "execution_timestamp": "2026-06-18 10:47:17",
+        "execution_timestamp": "2026-06-20 11:54:57",
         "overall_status": "SUCCESS",
         "processing_trace": [
             {
@@ -89,11 +146,23 @@
             },
             {
                 "step": "Entity Extraction",
-                "details": "4 entities extracted"
+                "details": "3 entities extracted"
+            },
+            {
+                "step": "Entity Validation",
+                "details": "3 validated, 1 rejected"
+            },
+            {
+                "step": "Evidence Generation",
+                "details": "3 evidence records generated"
             },
             {
                 "step": "Classification",
                 "details": "Primary Category: Healthcare"
+            },
+            {
+                "step": "Confidence Scoring",
+                "details": "Confidence Score: 23"
             },
             {
                 "step": "Recommendation Generation",
@@ -109,12 +178,15 @@
         "document_type": "Unknown",
         "primary_category": "Healthcare",
         "secondary_category": "Agriculture",
-        "confidence_score": 0.14,
+        "classification_confidence": 0.14,
+        "overall_confidence": 23,
         "recommended_tags": [
             "healthcare",
             "medical",
             "patient-care"
         ],
-        "entity_count": 4
+        "entity_count": 3,
+        "rejected_entity_count": 1,
+        "evidence_count": 3
     }
 }

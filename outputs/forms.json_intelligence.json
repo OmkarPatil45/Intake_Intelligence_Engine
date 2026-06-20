@@ -29,14 +29,52 @@
         "locations": [
             "Mumbai"
         ],
-        "dates": [
-            "911234567810"
-        ],
+        "dates": [],
         "emails": [
             "john@yahoo.com"
         ],
-        "phone_numbers": [
-            "9112345678"
+        "phone_numbers": []
+    },
+    "rejected_entities": [
+        {
+            "entity": "9112345678",
+            "entity_type": "phone_numbers",
+            "reason": "Numeric token"
+        }
+    ],
+    "evidence_report": {
+        "John Doe": [
+            {
+                "paragraph": 3,
+                "sentence": "\"name\": \"John Doe\",",
+                "keywords": [
+                    "John Doe"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            }
+        ],
+        "Mumbai": [
+            {
+                "paragraph": 6,
+                "sentence": "\"location\": \"Mumbai\",",
+                "keywords": [
+                    "Mumbai"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            }
+        ],
+        "john@yahoo.com": [
+            {
+                "paragraph": 4,
+                "sentence": "\"email\": \"john@yahoo.com\",",
+                "keywords": [
+                    "john@yahoo.com"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            }
         ]
     },
     "classification": {
@@ -46,7 +84,24 @@
         "matched_keywords": [
             "student"
         ],
-        "classification_explanation": "Detected keywords: student"
+        "evidence_used": [],
+        "rejected_categories": {
+            "AI": "No supporting keywords found",
+            "Healthcare": "No supporting keywords found",
+            "Agriculture": "No supporting keywords found",
+            "Governance": "No supporting keywords found",
+            "Infrastructure": "No supporting keywords found",
+            "Marine": "No supporting keywords found"
+        },
+        "classification_explanation": "Education selected because it contains 1 supporting keyword(s): student"
+    },
+    "confidence": {
+        "score": 29,
+        "supporting_evidence_count": 3,
+        "validated_entity_count": 3,
+        "document_completeness": 0.38,
+        "contradictory_evidence_count": 0,
+        "explanation": "Confidence derived from 3 supporting evidences, 3 validated entities, and document completeness of 38%."
     },
     "recommendations": {
         "related_domains": [
@@ -72,7 +127,7 @@
         "intelligence_summary": "This document primarily belongs to the Education domain. It is strongly associated with E-Learning, Student Analytics. The extracted intelligence can be used for classification, search, and knowledge management purposes. Additional recommendations have been generated to enrich future analysis."
     },
     "processing_trace": {
-        "execution_timestamp": "2026-06-17 12:46:10",
+        "execution_timestamp": "2026-06-20 11:55:30",
         "overall_status": "SUCCESS",
         "processing_trace": [
             {
@@ -97,11 +152,23 @@
             },
             {
                 "step": "Entity Extraction",
-                "details": "5 entities extracted"
+                "details": "3 entities extracted"
+            },
+            {
+                "step": "Entity Validation",
+                "details": "3 validated, 1 rejected"
+            },
+            {
+                "step": "Evidence Generation",
+                "details": "3 evidence records generated"
             },
             {
                 "step": "Classification",
                 "details": "Primary Category: Education"
+            },
+            {
+                "step": "Confidence Scoring",
+                "details": "Confidence Score: 29"
             },
             {
                 "step": "Recommendation Generation",
@@ -117,13 +184,16 @@
         "document_type": "Application Form",
         "primary_category": "Education",
         "secondary_category": "AI",
-        "confidence_score": 0.12,
+        "classification_confidence": 0.12,
+        "overall_confidence": 29,
         "recommended_tags": [
             "education",
             "learning",
             "students",
             "academic"
         ],
-        "entity_count": 5
+        "entity_count": 3,
+        "rejected_entity_count": 1,
+        "evidence_count": 3
     }
 }

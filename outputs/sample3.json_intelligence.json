@@ -42,6 +42,7 @@
             "Mus\\u00e9e National d'Histoire Naturelle",
             "Mus\\u00e9e de l'Orangerie",
             "Nanjing Museum",
+            "National Art Center",
             "National Museum",
             "National Museum of Anthropology",
             "National Museum of China",
@@ -54,16 +55,11 @@
             "Shanghai Museum East",
             "Smithsonian Museum of American History",
             "State Russian Museum",
-            "The National Art Center",
             "Tokyo National Museum",
             "UTC"
         ],
-        "technologies": [
-            "c"
-        ],
-        "skills": [
-            "c"
-        ],
+        "technologies": [],
+        "skills": [],
         "locations": [
             "Australia",
             "Beijing",
@@ -112,12 +108,2121 @@
         "dates": [
             "2023",
             "2024",
-            "54",
-            "November 06, 2025",
-            "annual"
+            "November 06, 2025"
         ],
         "emails": [],
         "phone_numbers": []
+    },
+    "rejected_entities": [
+        {
+            "entity": "c",
+            "entity_type": "technologies",
+            "reason": "Entity too short"
+        },
+        {
+            "entity": "c",
+            "entity_type": "skills",
+            "reason": "Entity too short"
+        }
+    ],
+    "evidence_report": {
+        "Austria": [
+            {
+                "paragraph": 354,
+                "sentence": "\"country\": \"Austria\"",
+                "keywords": [
+                    "Austria"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            }
+        ],
+        "Edinburgh": [
+            {
+                "paragraph": 234,
+                "sentence": "\"city\": \"Edinburgh\",",
+                "keywords": [
+                    "Edinburgh"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            }
+        ],
+        "Konya": [
+            {
+                "paragraph": 185,
+                "sentence": "\"city\": \"Konya\",",
+                "keywords": [
+                    "Konya"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            }
+        ],
+        "Paulo": [
+            {
+                "paragraph": 416,
+                "sentence": "\"city\": \"S\\u00e3o Paulo\",",
+                "keywords": [
+                    "Paulo"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            }
+        ],
+        "Uffizi": [
+            {
+                "paragraph": 197,
+                "sentence": "\"name\": \"Galleria degli Uffizi\",",
+                "keywords": [
+                    "Uffizi"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            }
+        ],
+        "\"Kaohsiung Museum of Fine Arts": [
+            {
+                "paragraph": 393,
+                "sentence": "\"name\": \"Kaohsiung Museum of Fine Arts\",",
+                "keywords": [
+                    "\"Kaohsiung Museum of Fine Arts"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            }
+        ],
+        "\"Shenzhen Museum\"": [
+            {
+                "paragraph": 29,
+                "sentence": "\"name\": \"Shenzhen Museum\",",
+                "keywords": [
+                    "\"Shenzhen Museum\""
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            }
+        ],
+        "American Museum of Natural History": [
+            {
+                "paragraph": 71,
+                "sentence": "\"name\": \"American Museum of Natural History\",",
+                "keywords": [
+                    "American Museum of Natural History"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            }
+        ],
+        "British Museum": [
+            {
+                "paragraph": 36,
+                "sentence": "\"name\": \"British Museum\",",
+                "keywords": [
+                    "British Museum"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            }
+        ],
+        "China National Silk Museum": [
+            {
+                "paragraph": 344,
+                "sentence": "\"name\": \"China National Silk Museum\",",
+                "keywords": [
+                    "China National Silk Museum"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            }
+        ],
+        "China Science and Technology Museum": [
+            {
+                "paragraph": 43,
+                "sentence": "\"name\": \"China Science and Technology Museum\",",
+                "keywords": [
+                    "China Science and Technology Museum"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            }
+        ],
+        "Chinese Aviation Museum": [
+            {
+                "paragraph": 428,
+                "sentence": "\"name\": \"Chinese Aviation Museum\",",
+                "keywords": [
+                    "Chinese Aviation Museum"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            }
+        ],
+        "Crafts Museum": [
+            {
+                "paragraph": 365,
+                "sentence": "\"name\": \"Hangzhou Arts and Crafts Museum\",",
+                "keywords": [
+                    "Crafts Museum"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            }
+        ],
+        "Hubei Provincial Museum": [
+            {
+                "paragraph": 85,
+                "sentence": "\"name\": \"Hubei Provincial Museum\",",
+                "keywords": [
+                    "Hubei Provincial Museum"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            }
+        ],
+        "Louis Vuitton Foundation": [
+            {
+                "paragraph": 386,
+                "sentence": "\"name\": \"Louis Vuitton Foundation\",",
+                "keywords": [
+                    "Louis Vuitton Foundation"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            }
+        ],
+        "Mevlana Museum": [
+            {
+                "paragraph": 183,
+                "sentence": "\"name\": \"Mevlana Museum\",",
+                "keywords": [
+                    "Mevlana Museum"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            }
+        ],
+        "Moscow Kremlin Museum": [
+            {
+                "paragraph": 323,
+                "sentence": "\"name\": \"Moscow Kremlin Museum\",",
+                "keywords": [
+                    "Moscow Kremlin Museum"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            }
+        ],
+        "Mus\\u00e9e National d'Histoire Naturelle": [
+            {
+                "paragraph": 169,
+                "sentence": "\"name\": \"Mus\\u00e9e National d'Histoire Naturelle\",",
+                "keywords": [
+                    "Mus\\u00e9e National d'Histoire Naturelle"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            }
+        ],
+        "Mus\\u00e9e de l'Orangerie": [
+            {
+                "paragraph": 114,
+                "sentence": "\"visit_count\": \"3,751,000 (including Mus\\u00e9e de l'Orangerie) (2024)\",",
+                "keywords": [
+                    "Mus\\u00e9e de l'Orangerie"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            }
+        ],
+        "Nanjing Museum": [
+            {
+                "paragraph": 64,
+                "sentence": "\"name\": \"Nanjing Museum\",",
+                "keywords": [
+                    "Nanjing Museum"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            }
+        ],
+        "National Art Center": [
+            {
+                "paragraph": 407,
+                "sentence": "\"name\": \"The National Art Center, Tokyo\",",
+                "keywords": [
+                    "National Art Center"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            }
+        ],
+        "National Museum": [
+            {
+                "paragraph": 15,
+                "sentence": "\"name\": \"National Museum of China\",",
+                "keywords": [
+                    "National Museum"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            },
+            {
+                "paragraph": 106,
+                "sentence": "\"name\": \"National Museum of Korea\",",
+                "keywords": [
+                    "National Museum"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            },
+            {
+                "paragraph": 120,
+                "sentence": "\"name\": \"National Museum of Anthropology\",",
+                "keywords": [
+                    "National Museum"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            },
+            {
+                "paragraph": 190,
+                "sentence": "\"name\": \"National Museum of Natural History\",",
+                "keywords": [
+                    "National Museum"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            },
+            {
+                "paragraph": 204,
+                "sentence": "\"name\": \"National Museum of Natural Science\",",
+                "keywords": [
+                    "National Museum"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            },
+            {
+                "paragraph": 232,
+                "sentence": "\"name\": \"National Museum of Scotland\",",
+                "keywords": [
+                    "National Museum"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            },
+            {
+                "paragraph": 246,
+                "sentence": "\"name\": \"Tokyo National Museum\",",
+                "keywords": [
+                    "National Museum"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            },
+            {
+                "paragraph": 372,
+                "sentence": "\"name\": \"National Museum in Krak\\u00f3w\",",
+                "keywords": [
+                    "National Museum"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            }
+        ],
+        "National Museum of Anthropology": [
+            {
+                "paragraph": 120,
+                "sentence": "\"name\": \"National Museum of Anthropology\",",
+                "keywords": [
+                    "National Museum of Anthropology"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            }
+        ],
+        "National Museum of China": [
+            {
+                "paragraph": 15,
+                "sentence": "\"name\": \"National Museum of China\",",
+                "keywords": [
+                    "National Museum of China"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            }
+        ],
+        "National Museum of Korea": [
+            {
+                "paragraph": 106,
+                "sentence": "\"name\": \"National Museum of Korea\",",
+                "keywords": [
+                    "National Museum of Korea"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            }
+        ],
+        "National Museum of Natural History": [
+            {
+                "paragraph": 190,
+                "sentence": "\"name\": \"National Museum of Natural History\",",
+                "keywords": [
+                    "National Museum of Natural History"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            }
+        ],
+        "National Museum of Natural Science": [
+            {
+                "paragraph": 204,
+                "sentence": "\"name\": \"National Museum of Natural Science\",",
+                "keywords": [
+                    "National Museum of Natural Science"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            }
+        ],
+        "National Museum of Scotland": [
+            {
+                "paragraph": 232,
+                "sentence": "\"name\": \"National Museum of Scotland\",",
+                "keywords": [
+                    "National Museum of Scotland"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            }
+        ],
+        "National Palace Museum": [
+            {
+                "paragraph": 302,
+                "sentence": "\"name\": \"National Palace Museum\",",
+                "keywords": [
+                    "National Palace Museum"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            }
+        ],
+        "Palacio de Cristal": [
+            {
+                "paragraph": 421,
+                "sentence": "\"name\": \"Palacio de Cristal del Retiro\",",
+                "keywords": [
+                    "Palacio de Cristal"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            }
+        ],
+        "Shanghai Museum East": [
+            {
+                "paragraph": 92,
+                "sentence": "\"name\": \"Shanghai Museum East\",",
+                "keywords": [
+                    "Shanghai Museum East"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            }
+        ],
+        "Smithsonian Museum of American History": [
+            {
+                "paragraph": 267,
+                "sentence": "\"name\": \"Smithsonian Museum of American History\",",
+                "keywords": [
+                    "Smithsonian Museum of American History"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            }
+        ],
+        "State Russian Museum": [
+            {
+                "paragraph": 127,
+                "sentence": "\"name\": \"State Russian Museum\",",
+                "keywords": [
+                    "State Russian Museum"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            },
+            {
+                "paragraph": 239,
+                "sentence": "\"name\": \"State Russian Museum\",",
+                "keywords": [
+                    "State Russian Museum"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            }
+        ],
+        "Tokyo National Museum": [
+            {
+                "paragraph": 246,
+                "sentence": "\"name\": \"Tokyo National Museum\",",
+                "keywords": [
+                    "Tokyo National Museum"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            }
+        ],
+        "UTC": [
+            {
+                "paragraph": 4,
+                "sentence": "\"updated_at\": \"November 06, 2025 03:52 AM UTC\",",
+                "keywords": [
+                    "UTC"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            }
+        ],
+        "Australia": [
+            {
+                "paragraph": 277,
+                "sentence": "\"country\": \"Australia\"",
+                "keywords": [
+                    "Australia"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            },
+            {
+                "paragraph": 382,
+                "sentence": "\"country\": \"Australia\"",
+                "keywords": [
+                    "Australia"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            }
+        ],
+        "Beijing": [
+            {
+                "paragraph": 17,
+                "sentence": "\"city\": \"Beijing\",",
+                "keywords": [
+                    "Beijing"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            },
+            {
+                "paragraph": 45,
+                "sentence": "\"city\": \"Beijing\",",
+                "keywords": [
+                    "Beijing"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            },
+            {
+                "paragraph": 430,
+                "sentence": "\"city\": \"Beijing\",",
+                "keywords": [
+                    "Beijing"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            }
+        ],
+        "Brazil": [
+            {
+                "paragraph": 417,
+                "sentence": "\"country\": \"Brazil\"",
+                "keywords": [
+                    "Brazil"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            }
+        ],
+        "China": [
+            {
+                "paragraph": 15,
+                "sentence": "\"name\": \"National Museum of China\",",
+                "keywords": [
+                    "China"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            },
+            {
+                "paragraph": 18,
+                "sentence": "\"country\": \"China\"",
+                "keywords": [
+                    "China"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            },
+            {
+                "paragraph": 32,
+                "sentence": "\"country\": \"China\"",
+                "keywords": [
+                    "China"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            },
+            {
+                "paragraph": 43,
+                "sentence": "\"name\": \"China Science and Technology Museum\",",
+                "keywords": [
+                    "China"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            },
+            {
+                "paragraph": 46,
+                "sentence": "\"country\": \"China\"",
+                "keywords": [
+                    "China"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            },
+            {
+                "paragraph": 67,
+                "sentence": "\"country\": \"China\"",
+                "keywords": [
+                    "China"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            },
+            {
+                "paragraph": 88,
+                "sentence": "\"country\": \"China\"",
+                "keywords": [
+                    "China"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            },
+            {
+                "paragraph": 95,
+                "sentence": "\"country\": \"China\"",
+                "keywords": [
+                    "China"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            },
+            {
+                "paragraph": 291,
+                "sentence": "\"country\": \"China\"",
+                "keywords": [
+                    "China"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            },
+            {
+                "paragraph": 344,
+                "sentence": "\"name\": \"China National Silk Museum\",",
+                "keywords": [
+                    "China"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            },
+            {
+                "paragraph": 347,
+                "sentence": "\"country\": \"China\"",
+                "keywords": [
+                    "China"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            },
+            {
+                "paragraph": 361,
+                "sentence": "\"country\": \"China\"",
+                "keywords": [
+                    "China"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            },
+            {
+                "paragraph": 368,
+                "sentence": "\"country\": \"China\"",
+                "keywords": [
+                    "China"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            },
+            {
+                "paragraph": 431,
+                "sentence": "\"country\": \"China\"",
+                "keywords": [
+                    "China"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            }
+        ],
+        "D.C.": [
+            {
+                "paragraph": 101,
+                "sentence": "\"city\": \"Washington, D.C.\",",
+                "keywords": [
+                    "D.C."
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            },
+            {
+                "paragraph": 178,
+                "sentence": "\"city\": \"Washington, D.C.\",",
+                "keywords": [
+                    "D.C."
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            },
+            {
+                "paragraph": 192,
+                "sentence": "\"city\": \"Washington, D.C.\",",
+                "keywords": [
+                    "D.C."
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            },
+            {
+                "paragraph": 269,
+                "sentence": "\"city\": \"Washington, D.C.\",",
+                "keywords": [
+                    "D.C."
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            }
+        ],
+        "France": [
+            {
+                "paragraph": 11,
+                "sentence": "\"country\": \"France\"",
+                "keywords": [
+                    "France"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            },
+            {
+                "paragraph": 116,
+                "sentence": "\"country\": \"France\"",
+                "keywords": [
+                    "France"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            },
+            {
+                "paragraph": 158,
+                "sentence": "\"country\": \"France\"",
+                "keywords": [
+                    "France"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            },
+            {
+                "paragraph": 172,
+                "sentence": "\"country\": \"France\"",
+                "keywords": [
+                    "France"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            },
+            {
+                "paragraph": 389,
+                "sentence": "\"country\": \"France\"",
+                "keywords": [
+                    "France"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            }
+        ],
+        "Fuzhou": [
+            {
+                "paragraph": 360,
+                "sentence": "\"city\": \"Fuzhou\",",
+                "keywords": [
+                    "Fuzhou"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            }
+        ],
+        "Galleria": [
+            {
+                "paragraph": 197,
+                "sentence": "\"name\": \"Galleria degli Uffizi\",",
+                "keywords": [
+                    "Galleria"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            },
+            {
+                "paragraph": 281,
+                "sentence": "\"name\": \"Galleria dell'Accademia\",",
+                "keywords": [
+                    "Galleria"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            }
+        ],
+        "Greece": [
+            {
+                "paragraph": 403,
+                "sentence": "\"country\": \"Greece\"",
+                "keywords": [
+                    "Greece"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            }
+        ],
+        "Hangzhou": [
+            {
+                "paragraph": 346,
+                "sentence": "\"city\": \"Hangzhou\",",
+                "keywords": [
+                    "Hangzhou"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            },
+            {
+                "paragraph": 365,
+                "sentence": "\"name\": \"Hangzhou Arts and Crafts Museum\",",
+                "keywords": [
+                    "Hangzhou"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            },
+            {
+                "paragraph": 367,
+                "sentence": "\"city\": \"Hangzhou\",",
+                "keywords": [
+                    "Hangzhou"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            }
+        ],
+        "Hong Kong": [
+            {
+                "paragraph": 227,
+                "sentence": "\"city\": \"Hong Kong\",",
+                "keywords": [
+                    "Hong Kong"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            },
+            {
+                "paragraph": 228,
+                "sentence": "\"country\": \"Hong Kong\"",
+                "keywords": [
+                    "Hong Kong"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            }
+        ],
+        "Italy": [
+            {
+                "paragraph": 200,
+                "sentence": "\"country\": \"Italy\"",
+                "keywords": [
+                    "Italy"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            },
+            {
+                "paragraph": 284,
+                "sentence": "\"country\": \"Italy\"",
+                "keywords": [
+                    "Italy"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            }
+        ],
+        "Japan": [
+            {
+                "paragraph": 249,
+                "sentence": "\"country\": \"Japan\"",
+                "keywords": [
+                    "Japan"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            },
+            {
+                "paragraph": 410,
+                "sentence": "\"country\": \"Japan\"",
+                "keywords": [
+                    "Japan"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            }
+        ],
+        "Kaohsiung": [
+            {
+                "paragraph": 297,
+                "sentence": "\"city\": \"Kaohsiung\",",
+                "keywords": [
+                    "Kaohsiung"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            },
+            {
+                "paragraph": 393,
+                "sentence": "\"name\": \"Kaohsiung Museum of Fine Arts\",",
+                "keywords": [
+                    "Kaohsiung"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            },
+            {
+                "paragraph": 395,
+                "sentence": "\"city\": \"Kaohsiung\",",
+                "keywords": [
+                    "Kaohsiung"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            }
+        ],
+        "London": [
+            {
+                "paragraph": 38,
+                "sentence": "\"city\": \"London\",",
+                "keywords": [
+                    "London"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            },
+            {
+                "paragraph": 52,
+                "sentence": "\"city\": \"London\",",
+                "keywords": [
+                    "London"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            },
+            {
+                "paragraph": 80,
+                "sentence": "\"city\": \"London\",",
+                "keywords": [
+                    "London"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            },
+            {
+                "paragraph": 143,
+                "sentence": "\"city\": \"London, South Kensington\",",
+                "keywords": [
+                    "London"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            },
+            {
+                "paragraph": 164,
+                "sentence": "\"city\": \"London\",",
+                "keywords": [
+                    "London"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            },
+            {
+                "paragraph": 218,
+                "sentence": "\"name\": \"London Science Museum\",",
+                "keywords": [
+                    "London"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            },
+            {
+                "paragraph": 220,
+                "sentence": "\"city\": \"London\",",
+                "keywords": [
+                    "London"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            },
+            {
+                "paragraph": 255,
+                "sentence": "\"city\": \"London\",",
+                "keywords": [
+                    "London"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            }
+        ],
+        "Los Angeles": [
+            {
+                "paragraph": 339,
+                "sentence": "\"city\": \"Los Angeles\",",
+                "keywords": [
+                    "Los Angeles"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            }
+        ],
+        "Madrid": [
+            {
+                "paragraph": 150,
+                "sentence": "\"city\": \"Madrid\",",
+                "keywords": [
+                    "Madrid"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            },
+            {
+                "paragraph": 423,
+                "sentence": "\"city\": \"Madrid\",",
+                "keywords": [
+                    "Madrid"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            }
+        ],
+        "Mexico": [
+            {
+                "paragraph": 122,
+                "sentence": "\"city\": \"Mexico City\",",
+                "keywords": [
+                    "Mexico"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            },
+            {
+                "paragraph": 123,
+                "sentence": "\"country\": \"Mexico\"",
+                "keywords": [
+                    "Mexico"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            }
+        ],
+        "Mexico City": [
+            {
+                "paragraph": 122,
+                "sentence": "\"city\": \"Mexico City\",",
+                "keywords": [
+                    "Mexico City"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            }
+        ],
+        "Moscow": [
+            {
+                "paragraph": 262,
+                "sentence": "\"city\": \"Moscow\",",
+                "keywords": [
+                    "Moscow"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            },
+            {
+                "paragraph": 323,
+                "sentence": "\"name\": \"Moscow Kremlin Museum\",",
+                "keywords": [
+                    "Moscow"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            },
+            {
+                "paragraph": 325,
+                "sentence": "\"city\": \"Moscow\",",
+                "keywords": [
+                    "Moscow"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            }
+        ],
+        "Nanjing": [
+            {
+                "paragraph": 64,
+                "sentence": "\"name\": \"Nanjing Museum\",",
+                "keywords": [
+                    "Nanjing"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            },
+            {
+                "paragraph": 66,
+                "sentence": "\"city\": \"Nanjing\",",
+                "keywords": [
+                    "Nanjing"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            }
+        ],
+        "Netherlands": [
+            {
+                "paragraph": 312,
+                "sentence": "\"country\": \"Netherlands\"",
+                "keywords": [
+                    "Netherlands"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            }
+        ],
+        "New York City": [
+            {
+                "paragraph": 59,
+                "sentence": "\"city\": \"New York City\",",
+                "keywords": [
+                    "New York City"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            },
+            {
+                "paragraph": 73,
+                "sentence": "\"city\": \"New York City\",",
+                "keywords": [
+                    "New York City"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            },
+            {
+                "paragraph": 213,
+                "sentence": "\"city\": \"New York City\",",
+                "keywords": [
+                    "New York City"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            }
+        ],
+        "Paris": [
+            {
+                "paragraph": 10,
+                "sentence": "\"city\": \"Paris\",",
+                "keywords": [
+                    "Paris"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            },
+            {
+                "paragraph": 115,
+                "sentence": "\"city\": \"Paris\",",
+                "keywords": [
+                    "Paris"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            },
+            {
+                "paragraph": 157,
+                "sentence": "\"city\": \"Paris\",",
+                "keywords": [
+                    "Paris"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            },
+            {
+                "paragraph": 171,
+                "sentence": "\"city\": \"Paris\",",
+                "keywords": [
+                    "Paris"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            },
+            {
+                "paragraph": 388,
+                "sentence": "\"city\": \"Paris\",",
+                "keywords": [
+                    "Paris"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            }
+        ],
+        "Poland": [
+            {
+                "paragraph": 375,
+                "sentence": "\"country\": \"Poland\"",
+                "keywords": [
+                    "Poland"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            }
+        ],
+        "Rome": [
+            {
+                "paragraph": 24,
+                "sentence": "\"city\": \"Vatican City, Rome\",",
+                "keywords": [
+                    "Rome"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            }
+        ],
+        "Russia": [
+            {
+                "paragraph": 127,
+                "sentence": "\"name\": \"State Russian Museum\",",
+                "keywords": [
+                    "Russia"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            },
+            {
+                "paragraph": 130,
+                "sentence": "\"country\": \"Russia\"",
+                "keywords": [
+                    "Russia"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            },
+            {
+                "paragraph": 137,
+                "sentence": "\"country\": \"Russia\"",
+                "keywords": [
+                    "Russia"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            },
+            {
+                "paragraph": 239,
+                "sentence": "\"name\": \"State Russian Museum\",",
+                "keywords": [
+                    "Russia"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            },
+            {
+                "paragraph": 242,
+                "sentence": "\"country\": \"Russia\"",
+                "keywords": [
+                    "Russia"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            },
+            {
+                "paragraph": 263,
+                "sentence": "\"country\": \"Russia\"",
+                "keywords": [
+                    "Russia"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            },
+            {
+                "paragraph": 326,
+                "sentence": "\"country\": \"Russia\"",
+                "keywords": [
+                    "Russia"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            }
+        ],
+        "Seoul": [
+            {
+                "paragraph": 108,
+                "sentence": "\"city\": \"Seoul\",",
+                "keywords": [
+                    "Seoul"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            }
+        ],
+        "Shanghai": [
+            {
+                "paragraph": 92,
+                "sentence": "\"name\": \"Shanghai Museum East\",",
+                "keywords": [
+                    "Shanghai"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            },
+            {
+                "paragraph": 94,
+                "sentence": "\"city\": \"Shanghai\",",
+                "keywords": [
+                    "Shanghai"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            }
+        ],
+        "Shenzhen": [
+            {
+                "paragraph": 29,
+                "sentence": "\"name\": \"Shenzhen Museum\",",
+                "keywords": [
+                    "Shenzhen"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            },
+            {
+                "paragraph": 31,
+                "sentence": "\"city\": \"Shenzhen\",",
+                "keywords": [
+                    "Shenzhen"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            }
+        ],
+        "Singapore": [
+            {
+                "paragraph": 330,
+                "sentence": "\"name\": \"National Gallery Singapore\",",
+                "keywords": [
+                    "Singapore"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            },
+            {
+                "paragraph": 332,
+                "sentence": "\"city\": \"Singapore\",",
+                "keywords": [
+                    "Singapore"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            },
+            {
+                "paragraph": 333,
+                "sentence": "\"country\": \"Singapore\"",
+                "keywords": [
+                    "Singapore"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            }
+        ],
+        "South Kensington": [
+            {
+                "paragraph": 50,
+                "sentence": "\"name\": \"Natural History Museum, South Kensington\",",
+                "keywords": [
+                    "South Kensington"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            },
+            {
+                "paragraph": 143,
+                "sentence": "\"city\": \"London, South Kensington\",",
+                "keywords": [
+                    "South Kensington"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            }
+        ],
+        "South Korea": [
+            {
+                "paragraph": 109,
+                "sentence": "\"country\": \"South Korea\"",
+                "keywords": [
+                    "South Korea"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            }
+        ],
+        "Spain": [
+            {
+                "paragraph": 151,
+                "sentence": "\"country\": \"Spain\"",
+                "keywords": [
+                    "Spain"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            },
+            {
+                "paragraph": 319,
+                "sentence": "\"country\": \"Spain\"",
+                "keywords": [
+                    "Spain"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            },
+            {
+                "paragraph": 424,
+                "sentence": "\"country\": \"Spain\"",
+                "keywords": [
+                    "Spain"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            }
+        ],
+        "Taipei": [
+            {
+                "paragraph": 304,
+                "sentence": "\"city\": \"Taipei\",",
+                "keywords": [
+                    "Taipei"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            }
+        ],
+        "Taiwan": [
+            {
+                "paragraph": 207,
+                "sentence": "\"country\": \"Taiwan\"",
+                "keywords": [
+                    "Taiwan"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            },
+            {
+                "paragraph": 298,
+                "sentence": "\"country\": \"Taiwan\"",
+                "keywords": [
+                    "Taiwan"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            },
+            {
+                "paragraph": 305,
+                "sentence": "\"country\": \"Taiwan\"",
+                "keywords": [
+                    "Taiwan"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            },
+            {
+                "paragraph": 396,
+                "sentence": "\"country\": \"Taiwan\"",
+                "keywords": [
+                    "Taiwan"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            }
+        ],
+        "Tokyo": [
+            {
+                "paragraph": 246,
+                "sentence": "\"name\": \"Tokyo National Museum\",",
+                "keywords": [
+                    "Tokyo"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            },
+            {
+                "paragraph": 248,
+                "sentence": "\"city\": \"Tokyo\",",
+                "keywords": [
+                    "Tokyo"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            },
+            {
+                "paragraph": 407,
+                "sentence": "\"name\": \"The National Art Center, Tokyo\",",
+                "keywords": [
+                    "Tokyo"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            },
+            {
+                "paragraph": 409,
+                "sentence": "\"city\": \"Tokyo\",",
+                "keywords": [
+                    "Tokyo"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            }
+        ],
+        "Turkey": [
+            {
+                "paragraph": 186,
+                "sentence": "\"country\": \"Turkey\"",
+                "keywords": [
+                    "Turkey"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            }
+        ],
+        "United Kingdom": [
+            {
+                "paragraph": 39,
+                "sentence": "\"country\": \"United Kingdom\"",
+                "keywords": [
+                    "United Kingdom"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            },
+            {
+                "paragraph": 53,
+                "sentence": "\"country\": \"United Kingdom\"",
+                "keywords": [
+                    "United Kingdom"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            },
+            {
+                "paragraph": 81,
+                "sentence": "\"country\": \"United Kingdom\"",
+                "keywords": [
+                    "United Kingdom"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            },
+            {
+                "paragraph": 144,
+                "sentence": "\"country\": \"United Kingdom\"",
+                "keywords": [
+                    "United Kingdom"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            },
+            {
+                "paragraph": 165,
+                "sentence": "\"country\": \"United Kingdom\"",
+                "keywords": [
+                    "United Kingdom"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            },
+            {
+                "paragraph": 221,
+                "sentence": "\"country\": \"United Kingdom\"",
+                "keywords": [
+                    "United Kingdom"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            },
+            {
+                "paragraph": 235,
+                "sentence": "\"country\": \"United Kingdom\"",
+                "keywords": [
+                    "United Kingdom"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            },
+            {
+                "paragraph": 256,
+                "sentence": "\"country\": \"United Kingdom\"",
+                "keywords": [
+                    "United Kingdom"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            }
+        ],
+        "Vatican City": [
+            {
+                "paragraph": 24,
+                "sentence": "\"city\": \"Vatican City, Rome\",",
+                "keywords": [
+                    "Vatican City"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            }
+        ],
+        "Vienna": [
+            {
+                "paragraph": 353,
+                "sentence": "\"city\": \"Vienna\",",
+                "keywords": [
+                    "Vienna"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            }
+        ],
+        "Washington": [
+            {
+                "paragraph": 101,
+                "sentence": "\"city\": \"Washington, D.C.\",",
+                "keywords": [
+                    "Washington"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            },
+            {
+                "paragraph": 178,
+                "sentence": "\"city\": \"Washington, D.C.\",",
+                "keywords": [
+                    "Washington"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            },
+            {
+                "paragraph": 192,
+                "sentence": "\"city\": \"Washington, D.C.\",",
+                "keywords": [
+                    "Washington"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            },
+            {
+                "paragraph": 269,
+                "sentence": "\"city\": \"Washington, D.C.\",",
+                "keywords": [
+                    "Washington"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            }
+        ],
+        "Wuhan": [
+            {
+                "paragraph": 87,
+                "sentence": "\"city\": \"Wuhan\",",
+                "keywords": [
+                    "Wuhan"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            }
+        ],
+        "2023": [
+            {
+                "paragraph": 289,
+                "sentence": "\"visit_count\": \"1,879,175 (2023)\",",
+                "keywords": [
+                    "2023"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            },
+            {
+                "paragraph": 345,
+                "sentence": "\"visit_count\": \"1,692,697 (2023)\",",
+                "keywords": [
+                    "2023"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            },
+            {
+                "paragraph": 359,
+                "sentence": "\"visit_count\": \"1,676,973 (2023)\",",
+                "keywords": [
+                    "2023"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            },
+            {
+                "paragraph": 366,
+                "sentence": "\"visit_count\": \"1,641,226 (2023)\",",
+                "keywords": [
+                    "2023"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            },
+            {
+                "paragraph": 387,
+                "sentence": "\"visit_count\": \"1,500,000 (2023)\",",
+                "keywords": [
+                    "2023"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            },
+            {
+                "paragraph": 429,
+                "sentence": "\"visit_count\": \"1,292,278 (2023)\",",
+                "keywords": [
+                    "2023"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            }
+        ],
+        "2024": [
+            {
+                "paragraph": 9,
+                "sentence": "\"visit_count\": \"8,700,000 (2024)\",",
+                "keywords": [
+                    "2024"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            },
+            {
+                "paragraph": 16,
+                "sentence": "\"visit_count\": \"6,956,800 (2024)\",",
+                "keywords": [
+                    "2024"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            },
+            {
+                "paragraph": 23,
+                "sentence": "\"visit_count\": \"6,825,436 (2024)\",",
+                "keywords": [
+                    "2024"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            },
+            {
+                "paragraph": 30,
+                "sentence": "\"visit_count\": \"6,805,000 (2024)\",",
+                "keywords": [
+                    "2024"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            },
+            {
+                "paragraph": 37,
+                "sentence": "\"visit_count\": \"6,479,952 (2024)\",",
+                "keywords": [
+                    "2024"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            },
+            {
+                "paragraph": 44,
+                "sentence": "\"visit_count\": \"6,421,000 (2024)\",",
+                "keywords": [
+                    "2024"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            },
+            {
+                "paragraph": 51,
+                "sentence": "\"visit_count\": \"6,301,972 (2024)\",",
+                "keywords": [
+                    "2024"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            },
+            {
+                "paragraph": 58,
+                "sentence": "\"visit_count\": \"5,727,258 (2024)\",",
+                "keywords": [
+                    "2024"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            },
+            {
+                "paragraph": 65,
+                "sentence": "\"visit_count\": \"5,680,000 (2024)\",",
+                "keywords": [
+                    "2024"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            },
+            {
+                "paragraph": 72,
+                "sentence": "\"visit_count\": \"5,400,000 (2024)\",",
+                "keywords": [
+                    "2024"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            },
+            {
+                "paragraph": 79,
+                "sentence": "\"visit_count\": \"4,603,025 (2024)\",",
+                "keywords": [
+                    "2024"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            },
+            {
+                "paragraph": 86,
+                "sentence": "\"visit_count\": \"4,356,943 (2024)\",",
+                "keywords": [
+                    "2024"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            },
+            {
+                "paragraph": 93,
+                "sentence": "\"visit_count\": \"4,230,000 (2024)\",",
+                "keywords": [
+                    "2024"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            },
+            {
+                "paragraph": 100,
+                "sentence": "\"visit_count\": \"3,936,543 (2024)\",",
+                "keywords": [
+                    "2024"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            },
+            {
+                "paragraph": 107,
+                "sentence": "\"visit_count\": \"3.78 million (2024)\",",
+                "keywords": [
+                    "2024"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            },
+            {
+                "paragraph": 114,
+                "sentence": "\"visit_count\": \"3,751,000 (including Mus\\u00e9e de l'Orangerie) (2024)\",",
+                "keywords": [
+                    "2024"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            },
+            {
+                "paragraph": 121,
+                "sentence": "\"visit_count\": \"3,700,000 (2024)\",",
+                "keywords": [
+                    "2024"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            },
+            {
+                "paragraph": 128,
+                "sentence": "\"visit_count\": \"3,611,899 (2024)\",",
+                "keywords": [
+                    "2024"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            },
+            {
+                "paragraph": 135,
+                "sentence": "\"visit_count\": \"3,563,590 (2024)\",",
+                "keywords": [
+                    "2024"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            },
+            {
+                "paragraph": 142,
+                "sentence": "\"visit_count\": \"3,525,700 (2024)\",",
+                "keywords": [
+                    "2024"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            },
+            {
+                "paragraph": 149,
+                "sentence": "\"visit_count\": \"3,457,057 (2024)\",",
+                "keywords": [
+                    "2024"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            },
+            {
+                "paragraph": 156,
+                "sentence": "\"visit_count\": \"3,204,369 (2024)\",",
+                "keywords": [
+                    "2024"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            },
+            {
+                "paragraph": 163,
+                "sentence": "\"visit_count\": \"3,203,451 (2024)\",",
+                "keywords": [
+                    "2024"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            },
+            {
+                "paragraph": 170,
+                "sentence": "\"visit_count\": \"3.2 million (2024)\",",
+                "keywords": [
+                    "2024"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            },
+            {
+                "paragraph": 177,
+                "sentence": "\"visit_count\": \"3,100,000 (2024)\",",
+                "keywords": [
+                    "2024"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            },
+            {
+                "paragraph": 184,
+                "sentence": "\"visit_count\": \"3,048,000 (2024)\",",
+                "keywords": [
+                    "2024"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            },
+            {
+                "paragraph": 191,
+                "sentence": "\"visit_count\": \"3.0 million (2024)\",",
+                "keywords": [
+                    "2024"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            },
+            {
+                "paragraph": 198,
+                "sentence": "\"visit_count\": \"2,908,828 (2024)\",",
+                "keywords": [
+                    "2024"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            },
+            {
+                "paragraph": 205,
+                "sentence": "\"visit_count\": \"2,854,455 (2024)\",",
+                "keywords": [
+                    "2024"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            },
+            {
+                "paragraph": 212,
+                "sentence": "\"visit_count\": \"2,657,377 (2024)\",",
+                "keywords": [
+                    "2024"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            },
+            {
+                "paragraph": 219,
+                "sentence": "\"visit_count\": \"2,827,242 (2024)\",",
+                "keywords": [
+                    "2024"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            },
+            {
+                "paragraph": 226,
+                "sentence": "\"visit_count\": \"2.61 million (2024)\",",
+                "keywords": [
+                    "2024"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            },
+            {
+                "paragraph": 233,
+                "sentence": "\"visit_count\": \"2,314,974 (2024)\",",
+                "keywords": [
+                    "2024"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            },
+            {
+                "paragraph": 240,
+                "sentence": "\"visit_count\": \"3,611,899 (2024)\",",
+                "keywords": [
+                    "2024"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            },
+            {
+                "paragraph": 247,
+                "sentence": "\"visit_count\": \"2,460,000 (2024)\",",
+                "keywords": [
+                    "2024"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            },
+            {
+                "paragraph": 254,
+                "sentence": "\"visit_count\": \"2,255,753 (2024)\",",
+                "keywords": [
+                    "2024"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            },
+            {
+                "paragraph": 261,
+                "sentence": "\"visit_count\": \"2,524,450 (2024)\",",
+                "keywords": [
+                    "2024"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            },
+            {
+                "paragraph": 268,
+                "sentence": "\"visit_count\": \"2,100,000 (2024)\",",
+                "keywords": [
+                    "2024"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            },
+            {
+                "paragraph": 282,
+                "sentence": "\"visit_count\": \"2,189,103 (2024)\",",
+                "keywords": [
+                    "2024"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            },
+            {
+                "paragraph": 303,
+                "sentence": "\"visit_count\": \"1,874,994 (2024)\",",
+                "keywords": [
+                    "2024"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            },
+            {
+                "paragraph": 310,
+                "sentence": "\"visit_count\": \"1,840,000 (2024)\",",
+                "keywords": [
+                    "2024"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            },
+            {
+                "paragraph": 317,
+                "sentence": "\"visit_count\": \"1,301,343 (2024)\",",
+                "keywords": [
+                    "2024"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            },
+            {
+                "paragraph": 324,
+                "sentence": "\"visit_count\": \"1,214,851 (2024)\",",
+                "keywords": [
+                    "2024"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            },
+            {
+                "paragraph": 331,
+                "sentence": "\"visit_count\": \"2,040,481 (2024)\",",
+                "keywords": [
+                    "2024"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            }
+        ],
+        "November 06, 2025": [
+            {
+                "paragraph": 4,
+                "sentence": "\"updated_at\": \"November 06, 2025 03:52 AM UTC\",",
+                "keywords": [
+                    "November 06, 2025"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            }
+        ]
     },
     "classification": {
         "primary_category": "Agriculture",
@@ -126,7 +2231,24 @@
         "matched_keywords": [
             "crop"
         ],
-        "classification_explanation": "Detected keywords: crop"
+        "evidence_used": [],
+        "rejected_categories": {
+            "AI": "No supporting keywords found",
+            "Education": "No supporting keywords found",
+            "Healthcare": "No supporting keywords found",
+            "Governance": "No supporting keywords found",
+            "Infrastructure": "No supporting keywords found",
+            "Marine": "No supporting keywords found"
+        },
+        "classification_explanation": "Agriculture selected because it contains 1 supporting keyword(s): crop"
+    },
+    "confidence": {
+        "score": 90,
+        "supporting_evidence_count": 215,
+        "validated_entity_count": 81,
+        "document_completeness": 0.5,
+        "contradictory_evidence_count": 0,
+        "explanation": "Confidence derived from 215 supporting evidences, 81 validated entities, and document completeness of 50%."
     },
     "recommendations": {
         "related_domains": [
@@ -151,7 +2273,7 @@
         "intelligence_summary": "This document primarily belongs to the Agriculture domain. It is strongly associated with Smart Farming, AgriTech. The extracted intelligence can be used for classification, search, and knowledge management purposes. Additional recommendations have been generated to enrich future analysis."
     },
     "processing_trace": {
-        "execution_timestamp": "2026-06-18 10:50:32",
+        "execution_timestamp": "2026-06-20 11:54:41",
         "overall_status": "SUCCESS",
         "processing_trace": [
             {
@@ -176,11 +2298,23 @@
             },
             {
                 "step": "Entity Extraction",
-                "details": "85 entities extracted"
+                "details": "81 entities extracted"
+            },
+            {
+                "step": "Entity Validation",
+                "details": "81 validated, 2 rejected"
+            },
+            {
+                "step": "Evidence Generation",
+                "details": "81 evidence records generated"
             },
             {
                 "step": "Classification",
                 "details": "Primary Category: Agriculture"
+            },
+            {
+                "step": "Confidence Scoring",
+                "details": "Confidence Score: 90"
             },
             {
                 "step": "Recommendation Generation",
@@ -196,12 +2330,15 @@
         "document_type": "Project Submission",
         "primary_category": "Agriculture",
         "secondary_category": "AI",
-        "confidence_score": 0.17,
+        "classification_confidence": 0.17,
+        "overall_confidence": 90,
         "recommended_tags": [
             "agriculture",
             "crop-management",
             "farming"
         ],
-        "entity_count": 85
+        "entity_count": 81,
+        "rejected_entity_count": 2,
+        "evidence_count": 215
     }
 }

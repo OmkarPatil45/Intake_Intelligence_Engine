@@ -35,12 +35,138 @@
             "India",
             "Washington"
         ],
-        "dates": [
-            "2023-01-31",
-            "2023-12-30"
-        ],
+        "dates": [],
         "emails": [],
         "phone_numbers": []
+    },
+    "rejected_entities": [
+        {
+            "entity": "2023-01-31",
+            "entity_type": "dates",
+            "reason": "Insufficient alphabetic content"
+        },
+        {
+            "entity": "2023-12-30",
+            "entity_type": "dates",
+            "reason": "Insufficient alphabetic content"
+        }
+    ],
+    "evidence_report": {
+        "Vihaan Sharma": [
+            {
+                "paragraph": 6,
+                "sentence": "\"CustomerName\": \"Vihaan Sharma\",",
+                "keywords": [
+                    "Vihaan Sharma"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            }
+        ],
+        "OrderStatus": [
+            {
+                "paragraph": 18,
+                "sentence": "\"OrderStatus\": \"Delivered\",",
+                "keywords": [
+                    "OrderStatus"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            },
+            {
+                "paragraph": 40,
+                "sentence": "\"OrderStatus\": \"Delivered\",",
+                "keywords": [
+                    "OrderStatus"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            }
+        ],
+        "TX": [
+            {
+                "paragraph": 42,
+                "sentence": "\"State\": \"TX\",",
+                "keywords": [
+                    "TX"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            }
+        ],
+        "TotalAmount": [
+            {
+                "paragraph": 16,
+                "sentence": "\"TotalAmount\": \"319.86\",",
+                "keywords": [
+                    "TotalAmount"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            },
+            {
+                "paragraph": 38,
+                "sentence": "\"TotalAmount\": \"259.64\",",
+                "keywords": [
+                    "TotalAmount"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            }
+        ],
+        "UnitPrice": [
+            {
+                "paragraph": 12,
+                "sentence": "\"UnitPrice\": \"106.59\",",
+                "keywords": [
+                    "UnitPrice"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            },
+            {
+                "paragraph": 34,
+                "sentence": "\"UnitPrice\": \"251.37\",",
+                "keywords": [
+                    "UnitPrice"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            }
+        ],
+        "Fort Worth": [
+            {
+                "paragraph": 41,
+                "sentence": "\"City\": \"Fort Worth\",",
+                "keywords": [
+                    "Fort Worth"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            }
+        ],
+        "India": [
+            {
+                "paragraph": 21,
+                "sentence": "\"Country\": \"India\",",
+                "keywords": [
+                    "India"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            }
+        ],
+        "Washington": [
+            {
+                "paragraph": 19,
+                "sentence": "\"City\": \"Washington\",",
+                "keywords": [
+                    "Washington"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            }
+        ]
     },
     "classification": {
         "primary_category": "Agriculture",
@@ -49,7 +175,24 @@
         "matched_keywords": [
             "crop"
         ],
-        "classification_explanation": "Detected keywords: crop"
+        "evidence_used": [],
+        "rejected_categories": {
+            "Marine": "Only 1 supporting keyword(s) found",
+            "AI": "No supporting keywords found",
+            "Education": "No supporting keywords found",
+            "Healthcare": "No supporting keywords found",
+            "Governance": "No supporting keywords found",
+            "Infrastructure": "No supporting keywords found"
+        },
+        "classification_explanation": "Agriculture selected because it contains 1 supporting keyword(s): crop"
+    },
+    "confidence": {
+        "score": 74,
+        "supporting_evidence_count": 11,
+        "validated_entity_count": 8,
+        "document_completeness": 0.38,
+        "contradictory_evidence_count": 0,
+        "explanation": "Confidence derived from 11 supporting evidences, 8 validated entities, and document completeness of 38%."
     },
     "recommendations": {
         "related_domains": [
@@ -74,7 +217,7 @@
         "intelligence_summary": "This document primarily belongs to the Agriculture domain. It is strongly associated with Smart Farming, AgriTech. The extracted intelligence can be used for classification, search, and knowledge management purposes. Additional recommendations have been generated to enrich future analysis."
     },
     "processing_trace": {
-        "execution_timestamp": "2026-06-18 10:59:52",
+        "execution_timestamp": "2026-06-20 11:54:21",
         "overall_status": "SUCCESS",
         "processing_trace": [
             {
@@ -99,11 +242,23 @@
             },
             {
                 "step": "Entity Extraction",
-                "details": "10 entities extracted"
+                "details": "8 entities extracted"
+            },
+            {
+                "step": "Entity Validation",
+                "details": "8 validated, 2 rejected"
+            },
+            {
+                "step": "Evidence Generation",
+                "details": "8 evidence records generated"
             },
             {
                 "step": "Classification",
                 "details": "Primary Category: Agriculture"
+            },
+            {
+                "step": "Confidence Scoring",
+                "details": "Confidence Score: 74"
             },
             {
                 "step": "Recommendation Generation",
@@ -119,12 +274,15 @@
         "document_type": "Application Form",
         "primary_category": "Agriculture",
         "secondary_category": "Marine",
-        "confidence_score": 0.17,
+        "classification_confidence": 0.17,
+        "overall_confidence": 74,
         "recommended_tags": [
             "agriculture",
             "crop-management",
             "farming"
         ],
-        "entity_count": 10
+        "entity_count": 8,
+        "rejected_entity_count": 2,
+        "evidence_count": 11
     }
 }

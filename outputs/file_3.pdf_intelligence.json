@@ -31,12 +31,11 @@
             "Spruce Grouse",
             "Steven Few",
             "TECHNICAL  DOCUMENTATION",
-            "b. \nMETADATA",
-            "bird metric",
-            "type s. \nAbundance/Occurrence - Any"
+            "b. \nMETADATA"
         ],
         "organizations": [
             "CRITERIA",
+            "Collaboration for Environmental Evidence",
             "Control/Impact - Samples",
             "DECIMAL",
             "Dimensions",
@@ -61,18 +60,10 @@
             "Threatened",
             "USDA\u2019s Natural Resources Conservation S",
             "USFWS",
-            "Woodpecker",
-            "config uration metrics",
-            "grey",
-            "managem ent",
-            "the Collaboration for Environmental Evidence"
+            "Woodpecker"
         ],
-        "technologies": [
-            "c"
-        ],
-        "skills": [
-            "c"
-        ],
+        "technologies": [],
+        "skills": [],
         "locations": [
             "Canada",
             "North  America",
@@ -82,20 +73,2059 @@
             "Woodcock",
             "describ ed vegetation"
         ],
-        "dates": [
-            "1 -4 year",
-            "3 years",
-            "MAY",
-            "annual",
-            "every day",
-            "four -digit  year",
-            "spring",
-            "the past half century",
-            "winter",
-            "years"
-        ],
+        "dates": [],
         "emails": [],
         "phone_numbers": []
+    },
+    "rejected_entities": [
+        {
+            "entity": "bird metric",
+            "entity_type": "PERSON",
+            "reason": "Improper capitalization"
+        },
+        {
+            "entity": "type s. \nAbundance/Occurrence - Any",
+            "entity_type": "PERSON",
+            "reason": "Unlikely person name"
+        },
+        {
+            "entity": "config uration metrics",
+            "entity_type": "ORG",
+            "reason": "Improper organization capitalization"
+        },
+        {
+            "entity": "grey",
+            "entity_type": "ORG",
+            "reason": "Improper organization capitalization"
+        },
+        {
+            "entity": "managem ent",
+            "entity_type": "ORG",
+            "reason": "Improper organization capitalization"
+        },
+        {
+            "entity": "c",
+            "entity_type": "technologies",
+            "reason": "Entity too short"
+        },
+        {
+            "entity": "c",
+            "entity_type": "skills",
+            "reason": "Entity too short"
+        }
+    ],
+    "evidence_report": {
+        "Ben Schneiderman": [
+            {
+                "paragraph": 292,
+                "sentence": "Tufte, Ben Schneiderman, Steven Few, and Miguel Cairo, we would have never stumbled upon",
+                "keywords": [
+                    "Ben Schneiderman"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            }
+        ],
+        "Endangered Species": [
+            {
+                "paragraph": 89,
+                "sentence": "Endangered Species (Kirtland\u2019s Warbler, Red -cockaded Woodpecker, and Peregrine Falcon).",
+                "keywords": [
+                    "Endangered Species"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            }
+        ],
+        "Kirtland\u2019s Warbler": [
+            {
+                "paragraph": 89,
+                "sentence": "Endangered Species (Kirtland\u2019s Warbler, Red -cockaded Woodpecker, and Peregrine Falcon).",
+                "keywords": [
+                    "Kirtland\u2019s Warbler"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            }
+        ],
+        "Miguel Cairo": [
+            {
+                "paragraph": 292,
+                "sentence": "Tufte, Ben Schneiderman, Steven Few, and Miguel Cairo, we would have never stumbled upon",
+                "keywords": [
+                    "Miguel Cairo"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            }
+        ],
+        "REFERENCE  METADATA": [
+            {
+                "paragraph": 145,
+                "sentence": "Due to time  and resource  limitations,  there  were  differences in  the types of  reference  metadata",
+                "keywords": [
+                    "REFERENCE  METADATA"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            },
+            {
+                "paragraph": 193,
+                "sentence": "REFERENCE  METADATA  EXTRACTED  BY SUBJECT  EXPERTS",
+                "keywords": [
+                    "REFERENCE  METADATA"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            }
+        ],
+        "Ruffed  \nGrouse": [],
+        "Spruce Grouse": [
+            {
+                "paragraph": 87,
+                "sentence": "Grouse, Wild Turkey, Northern Bobwhite, American Woodcock , Spruce Grouse, and Sharp -",
+                "keywords": [
+                    "Spruce Grouse"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            }
+        ],
+        "Steven Few": [
+            {
+                "paragraph": 292,
+                "sentence": "Tufte, Ben Schneiderman, Steven Few, and Miguel Cairo, we would have never stumbled upon",
+                "keywords": [
+                    "Steven Few"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            }
+        ],
+        "TECHNICAL  DOCUMENTATION": [
+            {
+                "paragraph": 1,
+                "sentence": "TECHNICAL  DOCUMENTATION",
+                "keywords": [
+                    "TECHNICAL  DOCUMENTATION"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            }
+        ],
+        "b. \nMETADATA": [],
+        "CRITERIA": [
+            {
+                "paragraph": 45,
+                "sentence": "final eligibility criteria for inclusion in the systematic map.",
+                "keywords": [
+                    "CRITERIA"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            },
+            {
+                "paragraph": 51,
+                "sentence": "For our systematic review, the following criteria were used during title/",
+                "keywords": [
+                    "CRITERIA"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            },
+            {
+                "paragraph": 63,
+                "sentence": "We used the s ame general inclusion criteria for",
+                "keywords": [
+                    "CRITERIA"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            },
+            {
+                "paragraph": 65,
+                "sentence": "us to assess whether each reference truly contained empirical data that met each of the criteria",
+                "keywords": [
+                    "CRITERIA"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            },
+            {
+                "paragraph": 71,
+                "sentence": "References  should  not meet  any of the \u201cadditional  exclusion  criteria\u201d  described",
+                "keywords": [
+                    "CRITERIA"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            },
+            {
+                "paragraph": 73,
+                "sentence": "FULL -TEXT  EXCLUSION  CRITERIA  FOR THE SYSTEMATIC  MAP",
+                "keywords": [
+                    "CRITERIA"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            },
+            {
+                "paragraph": 78,
+                "sentence": "ADDITIONAL  EXCLUSION  CRITERIA",
+                "keywords": [
+                    "CRITERIA"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            },
+            {
+                "paragraph": 79,
+                "sentence": "Each primary literature reference that did not meet all 4 of our inclusion criteria were assigned",
+                "keywords": [
+                    "CRITERIA"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            },
+            {
+                "paragraph": 98,
+                "sentence": "These criteria also resulted in the exclusion of",
+                "keywords": [
+                    "CRITERIA"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            },
+            {
+                "paragraph": 107,
+                "sentence": "information  for any combination  of our target  species  grouped  together  (by any criteria),  that",
+                "keywords": [
+                    "CRITERIA"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            },
+            {
+                "paragraph": 138,
+                "sentence": "NO BIRD METRICS - This was a more general category than the specific exclusion criteria listed",
+                "keywords": [
+                    "CRITERIA"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            },
+            {
+                "paragraph": 142,
+                "sentence": "criteria  listed  above  where  we simply  excluded  all references that  did not include  data  on at",
+                "keywords": [
+                    "CRITERIA"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            },
+            {
+                "paragraph": 199,
+                "sentence": "met all full -text eligibility criteria, subject experts on the systematic map team extracted a",
+                "keywords": [
+                    "CRITERIA"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            },
+            {
+                "paragraph": 202,
+                "sentence": "TARGET BIRD METRIC TYPES - To meet final eligibility criteria for the systematic map, references",
+                "keywords": [
+                    "CRITERIA"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            },
+            {
+                "paragraph": 220,
+                "sentence": "TARGET  VEGETATION METRIC  TYPE - To meet  final  eligibility  criteria  for the systematic",
+                "keywords": [
+                    "CRITERIA"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            }
+        ],
+        "Collaboration for Environmental Evidence": [
+            {
+                "paragraph": 3,
+                "sentence": "According to the Collaboration for Environmental Evidence , systematic maps are \u201coverviews of",
+                "keywords": [
+                    "Collaboration for Environmental Evidence"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            }
+        ],
+        "Control/Impact - Samples": [
+            {
+                "paragraph": 259,
+                "sentence": "Control/Impact - Samples  collected  from  both  impact  sites  and control  sites.",
+                "keywords": [
+                    "Control/Impact - Samples"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            }
+        ],
+        "DECIMAL": [
+            {
+                "paragraph": 161,
+                "sentence": "LATITUDE AND LONGITUDE IN DECIMAL DEGREES - We recorded latitude and longitude",
+                "keywords": [
+                    "DECIMAL"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            },
+            {
+                "paragraph": 166,
+                "sentence": "anything from 0 to 5 decimal places of precision (e.g., location accuracy ranging from \u00b1 111",
+                "keywords": [
+                    "DECIMAL"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            }
+        ],
+        "Dimensions": [
+            {
+                "paragraph": 36,
+                "sentence": "Scholar,  Microsoft Academic, and  Dimensions).",
+                "keywords": [
+                    "Dimensions"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            }
+        ],
+        "ESA": [
+            {
+                "paragraph": 194,
+                "sentence": "TARGET BIRD SPECIES - After the exclusion of 6 game bird species and 3 ESA -listed species (see",
+                "keywords": [
+                    "ESA"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            }
+        ],
+        "Edward  \nTufte": [],
+        "EndNote": [
+            {
+                "paragraph": 182,
+                "sentence": "export format in EndNote that covered each of the 7 different reference types that were",
+                "keywords": [
+                    "EndNote"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            }
+        ],
+        "Forest  Type/Tree  Species - Samples": [
+            {
+                "paragraph": 268,
+                "sentence": "Forest  Type/Tree  Species - Samples  stratified  to compare  bird and/or  vegetation  metrics  across",
+                "keywords": [
+                    "Forest  Type/Tree  Species - Samples"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            }
+        ],
+        "Grouse": [
+            {
+                "paragraph": 87,
+                "sentence": "Grouse, Wild Turkey, Northern Bobwhite, American Woodcock , Spruce Grouse, and Sharp -",
+                "keywords": [
+                    "Grouse"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            },
+            {
+                "paragraph": 88,
+                "sentence": "tailed Grouse), and 3 species currently or formerly included on USFWS list of Threatened and",
+                "keywords": [
+                    "Grouse"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            }
+        ],
+        "JMP": [
+            {
+                "paragraph": 295,
+                "sentence": "software engineers and developers who have created sophisticated tools, like JMP (which we",
+                "keywords": [
+                    "JMP"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            }
+        ],
+        "KEYWORD": [
+            {
+                "paragraph": 151,
+                "sentence": "for the  systematic  map  (Extracted  Data  and Keyword  Search).",
+                "keywords": [
+                    "KEYWORD"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            },
+            {
+                "paragraph": 157,
+                "sentence": "study location, citation information, and curated lists of keywords) for each reference.",
+                "keywords": [
+                    "KEYWORD"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            },
+            {
+                "paragraph": 176,
+                "sentence": "TITLE  AND  ABSTRACT  TEXT - To facilitate  topical  keyword  searches and  subsetting of  references",
+                "keywords": [
+                    "KEYWORD"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            },
+            {
+                "paragraph": 272,
+                "sentence": "CURATED KEYWORD LISTS - We identified >1,300 keyword terms (either single words or multi -",
+                "keywords": [
+                    "KEYWORD"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            },
+            {
+                "paragraph": 275,
+                "sentence": "keywords in titles or abstracts for each of the primary references (and in the full text of each of",
+                "keywords": [
+                    "KEYWORD"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            },
+            {
+                "paragraph": 277,
+                "sentence": "matrices that allow users to search all references by curated keyword lists in addition to",
+                "keywords": [
+                    "KEYWORD"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            },
+            {
+                "paragraph": 278,
+                "sentence": "Full methods for keyword analyses are the",
+                "keywords": [
+                    "KEYWORD"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            }
+        ],
+        "Keyword  Search": [
+            {
+                "paragraph": 151,
+                "sentence": "for the  systematic  map  (Extracted  Data  and Keyword  Search).",
+                "keywords": [
+                    "Keyword  Search"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            },
+            {
+                "paragraph": 176,
+                "sentence": "TITLE  AND  ABSTRACT  TEXT - To facilitate  topical  keyword  searches and  subsetting of  references",
+                "keywords": [
+                    "Keyword  Search"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            }
+        ],
+        "MAP": [
+            {
+                "paragraph": 2,
+                "sentence": "WHAT  IS A SYSTEMATIC  MAP?",
+                "keywords": [
+                    "MAP"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            },
+            {
+                "paragraph": 3,
+                "sentence": "According to the Collaboration for Environmental Evidence , systematic maps are \u201coverviews of",
+                "keywords": [
+                    "MAP"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            },
+            {
+                "paragraph": 7,
+                "sentence": "in eastern  and boreal North  America?\u201d  Systematic  maps  often  differ  from  other  types  of",
+                "keywords": [
+                    "MAP"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            },
+            {
+                "paragraph": 11,
+                "sentence": "for conducting systematic maps, and other types of systemat ic reviews, that place a premium",
+                "keywords": [
+                    "MAP"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            },
+            {
+                "paragraph": 13,
+                "sentence": "final products of a systematic map should: a) summarize all potential evidence on a clearly",
+                "keywords": [
+                    "MAP"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            },
+            {
+                "paragraph": 17,
+                "sentence": "evidence base  presented by a s ystematic  map.",
+                "keywords": [
+                    "MAP"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            },
+            {
+                "paragraph": 19,
+                "sentence": "After a review question has been defined, the first step in the creation of a systematic map, or",
+                "keywords": [
+                    "MAP"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            },
+            {
+                "paragraph": 25,
+                "sentence": "For this reason,  search  strings  for systematic  maps  that summarize  evidence  bases for  large",
+                "keywords": [
+                    "MAP"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            },
+            {
+                "paragraph": 41,
+                "sentence": "Evaluation  of references  for inclusion  in a systematic  map  is typically  done  in",
+                "keywords": [
+                    "MAP"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            },
+            {
+                "paragraph": 45,
+                "sentence": "final eligibility criteria for inclusion in the systematic map.",
+                "keywords": [
+                    "MAP"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            },
+            {
+                "paragraph": 57,
+                "sentence": "Systematic  maps  typically  summarize  only  primary  literature.",
+                "keywords": [
+                    "MAP"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            },
+            {
+                "paragraph": 73,
+                "sentence": "FULL -TEXT  EXCLUSION  CRITERIA  FOR THE SYSTEMATIC  MAP",
+                "keywords": [
+                    "MAP"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            },
+            {
+                "paragraph": 74,
+                "sentence": "Since our systematic map was intended to summarize primary literature, our first category for",
+                "keywords": [
+                    "MAP"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            },
+            {
+                "paragraph": 85,
+                "sentence": "systematic map.",
+                "keywords": [
+                    "MAP"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            },
+            {
+                "paragraph": 92,
+                "sentence": "map.",
+                "keywords": [
+                    "MAP"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            },
+            {
+                "paragraph": 93,
+                "sentence": "NOT IN BREEDING SEASON - This systematic map was restricted to forest bird -vegetation",
+                "keywords": [
+                    "MAP"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            },
+            {
+                "paragraph": 131,
+                "sentence": "observations which could not be consistently mapped to vegetation data at the plot or stand",
+                "keywords": [
+                    "MAP"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            },
+            {
+                "paragraph": 151,
+                "sentence": "for the  systematic  map  (Extracted  Data  and Keyword  Search).",
+                "keywords": [
+                    "MAP"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            },
+            {
+                "paragraph": 152,
+                "sentence": "A) The full spatial extent for this systematic map, coverin g all eastern and boreal",
+                "keywords": [
+                    "MAP"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            },
+            {
+                "paragraph": 159,
+                "sentence": "for all  references  in map  b.",
+                "keywords": [
+                    "MAP"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            },
+            {
+                "paragraph": 164,
+                "sentence": "for the systematic map.",
+                "keywords": [
+                    "MAP"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            },
+            {
+                "paragraph": 169,
+                "sentence": "could be located on maps to references to entire states, provinces, or ecoregions.",
+                "keywords": [
+                    "MAP"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            },
+            {
+                "paragraph": 170,
+                "sentence": "used this variable data on study locations to prese nt of a coarse distribution map of all",
+                "keywords": [
+                    "MAP"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            },
+            {
+                "paragraph": 177,
+                "sentence": "in the web -based data visualization for this systematic map, we extracted complete title and",
+                "keywords": [
+                    "MAP"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            },
+            {
+                "paragraph": 183,
+                "sentence": "included  in this systematic  map.",
+                "keywords": [
+                    "MAP"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            },
+            {
+                "paragraph": 186,
+                "sentence": "map:  journal  article,  book,  book  section,  thesis,  government  document,  conference  paper,  and",
+                "keywords": [
+                    "MAP"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            },
+            {
+                "paragraph": 198,
+                "sentence": "the final systematic map.",
+                "keywords": [
+                    "MAP"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            },
+            {
+                "paragraph": 199,
+                "sentence": "met all full -text eligibility criteria, subject experts on the systematic map team extracted a",
+                "keywords": [
+                    "MAP"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            },
+            {
+                "paragraph": 202,
+                "sentence": "TARGET BIRD METRIC TYPES - To meet final eligibility criteria for the systematic map, references",
+                "keywords": [
+                    "MAP"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            },
+            {
+                "paragraph": 205,
+                "sentence": "Each reference was coded by a subject expert from the systematic map team",
+                "keywords": [
+                    "MAP"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            },
+            {
+                "paragraph": 221,
+                "sentence": "map, references had to present data for at least one target bird species, for at least one of 3",
+                "keywords": [
+                    "MAP"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            },
+            {
+                "paragraph": 224,
+                "sentence": "Each  reference  was coded  by a subject  expert  from  the systematic  map  team  as to",
+                "keywords": [
+                    "MAP"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            },
+            {
+                "paragraph": 245,
+                "sentence": "SAMPLING  SCALE - Studies  are categoriz ed by subject  experts  of the systematic  map  team  as to",
+                "keywords": [
+                    "MAP"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            },
+            {
+                "paragraph": 255,
+                "sentence": "GROU P COMPARISON  TYPE - Studies  are categorized  by subject  experts  of the systematic  map",
+                "keywords": [
+                    "MAP"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            },
+            {
+                "paragraph": 276,
+                "sentence": "the review papers) that are included in the systematic map has been saved in document -term",
+                "keywords": [
+                    "MAP"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            },
+            {
+                "paragraph": 278,
+                "sentence": "metadata extracted by the systematic map team.",
+                "keywords": [
+                    "MAP"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            },
+            {
+                "paragraph": 289,
+                "sentence": "of searching for, compi ling, and evaluating literature for this broad topic systematic map, we",
+                "keywords": [
+                    "MAP"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            },
+            {
+                "paragraph": 298,
+                "sentence": "maps.",
+                "keywords": [
+                    "MAP"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            }
+        ],
+        "Microsoft Academic": [
+            {
+                "paragraph": 36,
+                "sentence": "Scholar,  Microsoft Academic, and  Dimensions).",
+                "keywords": [
+                    "Microsoft Academic"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            }
+        ],
+        "NO TARGET BIRD SPECIES - We": [
+            {
+                "paragraph": 83,
+                "sentence": "NO TARGET BIRD SPECIES - We initially identified 153 bird species that occur widely across",
+                "keywords": [
+                    "NO TARGET BIRD SPECIES - We"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            }
+        ],
+        "Peregrine Falcon": [
+            {
+                "paragraph": 89,
+                "sentence": "Endangered Species (Kirtland\u2019s Warbler, Red -cockaded Woodpecker, and Peregrine Falcon).",
+                "keywords": [
+                    "Peregrine Falcon"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            }
+        ],
+        "ProQuest": [
+            {
+                "paragraph": 34,
+                "sentence": "Host, and ProQuest); government agency sources (US and Canada); websites for non -",
+                "keywords": [
+                    "ProQuest"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            }
+        ],
+        "SCALE - Studies": [
+            {
+                "paragraph": 245,
+                "sentence": "SAMPLING  SCALE - Studies  are categoriz ed by subject  experts  of the systematic  map  team  as to",
+                "keywords": [
+                    "SCALE - Studies"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            }
+        ],
+        "Sharp": [
+            {
+                "paragraph": 87,
+                "sentence": "Grouse, Wild Turkey, Northern Bobwhite, American Woodcock , Spruce Grouse, and Sharp -",
+                "keywords": [
+                    "Sharp"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            }
+        ],
+        "Swainson\u2019s  Warblers": [
+            {
+                "paragraph": 109,
+                "sentence": "\u201cground  foraging birds\u201d  but no specific  information  for Ovenbirds  or Swainson\u2019s  Warblers).",
+                "keywords": [
+                    "Swainson\u2019s  Warblers"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            }
+        ],
+        "Systematic": [
+            {
+                "paragraph": 2,
+                "sentence": "WHAT  IS A SYSTEMATIC  MAP?",
+                "keywords": [
+                    "Systematic"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            },
+            {
+                "paragraph": 3,
+                "sentence": "According to the Collaboration for Environmental Evidence , systematic maps are \u201coverviews of",
+                "keywords": [
+                    "Systematic"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            },
+            {
+                "paragraph": 5,
+                "sentence": "question  of policy or mana gement  relevance.\u201d  The question  for our systematic  review",
+                "keywords": [
+                    "Systematic"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            },
+            {
+                "paragraph": 7,
+                "sentence": "in eastern  and boreal North  America?\u201d  Systematic  maps  often  differ  from  other  types  of",
+                "keywords": [
+                    "Systematic"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            },
+            {
+                "paragraph": 11,
+                "sentence": "for conducting systematic maps, and other types of systemat ic reviews, that place a premium",
+                "keywords": [
+                    "Systematic"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            },
+            {
+                "paragraph": 13,
+                "sentence": "final products of a systematic map should: a) summarize all potential evidence on a clearly",
+                "keywords": [
+                    "Systematic"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            },
+            {
+                "paragraph": 19,
+                "sentence": "After a review question has been defined, the first step in the creation of a systematic map, or",
+                "keywords": [
+                    "Systematic"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            },
+            {
+                "paragraph": 20,
+                "sentence": "any type of systematic literature review, is to develop a search strategy.",
+                "keywords": [
+                    "Systematic"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            },
+            {
+                "paragraph": 23,
+                "sentence": "For systematic reviews,",
+                "keywords": [
+                    "Systematic"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            },
+            {
+                "paragraph": 25,
+                "sentence": "For this reason,  search  strings  for systematic  maps  that summarize  evidence  bases for  large",
+                "keywords": [
+                    "Systematic"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            },
+            {
+                "paragraph": 39,
+                "sentence": "unique  references  that will be screened  further during  the systematic  review.",
+                "keywords": [
+                    "Systematic"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            },
+            {
+                "paragraph": 41,
+                "sentence": "Evaluation  of references  for inclusion  in a systematic  map  is typically  done  in",
+                "keywords": [
+                    "Systematic"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            },
+            {
+                "paragraph": 45,
+                "sentence": "final eligibility criteria for inclusion in the systematic map.",
+                "keywords": [
+                    "Systematic"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            },
+            {
+                "paragraph": 51,
+                "sentence": "For our systematic review, the following criteria were used during title/",
+                "keywords": [
+                    "Systematic"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            },
+            {
+                "paragraph": 57,
+                "sentence": "Systematic  maps  typically  summarize  only  primary  literature.",
+                "keywords": [
+                    "Systematic"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            },
+            {
+                "paragraph": 73,
+                "sentence": "FULL -TEXT  EXCLUSION  CRITERIA  FOR THE SYSTEMATIC  MAP",
+                "keywords": [
+                    "Systematic"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            },
+            {
+                "paragraph": 74,
+                "sentence": "Since our systematic map was intended to summarize primary literature, our first category for",
+                "keywords": [
+                    "Systematic"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            },
+            {
+                "paragraph": 85,
+                "sentence": "systematic map.",
+                "keywords": [
+                    "Systematic"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            },
+            {
+                "paragraph": 91,
+                "sentence": "be presented for at least one of these species for a reference to be included in the systematic",
+                "keywords": [
+                    "Systematic"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            },
+            {
+                "paragraph": 93,
+                "sentence": "NOT IN BREEDING SEASON - This systematic map was restricted to forest bird -vegetation",
+                "keywords": [
+                    "Systematic"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            },
+            {
+                "paragraph": 151,
+                "sentence": "for the  systematic  map  (Extracted  Data  and Keyword  Search).",
+                "keywords": [
+                    "Systematic"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            },
+            {
+                "paragraph": 152,
+                "sentence": "A) The full spatial extent for this systematic map, coverin g all eastern and boreal",
+                "keywords": [
+                    "Systematic"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            },
+            {
+                "paragraph": 164,
+                "sentence": "for the systematic map.",
+                "keywords": [
+                    "Systematic"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            },
+            {
+                "paragraph": 177,
+                "sentence": "in the web -based data visualization for this systematic map, we extracted complete title and",
+                "keywords": [
+                    "Systematic"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            },
+            {
+                "paragraph": 183,
+                "sentence": "included  in this systematic  map.",
+                "keywords": [
+                    "Systematic"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            },
+            {
+                "paragraph": 185,
+                "sentence": "information s ources, resulting in the presence of 7 different reference types in our systematic",
+                "keywords": [
+                    "Systematic"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            },
+            {
+                "paragraph": 198,
+                "sentence": "the final systematic map.",
+                "keywords": [
+                    "Systematic"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            },
+            {
+                "paragraph": 199,
+                "sentence": "met all full -text eligibility criteria, subject experts on the systematic map team extracted a",
+                "keywords": [
+                    "Systematic"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            },
+            {
+                "paragraph": 202,
+                "sentence": "TARGET BIRD METRIC TYPES - To meet final eligibility criteria for the systematic map, references",
+                "keywords": [
+                    "Systematic"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            },
+            {
+                "paragraph": 205,
+                "sentence": "Each reference was coded by a subject expert from the systematic map team",
+                "keywords": [
+                    "Systematic"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            },
+            {
+                "paragraph": 220,
+                "sentence": "TARGET  VEGETATION METRIC  TYPE - To meet  final  eligibility  criteria  for the systematic",
+                "keywords": [
+                    "Systematic"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            },
+            {
+                "paragraph": 224,
+                "sentence": "Each  reference  was coded  by a subject  expert  from  the systematic  map  team  as to",
+                "keywords": [
+                    "Systematic"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            },
+            {
+                "paragraph": 245,
+                "sentence": "SAMPLING  SCALE - Studies  are categoriz ed by subject  experts  of the systematic  map  team  as to",
+                "keywords": [
+                    "Systematic"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            },
+            {
+                "paragraph": 255,
+                "sentence": "GROU P COMPARISON  TYPE - Studies  are categorized  by subject  experts  of the systematic  map",
+                "keywords": [
+                    "Systematic"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            },
+            {
+                "paragraph": 276,
+                "sentence": "the review papers) that are included in the systematic map has been saved in document -term",
+                "keywords": [
+                    "Systematic"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            },
+            {
+                "paragraph": 278,
+                "sentence": "metadata extracted by the systematic map team.",
+                "keywords": [
+                    "Systematic"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            },
+            {
+                "paragraph": 289,
+                "sentence": "of searching for, compi ling, and evaluating literature for this broad topic systematic map, we",
+                "keywords": [
+                    "Systematic"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            },
+            {
+                "paragraph": 297,
+                "sentence": "product) that allow for the exploration of rich , and highly dimensional data sets, like systematic",
+                "keywords": [
+                    "Systematic"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            },
+            {
+                "paragraph": 300,
+                "sentence": "creation  and documentation of information synthesis via systematic literature review.",
+                "keywords": [
+                    "Systematic"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            }
+        ],
+        "TARGET": [
+            {
+                "paragraph": 53,
+                "sentence": "Data  should  be available  for at least one target  bird species  for\u2026",
+                "keywords": [
+                    "TARGET"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            },
+            {
+                "paragraph": 54,
+                "sentence": "At least one target  bird metric  AND at  least one target  vegetation  metric .",
+                "keywords": [
+                    "TARGET"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            },
+            {
+                "paragraph": 55,
+                "sentence": "Data  should  be presented  for at least one forested  study  site within  the target",
+                "keywords": [
+                    "TARGET"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            },
+            {
+                "paragraph": 67,
+                "sentence": "Data  should be  available  for at  least one target  bird species  for\u2026",
+                "keywords": [
+                    "TARGET"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            },
+            {
+                "paragraph": 68,
+                "sentence": "At least one target  bird metric AND at  least one target  vegetation  metric.",
+                "keywords": [
+                    "TARGET"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            },
+            {
+                "paragraph": 69,
+                "sentence": "Data  should  be presented  for at least one forested  study  site within  the target",
+                "keywords": [
+                    "TARGET"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            },
+            {
+                "paragraph": 83,
+                "sentence": "NO TARGET BIRD SPECIES - We initially identified 153 bird species that occur widely across",
+                "keywords": [
+                    "TARGET"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            },
+            {
+                "paragraph": 90,
+                "sentence": "This resulted  in a final  list of 144 target  bird species  for inclusion,  where  empirical  data  had to",
+                "keywords": [
+                    "TARGET"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            },
+            {
+                "paragraph": 107,
+                "sentence": "information  for any combination  of our target  species  grouped  together  (by any criteria),  that",
+                "keywords": [
+                    "TARGET"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            },
+            {
+                "paragraph": 115,
+                "sentence": "INTRINSIC MARKERS - We included references that included a pre -defined set of target bird",
+                "keywords": [
+                    "TARGET"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            },
+            {
+                "paragraph": 120,
+                "sentence": "at least one  of our target bird  metrics.",
+                "keywords": [
+                    "TARGET"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            },
+            {
+                "paragraph": 127,
+                "sentence": "not present  information  on any our target  bird metrics.",
+                "keywords": [
+                    "TARGET"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            },
+            {
+                "paragraph": 139,
+                "sentence": "above where we simply excluded a ll references that did not include data on at least one target",
+                "keywords": [
+                    "TARGET"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            },
+            {
+                "paragraph": 143,
+                "sentence": "least  one of our target vegetation  metrics.",
+                "keywords": [
+                    "TARGET"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            },
+            {
+                "paragraph": 194,
+                "sentence": "TARGET BIRD SPECIES - After the exclusion of 6 game bird species and 3 ESA -listed species (see",
+                "keywords": [
+                    "TARGET"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            },
+            {
+                "paragraph": 195,
+                "sentence": "NO TARGET BIRD SPECIES section above), we generated a list of 144 target bird species for",
+                "keywords": [
+                    "TARGET"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            },
+            {
+                "paragraph": 196,
+                "sentence": "which species -specific data on at least one bird metric and at least one target vegetation metric",
+                "keywords": [
+                    "TARGET"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            },
+            {
+                "paragraph": 202,
+                "sentence": "TARGET BIRD METRIC TYPES - To meet final eligibility criteria for the systematic map, references",
+                "keywords": [
+                    "TARGET"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            },
+            {
+                "paragraph": 203,
+                "sentence": "had to present data for at least one target bird species, for at least one of 3 general bird metric",
+                "keywords": [
+                    "TARGET"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            },
+            {
+                "paragraph": 220,
+                "sentence": "TARGET  VEGETATION METRIC  TYPE - To meet  final  eligibility  criteria  for the systematic",
+                "keywords": [
+                    "TARGET"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            },
+            {
+                "paragraph": 221,
+                "sentence": "map, references had to present data for at least one target bird species, for at least one of 3",
+                "keywords": [
+                    "TARGET"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            },
+            {
+                "paragraph": 222,
+                "sentence": "general bird metric types, AND at least one of 5 different target vegetation metric types.",
+                "keywords": [
+                    "TARGET"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            }
+        ],
+        "Threatened": [
+            {
+                "paragraph": 88,
+                "sentence": "tailed Grouse), and 3 species currently or formerly included on USFWS list of Threatened and",
+                "keywords": [
+                    "Threatened"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            }
+        ],
+        "USDA\u2019s Natural Resources Conservation S": [
+            {
+                "paragraph": 302,
+                "sentence": "Finally, we thank the USDA\u2019s Natural Resources Conservation S ervice\u2019s",
+                "keywords": [
+                    "USDA\u2019s Natural Resources Conservation S"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            }
+        ],
+        "USFWS": [
+            {
+                "paragraph": 88,
+                "sentence": "tailed Grouse), and 3 species currently or formerly included on USFWS list of Threatened and",
+                "keywords": [
+                    "USFWS"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            }
+        ],
+        "Woodpecker": [
+            {
+                "paragraph": 89,
+                "sentence": "Endangered Species (Kirtland\u2019s Warbler, Red -cockaded Woodpecker, and Peregrine Falcon).",
+                "keywords": [
+                    "Woodpecker"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            }
+        ],
+        "Canada": [
+            {
+                "paragraph": 34,
+                "sentence": "Host, and ProQuest); government agency sources (US and Canada); websites for non -",
+                "keywords": [
+                    "Canada"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            }
+        ],
+        "North  America": [
+            {
+                "paragraph": 7,
+                "sentence": "in eastern  and boreal North  America?\u201d  Systematic  maps  often  differ  from  other  types  of",
+                "keywords": [
+                    "North  America"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            }
+        ],
+        "US": [
+            {
+                "paragraph": 14,
+                "sentence": "defined review topic, b) be free from biases assoc iated with less robust evidence search and",
+                "keywords": [
+                    "US"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            },
+            {
+                "paragraph": 32,
+                "sentence": "terms, was then used to search > 60 different sourc es of information .",
+                "keywords": [
+                    "US"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            },
+            {
+                "paragraph": 34,
+                "sentence": "Host, and ProQuest); government agency sources (US and Canada); websites for non -",
+                "keywords": [
+                    "US"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            },
+            {
+                "paragraph": 41,
+                "sentence": "Evaluation  of references  for inclusion  in a systematic  map  is typically  done  in",
+                "keywords": [
+                    "US"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            },
+            {
+                "paragraph": 45,
+                "sentence": "final eligibility criteria for inclusion in the systematic map.",
+                "keywords": [
+                    "US"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            },
+            {
+                "paragraph": 46,
+                "sentence": "conclusively, if a reference will include a direct presentation of empirical data based on the",
+                "keywords": [
+                    "US"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            },
+            {
+                "paragraph": 51,
+                "sentence": "For our systematic review, the following criteria were used during title/",
+                "keywords": [
+                    "US"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            },
+            {
+                "paragraph": 63,
+                "sentence": "We used the s ame general inclusion criteria for",
+                "keywords": [
+                    "US"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            },
+            {
+                "paragraph": 65,
+                "sentence": "us to assess whether each reference truly contained empirical data that met each of the criteria",
+                "keywords": [
+                    "US"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            },
+            {
+                "paragraph": 71,
+                "sentence": "References  should  not meet  any of the \u201cadditional  exclusion  criteria\u201d  described",
+                "keywords": [
+                    "US"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            },
+            {
+                "paragraph": 73,
+                "sentence": "FULL -TEXT  EXCLUSION  CRITERIA  FOR THE SYSTEMATIC  MAP",
+                "keywords": [
+                    "US"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            },
+            {
+                "paragraph": 75,
+                "sentence": "exclusion identified review papers, which were retained and summarized in a separate",
+                "keywords": [
+                    "US"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            },
+            {
+                "paragraph": 78,
+                "sentence": "ADDITIONAL  EXCLUSION  CRITERIA",
+                "keywords": [
+                    "US"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            },
+            {
+                "paragraph": 79,
+                "sentence": "Each primary literature reference that did not meet all 4 of our inclusion criteria were assigned",
+                "keywords": [
+                    "US"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            },
+            {
+                "paragraph": 80,
+                "sentence": "a \u201creason for exclusion\u201d from the following list.",
+                "keywords": [
+                    "US"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            },
+            {
+                "paragraph": 80,
+                "sentence": "Only a single reason for exclusion was recorded",
+                "keywords": [
+                    "US"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            },
+            {
+                "paragraph": 84,
+                "sentence": "eastern temperate and/or boreal forests of North America as candidates for i nclusion in this",
+                "keywords": [
+                    "US"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            },
+            {
+                "paragraph": 87,
+                "sentence": "Grouse, Wild Turkey, Northern Bobwhite, American Woodcock , Spruce Grouse, and Sharp -",
+                "keywords": [
+                    "US"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            },
+            {
+                "paragraph": 88,
+                "sentence": "tailed Grouse), and 3 species currently or formerly included on USFWS list of Threatened and",
+                "keywords": [
+                    "US"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            },
+            {
+                "paragraph": 90,
+                "sentence": "This resulted  in a final  list of 144 target  bird species  for inclusion,  where  empirical  data  had to",
+                "keywords": [
+                    "US"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            },
+            {
+                "paragraph": 96,
+                "sentence": "season to be inclusive of all events/stages staring with settlement in b reeding areas after spring",
+                "keywords": [
+                    "US"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            },
+            {
+                "paragraph": 98,
+                "sentence": "These criteria also resulted in the exclusion of",
+                "keywords": [
+                    "US"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            },
+            {
+                "paragraph": 102,
+                "sentence": "NOT IN FORESTED LANDSCAPE - We excluded references that addressed only bird use of forest",
+                "keywords": [
+                    "US"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            },
+            {
+                "paragraph": 117,
+                "sentence": "use/selection.",
+                "keywords": [
+                    "US"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            },
+            {
+                "paragraph": 119,
+                "sentence": "these same papers provided information on species -specific bird -vegetation relationships using",
+                "keywords": [
+                    "US"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            },
+            {
+                "paragraph": 122,
+                "sentence": "For example, we excluded all references that used",
+                "keywords": [
+                    "US"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            },
+            {
+                "paragraph": 123,
+                "sentence": "artificial eggs or nests as the study unit, studies that used foragin g exclosures, or studies that",
+                "keywords": [
+                    "US"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            },
+            {
+                "paragraph": 124,
+                "sentence": "used  any type  of supplemental  feeding.",
+                "keywords": [
+                    "US"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            },
+            {
+                "paragraph": 129,
+                "sentence": "exclusively  from  model outputs  and not empirical  data.",
+                "keywords": [
+                    "US"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            },
+            {
+                "paragraph": 133,
+                "sentence": "relationships using that compared North American Breeding Bird Survey with remotely sensed",
+                "keywords": [
+                    "US"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            },
+            {
+                "paragraph": 137,
+                "sentence": "roads,  trails,  recreational  use, noise, and  other  human  structures  in the forest.",
+                "keywords": [
+                    "US"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            },
+            {
+                "paragraph": 138,
+                "sentence": "NO BIRD METRICS - This was a more general category than the specific exclusion criteria listed",
+                "keywords": [
+                    "US"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            },
+            {
+                "paragraph": 141,
+                "sentence": "NO VEGETATION METRICS - This was a more general category than the specific exclusion",
+                "keywords": [
+                    "US"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            },
+            {
+                "paragraph": 147,
+                "sentence": "(Figure 1a) and our smaller focused study extent, covering the Appalachian Mountains,",
+                "keywords": [
+                    "US"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            },
+            {
+                "paragraph": 156,
+                "sentence": "For publications that were outside of our focused extent, we collected only",
+                "keywords": [
+                    "US"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            },
+            {
+                "paragraph": 163,
+                "sentence": "This allowed us to display of study site locations in our data visualization tool",
+                "keywords": [
+                    "US"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            },
+            {
+                "paragraph": 170,
+                "sentence": "used this variable data on study locations to prese nt of a coarse distribution map of all",
+                "keywords": [
+                    "US"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            },
+            {
+                "paragraph": 179,
+                "sentence": "This information was used as the raw material for additional text -based analyses, which are the",
+                "keywords": [
+                    "US"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            },
+            {
+                "paragraph": 180,
+                "sentence": "topic  of a manuscript in  preparation.",
+                "keywords": [
+                    "US"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            },
+            {
+                "paragraph": 181,
+                "sentence": "FULL  CITATION - For each  reference  we extracted  citation  information,  using  a standard  citation",
+                "keywords": [
+                    "US"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            },
+            {
+                "paragraph": 194,
+                "sentence": "TARGET BIRD SPECIES - After the exclusion of 6 game bird species and 3 ESA -listed species (see",
+                "keywords": [
+                    "US"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            },
+            {
+                "paragraph": 216,
+                "sentence": "Resource use/selection/preference - Any metric related to whether a  bird \u201cuses\u201d, \u201cprefers\u201d, or",
+                "keywords": [
+                    "US"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            },
+            {
+                "paragraph": 218,
+                "sentence": "wide range of terminology related to habitat use, resource use, habitat selection, habitat",
+                "keywords": [
+                    "US"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            },
+            {
+                "paragraph": 235,
+                "sentence": "resources  that may  be used  by birds,  such  as: cavities,  perches,  rock  outcrops,  soft mast,  dead",
+                "keywords": [
+                    "US"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            },
+            {
+                "paragraph": 254,
+                "sentence": "adjacent  stand/land -use types.",
+                "keywords": [
+                    "US"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            },
+            {
+                "paragraph": 262,
+                "sentence": "harvest) over a shorter (usually 1 -4 year) sampling period than would be required to sample a",
+                "keywords": [
+                    "US"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            },
+            {
+                "paragraph": 277,
+                "sentence": "matrices that allow users to search all references by curated keyword lists in addition to",
+                "keywords": [
+                    "US"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            },
+            {
+                "paragraph": 279,
+                "sentence": "topic  of a manuscript that is  currently  in preparation.",
+                "keywords": [
+                    "US"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            },
+            {
+                "paragraph": 286,
+                "sentence": "users of this tool to recognize the importance and value of maintaining and expanding the data",
+                "keywords": [
+                    "US"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            },
+            {
+                "paragraph": 294,
+                "sentence": "they stumble upon this tool and criticize us soundly!",
+                "keywords": [
+                    "US"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            },
+            {
+                "paragraph": 296,
+                "sentence": "used extensively for text analyses) and R shiny (which was used to create this web -based",
+                "keywords": [
+                    "US"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            },
+            {
+                "paragraph": 299,
+                "sentence": "Environmental Evidence, who have put forth, and regularly updated, robust standards for the",
+                "keywords": [
+                    "US"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            },
+            {
+                "paragraph": 302,
+                "sentence": "Finally, we thank the USDA\u2019s Natural Resources Conservation S ervice\u2019s",
+                "keywords": [
+                    "US"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            },
+            {
+                "paragraph": 305,
+                "sentence": "user community of forest managers, policy makers, scientists, j ournal editors, conservation",
+                "keywords": [
+                    "US"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            }
+        ],
+        "Unit ed States": [
+            {
+                "paragraph": 77,
+                "sentence": "information  to forest managers  in the eastern  Unit ed States ?.",
+                "keywords": [
+                    "Unit ed States"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            }
+        ],
+        "Wild Turkey": [
+            {
+                "paragraph": 87,
+                "sentence": "Grouse, Wild Turkey, Northern Bobwhite, American Woodcock , Spruce Grouse, and Sharp -",
+                "keywords": [
+                    "Wild Turkey"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            }
+        ],
+        "Woodcock": [
+            {
+                "paragraph": 87,
+                "sentence": "Grouse, Wild Turkey, Northern Bobwhite, American Woodcock , Spruce Grouse, and Sharp -",
+                "keywords": [
+                    "Woodcock"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            }
+        ],
+        "describ ed vegetation": [
+            {
+                "paragraph": 117,
+                "sentence": "We excluded, however, papers that describ ed vegetation relationships with",
+                "keywords": [
+                    "describ ed vegetation"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            }
+        ]
     },
     "classification": {
         "primary_category": "Agriculture",
@@ -105,7 +2135,24 @@
             "crop",
             "harvest"
         ],
-        "classification_explanation": "Detected keywords: crop, harvest"
+        "evidence_used": [],
+        "rejected_categories": {
+            "Governance": "Only 2 supporting keyword(s) found",
+            "Infrastructure": "Only 2 supporting keyword(s) found",
+            "AI": "Only 1 supporting keyword(s) found",
+            "Healthcare": "Only 1 supporting keyword(s) found",
+            "Marine": "Only 1 supporting keyword(s) found",
+            "Education": "No supporting keywords found"
+        },
+        "classification_explanation": "Agriculture selected because it contains 2 supporting keyword(s): crop, harvest"
+    },
+    "confidence": {
+        "score": 88,
+        "supporting_evidence_count": 214,
+        "validated_entity_count": 44,
+        "document_completeness": 0.38,
+        "contradictory_evidence_count": 0,
+        "explanation": "Confidence derived from 214 supporting evidences, 44 validated entities, and document completeness of 38%."
     },
     "recommendations": {
         "related_domains": [
@@ -130,7 +2177,7 @@
         "intelligence_summary": "This document primarily belongs to the Agriculture domain. It is strongly associated with Smart Farming, AgriTech. The extracted intelligence can be used for classification, search, and knowledge management purposes. Additional recommendations have been generated to enrich future analysis."
     },
     "processing_trace": {
-        "execution_timestamp": "2026-06-18 10:37:38",
+        "execution_timestamp": "2026-06-20 11:58:25",
         "overall_status": "SUCCESS",
         "processing_trace": [
             {
@@ -155,11 +2202,23 @@
             },
             {
                 "step": "Entity Extraction",
-                "details": "61 entities extracted"
+                "details": "44 entities extracted"
+            },
+            {
+                "step": "Entity Validation",
+                "details": "44 validated, 7 rejected"
+            },
+            {
+                "step": "Evidence Generation",
+                "details": "44 evidence records generated"
             },
             {
                 "step": "Classification",
                 "details": "Primary Category: Agriculture"
+            },
+            {
+                "step": "Confidence Scoring",
+                "details": "Confidence Score: 88"
             },
             {
                 "step": "Recommendation Generation",
@@ -175,12 +2234,15 @@
         "document_type": "Research Paper",
         "primary_category": "Agriculture",
         "secondary_category": "Governance",
-        "confidence_score": 0.33,
+        "classification_confidence": 0.33,
+        "overall_confidence": 88,
         "recommended_tags": [
             "agriculture",
             "crop-management",
             "farming"
         ],
-        "entity_count": 61
+        "entity_count": 44,
+        "rejected_entity_count": 7,
+        "evidence_count": 214
     }
 }

@@ -38,16 +38,213 @@
             "Washington",
             "Wyoming"
         ],
-        "dates": [
-            "1005",
-            "1006",
-            "1045",
-            "1099",
-            "1592",
-            "8  1099"
-        ],
+        "dates": [],
         "emails": [],
         "phone_numbers": []
+    },
+    "rejected_entities": [
+        {
+            "entity": "1005",
+            "entity_type": "dates",
+            "reason": "Numeric token"
+        },
+        {
+            "entity": "1006",
+            "entity_type": "dates",
+            "reason": "Numeric token"
+        },
+        {
+            "entity": "1045",
+            "entity_type": "dates",
+            "reason": "Numeric token"
+        },
+        {
+            "entity": "1099",
+            "entity_type": "dates",
+            "reason": "Numeric token"
+        },
+        {
+            "entity": "1592",
+            "entity_type": "dates",
+            "reason": "Numeric token"
+        },
+        {
+            "entity": "8  1099",
+            "entity_type": "dates",
+            "reason": "Insufficient alphabetic content"
+        }
+    ],
+    "evidence_report": {
+        "Louisana": [
+            {
+                "paragraph": 12,
+                "sentence": "2nd     Scouts      37        8  1099   Louisana",
+                "keywords": [
+                    "Louisana"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            }
+        ],
+        "Nighthawks": [
+            {
+                "paragraph": 2,
+                "sentence": "1st Nighthawks     523        5  1045    Arizona",
+                "keywords": [
+                    "Nighthawks"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            },
+            {
+                "paragraph": 3,
+                "sentence": "1st Nighthawks      52       42   957 California",
+                "keywords": [
+                    "Nighthawks"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            },
+            {
+                "paragraph": 4,
+                "sentence": "2nd Nighthawks      25        2  1099      Texas",
+                "keywords": [
+                    "Nighthawks"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            },
+            {
+                "paragraph": 5,
+                "sentence": "2nd Nighthawks     616        2  1400    Florida",
+                "keywords": [
+                    "Nighthawks"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            }
+        ],
+        "Alaska": [
+            {
+                "paragraph": 8,
+                "sentence": "2nd   Dragoons     523        8   987     Alaska",
+                "keywords": [
+                    "Alaska"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            }
+        ],
+        "Arizona": [
+            {
+                "paragraph": 2,
+                "sentence": "1st Nighthawks     523        5  1045    Arizona",
+                "keywords": [
+                    "Arizona"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            }
+        ],
+        "California": [
+            {
+                "paragraph": 3,
+                "sentence": "1st Nighthawks      52       42   957 California",
+                "keywords": [
+                    "California"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            }
+        ],
+        "Florida": [
+            {
+                "paragraph": 5,
+                "sentence": "2nd Nighthawks     616        2  1400    Florida",
+                "keywords": [
+                    "Florida"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            }
+        ],
+        "Georgia": [
+            {
+                "paragraph": 13,
+                "sentence": "2nd     Scouts      35        9  1523    Georgia",
+                "keywords": [
+                    "Georgia"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            }
+        ],
+        "Iowa": [
+            {
+                "paragraph": 7,
+                "sentence": "1st   Dragoons     234        7  1006       Iowa",
+                "keywords": [
+                    "Iowa"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            }
+        ],
+        "Maine": [
+            {
+                "paragraph": 6,
+                "sentence": "1st   Dragoons      43        4  1592      Maine",
+                "keywords": [
+                    "Maine"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            }
+        ],
+        "Oregon": [
+            {
+                "paragraph": 10,
+                "sentence": "1st     Scouts      62        4   973     Oregon",
+                "keywords": [
+                    "Oregon"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            }
+        ],
+        "Texas": [
+            {
+                "paragraph": 4,
+                "sentence": "2nd Nighthawks      25        2  1099      Texas",
+                "keywords": [
+                    "Texas"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            }
+        ],
+        "Washington": [
+            {
+                "paragraph": 9,
+                "sentence": "2nd   Dragoons      62        3   849 Washington",
+                "keywords": [
+                    "Washington"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            }
+        ],
+        "Wyoming": [
+            {
+                "paragraph": 11,
+                "sentence": "1st     Scouts      73        7  1005    Wyoming",
+                "keywords": [
+                    "Wyoming"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            }
+        ]
     },
     "classification": {
         "primary_category": "AI",
@@ -56,7 +253,24 @@
         "matched_keywords": [
             "rag"
         ],
-        "classification_explanation": "Detected keywords: rag"
+        "evidence_used": [],
+        "rejected_categories": {
+            "Education": "No supporting keywords found",
+            "Healthcare": "No supporting keywords found",
+            "Agriculture": "No supporting keywords found",
+            "Governance": "No supporting keywords found",
+            "Infrastructure": "No supporting keywords found",
+            "Marine": "No supporting keywords found"
+        },
+        "classification_explanation": "AI selected because it contains 1 supporting keyword(s): rag"
+    },
+    "confidence": {
+        "score": 84,
+        "supporting_evidence_count": 16,
+        "validated_entity_count": 13,
+        "document_completeness": 0.38,
+        "contradictory_evidence_count": 0,
+        "explanation": "Confidence derived from 16 supporting evidences, 13 validated entities, and document completeness of 38%."
     },
     "recommendations": {
         "related_domains": [
@@ -85,7 +299,7 @@
         "intelligence_summary": "This document primarily belongs to the AI domain. It is strongly associated with Machine Learning, Data Science. The extracted intelligence can be used for classification, search, and knowledge management purposes. Additional recommendations have been generated to enrich future analysis."
     },
     "processing_trace": {
-        "execution_timestamp": "2026-06-18 12:10:23",
+        "execution_timestamp": "2026-06-20 12:02:00",
         "overall_status": "SUCCESS",
         "processing_trace": [
             {
@@ -110,11 +324,23 @@
             },
             {
                 "step": "Entity Extraction",
-                "details": "19 entities extracted"
+                "details": "13 entities extracted"
+            },
+            {
+                "step": "Entity Validation",
+                "details": "13 validated, 6 rejected"
+            },
+            {
+                "step": "Evidence Generation",
+                "details": "13 evidence records generated"
             },
             {
                 "step": "Classification",
                 "details": "Primary Category: AI"
+            },
+            {
+                "step": "Confidence Scoring",
+                "details": "Confidence Score: 84"
             },
             {
                 "step": "Recommendation Generation",
@@ -130,7 +356,8 @@
         "document_type": "Unknown",
         "primary_category": "AI",
         "secondary_category": "Education",
-        "confidence_score": 0.1,
+        "classification_confidence": 0.1,
+        "overall_confidence": 84,
         "recommended_tags": [
             "artificial-intelligence",
             "machine-learning",
@@ -138,6 +365,8 @@
             "chatbot",
             "automation"
         ],
-        "entity_count": 19
+        "entity_count": 13,
+        "rejected_entity_count": 6,
+        "evidence_count": 16
     }
 }

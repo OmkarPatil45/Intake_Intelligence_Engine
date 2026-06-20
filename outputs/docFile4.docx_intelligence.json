@@ -27,10 +27,7 @@
             "Print",
             "Prompt",
             "Remove",
-            "num1",
-            "num2",
-            "strings).Array",
-            "sum\\n"
+            "strings).Array"
         ],
         "organizations": [
             "@LIST",
@@ -41,12 +38,8 @@
             "UNIX",
             "VI"
         ],
-        "technologies": [
-            "c"
-        ],
-        "skills": [
-            "c"
-        ],
+        "technologies": [],
+        "skills": [],
         "locations": [
             "Username",
             "chomp($num1"
@@ -55,12 +48,442 @@
         "emails": [],
         "phone_numbers": []
     },
+    "rejected_entities": [
+        {
+            "entity": "num1",
+            "entity_type": "PERSON",
+            "reason": "Improper capitalization"
+        },
+        {
+            "entity": "num2",
+            "entity_type": "PERSON",
+            "reason": "Improper capitalization"
+        },
+        {
+            "entity": "sum\\n",
+            "entity_type": "PERSON",
+            "reason": "Improper capitalization"
+        },
+        {
+            "entity": "c",
+            "entity_type": "technologies",
+            "reason": "Entity too short"
+        },
+        {
+            "entity": "c",
+            "entity_type": "skills",
+            "reason": "Entity too short"
+        }
+    ],
+    "evidence_report": {
+        "Banana": [
+            {
+                "paragraph": 14,
+                "sentence": "An array in perl program is a list of scalars (numbers and strings).Array variables have the same\u00a0 format as scalar variables except that they are prefixed by an @ symbol.The statement @food = (\u201cApples\u201d,\u201dpears\u201d,\u201dBanana\u201d);",
+                "keywords": [
+                    "Banana"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            },
+            {
+                "paragraph": 16,
+                "sentence": "The array is accessed by using indices starting from 0, and square brackets are\u00a0 used to specify the index.The expression $food[2] returns Banana and @ changed to $ because\u00a0 banana is a scalar.",
+                "keywords": [
+                    "Banana"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            }
+        ],
+        "EXPERIMENT NO:10": [
+            {
+                "paragraph": 1,
+                "sentence": "EXPERIMENT NO:10",
+                "keywords": [
+                    "EXPERIMENT NO:10"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            }
+        ],
+        "Pascal": [
+            {
+                "paragraph": 17,
+                "sentence": "Control Structures Perl supports lots of different kinds of control structures which tend to be like\u00a0 those in 'C' Programming but are very similar to Pascal, too.",
+                "keywords": [
+                    "Pascal"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            }
+        ],
+        "Perl Scripts\nTheory": [],
+        "Print": [
+            {
+                "paragraph": 20,
+                "sentence": "print \u201c$variable \u201d #Print the variable",
+                "keywords": [
+                    "Print"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            },
+            {
+                "paragraph": 21,
+                "sentence": "print \u201cMessage\u201d",
+                "keywords": [
+                    "Print"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            },
+            {
+                "paragraph": 28,
+                "sentence": "print \"$item\\n\"; # Print the item",
+                "keywords": [
+                    "Print"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            },
+            {
+                "paragraph": 29,
+                "sentence": "print \"WELLCOME\\n\";",
+                "keywords": [
+                    "Print"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            },
+            {
+                "paragraph": 36,
+                "sentence": "print \"Enter the first number: \";",
+                "keywords": [
+                    "Print"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            },
+            {
+                "paragraph": 40,
+                "sentence": "print \"Enter the second number: \";",
+                "keywords": [
+                    "Print"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            },
+            {
+                "paragraph": 45,
+                "sentence": "# Print the result",
+                "keywords": [
+                    "Print"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            },
+            {
+                "paragraph": 46,
+                "sentence": "print \"The sum of $num1 and $num2 is: $sum\\n\";",
+                "keywords": [
+                    "Print"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            }
+        ],
+        "Prompt": [
+            {
+                "paragraph": 35,
+                "sentence": "# Prompt the user to enter the first number",
+                "keywords": [
+                    "Prompt"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            },
+            {
+                "paragraph": 39,
+                "sentence": "# Prompt the user to enter the second number",
+                "keywords": [
+                    "Prompt"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            }
+        ],
+        "Remove": [
+            {
+                "paragraph": 16,
+                "sentence": "push (\u00a0 @food ,\u201dValue\u201d); To remove any element from an array we can use the pop statement.",
+                "keywords": [
+                    "Remove"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            },
+            {
+                "paragraph": 16,
+                "sentence": "pop\u00a0 (@food) removes last element from an array.",
+                "keywords": [
+                    "Remove"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            },
+            {
+                "paragraph": 38,
+                "sentence": "chomp($num1); # Remove newline character",
+                "keywords": [
+                    "Remove"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            },
+            {
+                "paragraph": 42,
+                "sentence": "chomp($num2); # Remove newline character",
+                "keywords": [
+                    "Remove"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            }
+        ],
+        "strings).Array": [
+            {
+                "paragraph": 14,
+                "sentence": "An array in perl program is a list of scalars (numbers and strings).Array variables have the same\u00a0 format as scalar variables except that they are prefixed by an @ symbol.The statement @food = (\u201cApples\u201d,\u201dpears\u201d,\u201dBanana\u201d);",
+                "keywords": [
+                    "strings).Array"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            }
+        ],
+        "@LIST": [
+            {
+                "paragraph": 26,
+                "sentence": "my @LIST = (\"RS\", \"RAM\", \"SHYAM\");",
+                "keywords": [
+                    "@LIST"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            },
+            {
+                "paragraph": 27,
+                "sentence": "foreach my $item (@LIST) { # iterate over each element in the @LIST array",
+                "keywords": [
+                    "@LIST"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            }
+        ],
+        "C' Programming": [
+            {
+                "paragraph": 17,
+                "sentence": "Control Structures Perl supports lots of different kinds of control structures which tend to be like\u00a0 those in 'C' Programming but are very similar to Pascal, too.",
+                "keywords": [
+                    "C' Programming"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            }
+        ],
+        "Control Structures Perl": [
+            {
+                "paragraph": 17,
+                "sentence": "Control Structures Perl supports lots of different kinds of control structures which tend to be like\u00a0 those in 'C' Programming but are very similar to Pascal, too.",
+                "keywords": [
+                    "Control Structures Perl"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            }
+        ],
+        "Password": [
+            {
+                "paragraph": 6,
+                "sentence": "\u2022 Step 1: start UNIX OS in your computer and login in it and enter Username and Password.",
+                "keywords": [
+                    "Password"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            }
+        ],
+        "RAM": [
+            {
+                "paragraph": 4,
+                "sentence": "Write a perl program to demonstrate the use of array variables.",
+                "keywords": [
+                    "RAM"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            },
+            {
+                "paragraph": 6,
+                "sentence": "\u2022 Step 3: now go to your folder from the terminal and after that open the VI editor with the\u00a0 desired program name with extension .",
+                "keywords": [
+                    "RAM"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            },
+            {
+                "paragraph": 7,
+                "sentence": "\u2022 Step 4: now write your program and quit back to the terminal.",
+                "keywords": [
+                    "RAM"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            },
+            {
+                "paragraph": 8,
+                "sentence": "\u2022 Step 5: After writing program make it executable by using",
+                "keywords": [
+                    "RAM"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            },
+            {
+                "paragraph": 9,
+                "sentence": "$chmod u+ x program name.",
+                "keywords": [
+                    "RAM"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            },
+            {
+                "paragraph": 10,
+                "sentence": "\u2022 Step 6: Now run the program using any one of the method...",
+                "keywords": [
+                    "RAM"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            },
+            {
+                "paragraph": 11,
+                "sentence": "\u2022 perl program name.pl",
+                "keywords": [
+                    "RAM"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            },
+            {
+                "paragraph": 14,
+                "sentence": "An array in perl program is a list of scalars (numbers and strings).Array variables have the same\u00a0 format as scalar variables except that they are prefixed by an @ symbol.The statement @food = (\u201cApples\u201d,\u201dpears\u201d,\u201dBanana\u201d);",
+                "keywords": [
+                    "RAM"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            },
+            {
+                "paragraph": 17,
+                "sentence": "Control Structures Perl supports lots of different kinds of control structures which tend to be like\u00a0 those in 'C' Programming but are very similar to Pascal, too.",
+                "keywords": [
+                    "RAM"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            },
+            {
+                "paragraph": 26,
+                "sentence": "my @LIST = (\"RS\", \"RAM\", \"SHYAM\");",
+                "keywords": [
+                    "RAM"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            }
+        ],
+        "UNIX": [
+            {
+                "paragraph": 6,
+                "sentence": "\u2022 Step 1: start UNIX OS in your computer and login in it and enter Username and Password.",
+                "keywords": [
+                    "UNIX"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            }
+        ],
+        "VI": [
+            {
+                "paragraph": 6,
+                "sentence": "\u2022 Step 3: now go to your folder from the terminal and after that open the VI editor with the\u00a0 desired program name with extension .",
+                "keywords": [
+                    "VI"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            },
+            {
+                "paragraph": 18,
+                "sentence": "foreach $variable (@arr_name) #visit each element in turn",
+                "keywords": [
+                    "VI"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            }
+        ],
+        "Username": [
+            {
+                "paragraph": 6,
+                "sentence": "\u2022 Step 1: start UNIX OS in your computer and login in it and enter Username and Password.",
+                "keywords": [
+                    "Username"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            }
+        ],
+        "chomp($num1": [
+            {
+                "paragraph": 38,
+                "sentence": "chomp($num1); # Remove newline character",
+                "keywords": [
+                    "chomp($num1"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            }
+        ]
+    },
     "classification": {
         "primary_category": "AI",
         "secondary_category": "Education",
         "confidence_score": 0.0,
         "matched_keywords": [],
-        "classification_explanation": "Detected keywords: "
+        "evidence_used": [],
+        "rejected_categories": {
+            "Education": "No supporting keywords found",
+            "Healthcare": "No supporting keywords found",
+            "Agriculture": "No supporting keywords found",
+            "Governance": "No supporting keywords found",
+            "Infrastructure": "No supporting keywords found",
+            "Marine": "No supporting keywords found"
+        },
+        "classification_explanation": "AI selected because it contains 0 supporting keyword(s): "
+    },
+    "confidence": {
+        "score": 88,
+        "supporting_evidence_count": 39,
+        "validated_entity_count": 17,
+        "document_completeness": 0.38,
+        "contradictory_evidence_count": 0,
+        "explanation": "Confidence derived from 39 supporting evidences, 17 validated entities, and document completeness of 38%."
     },
     "recommendations": {
         "related_domains": [
@@ -89,7 +512,7 @@
         "intelligence_summary": "This document primarily belongs to the AI domain. It is strongly associated with Machine Learning, Data Science. The extracted intelligence can be used for classification, search, and knowledge management purposes. Additional recommendations have been generated to enrich future analysis."
     },
     "processing_trace": {
-        "execution_timestamp": "2026-06-18 12:05:12",
+        "execution_timestamp": "2026-06-20 12:00:34",
         "overall_status": "SUCCESS",
         "processing_trace": [
             {
@@ -114,11 +537,23 @@
             },
             {
                 "step": "Entity Extraction",
-                "details": "22 entities extracted"
+                "details": "17 entities extracted"
+            },
+            {
+                "step": "Entity Validation",
+                "details": "17 validated, 5 rejected"
+            },
+            {
+                "step": "Evidence Generation",
+                "details": "17 evidence records generated"
             },
             {
                 "step": "Classification",
                 "details": "Primary Category: AI"
+            },
+            {
+                "step": "Confidence Scoring",
+                "details": "Confidence Score: 88"
             },
             {
                 "step": "Recommendation Generation",
@@ -134,7 +569,8 @@
         "document_type": "Research Paper",
         "primary_category": "AI",
         "secondary_category": "Education",
-        "confidence_score": 0.0,
+        "classification_confidence": 0.0,
+        "overall_confidence": 88,
         "recommended_tags": [
             "artificial-intelligence",
             "machine-learning",
@@ -142,6 +578,8 @@
             "chatbot",
             "automation"
         ],
-        "entity_count": 22
+        "entity_count": 17,
+        "rejected_entity_count": 5,
+        "evidence_count": 39
     }
 }

@@ -23,24 +23,199 @@
         "organizations": [
             "C             master's"
         ],
-        "technologies": [
-            "c"
-        ],
-        "skills": [
-            "c"
-        ],
+        "technologies": [],
+        "skills": [],
         "locations": [],
-        "dates": [
-            "45",
-            "46",
-            "58",
-            "70",
-            "72",
-            "76",
-            "80"
-        ],
+        "dates": [],
         "emails": [],
         "phone_numbers": []
+    },
+    "rejected_entities": [
+        {
+            "entity": "c",
+            "entity_type": "technologies",
+            "reason": "Entity too short"
+        },
+        {
+            "entity": "c",
+            "entity_type": "skills",
+            "reason": "Entity too short"
+        }
+    ],
+    "evidence_report": {
+        "C             master's": [
+            {
+                "paragraph": 20,
+                "sentence": "male        group C             master's degree free/reduced               completed          46             42             46",
+                "keywords": [
+                    "C             master's"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            },
+            {
+                "paragraph": 177,
+                "sentence": "female        group C             master's degree     standard               completed          81             91             87",
+                "keywords": [
+                    "C             master's"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            },
+            {
+                "paragraph": 182,
+                "sentence": "male        group C             master's degree free/reduced               completed          62             68             75",
+                "keywords": [
+                    "C             master's"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            },
+            {
+                "paragraph": 196,
+                "sentence": "female        group C             master's degree     standard               completed          69             84             85",
+                "keywords": [
+                    "C             master's"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            },
+            {
+                "paragraph": 261,
+                "sentence": "female        group C             master's degree free/reduced               completed          65             81             81",
+                "keywords": [
+                    "C             master's"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            },
+            {
+                "paragraph": 384,
+                "sentence": "male        group C             master's degree free/reduced                    none          79             81             71",
+                "keywords": [
+                    "C             master's"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            },
+            {
+                "paragraph": 510,
+                "sentence": "male        group C             master's degree     standard                    none          79             78             77",
+                "keywords": [
+                    "C             master's"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            },
+            {
+                "paragraph": 525,
+                "sentence": "male        group C             master's degree free/reduced                    none          54             59             50",
+                "keywords": [
+                    "C             master's"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            },
+            {
+                "paragraph": 551,
+                "sentence": "male        group C             master's degree     standard                    none          79             72             69",
+                "keywords": [
+                    "C             master's"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            },
+            {
+                "paragraph": 559,
+                "sentence": "male        group C             master's degree free/reduced                    none          61             67             66",
+                "keywords": [
+                    "C             master's"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            },
+            {
+                "paragraph": 609,
+                "sentence": "female        group C             master's degree free/reduced                    none          40             58             54",
+                "keywords": [
+                    "C             master's"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            },
+            {
+                "paragraph": 737,
+                "sentence": "male        group C             master's degree     standard                    none          67             57             59",
+                "keywords": [
+                    "C             master's"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            },
+            {
+                "paragraph": 754,
+                "sentence": "male        group C             master's degree free/reduced               completed          79             77             75",
+                "keywords": [
+                    "C             master's"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            },
+            {
+                "paragraph": 791,
+                "sentence": "female        group C             master's degree free/reduced                    none          52             65             61",
+                "keywords": [
+                    "C             master's"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            },
+            {
+                "paragraph": 814,
+                "sentence": "female        group C             master's degree     standard               completed          54             64             67",
+                "keywords": [
+                    "C             master's"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            },
+            {
+                "paragraph": 848,
+                "sentence": "male        group C             master's degree     standard               completed          91             85             85",
+                "keywords": [
+                    "C             master's"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            },
+            {
+                "paragraph": 852,
+                "sentence": "male        group C             master's degree     standard                    none          71             67             67",
+                "keywords": [
+                    "C             master's"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            },
+            {
+                "paragraph": 903,
+                "sentence": "female        group C             master's degree     standard                    none          73             78             74",
+                "keywords": [
+                    "C             master's"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            },
+            {
+                "paragraph": 942,
+                "sentence": "male        group C             master's degree free/reduced               completed          72             66             72",
+                "keywords": [
+                    "C             master's"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            }
+        ]
     },
     "classification": {
         "primary_category": "Education",
@@ -51,7 +226,24 @@
             "course",
             "education"
         ],
-        "classification_explanation": "Detected keywords: college, course, education"
+        "evidence_used": [],
+        "rejected_categories": {
+            "AI": "No supporting keywords found",
+            "Healthcare": "No supporting keywords found",
+            "Agriculture": "No supporting keywords found",
+            "Governance": "No supporting keywords found",
+            "Infrastructure": "No supporting keywords found",
+            "Marine": "No supporting keywords found"
+        },
+        "classification_explanation": "Education selected because it contains 3 supporting keyword(s): college, course, education"
+    },
+    "confidence": {
+        "score": 54,
+        "supporting_evidence_count": 19,
+        "validated_entity_count": 1,
+        "document_completeness": 0.12,
+        "contradictory_evidence_count": 0,
+        "explanation": "Confidence derived from 19 supporting evidences, 1 validated entities, and document completeness of 12%."
     },
     "recommendations": {
         "related_domains": [
@@ -77,7 +269,7 @@
         "intelligence_summary": "This document primarily belongs to the Education domain. It is strongly associated with E-Learning, Student Analytics. The extracted intelligence can be used for classification, search, and knowledge management purposes. Additional recommendations have been generated to enrich future analysis."
     },
     "processing_trace": {
-        "execution_timestamp": "2026-06-18 12:19:05",
+        "execution_timestamp": "2026-06-20 12:03:26",
         "overall_status": "SUCCESS",
         "processing_trace": [
             {
@@ -102,11 +294,23 @@
             },
             {
                 "step": "Entity Extraction",
-                "details": "10 entities extracted"
+                "details": "1 entities extracted"
+            },
+            {
+                "step": "Entity Validation",
+                "details": "1 validated, 2 rejected"
+            },
+            {
+                "step": "Evidence Generation",
+                "details": "1 evidence records generated"
             },
             {
                 "step": "Classification",
                 "details": "Primary Category: Education"
+            },
+            {
+                "step": "Confidence Scoring",
+                "details": "Confidence Score: 54"
             },
             {
                 "step": "Recommendation Generation",
@@ -122,13 +326,16 @@
         "document_type": "Resume",
         "primary_category": "Education",
         "secondary_category": "AI",
-        "confidence_score": 0.38,
+        "classification_confidence": 0.38,
+        "overall_confidence": 54,
         "recommended_tags": [
             "education",
             "learning",
             "students",
             "academic"
         ],
-        "entity_count": 10
+        "entity_count": 1,
+        "rejected_entity_count": 2,
+        "evidence_count": 19
     }
 }

@@ -31,15 +31,175 @@
         "skills": [],
         "locations": [],
         "dates": [
-            "2021-07",
             "2021-07-12T23:33:10.000Z"
         ],
         "emails": [
             "doh@thesimpsons.net",
             "propane@propaneaccessories.net"
         ],
-        "phone_numbers": [
-            "8872394789"
+        "phone_numbers": []
+    },
+    "rejected_entities": [
+        {
+            "entity": "2021-07",
+            "entity_type": "dates",
+            "reason": "Document reference number"
+        },
+        {
+            "entity": "8872394789",
+            "entity_type": "phone_numbers",
+            "reason": "Numeric token"
+        }
+    ],
+    "evidence_report": {
+        "Bobby": [
+            {
+                "paragraph": 46,
+                "sentence": "\"Student First Name\": \"Bobby\",",
+                "keywords": [
+                    "Bobby"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            }
+        ],
+        "Hill": [
+            {
+                "paragraph": 47,
+                "sentence": "\"Student Last Name\": \"Hill\",",
+                "keywords": [
+                    "Hill"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            },
+            {
+                "paragraph": 49,
+                "sentence": "\"Parent Last Name\": \"Hill\",",
+                "keywords": [
+                    "Hill"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            },
+            {
+                "paragraph": 56,
+                "sentence": "\"Cotton Hill\"",
+                "keywords": [
+                    "Hill"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            }
+        ],
+        "Hoover": [
+            {
+                "paragraph": 36,
+                "sentence": "Hoover\"",
+                "keywords": [
+                    "Hoover"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            }
+        ],
+        "Simpson": [
+            {
+                "paragraph": 7,
+                "sentence": "\"Student Last Name\": \"Simpson\",",
+                "keywords": [
+                    "Simpson"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            },
+            {
+                "paragraph": 9,
+                "sentence": "\"Parent Last Name\": \"Simpson\",",
+                "keywords": [
+                    "Simpson"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            },
+            {
+                "paragraph": 10,
+                "sentence": "\"Email\": \"doh@thesimpsons.net\",",
+                "keywords": [
+                    "Simpson"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            },
+            {
+                "paragraph": 27,
+                "sentence": "\"Student Last Name\": \"Simpson\",",
+                "keywords": [
+                    "Simpson"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            },
+            {
+                "paragraph": 29,
+                "sentence": "\"Parent Last Name\": \"Simpson\",",
+                "keywords": [
+                    "Simpson"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            },
+            {
+                "paragraph": 30,
+                "sentence": "\"Email\": \"doh@thesimpsons.net\",",
+                "keywords": [
+                    "Simpson"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            }
+        ],
+        "2021-07-12T23:33:10.000Z": [
+            {
+                "paragraph": 61,
+                "sentence": "\"createdTime\": \"2021-07-12T23:33:10.000Z\"",
+                "keywords": [
+                    "2021-07-12T23:33:10.000Z"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            }
+        ],
+        "doh@thesimpsons.net": [
+            {
+                "paragraph": 10,
+                "sentence": "\"Email\": \"doh@thesimpsons.net\",",
+                "keywords": [
+                    "doh@thesimpsons.net"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            },
+            {
+                "paragraph": 30,
+                "sentence": "\"Email\": \"doh@thesimpsons.net\",",
+                "keywords": [
+                    "doh@thesimpsons.net"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            }
+        ],
+        "propane@propaneaccessories.net": [
+            {
+                "paragraph": 50,
+                "sentence": "\"Email\": \"propane@propaneaccessories.net\",",
+                "keywords": [
+                    "propane@propaneaccessories.net"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            }
         ]
     },
     "classification": {
@@ -50,7 +210,24 @@
             "student",
             "teacher"
         ],
-        "classification_explanation": "Detected keywords: student, teacher"
+        "evidence_used": [],
+        "rejected_categories": {
+            "AI": "No supporting keywords found",
+            "Healthcare": "No supporting keywords found",
+            "Agriculture": "No supporting keywords found",
+            "Governance": "No supporting keywords found",
+            "Infrastructure": "No supporting keywords found",
+            "Marine": "No supporting keywords found"
+        },
+        "classification_explanation": "Education selected because it contains 2 supporting keyword(s): student, teacher"
+    },
+    "confidence": {
+        "score": 72,
+        "supporting_evidence_count": 15,
+        "validated_entity_count": 7,
+        "document_completeness": 0.38,
+        "contradictory_evidence_count": 0,
+        "explanation": "Confidence derived from 15 supporting evidences, 7 validated entities, and document completeness of 38%."
     },
     "recommendations": {
         "related_domains": [
@@ -76,7 +253,7 @@
         "intelligence_summary": "This document primarily belongs to the Education domain. It is strongly associated with E-Learning, Student Analytics. The extracted intelligence can be used for classification, search, and knowledge management purposes. Additional recommendations have been generated to enrich future analysis."
     },
     "processing_trace": {
-        "execution_timestamp": "2026-06-18 11:16:21",
+        "execution_timestamp": "2026-06-20 11:53:53",
         "overall_status": "SUCCESS",
         "processing_trace": [
             {
@@ -101,11 +278,23 @@
             },
             {
                 "step": "Entity Extraction",
-                "details": "9 entities extracted"
+                "details": "7 entities extracted"
+            },
+            {
+                "step": "Entity Validation",
+                "details": "7 validated, 2 rejected"
+            },
+            {
+                "step": "Evidence Generation",
+                "details": "7 evidence records generated"
             },
             {
                 "step": "Classification",
                 "details": "Primary Category: Education"
+            },
+            {
+                "step": "Confidence Scoring",
+                "details": "Confidence Score: 72"
             },
             {
                 "step": "Recommendation Generation",
@@ -121,13 +310,16 @@
         "document_type": "Application Form",
         "primary_category": "Education",
         "secondary_category": "AI",
-        "confidence_score": 0.25,
+        "classification_confidence": 0.25,
+        "overall_confidence": 72,
         "recommended_tags": [
             "education",
             "learning",
             "students",
             "academic"
         ],
-        "entity_count": 9
+        "entity_count": 7,
+        "rejected_entity_count": 2,
+        "evidence_count": 15
     }
 }

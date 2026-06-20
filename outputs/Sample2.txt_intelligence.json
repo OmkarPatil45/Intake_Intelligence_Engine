@@ -47,6 +47,462 @@
         "emails": [],
         "phone_numbers": []
     },
+    "rejected_entities": [],
+    "evidence_report": {
+        "Butch\u00c2  Harmon \u00e2\u20ac": [
+            {
+                "paragraph": 1,
+                "sentence": "Not just playing on Tuesday, but having dinner with him and\u00c2  seeing how he operates on and off the golf course.' Thanks to the work he has been doing this past year with Butch\u00c2  Harmon \u00e2\u20ac\u201c a coach Fowler described as the 'best in the world' \u00e2\u20ac\u201c the young American has been\u00c2  itting his irons superbly and at times he putted beautifully too,\u00c2  sinking one from around 30 feet on the second hole.",
+                "keywords": [
+                    "Butch\u00c2  Harmon \u00e2\u20ac"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            }
+        ],
+        "Phil Mickelson": [
+            {
+                "paragraph": 1,
+                "sentence": "Defending champion Phil Mickelson felt he missed a good opportunity to move up the leaderboard on day three.",
+                "keywords": [
+                    "Phil Mickelson"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            }
+        ],
+        "Phil Mickleson": [
+            {
+                "paragraph": 1,
+                "sentence": "The advice he gets from Phil Mickleson, someone he referred to affectionately as his golf 'dad', is also sure to come in handy.",
+                "keywords": [
+                    "Phil Mickleson"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            }
+        ],
+        "Rickie Fowler": [
+            {
+                "paragraph": 1,
+                "sentence": "For Garcia and Rickie Fowler, it made the final few holes of a dramatic third round here in Hoylake all the more torturous.",
+                "keywords": [
+                    "Rickie Fowler"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            },
+            {
+                "paragraph": 1,
+                "sentence": "Under pressure: Sergio Garcia and Rickie Fowler during the third round on Saturday .",
+                "keywords": [
+                    "Rickie Fowler"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            },
+            {
+                "paragraph": 1,
+                "sentence": "Feel the force: Rickie Fowler tees off on the 13th hole at Hoylake on Saturday .",
+                "keywords": [
+                    "Rickie Fowler"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            },
+            {
+                "paragraph": 1,
+                "sentence": "There's not really a lot of weaknesses in his game.' In the swing: American Rickie Fowler has been hitting his irons superbly .",
+                "keywords": [
+                    "Rickie Fowler"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            }
+        ],
+        "Rory McIlroy": [
+            {
+                "paragraph": 1,
+                "sentence": "Only this time here it was Rory McIlroy who was terrorising the two golfers ahead of him.",
+                "keywords": [
+                    "Rory McIlroy"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            },
+            {
+                "paragraph": 1,
+                "sentence": "The lefthander fired a 71 to lie 15 shots behind leader Rory McIlroy overnight and said: 'We had beautiful scoring conditions, first group off.",
+                "keywords": [
+                    "Rory McIlroy"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            }
+        ],
+        "Sergio Garcia": [
+            {
+                "paragraph": 1,
+                "sentence": "NEWS ARTICLES - This was, Sergio Garcia conceded, much like being hunted by Tiger, complete with the roars that\u00c2  provided the first sign of danger.",
+                "keywords": [
+                    "Sergio Garcia"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            },
+            {
+                "paragraph": 1,
+                "sentence": "Under pressure: Sergio Garcia and Rickie Fowler during the third round on Saturday .",
+                "keywords": [
+                    "Sergio Garcia"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            }
+        ],
+        "Tiger": [
+            {
+                "paragraph": 1,
+                "sentence": "NEWS ARTICLES - This was, Sergio Garcia conceded, much like being hunted by Tiger, complete with the roars that\u00c2  provided the first sign of danger.",
+                "keywords": [
+                    "Tiger"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            },
+            {
+                "paragraph": 1,
+                "sentence": "'I don't think Rory has been as consistent as Tiger was for so many years, but when he's at his best he's right up there,' said Garcia.",
+                "keywords": [
+                    "Tiger"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            }
+        ],
+        "Fowler": [
+            {
+                "paragraph": 1,
+                "sentence": "For Garcia and Rickie Fowler, it made the final few holes of a dramatic third round here in Hoylake all the more torturous.",
+                "keywords": [
+                    "Fowler"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            },
+            {
+                "paragraph": 1,
+                "sentence": "As Fowler dropped a shot on 17, his third bogey in four holes, McIlroy could be heard making eagle on the adjacent 16th.",
+                "keywords": [
+                    "Fowler"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            },
+            {
+                "paragraph": 1,
+                "sentence": "Under pressure: Sergio Garcia and Rickie Fowler during the third round on Saturday .",
+                "keywords": [
+                    "Fowler"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            },
+            {
+                "paragraph": 1,
+                "sentence": "Fowler had just birdied 18 but even that failed to stop the gap between first and second widening.",
+                "keywords": [
+                    "Fowler"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            },
+            {
+                "paragraph": 1,
+                "sentence": "The only thing you can do is say \"well done\".' For Fowler is proved particularly galling.",
+                "keywords": [
+                    "Fowler"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            },
+            {
+                "paragraph": 1,
+                "sentence": "Fowler will nevertheless take encouragement from the fact that the six-shot lead McIlroy now has this afternoon can be closed, because he did it in 12 holes yesterday.",
+                "keywords": [
+                    "Fowler"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            },
+            {
+                "paragraph": 1,
+                "sentence": "Add to that the benefit of having been in much the same position in the US Open last month, not to\u00c2  mention the confidence of having already finished in the top five in both majors this year, and Fowler goes into the final pairing today in decent shape.",
+                "keywords": [
+                    "Fowler"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            },
+            {
+                "paragraph": 1,
+                "sentence": "Feel the force: Rickie Fowler tees off on the 13th hole at Hoylake on Saturday .",
+                "keywords": [
+                    "Fowler"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            },
+            {
+                "paragraph": 1,
+                "sentence": "'I've learned a lot from Phil,' said Fowler.",
+                "keywords": [
+                    "Fowler"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            },
+            {
+                "paragraph": 1,
+                "sentence": "Not just playing on Tuesday, but having dinner with him and\u00c2  seeing how he operates on and off the golf course.' Thanks to the work he has been doing this past year with Butch\u00c2  Harmon \u00e2\u20ac\u201c a coach Fowler described as the 'best in the world' \u00e2\u20ac\u201c the young American has been\u00c2  itting his irons superbly and at times he putted beautifully too,\u00c2  sinking one from around 30 feet on the second hole.",
+                "keywords": [
+                    "Fowler"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            },
+            {
+                "paragraph": 1,
+                "sentence": "There's not really a lot of weaknesses in his game.' In the swing: American Rickie Fowler has been hitting his irons superbly .",
+                "keywords": [
+                    "Fowler"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            },
+            {
+                "paragraph": 1,
+                "sentence": "Fowler knows that too, having grown up competing against\u00c2  McIlroy.",
+                "keywords": [
+                    "Fowler"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            },
+            {
+                "paragraph": 1,
+                "sentence": "They also have a penchant for brightly covered clothing even if McIlroy joked this week that\u00c2  Fowler's fashion sense \u00e2\u20ac\u201c he will once again wear the orange of Olklahoma State University today \u00e2\u20ac\u201c was highly questionable.",
+                "keywords": [
+                    "Fowler"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            },
+            {
+                "paragraph": 1,
+                "sentence": "'We've travelled a bit together between tournaments,' said Fowler.",
+                "keywords": [
+                    "Fowler"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            }
+        ],
+        "Hoylake": [
+            {
+                "paragraph": 1,
+                "sentence": "For Garcia and Rickie Fowler, it made the final few holes of a dramatic third round here in Hoylake all the more torturous.",
+                "keywords": [
+                    "Hoylake"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            },
+            {
+                "paragraph": 1,
+                "sentence": "Feel the force: Rickie Fowler tees off on the 13th hole at Hoylake on Saturday .",
+                "keywords": [
+                    "Hoylake"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            }
+        ],
+        "McIlroy": [
+            {
+                "paragraph": 1,
+                "sentence": "Only this time here it was Rory McIlroy who was terrorising the two golfers ahead of him.",
+                "keywords": [
+                    "McIlroy"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            },
+            {
+                "paragraph": 1,
+                "sentence": "McIlroy who was drawing deafening applause from the crowds in the group behind.",
+                "keywords": [
+                    "McIlroy"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            },
+            {
+                "paragraph": 1,
+                "sentence": "As Fowler dropped a shot on 17, his third bogey in four holes, McIlroy could be heard making eagle on the adjacent 16th.",
+                "keywords": [
+                    "McIlroy"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            },
+            {
+                "paragraph": 1,
+                "sentence": "The lefthander fired a 71 to lie 15 shots behind leader Rory McIlroy overnight and said: 'We had beautiful scoring conditions, first group off.",
+                "keywords": [
+                    "McIlroy"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            },
+            {
+                "paragraph": 1,
+                "sentence": "Garcia admitted afterwards that playing McIlroy in this kind of form is as daunting as waging war against Woods in his prime; an almost futile exercise however well those in\u00c2  the chasing pack might be playing.",
+                "keywords": [
+                    "McIlroy"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            },
+            {
+                "paragraph": 1,
+                "sentence": "He was tearing up this course in near perfect conditions, going through the turn in 32\u00c2  and then birdying 10, 11 and 12\u00c2  to erase the six-shot advantage McIlroy had taken into the third round.",
+                "keywords": [
+                    "McIlroy"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            },
+            {
+                "paragraph": 1,
+                "sentence": "But then came that crushing run of bogies and with it an emphatic McIlroy response.",
+                "keywords": [
+                    "McIlroy"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            },
+            {
+                "paragraph": 1,
+                "sentence": "Fowler will nevertheless take encouragement from the fact that the six-shot lead McIlroy now has this afternoon can be closed, because he did it in 12 holes yesterday.",
+                "keywords": [
+                    "McIlroy"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            },
+            {
+                "paragraph": 1,
+                "sentence": "He can also draw some comfort in knowing his two professional wins to date were both achieved with McIlroy as runner-up.",
+                "keywords": [
+                    "McIlroy"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            },
+            {
+                "paragraph": 1,
+                "sentence": "His first victory, the Wells Fargo Championship two years ago, came after beating McIlroy on the first extra hole of a sudden-death play-off.",
+                "keywords": [
+                    "McIlroy"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            },
+            {
+                "paragraph": 1,
+                "sentence": "Garcia thinks it a tall order, catching McIlroy.",
+                "keywords": [
+                    "McIlroy"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            },
+            {
+                "paragraph": 1,
+                "sentence": "Fowler knows that too, having grown up competing against\u00c2  McIlroy.",
+                "keywords": [
+                    "McIlroy"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            },
+            {
+                "paragraph": 1,
+                "sentence": "They also have a penchant for brightly covered clothing even if McIlroy joked this week that\u00c2  Fowler's fashion sense \u00e2\u20ac\u201c he will once again wear the orange of Olklahoma State University today \u00e2\u20ac\u201c was highly questionable.",
+                "keywords": [
+                    "McIlroy"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            }
+        ],
+        "Olklahoma State University": [
+            {
+                "paragraph": 1,
+                "sentence": "They also have a penchant for brightly covered clothing even if McIlroy joked this week that\u00c2  Fowler's fashion sense \u00e2\u20ac\u201c he will once again wear the orange of Olklahoma State University today \u00e2\u20ac\u201c was highly questionable.",
+                "keywords": [
+                    "Olklahoma State University"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            }
+        ],
+        "Wells Fargo Championship": [
+            {
+                "paragraph": 1,
+                "sentence": "His first victory, the Wells Fargo Championship two years ago, came after beating McIlroy on the first extra hole of a sudden-death play-off.",
+                "keywords": [
+                    "Wells Fargo Championship"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            }
+        ],
+        "Florida": [
+            {
+                "paragraph": 1,
+                "sentence": "They are just a few months apart in age \u00e2\u20ac\u201c now both 25 \u00e2\u20ac\u201c and are actually good friends as well as neighbours in Jupiter, Florida.",
+                "keywords": [
+                    "Florida"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            }
+        ],
+        "Muirfield": [
+            {
+                "paragraph": 1,
+                "sentence": "'It could have been a lot lower and I let a lot of shots slide.' Mickelson, who came through the field to win with a final-round 66 at Muirfield last year, opened here with rounds of 74 and 70.",
+                "keywords": [
+                    "Muirfield"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            }
+        ],
+        "2007": [
+            {
+                "paragraph": 1,
+                "sentence": "'We first played against each other at the Walker Cup in 2007 and it's kind of gone from there.",
+                "keywords": [
+                    "2007"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            }
+        ]
+    },
     "classification": {
         "primary_category": "Education",
         "secondary_category": "AI",
@@ -65,6 +521,14 @@
             "Infrastructure": "No supporting keywords found"
         },
         "classification_explanation": "Education selected because it contains 2 supporting keyword(s): university, course"
+    },
+    "confidence": {
+        "score": 90,
+        "supporting_evidence_count": 47,
+        "validated_entity_count": 15,
+        "document_completeness": 0.5,
+        "contradictory_evidence_count": 0,
+        "explanation": "Confidence derived from 47 supporting evidences, 15 validated entities, and document completeness of 50%."
     },
     "recommendations": {
         "related_domains": [
@@ -90,7 +554,7 @@
         "intelligence_summary": "This document primarily belongs to the Education domain. It is strongly associated with E-Learning, Student Analytics. The extracted intelligence can be used for classification, search, and knowledge management purposes. Additional recommendations have been generated to enrich future analysis."
     },
     "processing_trace": {
-        "execution_timestamp": "2026-06-19 18:56:23",
+        "execution_timestamp": "2026-06-20 12:38:21",
         "overall_status": "SUCCESS",
         "processing_trace": [
             {
@@ -143,13 +607,16 @@
         "document_type": "News Article",
         "primary_category": "Education",
         "secondary_category": "AI",
-        "confidence_score": 0.25,
+        "classification_confidence": 0.25,
+        "overall_confidence": 90,
         "recommended_tags": [
             "education",
             "learning",
             "students",
             "academic"
         ],
-        "entity_count": 15
+        "entity_count": 15,
+        "rejected_entity_count": 0,
+        "evidence_count": 47
     }
 }

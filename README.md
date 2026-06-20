@@ -1,4 +1,4 @@
-# Universal Intake Intelligence Engine v1
+# Universal Intake Intelligence Engine v2
 
 Universal Intake Intelligence Engine is a standalone document intelligence system designed to transform unknown information sources into structured, explainable intelligence records.
 
@@ -20,89 +20,65 @@ The primary objective is to help users quickly understand incoming information t
                    │
                    ▼
 ┌──────────────────────────────────────┐
-│      Phase 1: Universal Intake       │
-│                                      │
-│ • Intake Loader                      │
+│           Intake Loader              |
+|                                      │         
 └──────────────────┬───────────────────┘
                    │
                    ▼
 ┌──────────────────────────────────────┐
-│    Phase 2: Content Understanding    │
-│                                      │
-│ • Document Type Detection            │
-│ • Category Detection                 │
-│ • Subject Area Identification        │
-│ • Language Detection                 │
+│         Content Analyzer             │
 └──────────────────┬───────────────────┘
                    │
                    ▼
 ┌──────────────────────────────────────┐
-│     Phase 3: Entity Intelligence     │
-│                                      │
-│ • Organizations                      │
-│ • Skills                             │
-│ • Locations                          │
-│ • Dates                              │
-│ • Emails                             │
-│ • Phone Numbers                      │
+|           Entity Extractor           |
 └──────────────────┬───────────────────┘
                    │
                    ▼
 ┌──────────────────────────────────────┐
-│      Phase 4: Classification         │
-│                                      │
-│ • Primary Category                   │
-│ • Secondary Category                 │
-│ • Confidence Score                   │
-│ • Classification Explanation         │
+|           Entity Validator           |
 └──────────────────┬───────────────────┘
                    │
                    ▼
 ┌──────────────────────────────────────┐
-│      Phase 5: Recommendation         │
-│                                      │
-│ • Recommendation Report              │
+|           Evidence Engine            │
 └──────────────────┬───────────────────┘
                    │
                    ▼
 ┌──────────────────────────────────────┐
-│   Phase 6: Processing Visibility     │
-│                                      │
-│ • Execution Summary                  │
+|          Classification Engine       |
 └──────────────────┬───────────────────┘
                    │
                    ▼
 ┌──────────────────────────────────────┐
-│  Phase 7: Intelligence Package       │
-│                                      │
-│ • Source Information                 │
-│ • Recommendations                    │
+│           Confidence Engine          │
 └──────────────────┬───────────────────┘
                    │
                    ▼
 ┌──────────────────────────────────────┐
-│    Phase 8: Search & Retrieval       │
-│                                      │
-│ • Search by Keyword                  │
-│ • Search by Category                 │
-│ • Search by Entity                   │
-│ • Search by Source Type              │
+│    Recommendation Engine             │
 └──────────────────┬───────────────────┘
                    │
                    ▼
 ┌──────────────────────────────────────┐
-│     Phase 9: Review Interface        │
-│                                      │
-│ • Interactive CLI                    │
+|     Intelligence Package Builder     │
 └──────────────────┬───────────────────┘
                    │
                    ▼
 ┌──────────────────────────────────────┐
-│           Final Output               │
-│                                      │
-│ Intelligence Package JSON            │              
-│ Processing Trace                     │
+│       Relationship Engine            │
+└──────────────────┬───────────────────┘
+                   │
+                   ▼
+┌──────────────────────────────────────┐
+│       relationship_graph.json        │
+└──────────────────┬───────────────────┘
+                   │
+                   ▼
+┌──────────────────────────────────────┐
+│            CLI DASHBOARD             │
 └──────────────────────────────────────┘
+
 ```
 # Sample Dataset
 ```
@@ -126,9 +102,13 @@ Intake_Intelligence_Engine/
 ├── analysis/
 │   ├── content_analyzer.py
 │   ├── entity_extractor.py
+|   ├── entity_validator.py
+│   ├── evidence_engine.py
 |   ├── entity_filters.py
+│   ├── confidence_engine.py
 │   ├── classification_engine.py
-│   └── recommendation_engine.py
+│   | recommendation_engine.py
+|   └── relationship_engine.py
 │
 ├── trace/
 │   └── processing_trace.py
@@ -196,68 +176,27 @@ python app.py
 
 Follow CLI prompts
 
-## Processing Trace Example
-
-### Execution Information
-
-| Field               | Value               |
-| ------------------- | ------------------- |
-| Execution Timestamp | 2026-06-17 15:44:04 |
-| Overall Status      | SUCCESS             |
-
-### Processing Workflow
-
-```text
-[1/8] File Received
-      → abc.txt received
-
-[2/8] Source Detection
-      → Detected source type: txt
-
-[3/8] Content Extraction
-      → 127 characters extracted
-
-[4/8] Content Understanding
-      → Detected Technical Document
-
-[5/8] Entity Extraction
-      → 1 entities extracted
-
-[6/8] Classification
-      → Primary Category: AI
-
-[7/8] Recommendation Generation
-      → 5 tags recommended
-
-[8/8] Intelligence Package
-      → Final intelligence package generated
-```
-
-### Processing Summary
-
-```text
-Input File
-    ↓
-Source Detection
-    ↓
-Content Extraction
-    ↓
-Content Understanding
-    ↓
-Entity Extraction
-    ↓
-Classification
-    ↓
-Recommendation Generation
-    ↓
-Intelligence Package Creation
-```
-
-The processing trace provides complete transparency into every stage of the intelligence pipeline, enabling reviewers to understand how raw information is transformed into structured intelligence records.
-
 ## Output
 
 The system generates intelligence packages inside the outputs directory.
+
+Example Outputs :-
+Confidence Report
+{
+    "score": 90,
+    "supporting_evidence_count": 48,
+    "validated_entity_count": 26,
+    "document_completeness": 0.5,
+    "contradictory_evidence_count": 0
+}
+
+Relationship Graph (check outputs/relationship_graph.json)
+{
+    "source": "resume.pdf",
+    "target": "project.docx",
+    "relationship": "same_technology",
+    "entity": "python"
+}
 
 ## Future Enhancements
 Web Dashboard

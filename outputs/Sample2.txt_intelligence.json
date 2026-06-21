@@ -20,18 +20,16 @@
     },
     "entities": {
         "names": [
-            "Butch\u00c2  Harmon \u00e2\u20ac",
             "Phil Mickelson",
             "Phil Mickleson",
             "Rickie Fowler",
-            "Rory McIlroy",
+            "Rory",
             "Sergio Garcia",
             "Tiger"
         ],
         "organizations": [
             "Fowler",
             "Hoylake",
-            "McIlroy",
             "Olklahoma State University",
             "Wells Fargo Championship"
         ],
@@ -41,25 +39,18 @@
             "Florida",
             "Muirfield"
         ],
-        "dates": [
-            "2007"
-        ],
+        "dates": [],
         "emails": [],
         "phone_numbers": []
     },
-    "rejected_entities": [],
+    "rejected_entities": [
+        {
+            "entity": "Butch\u00c2  Harmon \u00e2\u20ac",
+            "entity_type": "PERSON",
+            "reason": "Invalid name structure"
+        }
+    ],
     "evidence_report": {
-        "Butch\u00c2  Harmon \u00e2\u20ac": [
-            {
-                "paragraph": 1,
-                "sentence": "Not just playing on Tuesday, but having dinner with him and\u00c2  seeing how he operates on and off the golf course.' Thanks to the work he has been doing this past year with Butch\u00c2  Harmon \u00e2\u20ac\u201c a coach Fowler described as the 'best in the world' \u00e2\u20ac\u201c the young American has been\u00c2  itting his irons superbly and at times he putted beautifully too,\u00c2  sinking one from around 30 feet on the second hole.",
-                "keywords": [
-                    "Butch\u00c2  Harmon \u00e2\u20ac"
-                ],
-                "reason": "Entity explicitly mentioned",
-                "confidence": 1.0
-            }
-        ],
         "Phil Mickelson": [
             {
                 "paragraph": 1,
@@ -120,12 +111,12 @@
                 "confidence": 1.0
             }
         ],
-        "Rory McIlroy": [
+        "Rory": [
             {
                 "paragraph": 1,
                 "sentence": "Only this time here it was Rory McIlroy who was terrorising the two golfers ahead of him.",
                 "keywords": [
-                    "Rory McIlroy"
+                    "Rory"
                 ],
                 "reason": "Entity explicitly mentioned",
                 "confidence": 1.0
@@ -134,7 +125,34 @@
                 "paragraph": 1,
                 "sentence": "The lefthander fired a 71 to lie 15 shots behind leader Rory McIlroy overnight and said: 'We had beautiful scoring conditions, first group off.",
                 "keywords": [
-                    "Rory McIlroy"
+                    "Rory"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            },
+            {
+                "paragraph": 1,
+                "sentence": "'I don't think Rory has been as consistent as Tiger was for so many years, but when he's at his best he's right up there,' said Garcia.",
+                "keywords": [
+                    "Rory"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            },
+            {
+                "paragraph": 1,
+                "sentence": "'So if Rory plays the way he's been playing it's difficult to see anybody catching him.",
+                "keywords": [
+                    "Rory"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            },
+            {
+                "paragraph": 1,
+                "sentence": "When Rory plays well every course suits him.",
+                "keywords": [
+                    "Rory"
                 ],
                 "reason": "Entity explicitly mentioned",
                 "confidence": 1.0
@@ -328,125 +346,6 @@
                 "confidence": 1.0
             }
         ],
-        "McIlroy": [
-            {
-                "paragraph": 1,
-                "sentence": "Only this time here it was Rory McIlroy who was terrorising the two golfers ahead of him.",
-                "keywords": [
-                    "McIlroy"
-                ],
-                "reason": "Entity explicitly mentioned",
-                "confidence": 1.0
-            },
-            {
-                "paragraph": 1,
-                "sentence": "McIlroy who was drawing deafening applause from the crowds in the group behind.",
-                "keywords": [
-                    "McIlroy"
-                ],
-                "reason": "Entity explicitly mentioned",
-                "confidence": 1.0
-            },
-            {
-                "paragraph": 1,
-                "sentence": "As Fowler dropped a shot on 17, his third bogey in four holes, McIlroy could be heard making eagle on the adjacent 16th.",
-                "keywords": [
-                    "McIlroy"
-                ],
-                "reason": "Entity explicitly mentioned",
-                "confidence": 1.0
-            },
-            {
-                "paragraph": 1,
-                "sentence": "The lefthander fired a 71 to lie 15 shots behind leader Rory McIlroy overnight and said: 'We had beautiful scoring conditions, first group off.",
-                "keywords": [
-                    "McIlroy"
-                ],
-                "reason": "Entity explicitly mentioned",
-                "confidence": 1.0
-            },
-            {
-                "paragraph": 1,
-                "sentence": "Garcia admitted afterwards that playing McIlroy in this kind of form is as daunting as waging war against Woods in his prime; an almost futile exercise however well those in\u00c2  the chasing pack might be playing.",
-                "keywords": [
-                    "McIlroy"
-                ],
-                "reason": "Entity explicitly mentioned",
-                "confidence": 1.0
-            },
-            {
-                "paragraph": 1,
-                "sentence": "He was tearing up this course in near perfect conditions, going through the turn in 32\u00c2  and then birdying 10, 11 and 12\u00c2  to erase the six-shot advantage McIlroy had taken into the third round.",
-                "keywords": [
-                    "McIlroy"
-                ],
-                "reason": "Entity explicitly mentioned",
-                "confidence": 1.0
-            },
-            {
-                "paragraph": 1,
-                "sentence": "But then came that crushing run of bogies and with it an emphatic McIlroy response.",
-                "keywords": [
-                    "McIlroy"
-                ],
-                "reason": "Entity explicitly mentioned",
-                "confidence": 1.0
-            },
-            {
-                "paragraph": 1,
-                "sentence": "Fowler will nevertheless take encouragement from the fact that the six-shot lead McIlroy now has this afternoon can be closed, because he did it in 12 holes yesterday.",
-                "keywords": [
-                    "McIlroy"
-                ],
-                "reason": "Entity explicitly mentioned",
-                "confidence": 1.0
-            },
-            {
-                "paragraph": 1,
-                "sentence": "He can also draw some comfort in knowing his two professional wins to date were both achieved with McIlroy as runner-up.",
-                "keywords": [
-                    "McIlroy"
-                ],
-                "reason": "Entity explicitly mentioned",
-                "confidence": 1.0
-            },
-            {
-                "paragraph": 1,
-                "sentence": "His first victory, the Wells Fargo Championship two years ago, came after beating McIlroy on the first extra hole of a sudden-death play-off.",
-                "keywords": [
-                    "McIlroy"
-                ],
-                "reason": "Entity explicitly mentioned",
-                "confidence": 1.0
-            },
-            {
-                "paragraph": 1,
-                "sentence": "Garcia thinks it a tall order, catching McIlroy.",
-                "keywords": [
-                    "McIlroy"
-                ],
-                "reason": "Entity explicitly mentioned",
-                "confidence": 1.0
-            },
-            {
-                "paragraph": 1,
-                "sentence": "Fowler knows that too, having grown up competing against\u00c2  McIlroy.",
-                "keywords": [
-                    "McIlroy"
-                ],
-                "reason": "Entity explicitly mentioned",
-                "confidence": 1.0
-            },
-            {
-                "paragraph": 1,
-                "sentence": "They also have a penchant for brightly covered clothing even if McIlroy joked this week that\u00c2  Fowler's fashion sense \u00e2\u20ac\u201c he will once again wear the orange of Olklahoma State University today \u00e2\u20ac\u201c was highly questionable.",
-                "keywords": [
-                    "McIlroy"
-                ],
-                "reason": "Entity explicitly mentioned",
-                "confidence": 1.0
-            }
-        ],
         "Olklahoma State University": [
             {
                 "paragraph": 1,
@@ -490,17 +389,6 @@
                 "reason": "Entity explicitly mentioned",
                 "confidence": 1.0
             }
-        ],
-        "2007": [
-            {
-                "paragraph": 1,
-                "sentence": "'We first played against each other at the Walker Cup in 2007 and it's kind of gone from there.",
-                "keywords": [
-                    "2007"
-                ],
-                "reason": "Entity explicitly mentioned",
-                "confidence": 1.0
-            }
         ]
     },
     "classification": {
@@ -523,12 +411,12 @@
         "classification_explanation": "Education selected because it contains 2 supporting keyword(s): university, course"
     },
     "confidence": {
-        "score": 90,
-        "supporting_evidence_count": 47,
-        "validated_entity_count": 15,
-        "document_completeness": 0.5,
+        "score": 82,
+        "supporting_evidence_count": 35,
+        "validated_entity_count": 12,
+        "document_completeness": 0.38,
         "contradictory_evidence_count": 0,
-        "explanation": "Confidence derived from 47 supporting evidences, 15 validated entities, and document completeness of 50%."
+        "explanation": "Confidence derived from 35 supporting evidences, 12 validated entities, and document completeness of 38%."
     },
     "recommendations": {
         "related_domains": [
@@ -554,7 +442,7 @@
         "intelligence_summary": "This document primarily belongs to the Education domain. It is strongly associated with E-Learning, Student Analytics. The extracted intelligence can be used for classification, search, and knowledge management purposes. Additional recommendations have been generated to enrich future analysis."
     },
     "processing_trace": {
-        "execution_timestamp": "2026-06-20 12:38:21",
+        "execution_timestamp": "2026-06-21 11:57:33",
         "overall_status": "SUCCESS",
         "processing_trace": [
             {
@@ -575,15 +463,15 @@
             },
             {
                 "step": "Entity Extraction",
-                "details": "15 entities extracted"
+                "details": "12 entities extracted"
             },
             {
                 "step": "Entity Validation",
-                "details": "15 validated, 0 rejected"
+                "details": "12 validated, 1 rejected"
             },
             {
                 "step": "Evidence Generation",
-                "details": "15 evidence records generated"
+                "details": "12 evidence records generated"
             },
             {
                 "step": "Classification",
@@ -591,7 +479,7 @@
             },
             {
                 "step": "Confidence Scoring",
-                "details": "Confidence Score: 90"
+                "details": "Confidence Score: 82"
             },
             {
                 "step": "Recommendation Generation",
@@ -608,15 +496,15 @@
         "primary_category": "Education",
         "secondary_category": "AI",
         "classification_confidence": 0.25,
-        "overall_confidence": 90,
+        "overall_confidence": 82,
         "recommended_tags": [
             "education",
             "learning",
             "students",
             "academic"
         ],
-        "entity_count": 15,
-        "rejected_entity_count": 0,
-        "evidence_count": 47
+        "entity_count": 12,
+        "rejected_entity_count": 1,
+        "evidence_count": 35
     }
 }

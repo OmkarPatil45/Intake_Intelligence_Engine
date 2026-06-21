@@ -37,10 +37,6 @@
             "type": "document"
         },
         {
-            "id": "file_2.pdf",
-            "type": "document"
-        },
-        {
             "id": "file_3.pdf",
             "type": "document"
         },
@@ -104,37 +100,7 @@
     "relationships": [
         {
             "source": "BI_REPORT.pdf",
-            "target": "docFile2.docx",
-            "relationship": "same_person",
-            "entity": "Swaroop Sawant"
-        },
-        {
-            "source": "BI_REPORT.pdf",
-            "target": "docFile2.docx",
-            "relationship": "same_organization",
-            "entity": "Prathamesh Thakare"
-        },
-        {
-            "source": "BI_REPORT.pdf",
             "target": "DS project.docx",
-            "relationship": "same_person",
-            "entity": "Swaroop Sawant"
-        },
-        {
-            "source": "BI_REPORT.pdf",
-            "target": "DS project.docx",
-            "relationship": "same_organization",
-            "entity": "Prathamesh Thakare"
-        },
-        {
-            "source": "BI_REPORT.pdf",
-            "target": "DS project.docx",
-            "relationship": "same_technology",
-            "entity": "machine learning"
-        },
-        {
-            "source": "BI_REPORT.pdf",
-            "target": "resume.pdf",
             "relationship": "same_technology",
             "entity": "machine learning"
         },
@@ -143,6 +109,12 @@
             "target": "resume.pdf",
             "relationship": "same_technology",
             "entity": "pandas"
+        },
+        {
+            "source": "BI_REPORT.pdf",
+            "target": "resume.pdf",
+            "relationship": "same_technology",
+            "entity": "machine learning"
         },
         {
             "source": "customers.csv",
@@ -155,12 +127,6 @@
             "target": "sample1.json",
             "relationship": "same_person",
             "entity": "Simpson"
-        },
-        {
-            "source": "customers.csv",
-            "target": "sample1.json",
-            "relationship": "same_person",
-            "entity": "Hill"
         },
         {
             "source": "customers.csv",
@@ -190,19 +156,13 @@
             "source": "docFile2.docx",
             "target": "DS project.docx",
             "relationship": "same_organization",
-            "entity": "Prathamesh Thakare"
+            "entity": "Department of Information Technology"
         },
         {
             "source": "docFile2.docx",
             "target": "DS project.docx",
             "relationship": "same_organization",
-            "entity": "Department of Information Technology"
-        },
-        {
-            "source": "docFile2.docx",
-            "target": "file_2.pdf",
-            "relationship": "same_technology",
-            "entity": "express"
+            "entity": "Prathamesh Thakare"
         },
         {
             "source": "docFile2.docx",
@@ -253,34 +213,10 @@
             "entity": "machine learning"
         },
         {
-            "source": "file_2.pdf",
-            "target": "file_4.pdf",
-            "relationship": "same_technology",
-            "entity": "express"
-        },
-        {
-            "source": "file_2.pdf",
-            "target": "resume.pdf",
-            "relationship": "same_technology",
-            "entity": "express"
-        },
-        {
-            "source": "file_4.pdf",
-            "target": "resume.pdf",
-            "relationship": "same_organization",
-            "entity": "SQL"
-        },
-        {
             "source": "file_4.pdf",
             "target": "resume.pdf",
             "relationship": "same_technology",
-            "entity": "sql"
-        },
-        {
-            "source": "file_4.pdf",
-            "target": "resume.pdf",
-            "relationship": "same_technology",
-            "entity": "express"
+            "entity": "javascript"
         },
         {
             "source": "file_4.pdf",
@@ -292,7 +228,7 @@
             "source": "file_4.pdf",
             "target": "resume.pdf",
             "relationship": "same_technology",
-            "entity": "node.js"
+            "entity": "sql"
         },
         {
             "source": "file_4.pdf",
@@ -304,7 +240,13 @@
             "source": "file_4.pdf",
             "target": "resume.pdf",
             "relationship": "same_technology",
-            "entity": "javascript"
+            "entity": "node.js"
+        },
+        {
+            "source": "file_4.pdf",
+            "target": "resume.pdf",
+            "relationship": "same_technology",
+            "entity": "express"
         },
         {
             "source": "Sample1.txt",
@@ -316,25 +258,7 @@
             "source": "Sample1.txt",
             "target": "sample4.txt",
             "relationship": "same_person",
-            "entity": "Sonia Sotomayor"
-        },
-        {
-            "source": "Sample1.txt",
-            "target": "sample4.txt",
-            "relationship": "same_person",
-            "entity": "Donald Verrilli"
-        },
-        {
-            "source": "Sample1.txt",
-            "target": "sample4.txt",
-            "relationship": "same_person",
             "entity": "Elena Kagan"
-        },
-        {
-            "source": "Sample1.txt",
-            "target": "sample4.txt",
-            "relationship": "same_person",
-            "entity": "Samuel Alito"
         },
         {
             "source": "Sample1.txt",
@@ -352,25 +276,25 @@
             "source": "Sample1.txt",
             "target": "sample4.txt",
             "relationship": "same_person",
+            "entity": "Donald Verrilli"
+        },
+        {
+            "source": "Sample1.txt",
+            "target": "sample4.txt",
+            "relationship": "same_person",
             "entity": "John Roberts"
         },
         {
             "source": "Sample1.txt",
             "target": "sample4.txt",
-            "relationship": "same_organization",
-            "entity": "Environmental Protection Agency"
+            "relationship": "same_person",
+            "entity": "Sonia Sotomayor"
         },
         {
             "source": "Sample1.txt",
             "target": "sample4.txt",
-            "relationship": "same_organization",
-            "entity": "White House"
-        },
-        {
-            "source": "Sample1.txt",
-            "target": "sample4.txt",
-            "relationship": "same_organization",
-            "entity": "EPA"
+            "relationship": "same_person",
+            "entity": "Samuel Alito"
         },
         {
             "source": "Sample1.txt",
@@ -382,13 +306,7 @@
             "source": "Sample1.txt",
             "target": "sample4.txt",
             "relationship": "same_organization",
-            "entity": "Capitol Hill"
-        },
-        {
-            "source": "Sample1.txt",
-            "target": "sample4.txt",
-            "relationship": "same_organization",
-            "entity": "U.S. Solicitor"
+            "entity": "EPA"
         },
         {
             "source": "Sample1.txt",
@@ -400,7 +318,31 @@
             "source": "Sample1.txt",
             "target": "sample4.txt",
             "relationship": "same_organization",
+            "entity": "U.S. Solicitor"
+        },
+        {
+            "source": "Sample1.txt",
+            "target": "sample4.txt",
+            "relationship": "same_organization",
+            "entity": "Environmental Protection Agency"
+        },
+        {
+            "source": "Sample1.txt",
+            "target": "sample4.txt",
+            "relationship": "same_organization",
             "entity": "Defense of Marriage Act"
+        },
+        {
+            "source": "Sample1.txt",
+            "target": "sample4.txt",
+            "relationship": "same_organization",
+            "entity": "Capitol Hill"
+        },
+        {
+            "source": "Sample1.txt",
+            "target": "sample4.txt",
+            "relationship": "same_organization",
+            "entity": "White House"
         }
     ]
 }

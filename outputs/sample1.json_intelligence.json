@@ -22,7 +22,6 @@
     "entities": {
         "names": [
             "Bobby",
-            "Hill",
             "Hoover",
             "Simpson"
         ],
@@ -30,32 +29,27 @@
         "technologies": [],
         "skills": [],
         "locations": [],
-        "dates": [
-            "2021-07-12T23:33:10.000Z"
-        ],
+        "dates": [],
         "emails": [
             "doh@thesimpsons.net",
             "propane@propaneaccessories.net"
         ],
-        "phone_numbers": []
+        "phone_numbers": [
+            "8872394789"
+        ]
     },
     "rejected_entities": [
         {
-            "entity": "2021-07",
-            "entity_type": "dates",
-            "reason": "Document reference number"
-        },
-        {
-            "entity": "8872394789",
-            "entity_type": "phone_numbers",
-            "reason": "Numeric token"
+            "entity": "Hill",
+            "entity_type": "PERSON",
+            "reason": "Suspicious short single-token name"
         }
     ],
     "evidence_report": {
         "Bobby": [
             {
-                "paragraph": 46,
-                "sentence": "\"Student First Name\": \"Bobby\",",
+                "paragraph": 1,
+                "sentence": "Hoover\" ], \"Type\": \"child\", \"Days Since First Lesson\": \"6\" }, \"createdTime\": \"2021-07-12T22:40:42.000Z\" }, { \"id\": \"recbz6Y6AEUVxQQGj\", \"fields\": { \"Student First Name\": \"Bobby\", \"Student Last Name\": \"Hill\", \"Parent First Name\": \"Hank\", \"Parent Last Name\": \"Hill\", \"Email\": \"propane@propaneaccessories.net\", \"Phone\": \"8872394789\", \"Instrument\": [ \"piano\" ], \"Teacher\": [ \"Cotton Hill\" ], \"Type\": \"child\", \"Days Since First Lesson\": \"6\" }, \"createdTime\": \"2021-07-12T23:33:10.000Z\" } ] }",
                 "keywords": [
                     "Bobby"
                 ],
@@ -63,39 +57,10 @@
                 "confidence": 1.0
             }
         ],
-        "Hill": [
-            {
-                "paragraph": 47,
-                "sentence": "\"Student Last Name\": \"Hill\",",
-                "keywords": [
-                    "Hill"
-                ],
-                "reason": "Entity explicitly mentioned",
-                "confidence": 1.0
-            },
-            {
-                "paragraph": 49,
-                "sentence": "\"Parent Last Name\": \"Hill\",",
-                "keywords": [
-                    "Hill"
-                ],
-                "reason": "Entity explicitly mentioned",
-                "confidence": 1.0
-            },
-            {
-                "paragraph": 56,
-                "sentence": "\"Cotton Hill\"",
-                "keywords": [
-                    "Hill"
-                ],
-                "reason": "Entity explicitly mentioned",
-                "confidence": 1.0
-            }
-        ],
         "Hoover": [
             {
-                "paragraph": 36,
-                "sentence": "Hoover\"",
+                "paragraph": 1,
+                "sentence": "Hoover\" ], \"Type\": \"child\", \"Days Since First Lesson\": \"6\" }, \"createdTime\": \"2021-07-12T22:40:42.000Z\" }, { \"id\": \"recbz6Y6AEUVxQQGj\", \"fields\": { \"Student First Name\": \"Bobby\", \"Student Last Name\": \"Hill\", \"Parent First Name\": \"Hank\", \"Parent Last Name\": \"Hill\", \"Email\": \"propane@propaneaccessories.net\", \"Phone\": \"8872394789\", \"Instrument\": [ \"piano\" ], \"Teacher\": [ \"Cotton Hill\" ], \"Type\": \"child\", \"Days Since First Lesson\": \"6\" }, \"createdTime\": \"2021-07-12T23:33:10.000Z\" } ] }",
                 "keywords": [
                     "Hoover"
                 ],
@@ -105,66 +70,10 @@
         ],
         "Simpson": [
             {
-                "paragraph": 7,
-                "sentence": "\"Student Last Name\": \"Simpson\",",
+                "paragraph": 1,
+                "sentence": "{ \"records\": [ { \"id\": \"rec9L7D09MFoYd47z\", \"fields\": { \"Student First Name\": \"Bart\", \"Student Last Name\": \"Simpson\", \"Parent First Name\": \"Homer\", \"Parent Last Name\": \"Simpson\", \"Email\": \"doh@thesimpsons.net\", \"Phone\": \"1234567890\", \"Instrument\": [ \"piano\" ], \"Teacher\": [ \"Edna Krabapple\" ], \"Type\": \"child\", \"Days Since First Lesson\": \"6\" }, \"createdTime\": \"2021-07-12T22:38:49.000Z\" }, { \"id\": \"rechGNEs6DnLKDBDf\", \"fields\": { \"Student First Name\": \"Lisa\", \"Student Last Name\": \"Simpson\", \"Parent First Name\": \"Homer\", \"Parent Last Name\": \"Simpson\", \"Email\": \"doh@thesimpsons.net\", \"Phone\": \"1234567890\", \"Instrument\": [ \"piano\" ], \"Teacher\": [ \"Mr.",
                 "keywords": [
                     "Simpson"
-                ],
-                "reason": "Entity explicitly mentioned",
-                "confidence": 1.0
-            },
-            {
-                "paragraph": 9,
-                "sentence": "\"Parent Last Name\": \"Simpson\",",
-                "keywords": [
-                    "Simpson"
-                ],
-                "reason": "Entity explicitly mentioned",
-                "confidence": 1.0
-            },
-            {
-                "paragraph": 10,
-                "sentence": "\"Email\": \"doh@thesimpsons.net\",",
-                "keywords": [
-                    "Simpson"
-                ],
-                "reason": "Entity explicitly mentioned",
-                "confidence": 1.0
-            },
-            {
-                "paragraph": 27,
-                "sentence": "\"Student Last Name\": \"Simpson\",",
-                "keywords": [
-                    "Simpson"
-                ],
-                "reason": "Entity explicitly mentioned",
-                "confidence": 1.0
-            },
-            {
-                "paragraph": 29,
-                "sentence": "\"Parent Last Name\": \"Simpson\",",
-                "keywords": [
-                    "Simpson"
-                ],
-                "reason": "Entity explicitly mentioned",
-                "confidence": 1.0
-            },
-            {
-                "paragraph": 30,
-                "sentence": "\"Email\": \"doh@thesimpsons.net\",",
-                "keywords": [
-                    "Simpson"
-                ],
-                "reason": "Entity explicitly mentioned",
-                "confidence": 1.0
-            }
-        ],
-        "2021-07-12T23:33:10.000Z": [
-            {
-                "paragraph": 61,
-                "sentence": "\"createdTime\": \"2021-07-12T23:33:10.000Z\"",
-                "keywords": [
-                    "2021-07-12T23:33:10.000Z"
                 ],
                 "reason": "Entity explicitly mentioned",
                 "confidence": 1.0
@@ -172,17 +81,8 @@
         ],
         "doh@thesimpsons.net": [
             {
-                "paragraph": 10,
-                "sentence": "\"Email\": \"doh@thesimpsons.net\",",
-                "keywords": [
-                    "doh@thesimpsons.net"
-                ],
-                "reason": "Entity explicitly mentioned",
-                "confidence": 1.0
-            },
-            {
-                "paragraph": 30,
-                "sentence": "\"Email\": \"doh@thesimpsons.net\",",
+                "paragraph": 1,
+                "sentence": "{ \"records\": [ { \"id\": \"rec9L7D09MFoYd47z\", \"fields\": { \"Student First Name\": \"Bart\", \"Student Last Name\": \"Simpson\", \"Parent First Name\": \"Homer\", \"Parent Last Name\": \"Simpson\", \"Email\": \"doh@thesimpsons.net\", \"Phone\": \"1234567890\", \"Instrument\": [ \"piano\" ], \"Teacher\": [ \"Edna Krabapple\" ], \"Type\": \"child\", \"Days Since First Lesson\": \"6\" }, \"createdTime\": \"2021-07-12T22:38:49.000Z\" }, { \"id\": \"rechGNEs6DnLKDBDf\", \"fields\": { \"Student First Name\": \"Lisa\", \"Student Last Name\": \"Simpson\", \"Parent First Name\": \"Homer\", \"Parent Last Name\": \"Simpson\", \"Email\": \"doh@thesimpsons.net\", \"Phone\": \"1234567890\", \"Instrument\": [ \"piano\" ], \"Teacher\": [ \"Mr.",
                 "keywords": [
                     "doh@thesimpsons.net"
                 ],
@@ -192,10 +92,21 @@
         ],
         "propane@propaneaccessories.net": [
             {
-                "paragraph": 50,
-                "sentence": "\"Email\": \"propane@propaneaccessories.net\",",
+                "paragraph": 1,
+                "sentence": "Hoover\" ], \"Type\": \"child\", \"Days Since First Lesson\": \"6\" }, \"createdTime\": \"2021-07-12T22:40:42.000Z\" }, { \"id\": \"recbz6Y6AEUVxQQGj\", \"fields\": { \"Student First Name\": \"Bobby\", \"Student Last Name\": \"Hill\", \"Parent First Name\": \"Hank\", \"Parent Last Name\": \"Hill\", \"Email\": \"propane@propaneaccessories.net\", \"Phone\": \"8872394789\", \"Instrument\": [ \"piano\" ], \"Teacher\": [ \"Cotton Hill\" ], \"Type\": \"child\", \"Days Since First Lesson\": \"6\" }, \"createdTime\": \"2021-07-12T23:33:10.000Z\" } ] }",
                 "keywords": [
                     "propane@propaneaccessories.net"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            }
+        ],
+        "8872394789": [
+            {
+                "paragraph": 1,
+                "sentence": "Hoover\" ], \"Type\": \"child\", \"Days Since First Lesson\": \"6\" }, \"createdTime\": \"2021-07-12T22:40:42.000Z\" }, { \"id\": \"recbz6Y6AEUVxQQGj\", \"fields\": { \"Student First Name\": \"Bobby\", \"Student Last Name\": \"Hill\", \"Parent First Name\": \"Hank\", \"Parent Last Name\": \"Hill\", \"Email\": \"propane@propaneaccessories.net\", \"Phone\": \"8872394789\", \"Instrument\": [ \"piano\" ], \"Teacher\": [ \"Cotton Hill\" ], \"Type\": \"child\", \"Days Since First Lesson\": \"6\" }, \"createdTime\": \"2021-07-12T23:33:10.000Z\" } ] }",
+                "keywords": [
+                    "8872394789"
                 ],
                 "reason": "Entity explicitly mentioned",
                 "confidence": 1.0
@@ -222,12 +133,12 @@
         "classification_explanation": "Education selected because it contains 2 supporting keyword(s): student, teacher"
     },
     "confidence": {
-        "score": 72,
-        "supporting_evidence_count": 15,
-        "validated_entity_count": 7,
+        "score": 50,
+        "supporting_evidence_count": 6,
+        "validated_entity_count": 6,
         "document_completeness": 0.38,
         "contradictory_evidence_count": 0,
-        "explanation": "Confidence derived from 15 supporting evidences, 7 validated entities, and document completeness of 38%."
+        "explanation": "Confidence derived from 6 supporting evidences, 6 validated entities, and document completeness of 38%."
     },
     "recommendations": {
         "related_domains": [
@@ -253,7 +164,7 @@
         "intelligence_summary": "This document primarily belongs to the Education domain. It is strongly associated with E-Learning, Student Analytics. The extracted intelligence can be used for classification, search, and knowledge management purposes. Additional recommendations have been generated to enrich future analysis."
     },
     "processing_trace": {
-        "execution_timestamp": "2026-06-20 11:53:53",
+        "execution_timestamp": "2026-06-21 23:25:42",
         "overall_status": "SUCCESS",
         "processing_trace": [
             {
@@ -278,15 +189,15 @@
             },
             {
                 "step": "Entity Extraction",
-                "details": "7 entities extracted"
+                "details": "6 entities extracted"
             },
             {
                 "step": "Entity Validation",
-                "details": "7 validated, 2 rejected"
+                "details": "6 validated, 1 rejected"
             },
             {
                 "step": "Evidence Generation",
-                "details": "7 evidence records generated"
+                "details": "6 evidence records generated"
             },
             {
                 "step": "Classification",
@@ -294,7 +205,7 @@
             },
             {
                 "step": "Confidence Scoring",
-                "details": "Confidence Score: 72"
+                "details": "Confidence Score: 50"
             },
             {
                 "step": "Recommendation Generation",
@@ -311,15 +222,15 @@
         "primary_category": "Education",
         "secondary_category": "AI",
         "classification_confidence": 0.25,
-        "overall_confidence": 72,
+        "overall_confidence": 50,
         "recommended_tags": [
             "education",
             "learning",
             "students",
             "academic"
         ],
-        "entity_count": 7,
-        "rejected_entity_count": 2,
-        "evidence_count": 15
+        "entity_count": 6,
+        "rejected_entity_count": 1,
+        "evidence_count": 6
     }
 }

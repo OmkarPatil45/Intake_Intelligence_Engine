@@ -2,37 +2,72 @@ from intake.intake_loader import IntakeLoader
 from analysis.content_analyzer import ContentAnalyzer
 from package.intelligence_package_builder import IntelligencePackageBuilder
 import json
+import re
 from search.review_cli import ReviewCLI
+from analysis.entity_validator import EntityValidator #v2
+from analysis.evidence_engine import EvidenceEngine #v2
+from analysis.confidence_engine import ConfidenceEngine #v2
+from analysis.relationship_engine import RelationshipEngine #v2
+from analysis.entity_normalizer import (EntityNormalizer) #v2
+from analysis.text_cleaner import TextCleaner #v2
 from analysis.entity_extractor import EntityExtractor
 from analysis.classification_engine import (ClassificationEngine)
 from analysis.recommendation_engine import (RecommendationEngine)
 from processing.processing_trace import ProcessingTrace
 
 
+
 loader = IntakeLoader()
-result = loader.load("dataset/Sample1.txt")
+result = loader.load("dataset/DS project.docx")
 
 loader = IntakeLoader()
 analyzer = ContentAnalyzer()
 
 content = result["extraction"]["content"]
 
+# -------> text cleaning
+cleaner = TextCleaner()
+content = cleaner.clean(content)
+content = re.sub(
+    r"([A-Z]{2,}\s+[A-Z]{2,})(\s*/)",
+    r"\1\n",
+    content
+)
+
 analysis_result = analyzer.analyze(content)
 
-#
+#v2 
 extractor = EntityExtractor()
+entities = extractor.extract(content)
 
-entities = extractor.extract(result["extraction"]["content"])
+# v2 validating entities
+validator = EntityValidator()
+validation_result = (validator.validate(entities))
+
+# increasing accuracy
+normalizer = (EntityNormalizer())
+validated_entities = (normalizer.normalize(validation_result["validated_entities"]))
 #
-classifier = ClassificationEngine()
+rejected_entities = (validation_result["rejected_entities"])
 
-classification = (classifier.classify(content))
+# evidence engine v2
+evidence_engine = EvidenceEngine()
+evidence_report = (evidence_engine.generate(content,validated_entities))
+
+classifier = ClassificationEngine()
+classification = classifier.classify(content)
+
+#v2 confidence engine
+confidence_engine = (ConfidenceEngine())
+
+confidence_report = (
+    confidence_engine.calculate(evidence_report, validated_entities, classification)
+)
 
 # recommendation engine
 recommender = RecommendationEngine()
 recommendations = (recommender.generate(classification))
 
-#
 trace = ProcessingTrace()
 
 # Intake Layer Trace
@@ -92,7 +127,7 @@ trace.add_step(
 # Entity Extraction
 entity_count = sum(
         len(value)
-        for value in entities.values()
+        for value in validated_entities.values() #v2 - modified entities to validated entities
     )
 
 trace.add_step(
@@ -100,11 +135,40 @@ trace.add_step(
         f"{entity_count} entities extracted"
     )
 
+#v2
+validated_count = sum(
+    len(value)
+    for value in validated_entities.values()
+)
+
+trace.add_step(
+    "Entity Validation",
+    (
+        f"{validated_count} validated, "
+        f"{len(rejected_entities)} rejected"
+    )
+)
+
+trace.add_step(
+    "Evidence Generation",
+    (
+        f"{len(evidence_report)} "
+        f"evidence records generated"
+    )
+)
+
 # Classification
 trace.add_step(
         "Classification",
         f"Primary Category: {classification['primary_category']}"
     )
+
+trace.add_step(
+    "Confidence Scoring",
+    (   f"Confidence Score: "
+        f"{confidence_report['score']}"
+    )
+)
 
 # Recommendation
 trace.add_step(
@@ -118,14 +182,17 @@ trace.add_step(
     "Final intelligence package generated"
 )
 
-package_builder=IntelligencePackageBuilder()
+package_builder = IntelligencePackageBuilder()
 intelligence_package = package_builder.build(
-    intake_result=result,
-    analysis_result=analysis_result,
-    entities=entities,
-    classification=classification,
-    recommendations=recommendations,
-    processing_trace=trace.get_trace()
+    intake_result = result,
+    analysis_result = analysis_result,
+    entities = validated_entities,
+    rejected_entities = rejected_entities,
+    evidence_report = evidence_report,
+    classification = classification,
+    confidence_report = confidence_report,
+    recommendations = recommendations,
+    processing_trace = trace.get_trace()
 )
 
 print("\n" + "=" * 60)
@@ -140,15 +207,24 @@ print("=" * 60)
 
 print(trace.get_summary())
 
-print(result)
-print("Analysis result:\n")
+print(result["metadata"]) # only metadata it wont print the entire content of doc file
+print("\nAnalysis result:\n")
 print(analysis_result)
 
 print("\nEntities:\n")
-print(entities)
+print(validated_entities)
+
+#v2
+print("\nRejected Entities:\n")
+print(rejected_entities)
 
 print("\nClassification_report:\n")
 print(classification)
+
+#v2
+print("\nConfidence Report:\n")
+print(json.dumps(confidence_report, indent=4))
+
 
 print("\nRecommendation Report:\n")
 print(recommendations)
@@ -164,6 +240,9 @@ output_file=(
 
 with open(output_file,"w",encoding="utf-8") as file:
     json.dump(intelligence_package,file,indent=4)
+
+relationship_engine = (RelationshipEngine())
+relationship_graph = (relationship_engine.build_from_outputs())
 
 print(
     f"\nIntelligence Package saved at:\n"

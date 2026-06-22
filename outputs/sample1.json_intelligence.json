@@ -121,7 +121,16 @@
             "student",
             "teacher"
         ],
-        "evidence_used": [],
+        "evidence_used": [
+            {
+                "keyword": "student",
+                "reason": "Keyword 'student' found in document"
+            },
+            {
+                "keyword": "teacher",
+                "reason": "Keyword 'teacher' found in document"
+            }
+        ],
         "rejected_categories": {
             "AI": "No supporting keywords found",
             "Healthcare": "No supporting keywords found",
@@ -164,7 +173,7 @@
         "intelligence_summary": "This document primarily belongs to the Education domain. It is strongly associated with E-Learning, Student Analytics. The extracted intelligence can be used for classification, search, and knowledge management purposes. Additional recommendations have been generated to enrich future analysis."
     },
     "processing_trace": {
-        "execution_timestamp": "2026-06-21 23:25:42",
+        "execution_timestamp": "2026-06-22 11:42:49",
         "overall_status": "SUCCESS",
         "processing_trace": [
             {

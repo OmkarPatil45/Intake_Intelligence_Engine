@@ -19,8 +19,7 @@
     "entities": {
         "names": [
             "Jackson",
-            "James",
-            "Joe"
+            "James"
         ],
         "organizations": [],
         "technologies": [],
@@ -28,20 +27,22 @@
         "locations": [],
         "dates": [],
         "emails": [],
-        "phone_numbers": []
+        "phone_numbers": [
+            "7349282382"
+        ]
     },
     "rejected_entities": [
         {
-            "entity": "7349282382",
-            "entity_type": "phone_numbers",
-            "reason": "Numeric token"
+            "entity": "Joe",
+            "entity_type": "PERSON",
+            "reason": "Suspicious short single-token name"
         }
     ],
     "evidence_report": {
         "Jackson": [
             {
-                "paragraph": 5,
-                "sentence": "\"lastName\": \"Jackson\",",
+                "paragraph": 1,
+                "sentence": "{ \"people\": [ { \"firstName\": \"Joe\", \"lastName\": \"Jackson\", \"gender\": \"male\", \"age\": 28, \"number\": \"7349282382\", \"subject_area\": \"Agriculture\" }, { \"firstName\": \"James\", \"lastName\": \"Smith\", \"gender\": \"male\", \"age\": 32, \"number\": \"5678568567\", \"subject_area\": \"Healthcare\" }, { \"firstName\": \"Emily\", \"lastName\": \"Jones\", \"gender\": \"female\", \"age\": 24, \"number\": \"456754675\", \"subject_area\": \"Engineering\" } ] }",
                 "keywords": [
                     "Jackson"
                 ],
@@ -51,8 +52,8 @@
         ],
         "James": [
             {
-                "paragraph": 12,
-                "sentence": "\"firstName\": \"James\",",
+                "paragraph": 1,
+                "sentence": "{ \"people\": [ { \"firstName\": \"Joe\", \"lastName\": \"Jackson\", \"gender\": \"male\", \"age\": 28, \"number\": \"7349282382\", \"subject_area\": \"Agriculture\" }, { \"firstName\": \"James\", \"lastName\": \"Smith\", \"gender\": \"male\", \"age\": 32, \"number\": \"5678568567\", \"subject_area\": \"Healthcare\" }, { \"firstName\": \"Emily\", \"lastName\": \"Jones\", \"gender\": \"female\", \"age\": 24, \"number\": \"456754675\", \"subject_area\": \"Engineering\" } ] }",
                 "keywords": [
                     "James"
                 ],
@@ -60,12 +61,12 @@
                 "confidence": 1.0
             }
         ],
-        "Joe": [
+        "7349282382": [
             {
-                "paragraph": 4,
-                "sentence": "\"firstName\": \"Joe\",",
+                "paragraph": 1,
+                "sentence": "{ \"people\": [ { \"firstName\": \"Joe\", \"lastName\": \"Jackson\", \"gender\": \"male\", \"age\": 28, \"number\": \"7349282382\", \"subject_area\": \"Agriculture\" }, { \"firstName\": \"James\", \"lastName\": \"Smith\", \"gender\": \"male\", \"age\": 32, \"number\": \"5678568567\", \"subject_area\": \"Healthcare\" }, { \"firstName\": \"Emily\", \"lastName\": \"Jones\", \"gender\": \"female\", \"age\": 24, \"number\": \"456754675\", \"subject_area\": \"Engineering\" } ] }",
                 "keywords": [
-                    "Joe"
+                    "7349282382"
                 ],
                 "reason": "Entity explicitly mentioned",
                 "confidence": 1.0
@@ -79,7 +80,12 @@
         "matched_keywords": [
             "health"
         ],
-        "evidence_used": [],
+        "evidence_used": [
+            {
+                "keyword": "health",
+                "reason": "Keyword 'health' found in document"
+            }
+        ],
         "rejected_categories": {
             "Agriculture": "Only 1 supporting keyword(s) found",
             "AI": "No supporting keywords found",
@@ -91,12 +97,12 @@
         "classification_explanation": "Healthcare selected because it contains 1 supporting keyword(s): health"
     },
     "confidence": {
-        "score": 23,
+        "score": 26,
         "supporting_evidence_count": 3,
         "validated_entity_count": 3,
-        "document_completeness": 0.12,
+        "document_completeness": 0.25,
         "contradictory_evidence_count": 0,
-        "explanation": "Confidence derived from 3 supporting evidences, 3 validated entities, and document completeness of 12%."
+        "explanation": "Confidence derived from 3 supporting evidences, 3 validated entities, and document completeness of 25%."
     },
     "recommendations": {
         "related_domains": [
@@ -121,7 +127,7 @@
         "intelligence_summary": "This document primarily belongs to the Healthcare domain. It is strongly associated with Medical Analytics, Telemedicine. The extracted intelligence can be used for classification, search, and knowledge management purposes. Additional recommendations have been generated to enrich future analysis."
     },
     "processing_trace": {
-        "execution_timestamp": "2026-06-20 11:54:57",
+        "execution_timestamp": "2026-06-22 11:46:18",
         "overall_status": "SUCCESS",
         "processing_trace": [
             {
@@ -162,7 +168,7 @@
             },
             {
                 "step": "Confidence Scoring",
-                "details": "Confidence Score: 23"
+                "details": "Confidence Score: 26"
             },
             {
                 "step": "Recommendation Generation",
@@ -179,7 +185,7 @@
         "primary_category": "Healthcare",
         "secondary_category": "Agriculture",
         "classification_confidence": 0.14,
-        "overall_confidence": 23,
+        "overall_confidence": 26,
         "recommended_tags": [
             "healthcare",
             "medical",

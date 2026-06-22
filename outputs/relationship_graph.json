@@ -9,10 +9,6 @@
             "type": "document"
         },
         {
-            "id": "customers.csv",
-            "type": "document"
-        },
-        {
             "id": "Data.csv",
             "type": "document"
         },
@@ -34,10 +30,6 @@
         },
         {
             "id": "DS project.docx",
-            "type": "document"
-        },
-        {
-            "id": "file_3.pdf",
             "type": "document"
         },
         {
@@ -65,7 +57,7 @@
             "type": "document"
         },
         {
-            "id": "Sample2.txt",
+            "id": "sample2.txt",
             "type": "document"
         },
         {
@@ -117,30 +109,6 @@
             "entity": "machine learning"
         },
         {
-            "source": "customers.csv",
-            "target": "file_3.pdf",
-            "relationship": "same_organization",
-            "entity": "Sharp"
-        },
-        {
-            "source": "customers.csv",
-            "target": "sample1.json",
-            "relationship": "same_person",
-            "entity": "Simpson"
-        },
-        {
-            "source": "customers.csv",
-            "target": "sample3.txt",
-            "relationship": "same_person",
-            "entity": "Jersey"
-        },
-        {
-            "source": "docFile2.docx",
-            "target": "DS project.docx",
-            "relationship": "same_person",
-            "entity": "Swaroop Sawant"
-        },
-        {
             "source": "docFile2.docx",
             "target": "DS project.docx",
             "relationship": "same_person",
@@ -149,8 +117,8 @@
         {
             "source": "docFile2.docx",
             "target": "DS project.docx",
-            "relationship": "same_organization",
-            "entity": "University of Mumbai"
+            "relationship": "same_person",
+            "entity": "Swaroop Sawant"
         },
         {
             "source": "docFile2.docx",
@@ -162,13 +130,7 @@
             "source": "docFile2.docx",
             "target": "DS project.docx",
             "relationship": "same_organization",
-            "entity": "Prathamesh Thakare"
-        },
-        {
-            "source": "docFile2.docx",
-            "target": "file_4.pdf",
-            "relationship": "same_organization",
-            "entity": "CLI"
+            "entity": "University of Mumbai"
         },
         {
             "source": "docFile2.docx",
@@ -228,13 +190,13 @@
             "source": "file_4.pdf",
             "target": "resume.pdf",
             "relationship": "same_technology",
-            "entity": "sql"
+            "entity": "git"
         },
         {
             "source": "file_4.pdf",
             "target": "resume.pdf",
             "relationship": "same_technology",
-            "entity": "git"
+            "entity": "express"
         },
         {
             "source": "file_4.pdf",
@@ -246,19 +208,13 @@
             "source": "file_4.pdf",
             "target": "resume.pdf",
             "relationship": "same_technology",
-            "entity": "express"
+            "entity": "sql"
         },
         {
             "source": "Sample1.txt",
             "target": "sample4.txt",
             "relationship": "same_person",
-            "entity": "Barack Obama"
-        },
-        {
-            "source": "Sample1.txt",
-            "target": "sample4.txt",
-            "relationship": "same_person",
-            "entity": "Elena Kagan"
+            "entity": "Samuel Alito"
         },
         {
             "source": "Sample1.txt",
@@ -270,13 +226,13 @@
             "source": "Sample1.txt",
             "target": "sample4.txt",
             "relationship": "same_person",
-            "entity": "Peter Keisler"
+            "entity": "Elena Kagan"
         },
         {
             "source": "Sample1.txt",
             "target": "sample4.txt",
             "relationship": "same_person",
-            "entity": "Donald Verrilli"
+            "entity": "Barack Obama"
         },
         {
             "source": "Sample1.txt",
@@ -288,37 +244,25 @@
             "source": "Sample1.txt",
             "target": "sample4.txt",
             "relationship": "same_person",
-            "entity": "Sonia Sotomayor"
+            "entity": "Marijuana Legalization"
         },
         {
             "source": "Sample1.txt",
             "target": "sample4.txt",
             "relationship": "same_person",
-            "entity": "Samuel Alito"
+            "entity": "Donald Verrilli"
         },
         {
             "source": "Sample1.txt",
             "target": "sample4.txt",
-            "relationship": "same_organization",
-            "entity": "Supreme Court"
+            "relationship": "same_person",
+            "entity": "Peter Keisler"
         },
         {
             "source": "Sample1.txt",
             "target": "sample4.txt",
-            "relationship": "same_organization",
-            "entity": "EPA"
-        },
-        {
-            "source": "Sample1.txt",
-            "target": "sample4.txt",
-            "relationship": "same_organization",
-            "entity": "Congress"
-        },
-        {
-            "source": "Sample1.txt",
-            "target": "sample4.txt",
-            "relationship": "same_organization",
-            "entity": "U.S. Solicitor"
+            "relationship": "same_person",
+            "entity": "Sonia Sotomayor"
         },
         {
             "source": "Sample1.txt",
@@ -330,19 +274,19 @@
             "source": "Sample1.txt",
             "target": "sample4.txt",
             "relationship": "same_organization",
-            "entity": "Defense of Marriage Act"
-        },
-        {
-            "source": "Sample1.txt",
-            "target": "sample4.txt",
-            "relationship": "same_organization",
-            "entity": "Capitol Hill"
-        },
-        {
-            "source": "Sample1.txt",
-            "target": "sample4.txt",
-            "relationship": "same_organization",
             "entity": "White House"
+        },
+        {
+            "source": "Sample1.txt",
+            "target": "sample4.txt",
+            "relationship": "same_organization",
+            "entity": "Congress"
+        },
+        {
+            "source": "Sample1.txt",
+            "target": "sample4.txt",
+            "relationship": "same_organization",
+            "entity": "Defense of Marriage Act"
         }
     ]
 }

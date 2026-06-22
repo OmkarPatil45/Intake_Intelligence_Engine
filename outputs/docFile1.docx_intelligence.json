@@ -25,30 +25,30 @@
             "Kindles"
         ],
         "organizations": [
-            "Bulleted List",
-            "Bulleted List\nOne",
-            "Footnotes & Endnotes\nFootnotes",
-            "Images\nImages",
+            "Footnotes & Endnotes Footnotes",
             "Microsoft",
             "Next",
-            "Table of Contents",
             "Ubuntu"
         ],
         "technologies": [],
         "skills": [],
         "locations": [],
-        "dates": [
-            "2007"
-        ],
+        "dates": [],
         "emails": [],
         "phone_numbers": []
     },
-    "rejected_entities": [],
+    "rejected_entities": [
+        {
+            "entity": "Bulleted List",
+            "entity_type": "ORG",
+            "reason": "Likely person name misclassified as organization"
+        }
+    ],
     "evidence_report": {
         "Convert": [
             {
-                "paragraph": 2,
-                "sentence": "This document demonstrates the ability of the calibre DOCX Input plugin to convert the various typographic features in a Microsoft Word (2007 and newer) document.",
+                "paragraph": 1,
+                "sentence": "Demonstration of DOCX support in calibre This document demonstrates the ability of the calibre DOCX Input plugin to convert the various typographic features in a Microsoft Word (2007 and newer) document.",
                 "keywords": [
                     "Convert"
                 ],
@@ -56,7 +56,7 @@
                 "confidence": 1.0
             },
             {
-                "paragraph": 2,
+                "paragraph": 1,
                 "sentence": "Convert this document to a modern ebook format, such as AZW3 for Kindles or EPUB for other ebook readers, to see it in action.",
                 "keywords": [
                     "Convert"
@@ -65,7 +65,7 @@
                 "confidence": 1.0
             },
             {
-                "paragraph": 4,
+                "paragraph": 1,
                 "sentence": "To see the DOCX conversion in action, simply add this file to calibre using the \u201cAdd Books\u201d button and then click \u201cConvert\u201d.",
                 "keywords": [
                     "Convert"
@@ -74,7 +74,7 @@
                 "confidence": 1.0
             },
             {
-                "paragraph": 16,
+                "paragraph": 1,
                 "sentence": "calibre tries to do its best when converting tables.",
                 "keywords": [
                     "Convert"
@@ -83,7 +83,7 @@
                 "confidence": 1.0
             },
             {
-                "paragraph": 16,
+                "paragraph": 1,
                 "sentence": "While you may run into trouble with the occasional table, the vast majority of common cases should be converted very well, as demonstrated in this section.",
                 "keywords": [
                     "Convert"
@@ -92,8 +92,8 @@
                 "confidence": 1.0
             },
             {
-                "paragraph": 25,
-                "sentence": "Footnotes and endnotes are automatically recognized and both are converted to endnotes, with backlinks for maximum ease of use in ebook devices.",
+                "paragraph": 1,
+                "sentence": "Footnotes & Endnotes Footnotes and endnotes are automatically recognized and both are converted to endnotes, with backlinks for maximum ease of use in ebook devices.",
                 "keywords": [
                     "Convert"
                 ],
@@ -101,7 +101,7 @@
                 "confidence": 1.0
             },
             {
-                "paragraph": 28,
+                "paragraph": 1,
                 "sentence": "Because of limitations in ebook technology, this is not possible when converting.",
                 "keywords": [
                     "Convert"
@@ -110,7 +110,7 @@
                 "confidence": 1.0
             },
             {
-                "paragraph": 28,
+                "paragraph": 1,
                 "sentence": "Instead, the converted drop cap will use font size and line height to simulate the effect as well as possible.",
                 "keywords": [
                     "Convert"
@@ -119,7 +119,7 @@
                 "confidence": 1.0
             },
             {
-                "paragraph": 34,
+                "paragraph": 1,
                 "sentence": "You can see the Table of Contents created by calibre by clicking the Table of Contents button in whatever viewer you are using to view the converted ebook.",
                 "keywords": [
                     "Convert"
@@ -128,8 +128,8 @@
                 "confidence": 1.0
             },
             {
-                "paragraph": 58,
-                "sentence": "All types of lists are supported by the conversion, with the exception of lists that use fancy bullets, these get converted to regular bullets.",
+                "paragraph": 1,
+                "sentence": "Lists All types of lists are supported by the conversion, with the exception of lists that use fancy bullets, these get converted to regular bullets.",
                 "keywords": [
                     "Convert"
                 ],
@@ -139,7 +139,7 @@
         ],
         "Kindles": [
             {
-                "paragraph": 2,
+                "paragraph": 1,
                 "sentence": "Convert this document to a modern ebook format, such as AZW3 for Kindles or EPUB for other ebook readers, to see it in action.",
                 "keywords": [
                     "Kindles"
@@ -148,33 +148,21 @@
                 "confidence": 1.0
             }
         ],
-        "Bulleted List": [
+        "Footnotes & Endnotes Footnotes": [
             {
-                "paragraph": 48,
-                "sentence": "Bulleted List\t8",
+                "paragraph": 1,
+                "sentence": "Footnotes & Endnotes Footnotes and endnotes are automatically recognized and both are converted to endnotes, with backlinks for maximum ease of use in ebook devices.",
                 "keywords": [
-                    "Bulleted List"
-                ],
-                "reason": "Entity explicitly mentioned",
-                "confidence": 1.0
-            },
-            {
-                "paragraph": 59,
-                "sentence": "Bulleted List",
-                "keywords": [
-                    "Bulleted List"
+                    "Footnotes & Endnotes Footnotes"
                 ],
                 "reason": "Entity explicitly mentioned",
                 "confidence": 1.0
             }
         ],
-        "Bulleted List\nOne": [],
-        "Footnotes & Endnotes\nFootnotes": [],
-        "Images\nImages": [],
         "Microsoft": [
             {
-                "paragraph": 2,
-                "sentence": "This document demonstrates the ability of the calibre DOCX Input plugin to convert the various typographic features in a Microsoft Word (2007 and newer) document.",
+                "paragraph": 1,
+                "sentence": "Demonstration of DOCX support in calibre This document demonstrates the ability of the calibre DOCX Input plugin to convert the various typographic features in a Microsoft Word (2007 and newer) document.",
                 "keywords": [
                     "Microsoft"
                 ],
@@ -184,7 +172,7 @@
         ],
         "Next": [
             {
-                "paragraph": 18,
+                "paragraph": 1,
                 "sentence": "Next, we see a table with special formatting in various locations.",
                 "keywords": [
                     "Next"
@@ -193,8 +181,8 @@
                 "confidence": 1.0
             },
             {
-                "paragraph": 20,
-                "sentence": "Next, we have something a little more complex, a nested table, i.e.",
+                "paragraph": 1,
+                "sentence": "Source: Fictitious data, for illustration purposes only Next, we have something a little more complex, a nested table, i.e.",
                 "keywords": [
                     "Next"
                 ],
@@ -202,7 +190,7 @@
                 "confidence": 1.0
             },
             {
-                "paragraph": 53,
+                "paragraph": 1,
                 "sentence": "The next category of image is a floating image, one that \u201cfloats \u201c on the page and is surrounded by text.",
                 "keywords": [
                     "Next"
@@ -211,93 +199,10 @@
                 "confidence": 1.0
             }
         ],
-        "Table of Contents": [
-            {
-                "paragraph": 31,
-                "sentence": "Table of Contents",
-                "keywords": [
-                    "Table of Contents"
-                ],
-                "reason": "Entity explicitly mentioned",
-                "confidence": 1.0
-            },
-            {
-                "paragraph": 32,
-                "sentence": "There are two approaches that calibre takes when generating a Table of Contents.",
-                "keywords": [
-                    "Table of Contents"
-                ],
-                "reason": "Entity explicitly mentioned",
-                "confidence": 1.0
-            },
-            {
-                "paragraph": 32,
-                "sentence": "The first is if the Word document has a Table of Contents itself.",
-                "keywords": [
-                    "Table of Contents"
-                ],
-                "reason": "Entity explicitly mentioned",
-                "confidence": 1.0
-            },
-            {
-                "paragraph": 32,
-                "sentence": "Provided that the Table of Contents uses hyperlinks, calibre will automatically use it.",
-                "keywords": [
-                    "Table of Contents"
-                ],
-                "reason": "Entity explicitly mentioned",
-                "confidence": 1.0
-            },
-            {
-                "paragraph": 32,
-                "sentence": "The levels of the Table of Contents are identified by their left indent, so if you want the ebook to have a multi-level Table of Contents, make sure you create a properly indented Table of Contents in Word.",
-                "keywords": [
-                    "Table of Contents"
-                ],
-                "reason": "Entity explicitly mentioned",
-                "confidence": 1.0
-            },
-            {
-                "paragraph": 33,
-                "sentence": "If no Table of Contents is found in the document, then a table of contents is automatically generated from the headings in the document.",
-                "keywords": [
-                    "Table of Contents"
-                ],
-                "reason": "Entity explicitly mentioned",
-                "confidence": 1.0
-            },
-            {
-                "paragraph": 33,
-                "sentence": "These headings are turned into a Table of Contents with Heading 1 being the topmost level, Heading 2 the second level and so on.",
-                "keywords": [
-                    "Table of Contents"
-                ],
-                "reason": "Entity explicitly mentioned",
-                "confidence": 1.0
-            },
-            {
-                "paragraph": 34,
-                "sentence": "You can see the Table of Contents created by calibre by clicking the Table of Contents button in whatever viewer you are using to view the converted ebook.",
-                "keywords": [
-                    "Table of Contents"
-                ],
-                "reason": "Entity explicitly mentioned",
-                "confidence": 1.0
-            },
-            {
-                "paragraph": 45,
-                "sentence": "Table of Contents\t5",
-                "keywords": [
-                    "Table of Contents"
-                ],
-                "reason": "Entity explicitly mentioned",
-                "confidence": 1.0
-            }
-        ],
         "Ubuntu": [
             {
-                "paragraph": 11,
-                "sentence": "This document has embedded the Ubuntu font family.",
+                "paragraph": 1,
+                "sentence": "Fun with fonts This document has embedded the Ubuntu font family.",
                 "keywords": [
                     "Ubuntu"
                 ],
@@ -305,21 +210,10 @@
                 "confidence": 1.0
             },
             {
-                "paragraph": 11,
+                "paragraph": 1,
                 "sentence": "The body text is in the Ubuntu typeface, here is some text in the Ubuntu Mono typeface, notice how every letter has the same width, even i and m.",
                 "keywords": [
                     "Ubuntu"
-                ],
-                "reason": "Entity explicitly mentioned",
-                "confidence": 1.0
-            }
-        ],
-        "2007": [
-            {
-                "paragraph": 2,
-                "sentence": "This document demonstrates the ability of the calibre DOCX Input plugin to convert the various typographic features in a Microsoft Word (2007 and newer) document.",
-                "keywords": [
-                    "2007"
                 ],
                 "reason": "Entity explicitly mentioned",
                 "confidence": 1.0
@@ -329,11 +223,16 @@
     "classification": {
         "primary_category": "AI",
         "secondary_category": "Governance",
-        "confidence_score": 0.1,
+        "confidence_score": 0.09,
         "matched_keywords": [
             "rag"
         ],
-        "evidence_used": [],
+        "evidence_used": [
+            {
+                "keyword": "rag",
+                "reason": "Keyword 'rag' found in document"
+            }
+        ],
         "rejected_categories": {
             "Governance": "Only 1 supporting keyword(s) found",
             "Education": "No supporting keywords found",
@@ -345,12 +244,12 @@
         "classification_explanation": "AI selected because it contains 1 supporting keyword(s): rag"
     },
     "confidence": {
-        "score": 80,
-        "supporting_evidence_count": 29,
-        "validated_entity_count": 11,
-        "document_completeness": 0.38,
+        "score": 67,
+        "supporting_evidence_count": 18,
+        "validated_entity_count": 6,
+        "document_completeness": 0.25,
         "contradictory_evidence_count": 0,
-        "explanation": "Confidence derived from 29 supporting evidences, 11 validated entities, and document completeness of 38%."
+        "explanation": "Confidence derived from 18 supporting evidences, 6 validated entities, and document completeness of 25%."
     },
     "recommendations": {
         "related_domains": [
@@ -375,11 +274,11 @@
         "recommended_classifications": [
             "AI"
         ],
-        "recommendation_explanation": "The document was classified under 'AI' with confidence score 0.1. Based on this classification, related domains, tags and use cases have been recommended to enrich downstream intelligence processing.",
+        "recommendation_explanation": "The document was classified under 'AI' with confidence score 0.09. Based on this classification, related domains, tags and use cases have been recommended to enrich downstream intelligence processing.",
         "intelligence_summary": "This document primarily belongs to the AI domain. It is strongly associated with Machine Learning, Data Science. The extracted intelligence can be used for classification, search, and knowledge management purposes. Additional recommendations have been generated to enrich future analysis."
     },
     "processing_trace": {
-        "execution_timestamp": "2026-06-20 11:59:44",
+        "execution_timestamp": "2026-06-22 11:47:28",
         "overall_status": "SUCCESS",
         "processing_trace": [
             {
@@ -404,15 +303,15 @@
             },
             {
                 "step": "Entity Extraction",
-                "details": "11 entities extracted"
+                "details": "6 entities extracted"
             },
             {
                 "step": "Entity Validation",
-                "details": "11 validated, 0 rejected"
+                "details": "6 validated, 1 rejected"
             },
             {
                 "step": "Evidence Generation",
-                "details": "11 evidence records generated"
+                "details": "6 evidence records generated"
             },
             {
                 "step": "Classification",
@@ -420,7 +319,7 @@
             },
             {
                 "step": "Confidence Scoring",
-                "details": "Confidence Score: 80"
+                "details": "Confidence Score: 67"
             },
             {
                 "step": "Recommendation Generation",
@@ -436,8 +335,8 @@
         "document_type": "Project Submission",
         "primary_category": "AI",
         "secondary_category": "Governance",
-        "classification_confidence": 0.1,
-        "overall_confidence": 80,
+        "classification_confidence": 0.09,
+        "overall_confidence": 67,
         "recommended_tags": [
             "artificial-intelligence",
             "machine-learning",
@@ -445,8 +344,8 @@
             "chatbot",
             "automation"
         ],
-        "entity_count": 11,
-        "rejected_entity_count": 0,
-        "evidence_count": 29
+        "entity_count": 6,
+        "rejected_entity_count": 1,
+        "evidence_count": 18
     }
 }

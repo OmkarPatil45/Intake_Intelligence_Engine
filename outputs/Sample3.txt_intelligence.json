@@ -46,14 +46,9 @@
         ],
         "organizations": [
             "Bada Bing Club",
-            "HBO",
-            "Ice Cream Shop",
             "Location",
-            "MailOnline",
-            "Ridge Diner",
             "Rutgers",
-            "Soprano",
-            "Vito Spatafore"
+            "Soprano"
         ],
         "technologies": [],
         "skills": [],
@@ -70,15 +65,37 @@
             "Satin Dolls",
             "Sicily"
         ],
-        "dates": [
-            "1961",
-            "20 June 2013",
-            "2003"
-        ],
+        "dates": [],
         "emails": [],
         "phone_numbers": []
     },
-    "rejected_entities": [],
+    "rejected_entities": [
+        {
+            "entity": "Tony",
+            "entity_type": "PERSON",
+            "reason": "Suspicious short single-token name"
+        },
+        {
+            "entity": "Bada Bing Club",
+            "entity_type": "ORG",
+            "reason": "Likely person name misclassified as organization"
+        },
+        {
+            "entity": "Ice Cream Shop",
+            "entity_type": "ORG",
+            "reason": "Likely person name misclassified as organization"
+        },
+        {
+            "entity": "Ridge Diner",
+            "entity_type": "ORG",
+            "reason": "Likely person name misclassified as organization"
+        },
+        {
+            "entity": "Vito Spatafore",
+            "entity_type": "ORG",
+            "reason": "Likely person name misclassified as organization"
+        }
+    ],
     "evidence_report": {
         "Bada Bing": [
             {
@@ -799,37 +816,6 @@
                 "confidence": 1.0
             }
         ],
-        "HBO": [
-            {
-                "paragraph": 1,
-                "sentence": "Tribute: A reserved sign sits on the booth where the last show of the HBO series 'The Sopranos' was filmed at Holsten's ice cream parlor in Bloomfield, New Jersey, in honor of James Gandolfini .",
-                "keywords": [
-                    "HBO"
-                ],
-                "reason": "Entity explicitly mentioned",
-                "confidence": 1.0
-            },
-            {
-                "paragraph": 1,
-                "sentence": "'Even though he was a big celebrity, he still came around to his old neighborhood.'",
-                "keywords": [
-                    "HBO"
-                ],
-                "reason": "Entity explicitly mentioned",
-                "confidence": 1.0
-            }
-        ],
-        "Ice Cream Shop": [
-            {
-                "paragraph": 1,
-                "sentence": "Sad goodbye: Satin Dolls strip club in New Jersey, which doubled as the Bada Bing Club in cult show The Sopranos, said the death of James Gandolfini was 'losing a member of the family' Saved for a special friend: A newspaper and bouquet of flowers adorn a booth in Holsten's Ice Cream Shop, the location where the final scene of The Sopranos was filmed in Bloomfield, New Jersey .",
-                "keywords": [
-                    "Ice Cream Shop"
-                ],
-                "reason": "Entity explicitly mentioned",
-                "confidence": 1.0
-            }
-        ],
         "Location": [
             {
                 "paragraph": 1,
@@ -845,55 +831,6 @@
                 "sentence": "authentically, Tony Soprano.' On Location, which runs a bus tour around The Sopranos' famous locations, said that they had seen a spike in sales on Wednesday night following the sad news of Gandolfini's death.",
                 "keywords": [
                     "Location"
-                ],
-                "reason": "Entity explicitly mentioned",
-                "confidence": 1.0
-            }
-        ],
-        "MailOnline": [
-            {
-                "paragraph": 1,
-                "sentence": "Mr Carley told MailOnline:'He was a great actor and he portrayed the character of Tony Soprano to a tee.",
-                "keywords": [
-                    "MailOnline"
-                ],
-                "reason": "Entity explicitly mentioned",
-                "confidence": 1.0
-            },
-            {
-                "paragraph": 1,
-                "sentence": "His co-star Joseph Gannascoli, who plays Vito Spatafore in the show, told MailOnline that Gandolfini was a 'tremendous person'.",
-                "keywords": [
-                    "MailOnline"
-                ],
-                "reason": "Entity explicitly mentioned",
-                "confidence": 1.0
-            },
-            {
-                "paragraph": 1,
-                "sentence": "Bill Peppe told MailOnline: 'He was very accessible, he always took time for fans.' Scene: James Gandolfini, as Tony Soprano, Edie Falco and Robert Iler sit in the booth in the final episode .",
-                "keywords": [
-                    "MailOnline"
-                ],
-                "reason": "Entity explicitly mentioned",
-                "confidence": 1.0
-            },
-            {
-                "paragraph": 1,
-                "sentence": "Marc Baron, who played several small roles across 13 episodes in The Sopranos, and is also a tour guide, told MailOnline that Gandolfini looked out for everyone on the show and treated the extras, crew and cast all as equals.",
-                "keywords": [
-                    "MailOnline"
-                ],
-                "reason": "Entity explicitly mentioned",
-                "confidence": 1.0
-            }
-        ],
-        "Ridge Diner": [
-            {
-                "paragraph": 1,
-                "sentence": "'I'm devastated,' Ridge Diner manager Peter Fatouros said.",
-                "keywords": [
-                    "Ridge Diner"
                 ],
                 "reason": "Entity explicitly mentioned",
                 "confidence": 1.0
@@ -1253,48 +1190,6 @@
                 "reason": "Entity explicitly mentioned",
                 "confidence": 1.0
             }
-        ],
-        "1961": [
-            {
-                "paragraph": 1,
-                "sentence": "custodian and a lunch lady in 1961, also paid tribute to the Emmy winner .",
-                "keywords": [
-                    "1961"
-                ],
-                "reason": "Entity explicitly mentioned",
-                "confidence": 1.0
-            }
-        ],
-        "20 June 2013": [
-            {
-                "paragraph": 1,
-                "sentence": "07:24 EST, 20 June 2013 .",
-                "keywords": [
-                    "20 June 2013"
-                ],
-                "reason": "Entity explicitly mentioned",
-                "confidence": 1.0
-            },
-            {
-                "paragraph": 1,
-                "sentence": "15:24 EST, 20 June 2013 .",
-                "keywords": [
-                    "20 June 2013"
-                ],
-                "reason": "Entity explicitly mentioned",
-                "confidence": 1.0
-            }
-        ],
-        "2003": [
-            {
-                "paragraph": 1,
-                "sentence": "Success: Falco and Gandolfini are pictured with their Emmy Awards for the show in 2003 .",
-                "keywords": [
-                    "2003"
-                ],
-                "reason": "Entity explicitly mentioned",
-                "confidence": 1.0
-            }
         ]
     },
     "classification": {
@@ -1305,7 +1200,16 @@
             "hospital",
             "doctor"
         ],
-        "evidence_used": [],
+        "evidence_used": [
+            {
+                "keyword": "hospital",
+                "reason": "Keyword 'hospital' found in document"
+            },
+            {
+                "keyword": "doctor",
+                "reason": "Keyword 'doctor' found in document"
+            }
+        ],
         "rejected_categories": {
             "AI": "Only 1 supporting keyword(s) found",
             "Education": "No supporting keywords found",
@@ -1317,12 +1221,12 @@
         "classification_explanation": "Healthcare selected because it contains 2 supporting keyword(s): hospital, doctor"
     },
     "confidence": {
-        "score": 90,
-        "supporting_evidence_count": 126,
-        "validated_entity_count": 45,
-        "document_completeness": 0.5,
+        "score": 88,
+        "supporting_evidence_count": 114,
+        "validated_entity_count": 37,
+        "document_completeness": 0.38,
         "contradictory_evidence_count": 0,
-        "explanation": "Confidence derived from 126 supporting evidences, 45 validated entities, and document completeness of 50%."
+        "explanation": "Confidence derived from 114 supporting evidences, 37 validated entities, and document completeness of 38%."
     },
     "recommendations": {
         "related_domains": [
@@ -1347,7 +1251,7 @@
         "intelligence_summary": "This document primarily belongs to the Healthcare domain. It is strongly associated with Medical Analytics, Telemedicine. The extracted intelligence can be used for classification, search, and knowledge management purposes. Additional recommendations have been generated to enrich future analysis."
     },
     "processing_trace": {
-        "execution_timestamp": "2026-06-20 11:50:33",
+        "execution_timestamp": "2026-06-22 11:18:34",
         "overall_status": "SUCCESS",
         "processing_trace": [
             {
@@ -1368,15 +1272,15 @@
             },
             {
                 "step": "Entity Extraction",
-                "details": "45 entities extracted"
+                "details": "37 entities extracted"
             },
             {
                 "step": "Entity Validation",
-                "details": "45 validated, 0 rejected"
+                "details": "37 validated, 5 rejected"
             },
             {
                 "step": "Evidence Generation",
-                "details": "41 evidence records generated"
+                "details": "34 evidence records generated"
             },
             {
                 "step": "Classification",
@@ -1384,7 +1288,7 @@
             },
             {
                 "step": "Confidence Scoring",
-                "details": "Confidence Score: 90"
+                "details": "Confidence Score: 88"
             },
             {
                 "step": "Recommendation Generation",
@@ -1401,14 +1305,14 @@
         "primary_category": "Healthcare",
         "secondary_category": "AI",
         "classification_confidence": 0.29,
-        "overall_confidence": 90,
+        "overall_confidence": 88,
         "recommended_tags": [
             "healthcare",
             "medical",
             "patient-care"
         ],
-        "entity_count": 45,
-        "rejected_entity_count": 0,
-        "evidence_count": 126
+        "entity_count": 37,
+        "rejected_entity_count": 5,
+        "evidence_count": 114
     }
 }

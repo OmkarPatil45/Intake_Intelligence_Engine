@@ -4,7 +4,7 @@ class ClassificationEngine:
         "AI": {
             "keywords": [
                 "machine learning","deep learning","artificial intelligence","tensorflow","pytorch",
-                "neural network","llm","rag","chatbot","data science"
+                "neural network","llm","rag","chatbot","data science","deep learning"
             ]
         },
 
@@ -49,25 +49,31 @@ class ClassificationEngine:
         }
     }
 
-    def classify(self, text: str):
+    #v2
+    def classify(self, text: str, evidence_report: dict = None):
         normalized_text = text.lower()
         scores = {}
+        category_matches = {}
 
-        for category, rule in (
-            self.DOMAIN_RULES.items()
-        ):
+        for category, rule in (self.DOMAIN_RULES.items()):
+            matched_keywords = []
 
             score = 0
 
-            for keyword in (rule["keywords"]):
+            for keyword in rule["keywords"]:
                 if keyword in normalized_text:
                     score += 1
+                    matched_keywords.append(
+                        keyword
+                    )
 
             scores[category] = score
 
+            category_matches[category] = matched_keywords
+
         sorted_categories = sorted(
             scores.items(),
-            key=lambda x: x[1],
+            key = lambda item: item[1],
             reverse=True
         )
 
@@ -77,40 +83,44 @@ class ClassificationEngine:
 
         top_score = (sorted_categories[0][1])
 
-        total_keywords = len(
-            self.DOMAIN_RULES[
-                primary_category
-            ]["keywords"]
-        )
+        total_keywords = len( self.DOMAIN_RULES[primary_category]["keywords"] )
 
-        confidence_score = round(
-            top_score / total_keywords,2
-        )
+        confidence_score = round(top_score / max(total_keywords, 1), 2)
 
-        matched_keywords = [
-            keyword
+        evidence_used = []
 
-            for keyword in
-            self.DOMAIN_RULES[
-                primary_category
-            ]["keywords"]
+        primary_keywords = category_matches[primary_category]
 
-            if keyword in normalized_text
-        ]
+        for keyword in primary_keywords:
+            evidence_used.append(
+                {
+                    "keyword": keyword,
+                    "reason":
+                        f"Keyword '{keyword}' found in document"
+                }
+            )
+
+        rejected_categories = {}
+
+        for category, score in (sorted_categories[1:]):
+            if score == 0:
+                rejected_categories[category] = ("No supporting keywords found")
+            else:
+                rejected_categories[category] = (
+                    f"Only {score} supporting "
+                    f"keyword(s) found"
+                )
 
         return {
-
             "primary_category": primary_category,
-
             "secondary_category": secondary_category,
-
             "confidence_score": confidence_score,
-
-            "matched_keywords": matched_keywords,
-
-            "classification_explanation":
-                (
-                    f"Detected keywords: "
-                    f"{', '.join(matched_keywords)}"
+            "matched_keywords": category_matches[primary_category],
+            "evidence_used": evidence_used,
+            "rejected_categories": rejected_categories,
+            "classification_explanation": (
+                    f"{primary_category} selected because it contains "
+                    f"{top_score} supporting keyword(s): "
+                    f"{', '.join(category_matches[primary_category])}"
                 )
         }

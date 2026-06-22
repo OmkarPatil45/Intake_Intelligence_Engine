@@ -78,3 +78,86 @@ class QueryEngine:
             if (source.lower() == source_type.lower()):
                 results.append(package)
         return results
+    
+    # v2 - search by - technology, organisation, classification, confidence, relationship
+    def search_by_technology(self,technology):
+        technology = (technology.lower())
+        results = []
+        for package in (self._load_packages()):
+            technologies = (
+                package.get("entities",{})
+                .get("technologies",[]
+                )
+            )
+
+            for tech in technologies:
+                if (technology in tech.lower()):
+                    results.append(package)
+                    break
+        return results
+    
+    def search_by_organization(self,organization):
+        organization = (organization.lower())
+        results = []
+        for package in (self._load_packages()):
+            organizations = (
+                package.get("entities",{})
+                .get("organizations",[])
+            )
+
+            for org in organizations:
+                if (organization in org.lower()):
+                    results.append(package)
+                    break
+
+        return results
+    
+    def search_by_classification(self,classification):
+        results = []
+        for package in (self._load_packages()):
+            category = (
+                package.get("classification",{})
+                .get("primary_category", "")
+            )
+
+            if (category.lower() == classification.lower()):
+                results.append(package)
+
+        return results
+
+    def search_by_confidence(self,minimum_score):
+        results = []
+
+        for package in (self._load_packages()):
+            confidence = (
+                package.get("confidence", {})
+                .get("score", 0))
+
+            if (confidence>=minimum_score):results.append(package)
+
+        return results
+
+    def search_by_relationship(self,relationship_type):
+        results = []
+
+        relationship_file = (self.output_folder/"relationship_graph.json")
+        if not (relationship_file.exists()):
+            return results
+
+        try:
+            with open(
+                relationship_file,
+                "r",
+                encoding="utf-8"
+            ) as f:
+
+                graph = json.load(f)
+
+            for relationship in (graph.get("relationships",[])):
+                if (relationship["relationship"] == relationship_type):
+                    results.append(relationship)
+
+        except Exception:
+            pass
+
+        return results

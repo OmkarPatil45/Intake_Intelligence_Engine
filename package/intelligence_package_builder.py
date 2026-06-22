@@ -1,8 +1,8 @@
 class IntelligencePackageBuilder:
 
-    def build(self,intake_result:dict,analysis_result:dict,
-        entities:dict,rejected_entities:list,evidence_report:dict,
-        classification:dict,confidence_report:dict,recommendations:dict,
+    def build(self,intake_result:dict, analysis_result:dict,
+        entities:dict, rejected_entities:list, evidence_report:dict,
+        classification:dict, confidence_report:dict, recommendations:dict,
         processing_trace:list)->dict:
 
         package = {
@@ -19,7 +19,7 @@ class IntelligencePackageBuilder:
             "confidence": confidence_report,
             "recommendations": recommendations,
             "processing_trace": processing_trace,
-            
+
             "structured_output": {
                 "document_type": analysis_result.get("document_type"),
                 "primary_category": classification.get("primary_category"),
@@ -34,6 +34,14 @@ class IntelligencePackageBuilder:
         }
 
         return package
+
+    def _count_entities(self,entities: dict) -> int:
+        count = 0
+
+        for value in entities.values():
+            if isinstance(value,list):
+                count += len(value)
+        return count
 
     def _count_evidence(self,evidence_report: dict):
         count = 0

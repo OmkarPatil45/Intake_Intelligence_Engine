@@ -34,22 +34,27 @@ class EntityExtractor:
     )
 
     def __init__(self):
-        self.nlp = spacy.load("en_core_web_sm")
+        #3
+        self.nlp = spacy.load("en_core_web_lg")
 
     def extract(self, text: str) -> dict:
         if not text:
             return self._empty_result()
 
+        #3 preserve original doc formating for resume header detection
+        raw_text = text
+
+        #3 create cleaned copy for NLP dont destroy og layout
+        cleaned_text = re.sub(r"\s{3,}", " ", text)
+        doc = self.nlp(cleaned_text)
 #v2
-        text = re.sub(r"\s{3,}", " ", text)
-        doc = self.nlp(text)
         names = set()
         organizations = set()
         locations = set()
         dates = set()
 
         # Resume heuristic
-        resume_name = self._extract_resume_name(text)
+        resume_name = self._extract_resume_name(raw_text)
         if resume_name:
             names.add(resume_name)
 
@@ -121,11 +126,11 @@ class EntityExtractor:
                 ):
                     dates.add(value)
 
-        emails = self._extract_emails(text)
+        emails = self._extract_emails(raw_text)
 
-        phone_numbers = (self._extract_phone_numbers(text))
+        phone_numbers = (self._extract_phone_numbers(raw_text))
 
-        skills = self._extract_skills(text)
+        skills = self._extract_skills(cleaned_text)
 
         technologies = skills.copy()
 

@@ -1,7 +1,7 @@
 import re
 from analysis.entity_filters import (ENTITY_REJECTION_RULES, GENERIC_ENTITY_TERMS)
 from analysis.entity_patterns import (OCR_PATTERNS,FILE_PATTERNS,TECHNICAL_PATTERNS,DOCUMENT_PATTERNS,
-                                      BUSINESS_INTELLIGENCE_TERMS)
+                                      BUSINESS_INTELLIGENCE_TERMS, DOCUMENT_HEADING_PATTERNS)
 
 class EntityValidator:
     """
@@ -197,24 +197,31 @@ class EntityValidator:
 
            
         # ORG validation
+        #3
         if entity_type == "ORG":
-            heading_keywords = {
-                "certifications","technologies","tools",
-                "development","learning"
-            }
+            for pattern in DOCUMENT_HEADING_PATTERNS:
+                if re.search(pattern, normalized):
+                    return (False,"Document heading")
 
-            if any(
-                keyword in normalized
-                for keyword in heading_keywords
+            if ":" in candidate:
+                return (False,"Document heading")
+
+            uppercase_ratio = (
+                sum(char.isupper() for char in candidate)
+                / max(len(candidate), 1)
+            )
+
+            if (
+                uppercase_ratio > 0.35
+                and len(candidate.split()) >= 2
             ):
-                return (False, "Document heading")
-            
+
+                return (False,"Likely document heading")
+
             if candidate.islower():
                 return (False,"Improper organization capitalization")
-            
-                    # Looks like a person's name
-            words = candidate.split()
 
+            words = candidate.split()
             if (
                 len(words) in [2, 3]
                 and all(
@@ -223,15 +230,19 @@ class EntityValidator:
                     if word
                 )
             ):
-                return (
-                    False,
-                    "Likely person name misclassified as organization"
-                )
+                return (False,"Likely person name misclassified as organization")
+
+            # ---------------------------------------------
+            # Extremely long ORG names are usually headings
+            # ---------------------------------------------
+
+            if len(words) > 8:
+                return (False,"Unusually long organization name")
             
         # GPE validation
         if entity_type == "GPE":
             invalid_location_terms = {
-                "emission","emissions","gas","gases","pollution","carbon"
+                "emission","emissions","gas","gases","pollution","carbon","CSS3"
             }
 
             if normalized in invalid_location_terms:

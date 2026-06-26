@@ -47,3 +47,19 @@ BUSINESS_INTELLIGENCE_TERMS = {
     "remaining useful life","distribution input","precision recall curve",
     "random forest","xgboost"
 }
+#3 
+DOCUMENT_HEADING_PATTERNS = [
+    r".*technical\s+skills.*",
+    r".*programming\s+languages.*",
+    r".*development\s+tools.*",
+    r".*web\s+technologies.*",
+    r".*machine\s+learning.*",
+    r".*education.*",
+    r".*experience.*",
+    r".*professional\s+experience.*",
+    r".*projects?.*",
+    r".*certifications?.*",
+    r".*summary.*",
+    r".*objective.*",
+    r".*skills.*"
+]

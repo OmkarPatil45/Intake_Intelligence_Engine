@@ -37,6 +37,8 @@ ENTITY_REJECTION_RULES = {
         "roc": "Evaluation metric",
         "xgboost": "Machine learning algorithm",
         "random forest": "Machine learning algorithm",
+        "TF-IDF":"ML algorithm",
+        "random forest &": "Machine learning algorithm",
         "classifier": "Generic technical term",
         "precision recall curve": "Evaluation metric",
         "recall curve": "Evaluation metric"
@@ -48,7 +50,8 @@ ENTITY_REJECTION_RULES = {
         "numpy": "Python library, not a location",
         "c++": "Programming language, not a location",
         "sql": "Database language, not a location",
-        "roc": "Evaluation metric, not a location"
+        "roc": "Evaluation metric, not a location",
+        "CSS3": "Styling language, not a location"
     }
 }
 

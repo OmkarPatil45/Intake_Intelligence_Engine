@@ -18,27 +18,28 @@ from processing.processing_trace import ProcessingTrace
 
 
 loader = IntakeLoader()
-result = loader.load("dataset/DS project.docx")
+result = loader.load("dataset/docFile1.docx")
 
 loader = IntakeLoader()
 analyzer = ContentAnalyzer()
-
-content = result["extraction"]["content"]
+#3
+raw_content = result["extraction"]["content"]
+raw_content = re.sub(
+    r"([A-Z]{2,}\s+[A-Z]{2,})(\s*/)",
+    r"\1\n",
+    raw_content
+)
 
 # -------> text cleaning
 cleaner = TextCleaner()
-content = cleaner.clean(content)
-content = re.sub(
-    r"([A-Z]{2,}\s+[A-Z]{2,})(\s*/)",
-    r"\1\n",
-    content
-)
+#3 content--->cleaned_content
+cleaned_content = cleaner.clean(raw_content)
 
-analysis_result = analyzer.analyze(content)
+analysis_result = analyzer.analyze(cleaned_content)
 
 #v2 
 extractor = EntityExtractor()
-entities = extractor.extract(content)
+entities = extractor.extract(raw_content)
 
 # v2 validating entities
 validator = EntityValidator()
@@ -47,15 +48,15 @@ validation_result = (validator.validate(entities))
 # increasing accuracy
 normalizer = (EntityNormalizer())
 validated_entities = (normalizer.normalize(validation_result["validated_entities"]))
-#
+
 rejected_entities = (validation_result["rejected_entities"])
 
 # evidence engine v2
 evidence_engine = EvidenceEngine()
-evidence_report = (evidence_engine.generate(content,validated_entities))
+evidence_report = (evidence_engine.generate(cleaned_content,validated_entities))
 
 classifier = ClassificationEngine()
-classification = classifier.classify(content)
+classification = classifier.classify(cleaned_content)
 
 #v2 confidence engine
 confidence_engine = (ConfidenceEngine())
@@ -81,11 +82,11 @@ trace.add_step(
         f"Detected source type: {result['source_type']}"
     )
 
-content = result["extraction"]["content"]
+raw_content = result["extraction"]["content"]
 
 trace.add_step(
         "Content Extraction",
-        f"{len(content)} characters extracted"
+        f"{len(raw_content)} characters extracted"
     )
 
     # Source Specific Metadata

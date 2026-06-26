@@ -3,7 +3,7 @@
         "source_type": "docx"
     },
     "metadata": {
-        "file_name": "DS project.docx",
+        "file_name": "Ds project.docx",
         "file_extension": ".docx",
         "file_size_bytes": 950946
     },
@@ -24,17 +24,18 @@
     },
     "entities": {
         "names": [
-            "Alam N. Shaikh Head",
+            "Alam N. Shaikh",
+            "Anand Dane",
+            "Data Science",
             "Inputn.Strip",
-            "Omkar Patil",
+            "Pradip Mane",
             "Streamlit",
             "Swaroop Sawant",
-            "Vinod Sapkal",
-            "Vinod Sapkal Guide"
+            "Vinod Sapkal"
         ],
         "organizations": [
-            "Department of Information Technology",
-            "Evaluation - Evaluate",
+            "Department of Information Technology Vasantdada Patil",
+            "TF-IDF",
             "University of Mumbai",
             "a Fake News Detection"
         ],
@@ -55,11 +56,6 @@
     },
     "rejected_entities": [
         {
-            "entity": "Model Training - Train",
-            "entity_type": "PERSON",
-            "reason": "Hyphenated technical phrase"
-        },
-        {
             "entity": "Fake News Detection System",
             "entity_type": "ORG",
             "reason": "Technical phrase, not a person"
@@ -75,22 +71,22 @@
             "reason": "Likely person name misclassified as organization"
         },
         {
-            "entity": "Pradip Mane",
-            "entity_type": "ORG",
-            "reason": "Likely person name misclassified as organization"
-        },
-        {
             "entity": "Prathamesh Thakare",
             "entity_type": "ORG",
             "reason": "Likely person name misclassified as organization"
         },
         {
-            "entity": "The Fake News Detection System",
+            "entity": "TF-IDF Vectorization",
             "entity_type": "ORG",
-            "reason": "Technical phrase, not a person"
+            "reason": "Likely person name misclassified as organization"
         },
         {
-            "entity": "a Fake News Detection System",
+            "entity": "TF-IDF Vectorizer",
+            "entity_type": "ORG",
+            "reason": "Likely document heading"
+        },
+        {
+            "entity": "The Fake News Detection System",
             "entity_type": "ORG",
             "reason": "Technical phrase, not a person"
         },
@@ -101,7 +97,38 @@
         }
     ],
     "evidence_report": {
-        "Alam N. Shaikh Head": [],
+        "Alam N. Shaikh": [],
+        "Anand Dane": [
+            {
+                "paragraph": 1,
+                "sentence": "Vinod Sapkal Assistant Professor Department of Information Technology Vasantdada Patil Pratishthan's College of Engineering & Visual Arts UNIVERSITY OF MUMBAI (AY 2025-26) CERTIFICATE This is to certify that the project entitled \u201cFake News Detector Using Machine Learning\u201d is bonafide work of Anand Dane vu4f2223094, Swaroop Sawant vu4f2223100, Omkar Patil vu4f2223108, Prathamesh Thakare vu4f2223103, submitted to University of Mumbai in partial fulfillment of requirement for the award of degree of \u201cBachelor of Engineering in Information Technology-Semester-VII\u201d Dr.",
+                "keywords": [
+                    "Anand Dane"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            }
+        ],
+        "Data Science": [
+            {
+                "paragraph": 1,
+                "sentence": "Data Science Mini Project Report On Fake News Detector Using Machine Learning (A.Y 2024-2025) PREPARED BY Under the guidance of Dr.",
+                "keywords": [
+                    "Data Science"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            },
+            {
+                "paragraph": 1,
+                "sentence": "Overall, the project highlights the potential of data science in addressing real-world challenges like fake news detection.",
+                "keywords": [
+                    "Data Science"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            }
+        ],
         "Inputn.Strip": [
             {
                 "paragraph": 1,
@@ -113,12 +140,12 @@
                 "confidence": 1.0
             }
         ],
-        "Omkar Patil": [
+        "Pradip Mane": [
             {
                 "paragraph": 1,
-                "sentence": "Vinod Sapkal Assistant Professor Department of Information Technology Vasantdada Patil Pratishthan's College of Engineering & Visual Arts UNIVERSITY OF MUMBAI (AY 2025-26) CERTIFICATE This is to certify that the project entitled \u201cFake News Detector Using Machine Learning\u201d is bonafide work of Anand Dane vu4f2223094, Swaroop Sawant vu4f2223100, Omkar Patil vu4f2223108, Prathamesh Thakare vu4f2223103, submitted to University of Mumbai in partial fulfillment of requirement for the award of degree of \u201cBachelor of Engineering in Information Technology-Semester-VII\u201d Dr.",
+                "sentence": "Pradip Mane Dr.",
                 "keywords": [
-                    "Omkar Patil"
+                    "Pradip Mane"
                 ],
                 "reason": "Entity explicitly mentioned",
                 "confidence": 1.0
@@ -175,34 +202,113 @@
                 "confidence": 1.0
             }
         ],
-        "Vinod Sapkal Guide": [
-            {
-                "paragraph": 1,
-                "sentence": "Vinod Sapkal Guide Assistant Professor Dr.",
-                "keywords": [
-                    "Vinod Sapkal Guide"
-                ],
-                "reason": "Entity explicitly mentioned",
-                "confidence": 1.0
-            }
-        ],
-        "Department of Information Technology": [
+        "Department of Information Technology Vasantdada Patil": [
             {
                 "paragraph": 1,
                 "sentence": "Vinod Sapkal Assistant Professor Department of Information Technology Vasantdada Patil Pratishthan's College of Engineering & Visual Arts UNIVERSITY OF MUMBAI (AY 2025-26) CERTIFICATE This is to certify that the project entitled \u201cFake News Detector Using Machine Learning\u201d is bonafide work of Anand Dane vu4f2223094, Swaroop Sawant vu4f2223100, Omkar Patil vu4f2223108, Prathamesh Thakare vu4f2223103, submitted to University of Mumbai in partial fulfillment of requirement for the award of degree of \u201cBachelor of Engineering in Information Technology-Semester-VII\u201d Dr.",
                 "keywords": [
-                    "Department of Information Technology"
+                    "Department of Information Technology Vasantdada Patil"
                 ],
                 "reason": "Entity explicitly mentioned",
                 "confidence": 1.0
             }
         ],
-        "Evaluation - Evaluate": [
+        "TF-IDF": [
             {
                 "paragraph": 1,
-                "sentence": "Evaluation - Evaluate the model on unseen data to test its ability to generalize.",
+                "sentence": "The project uses TF-IDF vectorization to extract features from textual data and Logistic Regression for classification.",
                 "keywords": [
-                    "Evaluation - Evaluate"
+                    "TF-IDF"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            },
+            {
+                "paragraph": 1,
+                "sentence": "The process includes dataset analysis, text preprocessing, feature extraction using TF-IDF, and classification using Logistic Regression.",
+                "keywords": [
+                    "TF-IDF"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            },
+            {
+                "paragraph": 1,
+                "sentence": "To convert textual data into numerical features using TF-IDF Vectorization.",
+                "keywords": [
+                    "TF-IDF"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            },
+            {
+                "paragraph": 1,
+                "sentence": "Feature Extraction- Use TF-IDF Vectorizer to convert text into numerical representations.",
+                "keywords": [
+                    "TF-IDF"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            },
+            {
+                "paragraph": 1,
+                "sentence": "Model Training - Train the Logistic Regression classifier on processed TF-IDF features.",
+                "keywords": [
+                    "TF-IDF"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            },
+            {
+                "paragraph": 1,
+                "sentence": "Despite its simplicity, Logistic Regression can perform very well when combined with proper feature extraction techniques like TF-IDF.",
+                "keywords": [
+                    "TF-IDF"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            },
+            {
+                "paragraph": 1,
+                "sentence": "In this project, Logistic Regression was trained on TF-IDF vectorized text data, which captures the importance of words across the dataset.",
+                "keywords": [
+                    "TF-IDF"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            },
+            {
+                "paragraph": 1,
+                "sentence": "TF-IDF Vectorizer (Feature Extraction): Although not a learning algorithm by itself, the TF-IDF (Term Frequency\u2013Inverse Document Frequency) vectorizer plays a crucial role in converting text data into numerical form so that machine learning models can work with it.",
+                "keywords": [
+                    "TF-IDF"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            },
+            {
+                "paragraph": 1,
+                "sentence": "In the context of fake news detection, TF-IDF helps highlight key differences in word usage between fake and real articles.",
+                "keywords": [
+                    "TF-IDF"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            },
+            {
+                "paragraph": 1,
+                "sentence": "The use of TF-IDF Vectorization helped highlight important words and patterns in the text, allowing the model to better distinguish between fake and real news based on word frequency and relevance.",
+                "keywords": [
+                    "TF-IDF"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            },
+            {
+                "paragraph": 1,
+                "sentence": "The project demonstrates how effective text preprocessing and feature extraction methods like TF-IDF, combined with a classification model such as Logistic Regression, can accurately distinguish between real and fake news articles.",
+                "keywords": [
+                    "TF-IDF"
                 ],
                 "reason": "Entity explicitly mentioned",
                 "confidence": 1.0
@@ -385,11 +491,11 @@
     },
     "confidence": {
         "score": 92,
-        "supporting_evidence_count": 24,
-        "validated_entity_count": 16,
+        "supporting_evidence_count": 36,
+        "validated_entity_count": 17,
         "document_completeness": 0.62,
         "contradictory_evidence_count": 0,
-        "explanation": "Confidence derived from 24 supporting evidences, 16 validated entities, and document completeness of 62%."
+        "explanation": "Confidence derived from 36 supporting evidences, 17 validated entities, and document completeness of 62%."
     },
     "recommendations": {
         "related_domains": [
@@ -418,12 +524,12 @@
         "intelligence_summary": "This document primarily belongs to the AI domain. It is strongly associated with Machine Learning, Data Science. The extracted intelligence can be used for classification, search, and knowledge management purposes. Additional recommendations have been generated to enrich future analysis."
     },
     "processing_trace": {
-        "execution_timestamp": "2026-06-22 11:52:25",
+        "execution_timestamp": "2026-06-26 10:50:45",
         "overall_status": "SUCCESS",
         "processing_trace": [
             {
                 "step": "File Received",
-                "details": "DS project.docx received"
+                "details": "Ds project.docx received"
             },
             {
                 "step": "Source Detection",
@@ -443,15 +549,15 @@
             },
             {
                 "step": "Entity Extraction",
-                "details": "16 entities extracted"
+                "details": "17 entities extracted"
             },
             {
                 "step": "Entity Validation",
-                "details": "16 validated, 9 rejected"
+                "details": "17 validated, 8 rejected"
             },
             {
                 "step": "Evidence Generation",
-                "details": "14 evidence records generated"
+                "details": "15 evidence records generated"
             },
             {
                 "step": "Classification",
@@ -484,8 +590,8 @@
             "chatbot",
             "automation"
         ],
-        "entity_count": 16,
-        "rejected_entity_count": 9,
-        "evidence_count": 24
+        "entity_count": 17,
+        "rejected_entity_count": 8,
+        "evidence_count": 36
     }
 }

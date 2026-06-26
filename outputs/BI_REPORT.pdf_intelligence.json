@@ -21,8 +21,10 @@
     },
     "entities": {
         "names": [
-            "Bill Ing",
-            "Sachin Barade"
+            "Anand Dane",
+            "Omkar Patil",
+            "Sachin Barade",
+            "Swaroop Sawant"
         ],
         "organizations": [],
         "technologies": [
@@ -40,32 +42,27 @@
     },
     "rejected_entities": [
         {
-            "entity": "Distribution Input",
+            "entity": "Business Intelligence",
             "entity_type": "PERSON",
-            "reason": "Business Intelligence terms"
+            "reason": "Technical phrase, not a person"
         },
         {
-            "entity": "Min-Max",
+            "entity": "Random Forest Classifier",
             "entity_type": "PERSON",
-            "reason": "Hyphenated technical phrase"
-        },
-        {
-            "entity": "Toge",
-            "entity_type": "PERSON",
-            "reason": "Suspicious short single-token name"
-        },
-        {
-            "entity": "Cyber Threat Intelligence",
-            "entity_type": "ORG",
-            "reason": "Likely person name misclassified as organization"
-        },
-        {
-            "entity": "Dataset",
-            "entity_type": "ORG",
             "reason": "Technical concept"
         },
         {
-            "entity": "Omkar Patil",
+            "entity": "Xgboost Regressor",
+            "entity_type": "PERSON",
+            "reason": "Technical concept"
+        },
+        {
+            "entity": "Churn Prediction Using Machine Learning",
+            "entity_type": "ORG",
+            "reason": "Document heading"
+        },
+        {
+            "entity": "Cyber Threat Intelligence",
             "entity_type": "ORG",
             "reason": "Likely person name misclassified as organization"
         },
@@ -75,34 +72,14 @@
             "reason": "Likely person name misclassified as organization"
         },
         {
-            "entity": "Precision -Recall Curve",
-            "entity_type": "ORG",
-            "reason": "Technical concept"
-        },
-        {
             "entity": "Random Forest",
             "entity_type": "ORG",
             "reason": "Business Intelligence terms"
         },
         {
-            "entity": "Random Forest & XGBoost Models",
+            "entity": "Random Forest &",
             "entity_type": "ORG",
-            "reason": "Technical phrase, not a person"
-        },
-        {
-            "entity": "Random Forest Classifier",
-            "entity_type": "ORG",
-            "reason": "Technical concept"
-        },
-        {
-            "entity": "Random Forest Regressor",
-            "entity_type": "ORG",
-            "reason": "Technical concept"
-        },
-        {
-            "entity": "Remaining Useful Life",
-            "entity_type": "ORG",
-            "reason": "Business Intelligence terms"
+            "reason": "Machine learning algorithm"
         },
         {
             "entity": "The Recall Curve",
@@ -110,43 +87,29 @@
             "reason": "Technical concept"
         },
         {
-            "entity": "Train Random Forest & XGBoost Models",
-            "entity_type": "ORG",
-            "reason": "Technical phrase, not a person"
-        },
-        {
             "entity": "XGBoost",
             "entity_type": "ORG",
             "reason": "Business Intelligence terms"
-        },
-        {
-            "entity": "XGBoost Classifier",
-            "entity_type": "ORG",
-            "reason": "Technical concept"
-        },
-        {
-            "entity": "XGBoost Regressor",
-            "entity_type": "ORG",
-            "reason": "Technical concept"
-        },
-        {
-            "entity": "featu",
-            "entity_type": "ORG",
-            "reason": "Improper organization capitalization"
-        },
-        {
-            "entity": "noisy data",
-            "entity_type": "ORG",
-            "reason": "Improper organization capitalization"
         }
     ],
     "evidence_report": {
-        "Bill Ing": [
+        "Anand Dane": [
             {
                 "paragraph": 1,
-                "sentence": "The system leverages historical customer data, including demographic details, service usage patterns, bill ing information, and tenure, to accurately predict whether a customer is likely to churn.",
+                "sentence": "Business Intelligence Mini Project Report On Churn Prediction Using Machine Learning (A.Y 2024-2025) PREPARED BY Name ID Anand Dane VU4F2223094 Swaroop Sawant VU4F2223100 Prathamesh Thakare VU4F2223103 Omkar Patil VU4F2223108 Class : TE IT-B ( Batch -B) Guided By : Prof.",
                 "keywords": [
-                    "Bill Ing"
+                    "Anand Dane"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            }
+        ],
+        "Omkar Patil": [
+            {
+                "paragraph": 1,
+                "sentence": "Business Intelligence Mini Project Report On Churn Prediction Using Machine Learning (A.Y 2024-2025) PREPARED BY Name ID Anand Dane VU4F2223094 Swaroop Sawant VU4F2223100 Prathamesh Thakare VU4F2223103 Omkar Patil VU4F2223108 Class : TE IT-B ( Batch -B) Guided By : Prof.",
+                "keywords": [
+                    "Omkar Patil"
                 ],
                 "reason": "Entity explicitly mentioned",
                 "confidence": 1.0
@@ -155,9 +118,20 @@
         "Sachin Barade": [
             {
                 "paragraph": 1,
-                "sentence": "Sachin Barade \u201cChurn Prediction Using Machine Learning \u201d Problem Statement: In highly competitive industries such as telecommunications, finance, and e -commerce, customer retention is as critical as customer acquisition.",
+                "sentence": "Sachin Barade \u201cChurn Prediction Using Machine Learning\u201d Problem Statement: In highly competitive industries such as telecommunications, finance, and e-commerce, customer retention is as critical as customer acquisition.",
                 "keywords": [
                     "Sachin Barade"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            }
+        ],
+        "Swaroop Sawant": [
+            {
+                "paragraph": 1,
+                "sentence": "Business Intelligence Mini Project Report On Churn Prediction Using Machine Learning (A.Y 2024-2025) PREPARED BY Name ID Anand Dane VU4F2223094 Swaroop Sawant VU4F2223100 Prathamesh Thakare VU4F2223103 Omkar Patil VU4F2223108 Class : TE IT-B ( Batch -B) Guided By : Prof.",
+                "keywords": [
+                    "Swaroop Sawant"
                 ],
                 "reason": "Entity explicitly mentioned",
                 "confidence": 1.0
@@ -166,7 +140,7 @@
         "machine learning": [
             {
                 "paragraph": 1,
-                "sentence": "Business Intelligence Mini Project Report On Churn Prediction Using Machine Learning (A.Y 2024 -2025) PREPARED BY Name ID Anand Dane VU4F2223094 Swaroop Sawant VU4F2223 100 Prathamesh Thakare VU4F2223 103 Omkar Patil VU4F2223 108 Class : TE IT -B ( Batch -B) Guided By : Prof.",
+                "sentence": "Business Intelligence Mini Project Report On Churn Prediction Using Machine Learning (A.Y 2024-2025) PREPARED BY Name ID Anand Dane VU4F2223094 Swaroop Sawant VU4F2223100 Prathamesh Thakare VU4F2223103 Omkar Patil VU4F2223108 Class : TE IT-B ( Batch -B) Guided By : Prof.",
                 "keywords": [
                     "machine learning"
                 ],
@@ -175,7 +149,7 @@
             },
             {
                 "paragraph": 1,
-                "sentence": "Sachin Barade \u201cChurn Prediction Using Machine Learning \u201d Problem Statement: In highly competitive industries such as telecommunications, finance, and e -commerce, customer retention is as critical as customer acquisition.",
+                "sentence": "Sachin Barade \u201cChurn Prediction Using Machine Learning\u201d Problem Statement: In highly competitive industries such as telecommunications, finance, and e-commerce, customer retention is as critical as customer acquisition.",
                 "keywords": [
                     "machine learning"
                 ],
@@ -184,7 +158,7 @@
             },
             {
                 "paragraph": 1,
-                "sentence": "This project addresses the need for a proactive, data -driven Cyber Threat Intelligence and Churn Prediction System using machine learning algorithms.",
+                "sentence": "This project addresses the need for a proactive, data-driven Cyber Threat Intelligence and Churn Prediction System using machine learning algorithms.",
                 "keywords": [
                     "machine learning"
                 ],
@@ -202,7 +176,7 @@
             },
             {
                 "paragraph": 1,
-                "sentence": "Preprocessing : The preprocessing phase in this project involves several essential steps to prepare the dataset for machine learning.",
+                "sentence": "Preprocessing: The preprocessing phase in this project involves several essential steps to prepare the dataset for machine learning.",
                 "keywords": [
                     "machine learning"
                 ],
@@ -220,7 +194,7 @@
             },
             {
                 "paragraph": 1,
-                "sentence": "Conclusion: This project successfully implemented a machine learning -based system to predict customer churn using telecom data.",
+                "sentence": "Conclusion: This project successfully implemented a machine learning-based system to predict customer churn using telecom data.",
                 "keywords": [
                     "machine learning"
                 ],
@@ -231,7 +205,7 @@
         "pandas": [
             {
                 "paragraph": 1,
-                "sentence": "Loading Dataset Import Necessary Libraries Reading Data into Pandas Data Visualization Data Preprocessing Correlation Heatmap Input Output ROC & Precision - Recall Curve : Input: Output: Churn vs Monthly Charges Distribution Input: Output Train Random Forest & XGBoost Models Output of Random Forest & XGBoost Models Output of Random forest: Output of XGBoost: Observations:   The XGBoost model provided the most accurate Remaining Useful Life (RUL) predictions among all models tested.",
+                "sentence": "Loading Dataset Import Necessary Libraries Reading Data into Pandas Data Visualization Data Preprocessing Correlation Heatmap Input Output ROC & Precision- Recall Curve: Input: Output: Churn vs Monthly Charges Distribution Input: Output Train Random Forest & XGBoost Models Output of Random Forest & XGBoost Models Output of Random forest: Output of XGBoost: Observations:   The XGBoost model provided the most accurate Remaining Useful Life (RUL) predictions among all models tested.",
                 "keywords": [
                     "pandas"
                 ],
@@ -243,7 +217,7 @@
     "classification": {
         "primary_category": "AI",
         "secondary_category": "Healthcare",
-        "confidence_score": 0.2,
+        "confidence_score": 0.18,
         "matched_keywords": [
             "machine learning",
             "rag"
@@ -269,12 +243,12 @@
         "classification_explanation": "AI selected because it contains 2 supporting keyword(s): machine learning, rag"
     },
     "confidence": {
-        "score": 70,
-        "supporting_evidence_count": 10,
-        "validated_entity_count": 6,
+        "score": 74,
+        "supporting_evidence_count": 12,
+        "validated_entity_count": 8,
         "document_completeness": 0.38,
         "contradictory_evidence_count": 0,
-        "explanation": "Confidence derived from 10 supporting evidences, 6 validated entities, and document completeness of 38%."
+        "explanation": "Confidence derived from 12 supporting evidences, 8 validated entities, and document completeness of 38%."
     },
     "recommendations": {
         "related_domains": [
@@ -299,11 +273,11 @@
         "recommended_classifications": [
             "AI"
         ],
-        "recommendation_explanation": "The document was classified under 'AI' with confidence score 0.2. Based on this classification, related domains, tags and use cases have been recommended to enrich downstream intelligence processing.",
+        "recommendation_explanation": "The document was classified under 'AI' with confidence score 0.18. Based on this classification, related domains, tags and use cases have been recommended to enrich downstream intelligence processing.",
         "intelligence_summary": "This document primarily belongs to the AI domain. It is strongly associated with Machine Learning, Data Science. The extracted intelligence can be used for classification, search, and knowledge management purposes. Additional recommendations have been generated to enrich future analysis."
     },
     "processing_trace": {
-        "execution_timestamp": "2026-06-22 10:28:35",
+        "execution_timestamp": "2026-06-26 00:37:16",
         "overall_status": "SUCCESS",
         "processing_trace": [
             {
@@ -316,7 +290,7 @@
             },
             {
                 "step": "Content Extraction",
-                "details": "9637 characters extracted"
+                "details": "9545 characters extracted"
             },
             {
                 "step": "PDF Metadata",
@@ -328,15 +302,15 @@
             },
             {
                 "step": "Entity Extraction",
-                "details": "6 entities extracted"
+                "details": "8 entities extracted"
             },
             {
                 "step": "Entity Validation",
-                "details": "6 validated, 20 rejected"
+                "details": "8 validated, 10 rejected"
             },
             {
                 "step": "Evidence Generation",
-                "details": "4 evidence records generated"
+                "details": "6 evidence records generated"
             },
             {
                 "step": "Classification",
@@ -344,7 +318,7 @@
             },
             {
                 "step": "Confidence Scoring",
-                "details": "Confidence Score: 70"
+                "details": "Confidence Score: 74"
             },
             {
                 "step": "Recommendation Generation",
@@ -360,8 +334,8 @@
         "document_type": "Project Submission",
         "primary_category": "AI",
         "secondary_category": "Healthcare",
-        "classification_confidence": 0.2,
-        "overall_confidence": 70,
+        "classification_confidence": 0.18,
+        "overall_confidence": 74,
         "recommended_tags": [
             "artificial-intelligence",
             "machine-learning",
@@ -369,8 +343,8 @@
             "chatbot",
             "automation"
         ],
-        "entity_count": 6,
-        "rejected_entity_count": 20,
-        "evidence_count": 10
+        "entity_count": 8,
+        "rejected_entity_count": 10,
+        "evidence_count": 12
     }
 }

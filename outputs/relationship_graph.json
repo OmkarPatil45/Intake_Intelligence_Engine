@@ -25,11 +25,7 @@
             "type": "document"
         },
         {
-            "id": "docFile4.docx",
-            "type": "document"
-        },
-        {
-            "id": "DS project.docx",
+            "id": "Ds project.docx",
             "type": "document"
         },
         {
@@ -81,10 +77,6 @@
             "type": "document"
         },
         {
-            "id": "student_marks.csv",
-            "type": "document"
-        },
-        {
             "id": "user_device_.csv",
             "type": "document"
         }
@@ -92,7 +84,43 @@
     "relationships": [
         {
             "source": "BI_REPORT.pdf",
-            "target": "DS project.docx",
+            "target": "docFile2.docx",
+            "relationship": "same_person",
+            "entity": "Omkar Patil"
+        },
+        {
+            "source": "BI_REPORT.pdf",
+            "target": "docFile2.docx",
+            "relationship": "same_person",
+            "entity": "Anand Dane"
+        },
+        {
+            "source": "BI_REPORT.pdf",
+            "target": "docFile2.docx",
+            "relationship": "same_person",
+            "entity": "Swaroop Sawant"
+        },
+        {
+            "source": "BI_REPORT.pdf",
+            "target": "Ds project.docx",
+            "relationship": "same_person",
+            "entity": "Anand Dane"
+        },
+        {
+            "source": "BI_REPORT.pdf",
+            "target": "Ds project.docx",
+            "relationship": "same_person",
+            "entity": "Swaroop Sawant"
+        },
+        {
+            "source": "BI_REPORT.pdf",
+            "target": "Ds project.docx",
+            "relationship": "same_technology",
+            "entity": "machine learning"
+        },
+        {
+            "source": "BI_REPORT.pdf",
+            "target": "resume.pdf",
             "relationship": "same_technology",
             "entity": "machine learning"
         },
@@ -103,34 +131,28 @@
             "entity": "pandas"
         },
         {
-            "source": "BI_REPORT.pdf",
-            "target": "resume.pdf",
-            "relationship": "same_technology",
-            "entity": "machine learning"
-        },
-        {
             "source": "docFile2.docx",
-            "target": "DS project.docx",
+            "target": "Ds project.docx",
             "relationship": "same_person",
-            "entity": "Omkar Patil"
+            "entity": "Anand Dane"
         },
         {
             "source": "docFile2.docx",
-            "target": "DS project.docx",
+            "target": "Ds project.docx",
             "relationship": "same_person",
             "entity": "Swaroop Sawant"
         },
         {
             "source": "docFile2.docx",
-            "target": "DS project.docx",
+            "target": "Ds project.docx",
             "relationship": "same_organization",
-            "entity": "Department of Information Technology"
+            "entity": "University of Mumbai"
         },
         {
             "source": "docFile2.docx",
-            "target": "DS project.docx",
-            "relationship": "same_organization",
-            "entity": "University of Mumbai"
+            "target": "file_4.pdf",
+            "relationship": "same_technology",
+            "entity": "express"
         },
         {
             "source": "docFile2.docx",
@@ -140,7 +162,7 @@
         },
         {
             "source": "docFile2.docx",
-            "target": "file_4.pdf",
+            "target": "resume.pdf",
             "relationship": "same_technology",
             "entity": "express"
         },
@@ -157,22 +179,40 @@
             "entity": "python"
         },
         {
-            "source": "docFile2.docx",
+            "source": "Ds project.docx",
             "target": "resume.pdf",
             "relationship": "same_technology",
-            "entity": "express"
+            "entity": "machine learning"
         },
         {
-            "source": "DS project.docx",
+            "source": "Ds project.docx",
             "target": "resume.pdf",
             "relationship": "same_technology",
             "entity": "data science"
         },
         {
-            "source": "DS project.docx",
+            "source": "file_4.pdf",
             "target": "resume.pdf",
             "relationship": "same_technology",
-            "entity": "machine learning"
+            "entity": "sql"
+        },
+        {
+            "source": "file_4.pdf",
+            "target": "resume.pdf",
+            "relationship": "same_technology",
+            "entity": "express"
+        },
+        {
+            "source": "file_4.pdf",
+            "target": "resume.pdf",
+            "relationship": "same_technology",
+            "entity": "git"
+        },
+        {
+            "source": "file_4.pdf",
+            "target": "resume.pdf",
+            "relationship": "same_technology",
+            "entity": "node.js"
         },
         {
             "source": "file_4.pdf",
@@ -187,46 +227,22 @@
             "entity": "github"
         },
         {
-            "source": "file_4.pdf",
-            "target": "resume.pdf",
-            "relationship": "same_technology",
-            "entity": "git"
+            "source": "Sample1.txt",
+            "target": "sample4.txt",
+            "relationship": "same_person",
+            "entity": "Elena Kagan"
         },
         {
-            "source": "file_4.pdf",
-            "target": "resume.pdf",
-            "relationship": "same_technology",
-            "entity": "express"
-        },
-        {
-            "source": "file_4.pdf",
-            "target": "resume.pdf",
-            "relationship": "same_technology",
-            "entity": "node.js"
-        },
-        {
-            "source": "file_4.pdf",
-            "target": "resume.pdf",
-            "relationship": "same_technology",
-            "entity": "sql"
+            "source": "Sample1.txt",
+            "target": "sample4.txt",
+            "relationship": "same_person",
+            "entity": "Marijuana Legalization"
         },
         {
             "source": "Sample1.txt",
             "target": "sample4.txt",
             "relationship": "same_person",
             "entity": "Samuel Alito"
-        },
-        {
-            "source": "Sample1.txt",
-            "target": "sample4.txt",
-            "relationship": "same_person",
-            "entity": "Anthony Kennedy"
-        },
-        {
-            "source": "Sample1.txt",
-            "target": "sample4.txt",
-            "relationship": "same_person",
-            "entity": "Elena Kagan"
         },
         {
             "source": "Sample1.txt",
@@ -244,7 +260,7 @@
             "source": "Sample1.txt",
             "target": "sample4.txt",
             "relationship": "same_person",
-            "entity": "Marijuana Legalization"
+            "entity": "Sonia Sotomayor"
         },
         {
             "source": "Sample1.txt",
@@ -262,13 +278,7 @@
             "source": "Sample1.txt",
             "target": "sample4.txt",
             "relationship": "same_person",
-            "entity": "Sonia Sotomayor"
-        },
-        {
-            "source": "Sample1.txt",
-            "target": "sample4.txt",
-            "relationship": "same_organization",
-            "entity": "Environmental Protection Agency"
+            "entity": "Anthony Kennedy"
         },
         {
             "source": "Sample1.txt",
@@ -280,13 +290,19 @@
             "source": "Sample1.txt",
             "target": "sample4.txt",
             "relationship": "same_organization",
+            "entity": "Defense of Marriage Act"
+        },
+        {
+            "source": "Sample1.txt",
+            "target": "sample4.txt",
+            "relationship": "same_organization",
             "entity": "Congress"
         },
         {
             "source": "Sample1.txt",
             "target": "sample4.txt",
             "relationship": "same_organization",
-            "entity": "Defense of Marriage Act"
+            "entity": "Environmental Protection Agency"
         }
     ]
 }

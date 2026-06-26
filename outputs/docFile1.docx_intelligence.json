@@ -21,14 +21,13 @@
     },
     "entities": {
         "names": [
-            "Convert",
-            "Kindles"
+            "Text Formatting"
         ],
         "organizations": [
-            "Footnotes & Endnotes Footnotes",
-            "Microsoft",
-            "Next",
-            "Ubuntu"
+            "AZW3",
+            "Footnotes & Endnotes",
+            "Kindles",
+            "Microsoft"
         ],
         "technologies": [],
         "skills": [],
@@ -37,101 +36,63 @@
         "emails": [],
         "phone_numbers": []
     },
-    "rejected_entities": [
-        {
-            "entity": "Bulleted List",
-            "entity_type": "ORG",
-            "reason": "Likely person name misclassified as organization"
-        }
-    ],
+    "rejected_entities": [],
     "evidence_report": {
-        "Convert": [
+        "Text Formatting": [
             {
                 "paragraph": 1,
-                "sentence": "Demonstration of DOCX support in calibre This document demonstrates the ability of the calibre DOCX Input plugin to convert the various typographic features in a Microsoft Word (2007 and newer) document.",
+                "sentence": "Text Formatting Inline formatting Here, we demonstrate various types of inline text formatting and the use of embedded fonts.",
                 "keywords": [
-                    "Convert"
+                    "Text Formatting"
                 ],
                 "reason": "Entity explicitly mentioned",
                 "confidence": 1.0
             },
+            {
+                "paragraph": 1,
+                "sentence": "Demonstration of DOCX support in calibre 1 Text Formatting 2 Inline formatting 2 Fun with fonts 2 Paragraph level formatting 2 Tables 3 Structural Elements 5 Footnotes & Endnotes 5 Dropcaps 5 Links 5 Table of Contents 5 Images 7 Lists 8 Bulleted List 8 Numbered List 8 Multi-level Lists 8 Continued Lists 8 Images Images can be of three main types.",
+                "keywords": [
+                    "Text Formatting"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            }
+        ],
+        "AZW3": [
             {
                 "paragraph": 1,
                 "sentence": "Convert this document to a modern ebook format, such as AZW3 for Kindles or EPUB for other ebook readers, to see it in action.",
                 "keywords": [
-                    "Convert"
+                    "AZW3"
                 ],
                 "reason": "Entity explicitly mentioned",
                 "confidence": 1.0
             },
             {
                 "paragraph": 1,
-                "sentence": "To see the DOCX conversion in action, simply add this file to calibre using the \u201cAdd Books\u201d button and then click \u201cConvert\u201d.",
+                "sentence": "Set the output format in the top right corner of the conversion dialog to EPUB or AZW3 and click \u201cOK\u201d.",
                 "keywords": [
-                    "Convert"
+                    "AZW3"
                 ],
                 "reason": "Entity explicitly mentioned",
                 "confidence": 1.0
-            },
-            {
-                "paragraph": 1,
-                "sentence": "calibre tries to do its best when converting tables.",
-                "keywords": [
-                    "Convert"
-                ],
-                "reason": "Entity explicitly mentioned",
-                "confidence": 1.0
-            },
-            {
-                "paragraph": 1,
-                "sentence": "While you may run into trouble with the occasional table, the vast majority of common cases should be converted very well, as demonstrated in this section.",
-                "keywords": [
-                    "Convert"
-                ],
-                "reason": "Entity explicitly mentioned",
-                "confidence": 1.0
-            },
+            }
+        ],
+        "Footnotes & Endnotes": [
             {
                 "paragraph": 1,
                 "sentence": "Footnotes & Endnotes Footnotes and endnotes are automatically recognized and both are converted to endnotes, with backlinks for maximum ease of use in ebook devices.",
                 "keywords": [
-                    "Convert"
+                    "Footnotes & Endnotes"
                 ],
                 "reason": "Entity explicitly mentioned",
                 "confidence": 1.0
             },
             {
                 "paragraph": 1,
-                "sentence": "Because of limitations in ebook technology, this is not possible when converting.",
+                "sentence": "Demonstration of DOCX support in calibre 1 Text Formatting 2 Inline formatting 2 Fun with fonts 2 Paragraph level formatting 2 Tables 3 Structural Elements 5 Footnotes & Endnotes 5 Dropcaps 5 Links 5 Table of Contents 5 Images 7 Lists 8 Bulleted List 8 Numbered List 8 Multi-level Lists 8 Continued Lists 8 Images Images can be of three main types.",
                 "keywords": [
-                    "Convert"
-                ],
-                "reason": "Entity explicitly mentioned",
-                "confidence": 1.0
-            },
-            {
-                "paragraph": 1,
-                "sentence": "Instead, the converted drop cap will use font size and line height to simulate the effect as well as possible.",
-                "keywords": [
-                    "Convert"
-                ],
-                "reason": "Entity explicitly mentioned",
-                "confidence": 1.0
-            },
-            {
-                "paragraph": 1,
-                "sentence": "You can see the Table of Contents created by calibre by clicking the Table of Contents button in whatever viewer you are using to view the converted ebook.",
-                "keywords": [
-                    "Convert"
-                ],
-                "reason": "Entity explicitly mentioned",
-                "confidence": 1.0
-            },
-            {
-                "paragraph": 1,
-                "sentence": "Lists All types of lists are supported by the conversion, with the exception of lists that use fancy bullets, these get converted to regular bullets.",
-                "keywords": [
-                    "Convert"
+                    "Footnotes & Endnotes"
                 ],
                 "reason": "Entity explicitly mentioned",
                 "confidence": 1.0
@@ -148,72 +109,12 @@
                 "confidence": 1.0
             }
         ],
-        "Footnotes & Endnotes Footnotes": [
-            {
-                "paragraph": 1,
-                "sentence": "Footnotes & Endnotes Footnotes and endnotes are automatically recognized and both are converted to endnotes, with backlinks for maximum ease of use in ebook devices.",
-                "keywords": [
-                    "Footnotes & Endnotes Footnotes"
-                ],
-                "reason": "Entity explicitly mentioned",
-                "confidence": 1.0
-            }
-        ],
         "Microsoft": [
             {
                 "paragraph": 1,
                 "sentence": "Demonstration of DOCX support in calibre This document demonstrates the ability of the calibre DOCX Input plugin to convert the various typographic features in a Microsoft Word (2007 and newer) document.",
                 "keywords": [
                     "Microsoft"
-                ],
-                "reason": "Entity explicitly mentioned",
-                "confidence": 1.0
-            }
-        ],
-        "Next": [
-            {
-                "paragraph": 1,
-                "sentence": "Next, we see a table with special formatting in various locations.",
-                "keywords": [
-                    "Next"
-                ],
-                "reason": "Entity explicitly mentioned",
-                "confidence": 1.0
-            },
-            {
-                "paragraph": 1,
-                "sentence": "Source: Fictitious data, for illustration purposes only Next, we have something a little more complex, a nested table, i.e.",
-                "keywords": [
-                    "Next"
-                ],
-                "reason": "Entity explicitly mentioned",
-                "confidence": 1.0
-            },
-            {
-                "paragraph": 1,
-                "sentence": "The next category of image is a floating image, one that \u201cfloats \u201c on the page and is surrounded by text.",
-                "keywords": [
-                    "Next"
-                ],
-                "reason": "Entity explicitly mentioned",
-                "confidence": 1.0
-            }
-        ],
-        "Ubuntu": [
-            {
-                "paragraph": 1,
-                "sentence": "Fun with fonts This document has embedded the Ubuntu font family.",
-                "keywords": [
-                    "Ubuntu"
-                ],
-                "reason": "Entity explicitly mentioned",
-                "confidence": 1.0
-            },
-            {
-                "paragraph": 1,
-                "sentence": "The body text is in the Ubuntu typeface, here is some text in the Ubuntu Mono typeface, notice how every letter has the same width, even i and m.",
-                "keywords": [
-                    "Ubuntu"
                 ],
                 "reason": "Entity explicitly mentioned",
                 "confidence": 1.0
@@ -244,12 +145,12 @@
         "classification_explanation": "AI selected because it contains 1 supporting keyword(s): rag"
     },
     "confidence": {
-        "score": 67,
-        "supporting_evidence_count": 18,
-        "validated_entity_count": 6,
+        "score": 55,
+        "supporting_evidence_count": 8,
+        "validated_entity_count": 5,
         "document_completeness": 0.25,
         "contradictory_evidence_count": 0,
-        "explanation": "Confidence derived from 18 supporting evidences, 6 validated entities, and document completeness of 25%."
+        "explanation": "Confidence derived from 8 supporting evidences, 5 validated entities, and document completeness of 25%."
     },
     "recommendations": {
         "related_domains": [
@@ -278,7 +179,7 @@
         "intelligence_summary": "This document primarily belongs to the AI domain. It is strongly associated with Machine Learning, Data Science. The extracted intelligence can be used for classification, search, and knowledge management purposes. Additional recommendations have been generated to enrich future analysis."
     },
     "processing_trace": {
-        "execution_timestamp": "2026-06-22 11:47:28",
+        "execution_timestamp": "2026-06-26 10:57:49",
         "overall_status": "SUCCESS",
         "processing_trace": [
             {
@@ -303,15 +204,15 @@
             },
             {
                 "step": "Entity Extraction",
-                "details": "6 entities extracted"
+                "details": "5 entities extracted"
             },
             {
                 "step": "Entity Validation",
-                "details": "6 validated, 1 rejected"
+                "details": "5 validated, 0 rejected"
             },
             {
                 "step": "Evidence Generation",
-                "details": "6 evidence records generated"
+                "details": "5 evidence records generated"
             },
             {
                 "step": "Classification",
@@ -319,7 +220,7 @@
             },
             {
                 "step": "Confidence Scoring",
-                "details": "Confidence Score: 67"
+                "details": "Confidence Score: 55"
             },
             {
                 "step": "Recommendation Generation",
@@ -336,7 +237,7 @@
         "primary_category": "AI",
         "secondary_category": "Governance",
         "classification_confidence": 0.09,
-        "overall_confidence": 67,
+        "overall_confidence": 55,
         "recommended_tags": [
             "artificial-intelligence",
             "machine-learning",
@@ -344,8 +245,8 @@
             "chatbot",
             "automation"
         ],
-        "entity_count": 6,
-        "rejected_entity_count": 1,
-        "evidence_count": 18
+        "entity_count": 5,
+        "rejected_entity_count": 0,
+        "evidence_count": 8
     }
 }

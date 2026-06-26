@@ -67,10 +67,12 @@
             "scikit-learn",
             "sql"
         ],
-        "locations": [],
+        "locations": [
+            "CSS3"
+        ],
         "dates": [],
         "emails": [
-            "pesahilsangale024@gmail.com"
+            "sahilsangale024@gmail.com"
         ],
         "phone_numbers": [
             "+91 9604249736"
@@ -78,44 +80,24 @@
     },
     "rejected_entities": [
         {
-            "entity": "Chatbot Developed",
-            "entity_type": "PERSON",
-            "reason": "Technical phrase, not a person"
-        },
-        {
-            "entity": "Html5",
-            "entity_type": "PERSON",
-            "reason": "Technology term, not a person"
-        },
-        {
-            "entity": "Rag-Based",
-            "entity_type": "PERSON",
-            "reason": "Hyphenated technical phrase"
-        },
-        {
-            "entity": "CERTIFICATIONS",
-            "entity_type": "ORG",
-            "reason": "Document heading"
-        },
-        {
-            "entity": "CRUD",
-            "entity_type": "ORG",
-            "reason": "Software operation pattern"
-        },
-        {
             "entity": "Database Systems",
             "entity_type": "ORG",
             "reason": "Generic technical concept"
         },
         {
-            "entity": "TNS India Foundation",
+            "entity": "Information Technology",
             "entity_type": "ORG",
             "reason": "Likely person name misclassified as organization"
         },
         {
-            "entity": "Unsupervised Learning  Development Tools",
+            "entity": "TECHNICAL SKILLS \u2022 Programming Languages:",
             "entity_type": "ORG",
             "reason": "Document heading"
+        },
+        {
+            "entity": "TNS India Foundation",
+            "entity_type": "ORG",
+            "reason": "Likely person name misclassified as organization"
         },
         {
             "entity": "Web Technologies",
@@ -137,7 +119,7 @@
         "Sahil Sangale": [
             {
                 "paragraph": 1,
-                "sentence": "SAHIL SANGALE",
+                "sentence": "SAHIL SANGALE # sahilsangale024@gmail.com | \u0083 +91 9604249736 | \u00ef LinkedIn OBJECTIVE   Results-driven Software Developer with solid expertise in Web Technologies, Object-Oriented Program- ming (OOP), Database Systems, and Machine Learning.",
                 "keywords": [
                     "Sahil Sangale"
                 ],
@@ -147,8 +129,8 @@
         ],
         "bootstrap": [
             {
-                "paragraph": 2,
-                "sentence": "TECHNICAL SKILLS  Programming Languages:C++, Python  Web Technologies:HTML5, CSS3, Bootstrap, JavaScript, React.js, Node.js  Databases:SQL, MongoDB  Machine Learning:Supervised Learning, Unsupervised Learning  Development Tools:Git, Github, VS Code, Hoppscotch EDUCATION  VasantdadaPatil College Of Engineering B.E in Information Technology Nov 2022 - May 2026 CGPA : 7.2 ( 6 sem )  S.V.K.T Junior College Higher Senior Secondary (ClassXII) March 2022 Percentage : 59.00  Nutan Vidhyamandir Deolali Camp Senior Secondary (Class X) March 2020 Percentage : 86.60 PROJECT  Wanderlust \u2013 Travel Web Application Developed a full-stack travel web application for exploring destinations, planning trips, and managing itineraries.",
+                "paragraph": 1,
+                "sentence": "TECHNICAL SKILLS   Programming Languages: C++, Python   Web Technologies: HTML5, CSS3, Bootstrap, JavaScript, React.js, Node.js   Databases: SQL, MongoDB   Machine Learning: Supervised Learning, Unsupervised Learning   Development Tools: Git, Github, VS Code, Hoppscotch EDUCATION   VasantdadaPatil College Of Engineering B.E in Information Technology Nov 2022 - May 2026 CGPA : 7.2 ( 6 sem )   S.V.K.T Junior College Higher Senior Secondary (ClassXII) March 2022 Percentage : 59.00   Nutan Vidhyamandir Deolali Camp Senior Secondary (Class X) March 2020 Percentage : 86.60 PROJECT   Wanderlust \u2013 Travel Web Application Developed a full-stack travel web application for exploring destinations, planning trips, and managing itineraries.",
                 "keywords": [
                     "bootstrap"
                 ],
@@ -158,8 +140,8 @@
         ],
         "css": [
             {
-                "paragraph": 2,
-                "sentence": "TECHNICAL SKILLS  Programming Languages:C++, Python  Web Technologies:HTML5, CSS3, Bootstrap, JavaScript, React.js, Node.js  Databases:SQL, MongoDB  Machine Learning:Supervised Learning, Unsupervised Learning  Development Tools:Git, Github, VS Code, Hoppscotch EDUCATION  VasantdadaPatil College Of Engineering B.E in Information Technology Nov 2022 - May 2026 CGPA : 7.2 ( 6 sem )  S.V.K.T Junior College Higher Senior Secondary (ClassXII) March 2022 Percentage : 59.00  Nutan Vidhyamandir Deolali Camp Senior Secondary (Class X) March 2020 Percentage : 86.60 PROJECT  Wanderlust \u2013 Travel Web Application Developed a full-stack travel web application for exploring destinations, planning trips, and managing itineraries.",
+                "paragraph": 1,
+                "sentence": "TECHNICAL SKILLS   Programming Languages: C++, Python   Web Technologies: HTML5, CSS3, Bootstrap, JavaScript, React.js, Node.js   Databases: SQL, MongoDB   Machine Learning: Supervised Learning, Unsupervised Learning   Development Tools: Git, Github, VS Code, Hoppscotch EDUCATION   VasantdadaPatil College Of Engineering B.E in Information Technology Nov 2022 - May 2026 CGPA : 7.2 ( 6 sem )   S.V.K.T Junior College Higher Senior Secondary (ClassXII) March 2022 Percentage : 59.00   Nutan Vidhyamandir Deolali Camp Senior Secondary (Class X) March 2020 Percentage : 86.60 PROJECT   Wanderlust \u2013 Travel Web Application Developed a full-stack travel web application for exploring destinations, planning trips, and managing itineraries.",
                 "keywords": [
                     "css"
                 ],
@@ -167,7 +149,7 @@
                 "confidence": 1.0
             },
             {
-                "paragraph": 2,
+                "paragraph": 1,
                 "sentence": "Built frontend with HTML, CSS, JavaScript, backend with Node.js/Express, and MongoDB for data management, including user authentication, CRUD operations, and responsive design for a seamless user experience.",
                 "keywords": [
                     "css"
@@ -176,8 +158,8 @@
                 "confidence": 1.0
             },
             {
-                "paragraph": 2,
-                "sentence": "EXPERIANCE  IBMSkillbuild - Web Devlopment Intern Hands-onexperiencewithHTML,CSS,andJavaScript, enhancingdevelopmentskills.",
+                "paragraph": 1,
+                "sentence": "EXPERIANCE   IBMSkillbuild - Web Devlopment Intern Hands-on experience with HTML, CSS, and JavaScript, enhancing development skills.",
                 "keywords": [
                     "css"
                 ],
@@ -187,8 +169,8 @@
         ],
         "data science": [
             {
-                "paragraph": 2,
-                "sentence": "CERTIFICATIONS  NPTEL - Data Science For Engineering  Web Development Cource - Apna College-Shraddha Khapra, IIT Alumni 1",
+                "paragraph": 1,
+                "sentence": "CERTIFICATIONS   NPTEL - Data Science For Engineering   Web Development Cource - Apna College-Shraddha Khapra, IIT Alumni 1",
                 "keywords": [
                     "data science"
                 ],
@@ -198,7 +180,7 @@
         ],
         "express": [
             {
-                "paragraph": 2,
+                "paragraph": 1,
                 "sentence": "Built frontend with HTML, CSS, JavaScript, backend with Node.js/Express, and MongoDB for data management, including user authentication, CRUD operations, and responsive design for a seamless user experience.",
                 "keywords": [
                     "express"
@@ -209,8 +191,8 @@
         ],
         "git": [
             {
-                "paragraph": 2,
-                "sentence": "TECHNICAL SKILLS  Programming Languages:C++, Python  Web Technologies:HTML5, CSS3, Bootstrap, JavaScript, React.js, Node.js  Databases:SQL, MongoDB  Machine Learning:Supervised Learning, Unsupervised Learning  Development Tools:Git, Github, VS Code, Hoppscotch EDUCATION  VasantdadaPatil College Of Engineering B.E in Information Technology Nov 2022 - May 2026 CGPA : 7.2 ( 6 sem )  S.V.K.T Junior College Higher Senior Secondary (ClassXII) March 2022 Percentage : 59.00  Nutan Vidhyamandir Deolali Camp Senior Secondary (Class X) March 2020 Percentage : 86.60 PROJECT  Wanderlust \u2013 Travel Web Application Developed a full-stack travel web application for exploring destinations, planning trips, and managing itineraries.",
+                "paragraph": 1,
+                "sentence": "TECHNICAL SKILLS   Programming Languages: C++, Python   Web Technologies: HTML5, CSS3, Bootstrap, JavaScript, React.js, Node.js   Databases: SQL, MongoDB   Machine Learning: Supervised Learning, Unsupervised Learning   Development Tools: Git, Github, VS Code, Hoppscotch EDUCATION   VasantdadaPatil College Of Engineering B.E in Information Technology Nov 2022 - May 2026 CGPA : 7.2 ( 6 sem )   S.V.K.T Junior College Higher Senior Secondary (ClassXII) March 2022 Percentage : 59.00   Nutan Vidhyamandir Deolali Camp Senior Secondary (Class X) March 2020 Percentage : 86.60 PROJECT   Wanderlust \u2013 Travel Web Application Developed a full-stack travel web application for exploring destinations, planning trips, and managing itineraries.",
                 "keywords": [
                     "git"
                 ],
@@ -220,8 +202,8 @@
         ],
         "github": [
             {
-                "paragraph": 2,
-                "sentence": "TECHNICAL SKILLS  Programming Languages:C++, Python  Web Technologies:HTML5, CSS3, Bootstrap, JavaScript, React.js, Node.js  Databases:SQL, MongoDB  Machine Learning:Supervised Learning, Unsupervised Learning  Development Tools:Git, Github, VS Code, Hoppscotch EDUCATION  VasantdadaPatil College Of Engineering B.E in Information Technology Nov 2022 - May 2026 CGPA : 7.2 ( 6 sem )  S.V.K.T Junior College Higher Senior Secondary (ClassXII) March 2022 Percentage : 59.00  Nutan Vidhyamandir Deolali Camp Senior Secondary (Class X) March 2020 Percentage : 86.60 PROJECT  Wanderlust \u2013 Travel Web Application Developed a full-stack travel web application for exploring destinations, planning trips, and managing itineraries.",
+                "paragraph": 1,
+                "sentence": "TECHNICAL SKILLS   Programming Languages: C++, Python   Web Technologies: HTML5, CSS3, Bootstrap, JavaScript, React.js, Node.js   Databases: SQL, MongoDB   Machine Learning: Supervised Learning, Unsupervised Learning   Development Tools: Git, Github, VS Code, Hoppscotch EDUCATION   VasantdadaPatil College Of Engineering B.E in Information Technology Nov 2022 - May 2026 CGPA : 7.2 ( 6 sem )   S.V.K.T Junior College Higher Senior Secondary (ClassXII) March 2022 Percentage : 59.00   Nutan Vidhyamandir Deolali Camp Senior Secondary (Class X) March 2020 Percentage : 86.60 PROJECT   Wanderlust \u2013 Travel Web Application Developed a full-stack travel web application for exploring destinations, planning trips, and managing itineraries.",
                 "keywords": [
                     "github"
                 ],
@@ -231,8 +213,8 @@
         ],
         "html": [
             {
-                "paragraph": 2,
-                "sentence": "TECHNICAL SKILLS  Programming Languages:C++, Python  Web Technologies:HTML5, CSS3, Bootstrap, JavaScript, React.js, Node.js  Databases:SQL, MongoDB  Machine Learning:Supervised Learning, Unsupervised Learning  Development Tools:Git, Github, VS Code, Hoppscotch EDUCATION  VasantdadaPatil College Of Engineering B.E in Information Technology Nov 2022 - May 2026 CGPA : 7.2 ( 6 sem )  S.V.K.T Junior College Higher Senior Secondary (ClassXII) March 2022 Percentage : 59.00  Nutan Vidhyamandir Deolali Camp Senior Secondary (Class X) March 2020 Percentage : 86.60 PROJECT  Wanderlust \u2013 Travel Web Application Developed a full-stack travel web application for exploring destinations, planning trips, and managing itineraries.",
+                "paragraph": 1,
+                "sentence": "TECHNICAL SKILLS   Programming Languages: C++, Python   Web Technologies: HTML5, CSS3, Bootstrap, JavaScript, React.js, Node.js   Databases: SQL, MongoDB   Machine Learning: Supervised Learning, Unsupervised Learning   Development Tools: Git, Github, VS Code, Hoppscotch EDUCATION   VasantdadaPatil College Of Engineering B.E in Information Technology Nov 2022 - May 2026 CGPA : 7.2 ( 6 sem )   S.V.K.T Junior College Higher Senior Secondary (ClassXII) March 2022 Percentage : 59.00   Nutan Vidhyamandir Deolali Camp Senior Secondary (Class X) March 2020 Percentage : 86.60 PROJECT   Wanderlust \u2013 Travel Web Application Developed a full-stack travel web application for exploring destinations, planning trips, and managing itineraries.",
                 "keywords": [
                     "html"
                 ],
@@ -240,7 +222,7 @@
                 "confidence": 1.0
             },
             {
-                "paragraph": 2,
+                "paragraph": 1,
                 "sentence": "Built frontend with HTML, CSS, JavaScript, backend with Node.js/Express, and MongoDB for data management, including user authentication, CRUD operations, and responsive design for a seamless user experience.",
                 "keywords": [
                     "html"
@@ -249,8 +231,8 @@
                 "confidence": 1.0
             },
             {
-                "paragraph": 2,
-                "sentence": "EXPERIANCE  IBMSkillbuild - Web Devlopment Intern Hands-onexperiencewithHTML,CSS,andJavaScript, enhancingdevelopmentskills.",
+                "paragraph": 1,
+                "sentence": "EXPERIANCE   IBMSkillbuild - Web Devlopment Intern Hands-on experience with HTML, CSS, and JavaScript, enhancing development skills.",
                 "keywords": [
                     "html"
                 ],
@@ -260,8 +242,8 @@
         ],
         "javascript": [
             {
-                "paragraph": 2,
-                "sentence": "TECHNICAL SKILLS  Programming Languages:C++, Python  Web Technologies:HTML5, CSS3, Bootstrap, JavaScript, React.js, Node.js  Databases:SQL, MongoDB  Machine Learning:Supervised Learning, Unsupervised Learning  Development Tools:Git, Github, VS Code, Hoppscotch EDUCATION  VasantdadaPatil College Of Engineering B.E in Information Technology Nov 2022 - May 2026 CGPA : 7.2 ( 6 sem )  S.V.K.T Junior College Higher Senior Secondary (ClassXII) March 2022 Percentage : 59.00  Nutan Vidhyamandir Deolali Camp Senior Secondary (Class X) March 2020 Percentage : 86.60 PROJECT  Wanderlust \u2013 Travel Web Application Developed a full-stack travel web application for exploring destinations, planning trips, and managing itineraries.",
+                "paragraph": 1,
+                "sentence": "TECHNICAL SKILLS   Programming Languages: C++, Python   Web Technologies: HTML5, CSS3, Bootstrap, JavaScript, React.js, Node.js   Databases: SQL, MongoDB   Machine Learning: Supervised Learning, Unsupervised Learning   Development Tools: Git, Github, VS Code, Hoppscotch EDUCATION   VasantdadaPatil College Of Engineering B.E in Information Technology Nov 2022 - May 2026 CGPA : 7.2 ( 6 sem )   S.V.K.T Junior College Higher Senior Secondary (ClassXII) March 2022 Percentage : 59.00   Nutan Vidhyamandir Deolali Camp Senior Secondary (Class X) March 2020 Percentage : 86.60 PROJECT   Wanderlust \u2013 Travel Web Application Developed a full-stack travel web application for exploring destinations, planning trips, and managing itineraries.",
                 "keywords": [
                     "javascript"
                 ],
@@ -269,7 +251,7 @@
                 "confidence": 1.0
             },
             {
-                "paragraph": 2,
+                "paragraph": 1,
                 "sentence": "Built frontend with HTML, CSS, JavaScript, backend with Node.js/Express, and MongoDB for data management, including user authentication, CRUD operations, and responsive design for a seamless user experience.",
                 "keywords": [
                     "javascript"
@@ -278,8 +260,8 @@
                 "confidence": 1.0
             },
             {
-                "paragraph": 2,
-                "sentence": "EXPERIANCE  IBMSkillbuild - Web Devlopment Intern Hands-onexperiencewithHTML,CSS,andJavaScript, enhancingdevelopmentskills.",
+                "paragraph": 1,
+                "sentence": "EXPERIANCE   IBMSkillbuild - Web Devlopment Intern Hands-on experience with HTML, CSS, and JavaScript, enhancing development skills.",
                 "keywords": [
                     "javascript"
                 ],
@@ -289,8 +271,8 @@
         ],
         "machine learning": [
             {
-                "paragraph": 2,
-                "sentence": "envel\u2322pesahilsangale024@gmail.com |\u2642phone+91 9604249736 |/linkedinLinkedIn OBJECTIVE  Results-driven Software Developer with solid expertise in Web Technologies, Object-Oriented Program- ming (OOP), Database Systems, and Machine Learning.",
+                "paragraph": 1,
+                "sentence": "SAHIL SANGALE # sahilsangale024@gmail.com | \u0083 +91 9604249736 | \u00ef LinkedIn OBJECTIVE   Results-driven Software Developer with solid expertise in Web Technologies, Object-Oriented Program- ming (OOP), Database Systems, and Machine Learning.",
                 "keywords": [
                     "machine learning"
                 ],
@@ -298,8 +280,8 @@
                 "confidence": 1.0
             },
             {
-                "paragraph": 2,
-                "sentence": "TECHNICAL SKILLS  Programming Languages:C++, Python  Web Technologies:HTML5, CSS3, Bootstrap, JavaScript, React.js, Node.js  Databases:SQL, MongoDB  Machine Learning:Supervised Learning, Unsupervised Learning  Development Tools:Git, Github, VS Code, Hoppscotch EDUCATION  VasantdadaPatil College Of Engineering B.E in Information Technology Nov 2022 - May 2026 CGPA : 7.2 ( 6 sem )  S.V.K.T Junior College Higher Senior Secondary (ClassXII) March 2022 Percentage : 59.00  Nutan Vidhyamandir Deolali Camp Senior Secondary (Class X) March 2020 Percentage : 86.60 PROJECT  Wanderlust \u2013 Travel Web Application Developed a full-stack travel web application for exploring destinations, planning trips, and managing itineraries.",
+                "paragraph": 1,
+                "sentence": "TECHNICAL SKILLS   Programming Languages: C++, Python   Web Technologies: HTML5, CSS3, Bootstrap, JavaScript, React.js, Node.js   Databases: SQL, MongoDB   Machine Learning: Supervised Learning, Unsupervised Learning   Development Tools: Git, Github, VS Code, Hoppscotch EDUCATION   VasantdadaPatil College Of Engineering B.E in Information Technology Nov 2022 - May 2026 CGPA : 7.2 ( 6 sem )   S.V.K.T Junior College Higher Senior Secondary (ClassXII) March 2022 Percentage : 59.00   Nutan Vidhyamandir Deolali Camp Senior Secondary (Class X) March 2020 Percentage : 86.60 PROJECT   Wanderlust \u2013 Travel Web Application Developed a full-stack travel web application for exploring destinations, planning trips, and managing itineraries.",
                 "keywords": [
                     "machine learning"
                 ],
@@ -309,8 +291,8 @@
         ],
         "mongodb": [
             {
-                "paragraph": 2,
-                "sentence": "TECHNICAL SKILLS  Programming Languages:C++, Python  Web Technologies:HTML5, CSS3, Bootstrap, JavaScript, React.js, Node.js  Databases:SQL, MongoDB  Machine Learning:Supervised Learning, Unsupervised Learning  Development Tools:Git, Github, VS Code, Hoppscotch EDUCATION  VasantdadaPatil College Of Engineering B.E in Information Technology Nov 2022 - May 2026 CGPA : 7.2 ( 6 sem )  S.V.K.T Junior College Higher Senior Secondary (ClassXII) March 2022 Percentage : 59.00  Nutan Vidhyamandir Deolali Camp Senior Secondary (Class X) March 2020 Percentage : 86.60 PROJECT  Wanderlust \u2013 Travel Web Application Developed a full-stack travel web application for exploring destinations, planning trips, and managing itineraries.",
+                "paragraph": 1,
+                "sentence": "TECHNICAL SKILLS   Programming Languages: C++, Python   Web Technologies: HTML5, CSS3, Bootstrap, JavaScript, React.js, Node.js   Databases: SQL, MongoDB   Machine Learning: Supervised Learning, Unsupervised Learning   Development Tools: Git, Github, VS Code, Hoppscotch EDUCATION   VasantdadaPatil College Of Engineering B.E in Information Technology Nov 2022 - May 2026 CGPA : 7.2 ( 6 sem )   S.V.K.T Junior College Higher Senior Secondary (ClassXII) March 2022 Percentage : 59.00   Nutan Vidhyamandir Deolali Camp Senior Secondary (Class X) March 2020 Percentage : 86.60 PROJECT   Wanderlust \u2013 Travel Web Application Developed a full-stack travel web application for exploring destinations, planning trips, and managing itineraries.",
                 "keywords": [
                     "mongodb"
                 ],
@@ -318,7 +300,7 @@
                 "confidence": 1.0
             },
             {
-                "paragraph": 2,
+                "paragraph": 1,
                 "sentence": "Built frontend with HTML, CSS, JavaScript, backend with Node.js/Express, and MongoDB for data management, including user authentication, CRUD operations, and responsive design for a seamless user experience.",
                 "keywords": [
                     "mongodb"
@@ -329,8 +311,8 @@
         ],
         "node.js": [
             {
-                "paragraph": 2,
-                "sentence": "TECHNICAL SKILLS  Programming Languages:C++, Python  Web Technologies:HTML5, CSS3, Bootstrap, JavaScript, React.js, Node.js  Databases:SQL, MongoDB  Machine Learning:Supervised Learning, Unsupervised Learning  Development Tools:Git, Github, VS Code, Hoppscotch EDUCATION  VasantdadaPatil College Of Engineering B.E in Information Technology Nov 2022 - May 2026 CGPA : 7.2 ( 6 sem )  S.V.K.T Junior College Higher Senior Secondary (ClassXII) March 2022 Percentage : 59.00  Nutan Vidhyamandir Deolali Camp Senior Secondary (Class X) March 2020 Percentage : 86.60 PROJECT  Wanderlust \u2013 Travel Web Application Developed a full-stack travel web application for exploring destinations, planning trips, and managing itineraries.",
+                "paragraph": 1,
+                "sentence": "TECHNICAL SKILLS   Programming Languages: C++, Python   Web Technologies: HTML5, CSS3, Bootstrap, JavaScript, React.js, Node.js   Databases: SQL, MongoDB   Machine Learning: Supervised Learning, Unsupervised Learning   Development Tools: Git, Github, VS Code, Hoppscotch EDUCATION   VasantdadaPatil College Of Engineering B.E in Information Technology Nov 2022 - May 2026 CGPA : 7.2 ( 6 sem )   S.V.K.T Junior College Higher Senior Secondary (ClassXII) March 2022 Percentage : 59.00   Nutan Vidhyamandir Deolali Camp Senior Secondary (Class X) March 2020 Percentage : 86.60 PROJECT   Wanderlust \u2013 Travel Web Application Developed a full-stack travel web application for exploring destinations, planning trips, and managing itineraries.",
                 "keywords": [
                     "node.js"
                 ],
@@ -338,7 +320,7 @@
                 "confidence": 1.0
             },
             {
-                "paragraph": 2,
+                "paragraph": 1,
                 "sentence": "Built frontend with HTML, CSS, JavaScript, backend with Node.js/Express, and MongoDB for data management, including user authentication, CRUD operations, and responsive design for a seamless user experience.",
                 "keywords": [
                     "node.js"
@@ -349,7 +331,7 @@
         ],
         "numpy": [
             {
-                "paragraph": 2,
+                "paragraph": 1,
                 "sentence": "TNS India Foundation \u2013 AI&ML Hands-on experience in Python, data preprocessing, and ML model development using Pandas, NumPy, and Scikit-learn.",
                 "keywords": [
                     "numpy"
@@ -360,7 +342,7 @@
         ],
         "pandas": [
             {
-                "paragraph": 2,
+                "paragraph": 1,
                 "sentence": "TNS India Foundation \u2013 AI&ML Hands-on experience in Python, data preprocessing, and ML model development using Pandas, NumPy, and Scikit-learn.",
                 "keywords": [
                     "pandas"
@@ -371,8 +353,8 @@
         ],
         "python": [
             {
-                "paragraph": 2,
-                "sentence": "TECHNICAL SKILLS  Programming Languages:C++, Python  Web Technologies:HTML5, CSS3, Bootstrap, JavaScript, React.js, Node.js  Databases:SQL, MongoDB  Machine Learning:Supervised Learning, Unsupervised Learning  Development Tools:Git, Github, VS Code, Hoppscotch EDUCATION  VasantdadaPatil College Of Engineering B.E in Information Technology Nov 2022 - May 2026 CGPA : 7.2 ( 6 sem )  S.V.K.T Junior College Higher Senior Secondary (ClassXII) March 2022 Percentage : 59.00  Nutan Vidhyamandir Deolali Camp Senior Secondary (Class X) March 2020 Percentage : 86.60 PROJECT  Wanderlust \u2013 Travel Web Application Developed a full-stack travel web application for exploring destinations, planning trips, and managing itineraries.",
+                "paragraph": 1,
+                "sentence": "TECHNICAL SKILLS   Programming Languages: C++, Python   Web Technologies: HTML5, CSS3, Bootstrap, JavaScript, React.js, Node.js   Databases: SQL, MongoDB   Machine Learning: Supervised Learning, Unsupervised Learning   Development Tools: Git, Github, VS Code, Hoppscotch EDUCATION   VasantdadaPatil College Of Engineering B.E in Information Technology Nov 2022 - May 2026 CGPA : 7.2 ( 6 sem )   S.V.K.T Junior College Higher Senior Secondary (ClassXII) March 2022 Percentage : 59.00   Nutan Vidhyamandir Deolali Camp Senior Secondary (Class X) March 2020 Percentage : 86.60 PROJECT   Wanderlust \u2013 Travel Web Application Developed a full-stack travel web application for exploring destinations, planning trips, and managing itineraries.",
                 "keywords": [
                     "python"
                 ],
@@ -380,7 +362,7 @@
                 "confidence": 1.0
             },
             {
-                "paragraph": 2,
+                "paragraph": 1,
                 "sentence": "TNS India Foundation \u2013 AI&ML Hands-on experience in Python, data preprocessing, and ML model development using Pandas, NumPy, and Scikit-learn.",
                 "keywords": [
                     "python"
@@ -391,8 +373,8 @@
         ],
         "react": [
             {
-                "paragraph": 2,
-                "sentence": "TECHNICAL SKILLS  Programming Languages:C++, Python  Web Technologies:HTML5, CSS3, Bootstrap, JavaScript, React.js, Node.js  Databases:SQL, MongoDB  Machine Learning:Supervised Learning, Unsupervised Learning  Development Tools:Git, Github, VS Code, Hoppscotch EDUCATION  VasantdadaPatil College Of Engineering B.E in Information Technology Nov 2022 - May 2026 CGPA : 7.2 ( 6 sem )  S.V.K.T Junior College Higher Senior Secondary (ClassXII) March 2022 Percentage : 59.00  Nutan Vidhyamandir Deolali Camp Senior Secondary (Class X) March 2020 Percentage : 86.60 PROJECT  Wanderlust \u2013 Travel Web Application Developed a full-stack travel web application for exploring destinations, planning trips, and managing itineraries.",
+                "paragraph": 1,
+                "sentence": "TECHNICAL SKILLS   Programming Languages: C++, Python   Web Technologies: HTML5, CSS3, Bootstrap, JavaScript, React.js, Node.js   Databases: SQL, MongoDB   Machine Learning: Supervised Learning, Unsupervised Learning   Development Tools: Git, Github, VS Code, Hoppscotch EDUCATION   VasantdadaPatil College Of Engineering B.E in Information Technology Nov 2022 - May 2026 CGPA : 7.2 ( 6 sem )   S.V.K.T Junior College Higher Senior Secondary (ClassXII) March 2022 Percentage : 59.00   Nutan Vidhyamandir Deolali Camp Senior Secondary (Class X) March 2020 Percentage : 86.60 PROJECT   Wanderlust \u2013 Travel Web Application Developed a full-stack travel web application for exploring destinations, planning trips, and managing itineraries.",
                 "keywords": [
                     "react"
                 ],
@@ -402,8 +384,8 @@
         ],
         "react.js": [
             {
-                "paragraph": 2,
-                "sentence": "TECHNICAL SKILLS  Programming Languages:C++, Python  Web Technologies:HTML5, CSS3, Bootstrap, JavaScript, React.js, Node.js  Databases:SQL, MongoDB  Machine Learning:Supervised Learning, Unsupervised Learning  Development Tools:Git, Github, VS Code, Hoppscotch EDUCATION  VasantdadaPatil College Of Engineering B.E in Information Technology Nov 2022 - May 2026 CGPA : 7.2 ( 6 sem )  S.V.K.T Junior College Higher Senior Secondary (ClassXII) March 2022 Percentage : 59.00  Nutan Vidhyamandir Deolali Camp Senior Secondary (Class X) March 2020 Percentage : 86.60 PROJECT  Wanderlust \u2013 Travel Web Application Developed a full-stack travel web application for exploring destinations, planning trips, and managing itineraries.",
+                "paragraph": 1,
+                "sentence": "TECHNICAL SKILLS   Programming Languages: C++, Python   Web Technologies: HTML5, CSS3, Bootstrap, JavaScript, React.js, Node.js   Databases: SQL, MongoDB   Machine Learning: Supervised Learning, Unsupervised Learning   Development Tools: Git, Github, VS Code, Hoppscotch EDUCATION   VasantdadaPatil College Of Engineering B.E in Information Technology Nov 2022 - May 2026 CGPA : 7.2 ( 6 sem )   S.V.K.T Junior College Higher Senior Secondary (ClassXII) March 2022 Percentage : 59.00   Nutan Vidhyamandir Deolali Camp Senior Secondary (Class X) March 2020 Percentage : 86.60 PROJECT   Wanderlust \u2013 Travel Web Application Developed a full-stack travel web application for exploring destinations, planning trips, and managing itineraries.",
                 "keywords": [
                     "react.js"
                 ],
@@ -413,7 +395,7 @@
         ],
         "scikit-learn": [
             {
-                "paragraph": 2,
+                "paragraph": 1,
                 "sentence": "TNS India Foundation \u2013 AI&ML Hands-on experience in Python, data preprocessing, and ML model development using Pandas, NumPy, and Scikit-learn.",
                 "keywords": [
                     "scikit-learn"
@@ -424,8 +406,8 @@
         ],
         "sql": [
             {
-                "paragraph": 2,
-                "sentence": "TECHNICAL SKILLS  Programming Languages:C++, Python  Web Technologies:HTML5, CSS3, Bootstrap, JavaScript, React.js, Node.js  Databases:SQL, MongoDB  Machine Learning:Supervised Learning, Unsupervised Learning  Development Tools:Git, Github, VS Code, Hoppscotch EDUCATION  VasantdadaPatil College Of Engineering B.E in Information Technology Nov 2022 - May 2026 CGPA : 7.2 ( 6 sem )  S.V.K.T Junior College Higher Senior Secondary (ClassXII) March 2022 Percentage : 59.00  Nutan Vidhyamandir Deolali Camp Senior Secondary (Class X) March 2020 Percentage : 86.60 PROJECT  Wanderlust \u2013 Travel Web Application Developed a full-stack travel web application for exploring destinations, planning trips, and managing itineraries.",
+                "paragraph": 1,
+                "sentence": "TECHNICAL SKILLS   Programming Languages: C++, Python   Web Technologies: HTML5, CSS3, Bootstrap, JavaScript, React.js, Node.js   Databases: SQL, MongoDB   Machine Learning: Supervised Learning, Unsupervised Learning   Development Tools: Git, Github, VS Code, Hoppscotch EDUCATION   VasantdadaPatil College Of Engineering B.E in Information Technology Nov 2022 - May 2026 CGPA : 7.2 ( 6 sem )   S.V.K.T Junior College Higher Senior Secondary (ClassXII) March 2022 Percentage : 59.00   Nutan Vidhyamandir Deolali Camp Senior Secondary (Class X) March 2020 Percentage : 86.60 PROJECT   Wanderlust \u2013 Travel Web Application Developed a full-stack travel web application for exploring destinations, planning trips, and managing itineraries.",
                 "keywords": [
                     "sql"
                 ],
@@ -433,12 +415,23 @@
                 "confidence": 1.0
             }
         ],
-        "pesahilsangale024@gmail.com": [
+        "CSS3": [
             {
-                "paragraph": 2,
-                "sentence": "envel\u2322pesahilsangale024@gmail.com |\u2642phone+91 9604249736 |/linkedinLinkedIn OBJECTIVE  Results-driven Software Developer with solid expertise in Web Technologies, Object-Oriented Program- ming (OOP), Database Systems, and Machine Learning.",
+                "paragraph": 1,
+                "sentence": "TECHNICAL SKILLS   Programming Languages: C++, Python   Web Technologies: HTML5, CSS3, Bootstrap, JavaScript, React.js, Node.js   Databases: SQL, MongoDB   Machine Learning: Supervised Learning, Unsupervised Learning   Development Tools: Git, Github, VS Code, Hoppscotch EDUCATION   VasantdadaPatil College Of Engineering B.E in Information Technology Nov 2022 - May 2026 CGPA : 7.2 ( 6 sem )   S.V.K.T Junior College Higher Senior Secondary (ClassXII) March 2022 Percentage : 59.00   Nutan Vidhyamandir Deolali Camp Senior Secondary (Class X) March 2020 Percentage : 86.60 PROJECT   Wanderlust \u2013 Travel Web Application Developed a full-stack travel web application for exploring destinations, planning trips, and managing itineraries.",
                 "keywords": [
-                    "pesahilsangale024@gmail.com"
+                    "CSS3"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            }
+        ],
+        "sahilsangale024@gmail.com": [
+            {
+                "paragraph": 1,
+                "sentence": "SAHIL SANGALE # sahilsangale024@gmail.com | \u0083 +91 9604249736 | \u00ef LinkedIn OBJECTIVE   Results-driven Software Developer with solid expertise in Web Technologies, Object-Oriented Program- ming (OOP), Database Systems, and Machine Learning.",
+                "keywords": [
+                    "sahilsangale024@gmail.com"
                 ],
                 "reason": "Entity explicitly mentioned",
                 "confidence": 1.0
@@ -446,8 +439,8 @@
         ],
         "+91 9604249736": [
             {
-                "paragraph": 2,
-                "sentence": "envel\u2322pesahilsangale024@gmail.com |\u2642phone+91 9604249736 |/linkedinLinkedIn OBJECTIVE  Results-driven Software Developer with solid expertise in Web Technologies, Object-Oriented Program- ming (OOP), Database Systems, and Machine Learning.",
+                "paragraph": 1,
+                "sentence": "SAHIL SANGALE # sahilsangale024@gmail.com | \u0083 +91 9604249736 | \u00ef LinkedIn OBJECTIVE   Results-driven Software Developer with solid expertise in Web Technologies, Object-Oriented Program- ming (OOP), Database Systems, and Machine Learning.",
                 "keywords": [
                     "+91 9604249736"
                 ],
@@ -495,12 +488,12 @@
         "classification_explanation": "AI selected because it contains 4 supporting keyword(s): machine learning, rag, chatbot, data science"
     },
     "confidence": {
-        "score": 92,
-        "supporting_evidence_count": 31,
-        "validated_entity_count": 39,
-        "document_completeness": 0.62,
+        "score": 95,
+        "supporting_evidence_count": 32,
+        "validated_entity_count": 40,
+        "document_completeness": 0.75,
         "contradictory_evidence_count": 0,
-        "explanation": "Confidence derived from 31 supporting evidences, 39 validated entities, and document completeness of 62%."
+        "explanation": "Confidence derived from 32 supporting evidences, 40 validated entities, and document completeness of 75%."
     },
     "recommendations": {
         "related_domains": [
@@ -529,7 +522,7 @@
         "intelligence_summary": "This document primarily belongs to the AI domain. It is strongly associated with Machine Learning, Data Science. The extracted intelligence can be used for classification, search, and knowledge management purposes. Additional recommendations have been generated to enrich future analysis."
     },
     "processing_trace": {
-        "execution_timestamp": "2026-06-22 11:22:21",
+        "execution_timestamp": "2026-06-26 10:43:43",
         "overall_status": "SUCCESS",
         "processing_trace": [
             {
@@ -542,7 +535,7 @@
             },
             {
                 "step": "Content Extraction",
-                "details": "2219 characters extracted"
+                "details": "2513 characters extracted"
             },
             {
                 "step": "PDF Metadata",
@@ -554,15 +547,15 @@
             },
             {
                 "step": "Entity Extraction",
-                "details": "39 entities extracted"
+                "details": "40 entities extracted"
             },
             {
                 "step": "Entity Validation",
-                "details": "39 validated, 11 rejected"
+                "details": "40 validated, 7 rejected"
             },
             {
                 "step": "Evidence Generation",
-                "details": "21 evidence records generated"
+                "details": "22 evidence records generated"
             },
             {
                 "step": "Classification",
@@ -570,7 +563,7 @@
             },
             {
                 "step": "Confidence Scoring",
-                "details": "Confidence Score: 92"
+                "details": "Confidence Score: 95"
             },
             {
                 "step": "Recommendation Generation",
@@ -587,7 +580,7 @@
         "primary_category": "AI",
         "secondary_category": "Education",
         "classification_confidence": 0.36,
-        "overall_confidence": 92,
+        "overall_confidence": 95,
         "recommended_tags": [
             "artificial-intelligence",
             "machine-learning",
@@ -595,8 +588,8 @@
             "chatbot",
             "automation"
         ],
-        "entity_count": 39,
-        "rejected_entity_count": 11,
-        "evidence_count": 31
+        "entity_count": 40,
+        "rejected_entity_count": 7,
+        "evidence_count": 32
     }
 }

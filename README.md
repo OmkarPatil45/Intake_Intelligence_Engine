@@ -1,198 +1,334 @@
-# Universal Intake Intelligence Engine v2
+# Universal Intake Intelligence & Validation Framework
 
-Universal Intake Intelligence Engine is a standalone document intelligence system designed to transform unknown information sources into structured, explainable intelligence records.
+A production-oriented, deterministic, and explainable document intelligence framework capable of transforming heterogeneous documents into structured intelligence packages and validating their quality using a standalone validation framework.
 
-The engine accepts multiple file formats, analyzes content, extracts entities, classifies information, generates recommendations, maintains processing transparency and produces deterministic intelligence packages.
+The project was developed incrementally through three engineering phases:
 
-The primary objective is to help users quickly understand incoming information through a transparent and traceable processing pipeline.
+* **Phase 1 – Universal Intake Intelligence Engine**
+* **Phase 2 – Explainable Intelligence & Evidence Framework**
+* **Phase 3 – Universal Intelligence Validation Framework**
 
+The framework emphasizes modularity, explainability, deterministic execution, extensibility and production-ready software engineering practices.
 
+---
 
-# Recommended Architecture
-## Architecture Diagram
+# Features
+
+## Universal Document Intake
+
+Supports multiple document formats:
+
+* PDF, DOCX, TXT, CSV, JSON
+
+---
+
+## Content Understanding
+
+Automatically analyzes incoming documents and extracts:
+
+* Document Type
+* Word Count
+* metadata
+
+---
+
+## Entity Intelligence
+
+Extracts structured entities including:
+
+* Person
+* Organization
+* Technology
+* Skills
+* Location
+* Dates
+* Email
+* Phone Number
+
+Enhancements include:
+
+* spaCy Large NER Model (`en_core_web_lg`)
+* Resume Header Detection
+* PDF-specific preprocessing
+* Pattern-based validation
+
+---
+
+## Explainable Intelligence
+
+Generates:
+
+* Validated Entities
+* Rejected Entities
+* Entity Evidence
+* Confidence Score
+* Classification Explanation
+* Recommendation Report
+* Relationship Graph
+
+Every intelligence decision includes deterministic reasoning.
+
+---
+
+## Universal Validation Framework
+
+Validates generated intelligence packages using:
+
+* Schema Validation
+* Required Field Validation
+* Data Type Validation
+* Entity Consistency
+* Classification Consistency
+* Confidence Validation
+* Evidence Completeness
+
+---
+
+## Quality Assessment
+
+Generates:
+
+* Quality Score (0–100)
+* PASS / WARNING / FAIL
+* Error List
+* Warning List
+* Improvement Suggestions
+* Deterministic Explanation
+
+---
+
+## Batch Validation
+
+Supports validation of an entire directory of intelligence packages.
+
+Produces:
+
+* Total Packages
+* Successful Packages
+* Failed Packages
+* Average Quality Score
+* Aggregate Validation Report
+
+---
+
+## Replay Verification
+
+Verifies deterministic execution by validating identical intelligence packages multiple times.
+
+Produces:
+
+* Replay Report
+* Stable Quality Verification
+* Stable Validation Verification
+
+---
+
+## Interactive Review Console
+
+Supports:
+
+* Validate One Package
+* Validate Entire Folder
+* Search Validation Reports
+* Filter by Quality Score
+* View Failed Reports
+* Replay Verification
+
+---
+
+# System Architecture
 
 ```text
-┌──────────────────────────────────────┐
-│          Input Documents             │
-│                                      │
-│ PDF | DOCX | TXT | CSV | JSON | Form │
-└──────────────────┬───────────────────┘
-                   │
-                   ▼
-┌──────────────────────────────────────┐
-│           Intake Loader              |
-|                                      │         
-└──────────────────┬───────────────────┘
-                   │
-                   ▼
-┌──────────────────────────────────────┐
-│         Content Analyzer             │
-└──────────────────┬───────────────────┘
-                   │
-                   ▼
-┌──────────────────────────────────────┐
-|           Entity Extractor           |
-└──────────────────┬───────────────────┘
-                   │
-                   ▼
-┌──────────────────────────────────────┐
-|           Entity Validator           |
-└──────────────────┬───────────────────┘
-                   │
-                   ▼
-┌──────────────────────────────────────┐
-|           Evidence Engine            │
-└──────────────────┬───────────────────┘
-                   │
-                   ▼
-┌──────────────────────────────────────┐
-|          Classification Engine       |
-└──────────────────┬───────────────────┘
-                   │
-                   ▼
-┌──────────────────────────────────────┐
-│           Confidence Engine          │
-└──────────────────┬───────────────────┘
-                   │
-                   ▼
-┌──────────────────────────────────────┐
-│    Recommendation Engine             │
-└──────────────────┬───────────────────┘
-                   │
-                   ▼
-┌──────────────────────────────────────┐
-|     Intelligence Package Builder     │
-└──────────────────┬───────────────────┘
-                   │
-                   ▼
-┌──────────────────────────────────────┐
-│       Relationship Engine            │
-└──────────────────┬───────────────────┘
-                   │
-                   ▼
-┌──────────────────────────────────────┐
-│       relationship_graph.json        │
-└──────────────────┬───────────────────┘
-                   │
-                   ▼
-┌──────────────────────────────────────┐
-│            CLI DASHBOARD             │
-└──────────────────────────────────────┘
+                 Input Documents
+        PDF | DOCX | TXT | CSV | JSON
+                    │
+                    ▼
+            Universal Intake Loader
+                    │
+                    ▼
+            Content Analyzer
+                    │
+                    ▼
+            Entity Extractor
+                    │
+                    ▼
+            Entity Validator
+                    │
+                    ▼
+             Evidence Engine
+                    │
+                    ▼
+           Confidence Engine
+                    │
+                    ▼
+         Classification Engine
+                    │
+                    ▼
+       Recommendation Engine
+                    │
+                    ▼
+      Intelligence Package Builder
+                    │
+                    ▼
+          Relationship Engine
+                    │
+                    ▼
+        Intelligence Package (.json)
+                    │
+                    ▼
+     Universal Validation Framework
+                    │
+     ┌──────────────┼──────────────┐
+     ▼              ▼              ▼
+Schema       Consistency      Quality
+Validator     Validator       Assessment
+                    │
+                    ▼
+           Batch Validation
+                    │
+                    ▼
+           Replay Validation
+                    │
+                    ▼
+        Interactive Review CLI
+```
 
-```
-# Sample Dataset
-```
-PDF
-DOCX
-TXT
-CSV
-JSON
-Form Submission JSON
-```
-# Folder Structure
-```
+---
+
+# Project Structure
+
+```text
 Intake_Intelligence_Engine/
+
 │
 ├── app.py
+├── validation_app.py
 │
 ├── intake/
-│   ├── intake_loader.py
-│   └── source_detector.py
 │
 ├── analysis/
-│   ├── content_analyzer.py
-│   ├── entity_extractor.py
-|   ├── entity_validator.py
-│   ├── evidence_engine.py
-|   ├── entity_filters.py
-│   ├── confidence_engine.py
-│   ├── classification_engine.py
-│   | recommendation_engine.py
-|   └── relationship_engine.py
 │
-├── trace/
-│   └── processing_trace.py
+├── processing/
 │
 ├── package/
-│   └── intelligence_package_builder.py
 │
 ├── search/
-│   ├── query_engine.py
-|   └── review_cli.py
+│
+├── validation/
+│
+│   ├── schema_validator.py
+│   ├── consistency_validator.py
+│   ├── validation_engine.py
+│   ├── quality_engine.py
+│   ├── batch_validator.py
+│   ├── replay_validator.py
+│   ├── validation_rules.py
+│   ├── report_builder.py
+│   └── utils.py
+│
+├── review/
+│
+│   ├── review_cli.py
+│   ├── menu.py
+│   ├── display.py
+│   ├── search.py
+│   ├── filters.py
+│   └── exporter.py
 │
 ├── dataset/
-│
 ├── outputs/
-│
+├── validation_reports/
 ├── review_packets/
-│   └── REVIEW_PACKET.md
-|
-├── requirement.txt
-│
+├── requirements.txt
 └── README.md
-
 ```
-## Install Dependencies
+
+---
+
+# Installation
+
+Clone the repository.
+
+Create a virtual environment.
 
 ```bash
-pip install -r requirements.txt
-```
-
-
-## Install spaCy Language Model
-
-```bash
-python -m spacy download en_core_web_sm
-```
-
-## Technology Stack
-Python 3.11+, 
-PyPDF2, 
-python-docx, 
-pandas, 
-spaCy, 
-pathlib, 
-json
-
-## Execution Instructions
-Clone repository
-Create virtual environment
-
 python -m venv .venv
+```
 
-Activate virtual environment
+Activate the environment.
 
 Windows:
 
+```bash
 .venv\Scripts\activate
-
-Install dependencies:
-
-pip install -r requirements.txt
-
-Run application
-
-python app.py
-
-Follow CLI prompts
-
-## Output
-
-The system generates intelligence packages inside the outputs directory.
-
-Example Outputs :-
-Confidence Report
-``` 
-{
-    "score": 90,
-    "supporting_evidence_count": 48,
-    "validated_entity_count": 26,
-    "document_completeness": 0.5,
-    "contradictory_evidence_count": 0
-}
 ```
 
-Relationship Graph (check outputs/relationship_graph.json)
+Install dependencies.
+
+```bash
+pip install -r requirements.txt
+```
+
+Install the spaCy model.
+
+```bash
+python -m spacy download en_core_web_lg
+```
+
+---
+
+# Technology Stack
+
+* Python 3.11+
+* PyMuPDF
+* python-docx
+* pandas
+* spaCy (`en_core_web_lg`)
+* pathlib
+* JSON
+* Regular Expressions
+
+---
+
+# Running the Project
+
+## Intelligence Engine
+
+```bash
+python app.py
+```
+
+Generates:
+
+* Intelligence Packages
+* Relationship Graph
+* Evidence Reports
+* Confidence Reports
+
+---
+
+## Validation Framework
+
+```bash
+python validation_app.py
+```
+
+Launches the interactive validation console.
+
+---
+
+# Generated Outputs
+
+## Intelligence Outputs
+
+```text
+outputs/
+
+resume.pdf_intelligence.json
+
+project.docx_intelligence.json
+
+relationship_graph.json
 ```
 {
     "source": "resume.pdf",
@@ -202,22 +338,91 @@ Relationship Graph (check outputs/relationship_graph.json)
 }
 ```
 
-## Future Enhancements
-Web Dashboard
+---
 
-Advanced NLP Models
+## Validation Reports
 
-Vector Search
+```text
+validation_reports/
 
-Semantic Retrieval
+resume_validation_report.json
 
-Multi-language Support
+resume_quality_report.json
 
-LLM-assisted Recommendations
+batch_report.json
 
-## Demo Video
+replay_report.json
+```
+```
+Select Package : 1
 
-A complete demonstration of the project can be viewed here:
+{
+    "replay_count": 3,
+    "validation_reports_identical": true,
+    "quality_reports_identical": true,
+    "quality_scores": [
+        95,
+        95,
+        95
+    ],
+    "overall_status": "PASS",
+    "explanation": "Replay verification successful."
+}
+ replay_report.json exported.
+ ```
+---
 
-🔗 YouTube Demo:
+# Deterministic Execution
+
+The framework is entirely deterministic.
+
+It uses:
+
+* Rule-based entity validation
+* Rule-based classification
+* Rule-based confidence scoring
+* Rule-based quality assessment
+* Rule-based replay verification
+
+No external APIs are used.
+
+No LLM dependency exists during execution.
+
+Identical inputs always produce identical outputs.
+
+---
+
+# Future Enhancements
+
+* Weighted Validation Rules
+* Validator Registry
+* Web Dashboard
+* Semantic Search
+* Vector Retrieval
+* Multi-language Processing
+* REST API
+* Docker Deployment
+* CI/CD Pipeline
+* Unit & Integration Testing
+
+---
+
+# Demo Video
+
+A complete project demonstration is available on YouTube.
+
+**Demo Link:**
+
+```text
 https://www.youtube.com/watch?v=uOuFA8z2c7E
+```
+
+---
+
+# Author
+
+**Omkar Patil**
+
+Universal Intake Intelligence & Validation Framework
+
+Production-oriented, explainable, deterministic document intelligence system developed as part of a multi-stage engineering evaluation focused on modular software architecture, validation, and explainable AI.

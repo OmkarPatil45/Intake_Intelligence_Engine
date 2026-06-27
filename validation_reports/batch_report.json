@@ -1,0 +1,163 @@
+{
+    "batch_summary": {
+        "total_packages": 21,
+        "successful_packages": 20,
+        "warning_packages": 0,
+        "failed_packages": 1
+    },
+    "processing_statistics": {
+        "average_quality_score": 95.0,
+        "highest_quality_score": 100,
+        "lowest_quality_score": 0,
+        "average_passed_checks": 35.14
+    },
+    "package_reports": [
+        {
+            "file_name": "abc.txt",
+            "validation_status": "PASS",
+            "quality_score": 95,
+            "passed_checks": 35,
+            "failed_checks": 1
+        },
+        {
+            "file_name": "BI_REPORT.pdf",
+            "validation_status": "PASS",
+            "quality_score": 100,
+            "passed_checks": 37,
+            "failed_checks": 0
+        },
+        {
+            "file_name": "Data.csv",
+            "validation_status": "PASS",
+            "quality_score": 100,
+            "passed_checks": 37,
+            "failed_checks": 0
+        },
+        {
+            "file_name": "docFile1.docx",
+            "validation_status": "PASS",
+            "quality_score": 100,
+            "passed_checks": 37,
+            "failed_checks": 0
+        },
+        {
+            "file_name": "docFile2.docx",
+            "validation_status": "PASS",
+            "quality_score": 100,
+            "passed_checks": 37,
+            "failed_checks": 0
+        },
+        {
+            "file_name": "docFile3.docx",
+            "validation_status": "PASS",
+            "quality_score": 100,
+            "passed_checks": 37,
+            "failed_checks": 0
+        },
+        {
+            "file_name": "Ds project.docx",
+            "validation_status": "PASS",
+            "quality_score": 100,
+            "passed_checks": 37,
+            "failed_checks": 0
+        },
+        {
+            "file_name": "file_4.pdf",
+            "validation_status": "PASS",
+            "quality_score": 100,
+            "passed_checks": 37,
+            "failed_checks": 0
+        },
+        {
+            "file_name": "forms.json",
+            "validation_status": "PASS",
+            "quality_score": 100,
+            "passed_checks": 37,
+            "failed_checks": 0
+        },
+        {
+            "file_name": "Unknown",
+            "validation_status": "FAIL",
+            "quality_score": 0,
+            "passed_checks": 0,
+            "failed_checks": 11
+        },
+        {
+            "file_name": "resume.pdf",
+            "validation_status": "PASS",
+            "quality_score": 100,
+            "passed_checks": 37,
+            "failed_checks": 0
+        },
+        {
+            "file_name": "sample1.json",
+            "validation_status": "PASS",
+            "quality_score": 100,
+            "passed_checks": 37,
+            "failed_checks": 0
+        },
+        {
+            "file_name": "Sample1.txt",
+            "validation_status": "PASS",
+            "quality_score": 100,
+            "passed_checks": 37,
+            "failed_checks": 0
+        },
+        {
+            "file_name": "sample2.json",
+            "validation_status": "PASS",
+            "quality_score": 100,
+            "passed_checks": 37,
+            "failed_checks": 0
+        },
+        {
+            "file_name": "sample2.txt",
+            "validation_status": "PASS",
+            "quality_score": 100,
+            "passed_checks": 37,
+            "failed_checks": 0
+        },
+        {
+            "file_name": "sample3.json",
+            "validation_status": "PASS",
+            "quality_score": 100,
+            "passed_checks": 37,
+            "failed_checks": 0
+        },
+        {
+            "file_name": "sample3.txt",
+            "validation_status": "PASS",
+            "quality_score": 100,
+            "passed_checks": 37,
+            "failed_checks": 0
+        },
+        {
+            "file_name": "sample4.json",
+            "validation_status": "PASS",
+            "quality_score": 100,
+            "passed_checks": 37,
+            "failed_checks": 0
+        },
+        {
+            "file_name": "sample4.txt",
+            "validation_status": "PASS",
+            "quality_score": 100,
+            "passed_checks": 37,
+            "failed_checks": 0
+        },
+        {
+            "file_name": "StudentsPerformance.csv",
+            "validation_status": "PASS",
+            "quality_score": 100,
+            "passed_checks": 37,
+            "failed_checks": 0
+        },
+        {
+            "file_name": "user_device_.csv",
+            "validation_status": "PASS",
+            "quality_score": 100,
+            "passed_checks": 37,
+            "failed_checks": 0
+        }
+    ]
+}

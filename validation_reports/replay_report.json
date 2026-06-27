@@ -1,0 +1,12 @@
+{
+    "replay_count": 3,
+    "validation_reports_identical": true,
+    "quality_reports_identical": true,
+    "quality_scores": [
+        100,
+        100,
+        100
+    ],
+    "overall_status": "PASS",
+    "explanation": "Replay verification successful."
+}

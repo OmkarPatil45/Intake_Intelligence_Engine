@@ -6,10 +6,10 @@
         "failed_packages": 1
     },
     "processing_statistics": {
-        "average_quality_score": 95.0,
+        "average_quality_score": 94.76,
         "highest_quality_score": 100,
         "lowest_quality_score": 0,
-        "average_passed_checks": 35.14
+        "average_passed_checks": 35.05
     },
     "package_reports": [
         {
@@ -97,7 +97,7 @@
             "failed_checks": 0
         },
         {
-            "file_name": "Sample1.txt",
+            "file_name": "sample1.txt",
             "validation_status": "PASS",
             "quality_score": 100,
             "passed_checks": 37,
@@ -125,7 +125,7 @@
             "failed_checks": 0
         },
         {
-            "file_name": "sample3.txt",
+            "file_name": "Sample3.txt",
             "validation_status": "PASS",
             "quality_score": 100,
             "passed_checks": 37,
@@ -139,7 +139,7 @@
             "failed_checks": 0
         },
         {
-            "file_name": "sample4.txt",
+            "file_name": "Sample4.txt",
             "validation_status": "PASS",
             "quality_score": 100,
             "passed_checks": 37,
@@ -148,9 +148,9 @@
         {
             "file_name": "StudentsPerformance.csv",
             "validation_status": "PASS",
-            "quality_score": 100,
-            "passed_checks": 37,
-            "failed_checks": 0
+            "quality_score": 95,
+            "passed_checks": 35,
+            "failed_checks": 1
         },
         {
             "file_name": "user_device_.csv",

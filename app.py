@@ -18,7 +18,7 @@ from processing.processing_trace import ProcessingTrace
 
 
 loader = IntakeLoader()
-result = loader.load("dataset/docFile1.docx")
+result = loader.load("dataset/user_device_.csv")
 
 loader = IntakeLoader()
 analyzer = ContentAnalyzer()

@@ -63,3 +63,40 @@ DOCUMENT_HEADING_PATTERNS = [
     r".*objective.*",
     r".*skills.*"
 ]
+
+# ==========================================================
+# Domain Specific Technical Patterns
+# ==========================================================
+
+SOFTWARE_TERMS = {
+    "dbeaver","terminal.app","postman","hoppscotch","cursor","vscode",
+    "vs code","visual studio","intellij"
+}
+
+FRAMEWORK_TERMS = {
+    "mastra","mastra sdk","langchain","langgraph","drizzle","express",
+    "node","node.js","react","next.js"
+}
+
+DATABASE_TERMS = {
+    "postgres","postgresql","mongodb","mysql","sqlite"
+}
+
+HTTP_TERMS = {
+    "get","post","put","delete","patch"
+}
+
+SQL_TERMS = {
+    "insert","select","update","delete","join","group by",
+    "order by"
+}
+
+TECHNICAL_SUFFIXES = [
+    "sdk","framework","workflow","platform","database","terminal",
+    "api","server"
+]
+
+TECHNICAL_PHRASES = [
+    "engineering take-home","sandbox project","mini project",
+    "development environment","workflow"
+]

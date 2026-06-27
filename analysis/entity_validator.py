@@ -1,7 +1,8 @@
 import re
 from analysis.entity_filters import (ENTITY_REJECTION_RULES, GENERIC_ENTITY_TERMS)
 from analysis.entity_patterns import (OCR_PATTERNS,FILE_PATTERNS,TECHNICAL_PATTERNS,DOCUMENT_PATTERNS,
-                                      BUSINESS_INTELLIGENCE_TERMS, DOCUMENT_HEADING_PATTERNS)
+        BUSINESS_INTELLIGENCE_TERMS, DOCUMENT_HEADING_PATTERNS,SOFTWARE_TERMS,FRAMEWORK_TERMS,DATABASE_TERMS,
+        HTTP_TERMS,SQL_TERMS,TECHNICAL_SUFFIXES,TECHNICAL_PHRASES)
 
 class EntityValidator:
     """
@@ -195,7 +196,12 @@ class EntityValidator:
 
                 return (False, "Invalid name structure")
 
-           
+        # Reject file extensions
+
+        if "." in normalized:
+            if normalized.endswith((".app",".exe",".js",".ts",".py",".java")):
+                return (False,"Software file/application")  
+            
         # ORG validation
         #3
         if entity_type == "ORG":
@@ -221,6 +227,35 @@ class EntityValidator:
             if candidate.islower():
                 return (False,"Improper organization capitalization")
 
+            # Technical software
+            if normalized in SOFTWARE_TERMS:
+                return (False,"Software application")
+            
+            # Frameworks
+            if normalized in FRAMEWORK_TERMS:
+                return (False,"Software framework")
+
+            # Databases
+            if normalized in DATABASE_TERMS:
+                return (False,"Database technology")
+
+            # HTTP methods
+            if normalized in HTTP_TERMS:
+                return (False,"HTTP method")
+
+            # SQL keywords
+            if normalized in SQL_TERMS:
+                return (False,"SQL keyword")
+
+            # Technical suffix
+            for suffix in TECHNICAL_SUFFIXES:
+                if normalized.endswith(suffix):
+                    return (False,"Technical component")
+
+            for phrase in TECHNICAL_PHRASES:
+                if phrase in normalized:
+                    return (False,"Technical project phrase")
+                
             words = candidate.split()
             if (
                 len(words) in [2, 3]

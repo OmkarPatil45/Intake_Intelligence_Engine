@@ -3,7 +3,7 @@
         "source_type": "txt"
     },
     "metadata": {
-        "file_name": "sample3.txt",
+        "file_name": "Sample3.txt",
         "file_extension": ".txt",
         "file_size_bytes": 6513
     },
@@ -21,18 +21,16 @@
     },
     "entities": {
         "names": [
-            "Bada Bing",
             "Bada Bing Club",
             "Bill Peppe",
             "Chris Carley",
             "Chris Christie",
             "Deborah",
             "Edie Falco",
-            "Holsten",
             "James Gandolfini",
-            "Jersey",
             "John Klekamp",
             "Joseph Gannascoli",
+            "Liliana",
             "Louise Boyle",
             "Marc Baron",
             "Michael Imperioli",
@@ -41,29 +39,30 @@
             "Satin Dolls",
             "Sopranos",
             "Tony Soprano",
-            "Vito Spatafore",
-            "Westwood"
+            "Vito Spatafore"
         ],
         "organizations": [
             "Bada Bing Club",
+            "Holsten",
+            "Holsten's Ice Cream Parlor",
+            "Holsten's Ice Cream Shop",
             "Location",
-            "Rutgers",
-            "Soprano"
+            "Rutgers"
         ],
         "technologies": [],
         "skills": [],
         "locations": [
             "Bloomfield",
             "Brooklyn",
+            "Gannascoli",
             "Jersey",
-            "Liliana",
             "Little Italy",
             "New Jersey",
             "New York",
             "New York City's",
             "Rome",
-            "Satin Dolls",
-            "Sicily"
+            "Sicily",
+            "Westwood"
         ],
         "dates": [],
         "emails": [],
@@ -71,17 +70,17 @@
     },
     "rejected_entities": [
         {
+            "entity": "Emmy",
+            "entity_type": "PERSON",
+            "reason": "Suspicious short single-token name"
+        },
+        {
             "entity": "Tony",
             "entity_type": "PERSON",
             "reason": "Suspicious short single-token name"
         },
         {
-            "entity": "Bada Bing Club",
-            "entity_type": "ORG",
-            "reason": "Likely person name misclassified as organization"
-        },
-        {
-            "entity": "Ice Cream Shop",
+            "entity": "Bada Bing",
             "entity_type": "ORG",
             "reason": "Likely person name misclassified as organization"
         },
@@ -91,59 +90,12 @@
             "reason": "Likely person name misclassified as organization"
         },
         {
-            "entity": "Vito Spatafore",
+            "entity": "The Sopranos Bar",
             "entity_type": "ORG",
             "reason": "Likely person name misclassified as organization"
         }
     ],
     "evidence_report": {
-        "Bada Bing": [
-            {
-                "paragraph": 1,
-                "sentence": "Sad goodbye: Satin Dolls strip club in New Jersey, which doubled as the Bada Bing Club in cult show The Sopranos, said the death of James Gandolfini was 'losing a member of the family' Saved for a special friend: A newspaper and bouquet of flowers adorn a booth in Holsten's Ice Cream Shop, the location where the final scene of The Sopranos was filmed in Bloomfield, New Jersey .",
-                "keywords": [
-                    "Bada Bing"
-                ],
-                "reason": "Entity explicitly mentioned",
-                "confidence": 1.0
-            },
-            {
-                "paragraph": 1,
-                "sentence": "So long, boss: A makeshift memorial to actor James Gandolfini is displayed at Satin Dolls, the gentleman's club known as the Bada Bing Club in the show .",
-                "keywords": [
-                    "Bada Bing"
-                ],
-                "reason": "Entity explicitly mentioned",
-                "confidence": 1.0
-            },
-            {
-                "paragraph": 1,
-                "sentence": "Jersey boy: Tony Soprano was a regular at the fictional Bada Bing Club, the real-life Satin Dolls in New Jersey .",
-                "keywords": [
-                    "Bada Bing"
-                ],
-                "reason": "Entity explicitly mentioned",
-                "confidence": 1.0
-            },
-            {
-                "paragraph": 1,
-                "sentence": "In mourning: The owner of Satin Dolls strip club, which doubles as the Bada Bing club in The Sopranos, said he was numb at the news of Gandolfini's death .",
-                "keywords": [
-                    "Bada Bing"
-                ],
-                "reason": "Entity explicitly mentioned",
-                "confidence": 1.0
-            },
-            {
-                "paragraph": 1,
-                "sentence": "show as Bada Bing Club, said he was numb at the death of Gandolfini, who .",
-                "keywords": [
-                    "Bada Bing"
-                ],
-                "reason": "Entity explicitly mentioned",
-                "confidence": 1.0
-            }
-        ],
         "Bada Bing Club": [
             {
                 "paragraph": 1,
@@ -255,98 +207,6 @@
                 "confidence": 1.0
             }
         ],
-        "Holsten": [
-            {
-                "paragraph": 1,
-                "sentence": "The owner of Holsten's ice cream parlor, in Bloomfield, placed a 'Reserved' sign at the booth where Tony Soprano enjoys a bowl of onion rings with his family before the screen cuts to black.",
-                "keywords": [
-                    "Holsten"
-                ],
-                "reason": "Entity explicitly mentioned",
-                "confidence": 1.0
-            },
-            {
-                "paragraph": 1,
-                "sentence": "Holsten's co-owner Chris Carley called Gandolfini 'a very kind gentleman and a larger-than-life character'.",
-                "keywords": [
-                    "Holsten"
-                ],
-                "reason": "Entity explicitly mentioned",
-                "confidence": 1.0
-            },
-            {
-                "paragraph": 1,
-                "sentence": "Sad goodbye: Satin Dolls strip club in New Jersey, which doubled as the Bada Bing Club in cult show The Sopranos, said the death of James Gandolfini was 'losing a member of the family' Saved for a special friend: A newspaper and bouquet of flowers adorn a booth in Holsten's Ice Cream Shop, the location where the final scene of The Sopranos was filmed in Bloomfield, New Jersey .",
-                "keywords": [
-                    "Holsten"
-                ],
-                "reason": "Entity explicitly mentioned",
-                "confidence": 1.0
-            },
-            {
-                "paragraph": 1,
-                "sentence": "Honored: Holsten's Ice Cream Parlor said that Gandolfini had been a 'true gentleman' and 'larger-than-life character' who made time for everyone .",
-                "keywords": [
-                    "Holsten"
-                ],
-                "reason": "Entity explicitly mentioned",
-                "confidence": 1.0
-            },
-            {
-                "paragraph": 1,
-                "sentence": "Carley said that Holsten's would be keeping the Reserved sign on Tony .",
-                "keywords": [
-                    "Holsten"
-                ],
-                "reason": "Entity explicitly mentioned",
-                "confidence": 1.0
-            },
-            {
-                "paragraph": 1,
-                "sentence": "Tribute: A reserved sign sits on the booth where the last show of the HBO series 'The Sopranos' was filmed at Holsten's ice cream parlor in Bloomfield, New Jersey, in honor of James Gandolfini .",
-                "keywords": [
-                    "Holsten"
-                ],
-                "reason": "Entity explicitly mentioned",
-                "confidence": 1.0
-            },
-            {
-                "paragraph": 1,
-                "sentence": "Busy: 'Holsten's packed after news James Gandolfini died,' News 12 reporter John Klekamp wrote .",
-                "keywords": [
-                    "Holsten"
-                ],
-                "reason": "Entity explicitly mentioned",
-                "confidence": 1.0
-            },
-            {
-                "paragraph": 1,
-                "sentence": "Popular: The owners of Holsten's said fans of the show came along to the restaurant to see the booth .",
-                "keywords": [
-                    "Holsten"
-                ],
-                "reason": "Entity explicitly mentioned",
-                "confidence": 1.0
-            },
-            {
-                "paragraph": 1,
-                "sentence": "Fans: People walk out of Holsten's ice cream parlor on Wednesday evening, after news of the actor's death .",
-                "keywords": [
-                    "Holsten"
-                ],
-                "reason": "Entity explicitly mentioned",
-                "confidence": 1.0
-            },
-            {
-                "paragraph": 1,
-                "sentence": "Missed: Chris Carley, owner of Holsten's ice cream parlor, called Gandolfini 'just a really nice guy' He said that he found out the news of Gandolfini's death last night around 6pm and his phone had been ringing non-stop ever since and that many people had come to the club.",
-                "keywords": [
-                    "Holsten"
-                ],
-                "reason": "Entity explicitly mentioned",
-                "confidence": 1.0
-            }
-        ],
         "James Gandolfini": [
             {
                 "paragraph": 1,
@@ -412,80 +272,6 @@
                 "confidence": 1.0
             }
         ],
-        "Jersey": [
-            {
-                "paragraph": 1,
-                "sentence": "New Jersey locals mourned the loss of actor James Gandolfini on Wednesday as the fictional hang-outs of his beloved character Tony Soprano were flooded with visitors paying their respects.",
-                "keywords": [
-                    "Jersey"
-                ],
-                "reason": "Entity explicitly mentioned",
-                "confidence": 1.0
-            },
-            {
-                "paragraph": 1,
-                "sentence": "Fans flocked to the New Jersey ice cream parlor where the final Sopranos scene was filmed to pay tribute to Gandolfini, described as 'a regular Jersey guy' and 'a member of the family'.",
-                "keywords": [
-                    "Jersey"
-                ],
-                "reason": "Entity explicitly mentioned",
-                "confidence": 1.0
-            },
-            {
-                "paragraph": 1,
-                "sentence": "Sad goodbye: Satin Dolls strip club in New Jersey, which doubled as the Bada Bing Club in cult show The Sopranos, said the death of James Gandolfini was 'losing a member of the family' Saved for a special friend: A newspaper and bouquet of flowers adorn a booth in Holsten's Ice Cream Shop, the location where the final scene of The Sopranos was filmed in Bloomfield, New Jersey .",
-                "keywords": [
-                    "Jersey"
-                ],
-                "reason": "Entity explicitly mentioned",
-                "confidence": 1.0
-            },
-            {
-                "paragraph": 1,
-                "sentence": "Tribute: A reserved sign sits on the booth where the last show of the HBO series 'The Sopranos' was filmed at Holsten's ice cream parlor in Bloomfield, New Jersey, in honor of James Gandolfini .",
-                "keywords": [
-                    "Jersey"
-                ],
-                "reason": "Entity explicitly mentioned",
-                "confidence": 1.0
-            },
-            {
-                "paragraph": 1,
-                "sentence": "Jersey boy: Tony Soprano was a regular at the fictional Bada Bing Club, the real-life Satin Dolls in New Jersey .",
-                "keywords": [
-                    "Jersey"
-                ],
-                "reason": "Entity explicitly mentioned",
-                "confidence": 1.0
-            },
-            {
-                "paragraph": 1,
-                "sentence": "'He was just a regular Jersey guy, like the governor said.' The owner said that Satin Dolls was planning a tribute to the star.",
-                "keywords": [
-                    "Jersey"
-                ],
-                "reason": "Entity explicitly mentioned",
-                "confidence": 1.0
-            },
-            {
-                "paragraph": 1,
-                "sentence": "New Jersey governor Chris Christie added that the actor\u00e2\u20ac\u2122s death was an 'awful shock'.",
-                "keywords": [
-                    "Jersey"
-                ],
-                "reason": "Entity explicitly mentioned",
-                "confidence": 1.0
-            },
-            {
-                "paragraph": 1,
-                "sentence": "Gandolfini was a fine actor, a Rutgers alum and a true Jersey guy,' he .",
-                "keywords": [
-                    "Jersey"
-                ],
-                "reason": "Entity explicitly mentioned",
-                "confidence": 1.0
-            }
-        ],
         "John Klekamp": [
             {
                 "paragraph": 1,
@@ -512,6 +298,17 @@
                 "sentence": "Grief: Joseph Gannascoli (seated center) pictured with co-stars James Gandolfini and Michael Imperioli.",
                 "keywords": [
                     "Joseph Gannascoli"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            }
+        ],
+        "Liliana": [
+            {
+                "paragraph": 1,
+                "sentence": "and nine-month-old daughter Liliana ahead of the 59th Taormina Film .",
+                "keywords": [
+                    "Liliana"
                 ],
                 "reason": "Entity explicitly mentioned",
                 "confidence": 1.0
@@ -805,12 +602,151 @@
                 "confidence": 1.0
             }
         ],
-        "Westwood": [
+        "Holsten": [
             {
                 "paragraph": 1,
-                "sentence": "in his hometown of Westwood, where he was born to a high school .",
+                "sentence": "The owner of Holsten's ice cream parlor, in Bloomfield, placed a 'Reserved' sign at the booth where Tony Soprano enjoys a bowl of onion rings with his family before the screen cuts to black.",
                 "keywords": [
-                    "Westwood"
+                    "Holsten"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            },
+            {
+                "paragraph": 1,
+                "sentence": "Holsten's co-owner Chris Carley called Gandolfini 'a very kind gentleman and a larger-than-life character'.",
+                "keywords": [
+                    "Holsten"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            },
+            {
+                "paragraph": 1,
+                "sentence": "Sad goodbye: Satin Dolls strip club in New Jersey, which doubled as the Bada Bing Club in cult show The Sopranos, said the death of James Gandolfini was 'losing a member of the family' Saved for a special friend: A newspaper and bouquet of flowers adorn a booth in Holsten's Ice Cream Shop, the location where the final scene of The Sopranos was filmed in Bloomfield, New Jersey .",
+                "keywords": [
+                    "Holsten"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            },
+            {
+                "paragraph": 1,
+                "sentence": "Honored: Holsten's Ice Cream Parlor said that Gandolfini had been a 'true gentleman' and 'larger-than-life character' who made time for everyone .",
+                "keywords": [
+                    "Holsten"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            },
+            {
+                "paragraph": 1,
+                "sentence": "Carley said that Holsten's would be keeping the Reserved sign on Tony .",
+                "keywords": [
+                    "Holsten"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            },
+            {
+                "paragraph": 1,
+                "sentence": "Tribute: A reserved sign sits on the booth where the last show of the HBO series 'The Sopranos' was filmed at Holsten's ice cream parlor in Bloomfield, New Jersey, in honor of James Gandolfini .",
+                "keywords": [
+                    "Holsten"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            },
+            {
+                "paragraph": 1,
+                "sentence": "Busy: 'Holsten's packed after news James Gandolfini died,' News 12 reporter John Klekamp wrote .",
+                "keywords": [
+                    "Holsten"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            },
+            {
+                "paragraph": 1,
+                "sentence": "Popular: The owners of Holsten's said fans of the show came along to the restaurant to see the booth .",
+                "keywords": [
+                    "Holsten"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            },
+            {
+                "paragraph": 1,
+                "sentence": "Fans: People walk out of Holsten's ice cream parlor on Wednesday evening, after news of the actor's death .",
+                "keywords": [
+                    "Holsten"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            },
+            {
+                "paragraph": 1,
+                "sentence": "Missed: Chris Carley, owner of Holsten's ice cream parlor, called Gandolfini 'just a really nice guy' He said that he found out the news of Gandolfini's death last night around 6pm and his phone had been ringing non-stop ever since and that many people had come to the club.",
+                "keywords": [
+                    "Holsten"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            }
+        ],
+        "Holsten's Ice Cream Parlor": [
+            {
+                "paragraph": 1,
+                "sentence": "The owner of Holsten's ice cream parlor, in Bloomfield, placed a 'Reserved' sign at the booth where Tony Soprano enjoys a bowl of onion rings with his family before the screen cuts to black.",
+                "keywords": [
+                    "Holsten's Ice Cream Parlor"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            },
+            {
+                "paragraph": 1,
+                "sentence": "Honored: Holsten's Ice Cream Parlor said that Gandolfini had been a 'true gentleman' and 'larger-than-life character' who made time for everyone .",
+                "keywords": [
+                    "Holsten's Ice Cream Parlor"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            },
+            {
+                "paragraph": 1,
+                "sentence": "Tribute: A reserved sign sits on the booth where the last show of the HBO series 'The Sopranos' was filmed at Holsten's ice cream parlor in Bloomfield, New Jersey, in honor of James Gandolfini .",
+                "keywords": [
+                    "Holsten's Ice Cream Parlor"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            },
+            {
+                "paragraph": 1,
+                "sentence": "Fans: People walk out of Holsten's ice cream parlor on Wednesday evening, after news of the actor's death .",
+                "keywords": [
+                    "Holsten's Ice Cream Parlor"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            },
+            {
+                "paragraph": 1,
+                "sentence": "Missed: Chris Carley, owner of Holsten's ice cream parlor, called Gandolfini 'just a really nice guy' He said that he found out the news of Gandolfini's death last night around 6pm and his phone had been ringing non-stop ever since and that many people had come to the club.",
+                "keywords": [
+                    "Holsten's Ice Cream Parlor"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            }
+        ],
+        "Holsten's Ice Cream Shop": [
+            {
+                "paragraph": 1,
+                "sentence": "Sad goodbye: Satin Dolls strip club in New Jersey, which doubled as the Bada Bing Club in cult show The Sopranos, said the death of James Gandolfini was 'losing a member of the family' Saved for a special friend: A newspaper and bouquet of flowers adorn a booth in Holsten's Ice Cream Shop, the location where the final scene of The Sopranos was filmed in Bloomfield, New Jersey .",
+                "keywords": [
+                    "Holsten's Ice Cream Shop"
                 ],
                 "reason": "Entity explicitly mentioned",
                 "confidence": 1.0
@@ -842,161 +778,6 @@
                 "sentence": "Gandolfini was a fine actor, a Rutgers alum and a true Jersey guy,' he .",
                 "keywords": [
                     "Rutgers"
-                ],
-                "reason": "Entity explicitly mentioned",
-                "confidence": 1.0
-            }
-        ],
-        "Soprano": [
-            {
-                "paragraph": 1,
-                "sentence": "New Jersey locals mourned the loss of actor James Gandolfini on Wednesday as the fictional hang-outs of his beloved character Tony Soprano were flooded with visitors paying their respects.",
-                "keywords": [
-                    "Soprano"
-                ],
-                "reason": "Entity explicitly mentioned",
-                "confidence": 1.0
-            },
-            {
-                "paragraph": 1,
-                "sentence": "Fans flocked to the New Jersey ice cream parlor where the final Sopranos scene was filmed to pay tribute to Gandolfini, described as 'a regular Jersey guy' and 'a member of the family'.",
-                "keywords": [
-                    "Soprano"
-                ],
-                "reason": "Entity explicitly mentioned",
-                "confidence": 1.0
-            },
-            {
-                "paragraph": 1,
-                "sentence": "The owner of Holsten's ice cream parlor, in Bloomfield, placed a 'Reserved' sign at the booth where Tony Soprano enjoys a bowl of onion rings with his family before the screen cuts to black.",
-                "keywords": [
-                    "Soprano"
-                ],
-                "reason": "Entity explicitly mentioned",
-                "confidence": 1.0
-            },
-            {
-                "paragraph": 1,
-                "sentence": "Sad goodbye: Satin Dolls strip club in New Jersey, which doubled as the Bada Bing Club in cult show The Sopranos, said the death of James Gandolfini was 'losing a member of the family' Saved for a special friend: A newspaper and bouquet of flowers adorn a booth in Holsten's Ice Cream Shop, the location where the final scene of The Sopranos was filmed in Bloomfield, New Jersey .",
-                "keywords": [
-                    "Soprano"
-                ],
-                "reason": "Entity explicitly mentioned",
-                "confidence": 1.0
-            },
-            {
-                "paragraph": 1,
-                "sentence": "Mr Carley told MailOnline:'He was a great actor and he portrayed the character of Tony Soprano to a tee.",
-                "keywords": [
-                    "Soprano"
-                ],
-                "reason": "Entity explicitly mentioned",
-                "confidence": 1.0
-            },
-            {
-                "paragraph": 1,
-                "sentence": "cult of the Sopranos.",
-                "keywords": [
-                    "Soprano"
-                ],
-                "reason": "Entity explicitly mentioned",
-                "confidence": 1.0
-            },
-            {
-                "paragraph": 1,
-                "sentence": "Soprano's table 'for a while' out of respect for the late Gandolfini.",
-                "keywords": [
-                    "Soprano"
-                ],
-                "reason": "Entity explicitly mentioned",
-                "confidence": 1.0
-            },
-            {
-                "paragraph": 1,
-                "sentence": "Tribute: A reserved sign sits on the booth where the last show of the HBO series 'The Sopranos' was filmed at Holsten's ice cream parlor in Bloomfield, New Jersey, in honor of James Gandolfini .",
-                "keywords": [
-                    "Soprano"
-                ],
-                "reason": "Entity explicitly mentioned",
-                "confidence": 1.0
-            },
-            {
-                "paragraph": 1,
-                "sentence": "Sopranos star had been holidaying with his son Michael, wife Deborah .",
-                "keywords": [
-                    "Soprano"
-                ],
-                "reason": "Entity explicitly mentioned",
-                "confidence": 1.0
-            },
-            {
-                "paragraph": 1,
-                "sentence": "Jersey boy: Tony Soprano was a regular at the fictional Bada Bing Club, the real-life Satin Dolls in New Jersey .",
-                "keywords": [
-                    "Soprano"
-                ],
-                "reason": "Entity explicitly mentioned",
-                "confidence": 1.0
-            },
-            {
-                "paragraph": 1,
-                "sentence": "In mourning: The owner of Satin Dolls strip club, which doubles as the Bada Bing club in The Sopranos, said he was numb at the news of Gandolfini's death .",
-                "keywords": [
-                    "Soprano"
-                ],
-                "reason": "Entity explicitly mentioned",
-                "confidence": 1.0
-            },
-            {
-                "paragraph": 1,
-                "sentence": "Gannascoli, who played Vito Spatafore in The Sopranos, called the late Gandolfini a 'tremendous person' He told of a time that Gandolfini had been scheduled to make an appearance at his Brooklyn restaurant and despite being ill and it pouring with rain, he took pictures with everyone in a line of people who had queued around the block.",
-                "keywords": [
-                    "Soprano"
-                ],
-                "reason": "Entity explicitly mentioned",
-                "confidence": 1.0
-            },
-            {
-                "paragraph": 1,
-                "sentence": "club, another favorite hang-out of Tony Soprano which features in the .",
-                "keywords": [
-                    "Soprano"
-                ],
-                "reason": "Entity explicitly mentioned",
-                "confidence": 1.0
-            },
-            {
-                "paragraph": 1,
-                "sentence": "Bill Peppe told MailOnline: 'He was very accessible, he always took time for fans.' Scene: James Gandolfini, as Tony Soprano, Edie Falco and Robert Iler sit in the booth in the final episode .",
-                "keywords": [
-                    "Soprano"
-                ],
-                "reason": "Entity explicitly mentioned",
-                "confidence": 1.0
-            },
-            {
-                "paragraph": 1,
-                "sentence": "authentically, Tony Soprano.' On Location, which runs a bus tour around The Sopranos' famous locations, said that they had seen a spike in sales on Wednesday night following the sad news of Gandolfini's death.",
-                "keywords": [
-                    "Soprano"
-                ],
-                "reason": "Entity explicitly mentioned",
-                "confidence": 1.0
-            },
-            {
-                "paragraph": 1,
-                "sentence": "Marc Baron, who played several small roles across 13 episodes in The Sopranos, and is also a tour guide, told MailOnline that Gandolfini looked out for everyone on the show and treated the extras, crew and cast all as equals.",
-                "keywords": [
-                    "Soprano"
-                ],
-                "reason": "Entity explicitly mentioned",
-                "confidence": 1.0
-            },
-            {
-                "paragraph": 1,
-                "sentence": "The Sopranos Bar in New York City's Little Italy placed Gandolfini's pictures in its windows.",
-                "keywords": [
-                    "Soprano"
                 ],
                 "reason": "Entity explicitly mentioned",
                 "confidence": 1.0
@@ -1042,12 +823,113 @@
                 "confidence": 1.0
             }
         ],
-        "Liliana": [
+        "Gannascoli": [
             {
                 "paragraph": 1,
-                "sentence": "and nine-month-old daughter Liliana ahead of the 59th Taormina Film .",
+                "sentence": "His co-star Joseph Gannascoli, who plays Vito Spatafore in the show, told MailOnline that Gandolfini was a 'tremendous person'.",
                 "keywords": [
-                    "Liliana"
+                    "Gannascoli"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            },
+            {
+                "paragraph": 1,
+                "sentence": "An emotional Gannascoli said: 'He came to my wedding with his son and spoke beautiful words in front of everyone to me and my wife.' He said that the greatest tragedy was that Gandolfini's son and daughter would grow up without their father.",
+                "keywords": [
+                    "Gannascoli"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            },
+            {
+                "paragraph": 1,
+                "sentence": "Grief: Joseph Gannascoli (seated center) pictured with co-stars James Gandolfini and Michael Imperioli.",
+                "keywords": [
+                    "Gannascoli"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            },
+            {
+                "paragraph": 1,
+                "sentence": "Gannascoli, who played Vito Spatafore in The Sopranos, called the late Gandolfini a 'tremendous person' He told of a time that Gandolfini had been scheduled to make an appearance at his Brooklyn restaurant and despite being ill and it pouring with rain, he took pictures with everyone in a line of people who had queued around the block.",
+                "keywords": [
+                    "Gannascoli"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            }
+        ],
+        "Jersey": [
+            {
+                "paragraph": 1,
+                "sentence": "New Jersey locals mourned the loss of actor James Gandolfini on Wednesday as the fictional hang-outs of his beloved character Tony Soprano were flooded with visitors paying their respects.",
+                "keywords": [
+                    "Jersey"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            },
+            {
+                "paragraph": 1,
+                "sentence": "Fans flocked to the New Jersey ice cream parlor where the final Sopranos scene was filmed to pay tribute to Gandolfini, described as 'a regular Jersey guy' and 'a member of the family'.",
+                "keywords": [
+                    "Jersey"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            },
+            {
+                "paragraph": 1,
+                "sentence": "Sad goodbye: Satin Dolls strip club in New Jersey, which doubled as the Bada Bing Club in cult show The Sopranos, said the death of James Gandolfini was 'losing a member of the family' Saved for a special friend: A newspaper and bouquet of flowers adorn a booth in Holsten's Ice Cream Shop, the location where the final scene of The Sopranos was filmed in Bloomfield, New Jersey .",
+                "keywords": [
+                    "Jersey"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            },
+            {
+                "paragraph": 1,
+                "sentence": "Tribute: A reserved sign sits on the booth where the last show of the HBO series 'The Sopranos' was filmed at Holsten's ice cream parlor in Bloomfield, New Jersey, in honor of James Gandolfini .",
+                "keywords": [
+                    "Jersey"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            },
+            {
+                "paragraph": 1,
+                "sentence": "Jersey boy: Tony Soprano was a regular at the fictional Bada Bing Club, the real-life Satin Dolls in New Jersey .",
+                "keywords": [
+                    "Jersey"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            },
+            {
+                "paragraph": 1,
+                "sentence": "'He was just a regular Jersey guy, like the governor said.' The owner said that Satin Dolls was planning a tribute to the star.",
+                "keywords": [
+                    "Jersey"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            },
+            {
+                "paragraph": 1,
+                "sentence": "New Jersey governor Chris Christie added that the actor\u00e2\u20ac\u2122s death was an 'awful shock'.",
+                "keywords": [
+                    "Jersey"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            },
+            {
+                "paragraph": 1,
+                "sentence": "Gandolfini was a fine actor, a Rutgers alum and a true Jersey guy,' he .",
+                "keywords": [
+                    "Jersey"
                 ],
                 "reason": "Entity explicitly mentioned",
                 "confidence": 1.0
@@ -1190,6 +1072,17 @@
                 "reason": "Entity explicitly mentioned",
                 "confidence": 1.0
             }
+        ],
+        "Westwood": [
+            {
+                "paragraph": 1,
+                "sentence": "in his hometown of Westwood, where he was born to a high school .",
+                "keywords": [
+                    "Westwood"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            }
         ]
     },
     "classification": {
@@ -1222,11 +1115,11 @@
     },
     "confidence": {
         "score": 88,
-        "supporting_evidence_count": 114,
-        "validated_entity_count": 37,
+        "supporting_evidence_count": 102,
+        "validated_entity_count": 36,
         "document_completeness": 0.38,
         "contradictory_evidence_count": 0,
-        "explanation": "Confidence derived from 114 supporting evidences, 37 validated entities, and document completeness of 38%."
+        "explanation": "Confidence derived from 102 supporting evidences, 36 validated entities, and document completeness of 38%."
     },
     "recommendations": {
         "related_domains": [
@@ -1251,12 +1144,12 @@
         "intelligence_summary": "This document primarily belongs to the Healthcare domain. It is strongly associated with Medical Analytics, Telemedicine. The extracted intelligence can be used for classification, search, and knowledge management purposes. Additional recommendations have been generated to enrich future analysis."
     },
     "processing_trace": {
-        "execution_timestamp": "2026-06-22 11:18:34",
+        "execution_timestamp": "2026-06-27 21:16:36",
         "overall_status": "SUCCESS",
         "processing_trace": [
             {
                 "step": "File Received",
-                "details": "sample3.txt received"
+                "details": "Sample3.txt received"
             },
             {
                 "step": "Source Detection",
@@ -1272,15 +1165,15 @@
             },
             {
                 "step": "Entity Extraction",
-                "details": "37 entities extracted"
+                "details": "36 entities extracted"
             },
             {
                 "step": "Entity Validation",
-                "details": "37 validated, 5 rejected"
+                "details": "36 validated, 5 rejected"
             },
             {
                 "step": "Evidence Generation",
-                "details": "34 evidence records generated"
+                "details": "35 evidence records generated"
             },
             {
                 "step": "Classification",
@@ -1311,8 +1204,8 @@
             "medical",
             "patient-care"
         ],
-        "entity_count": 37,
+        "entity_count": 36,
         "rejected_entity_count": 5,
-        "evidence_count": 114
+        "evidence_count": 102
     }
 }

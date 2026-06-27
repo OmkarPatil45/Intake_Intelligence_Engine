@@ -45,7 +45,7 @@
             "type": "document"
         },
         {
-            "id": "Sample1.txt",
+            "id": "sample1.txt",
             "type": "document"
         },
         {
@@ -61,7 +61,7 @@
             "type": "document"
         },
         {
-            "id": "sample3.txt",
+            "id": "Sample3.txt",
             "type": "document"
         },
         {
@@ -69,7 +69,7 @@
             "type": "document"
         },
         {
-            "id": "sample4.txt",
+            "id": "Sample4.txt",
             "type": "document"
         },
         {
@@ -86,19 +86,25 @@
             "source": "BI_REPORT.pdf",
             "target": "docFile2.docx",
             "relationship": "same_person",
+            "entity": "Anand Dane"
+        },
+        {
+            "source": "BI_REPORT.pdf",
+            "target": "docFile2.docx",
+            "relationship": "same_person",
+            "entity": "Swaroop Sawant"
+        },
+        {
+            "source": "BI_REPORT.pdf",
+            "target": "docFile2.docx",
+            "relationship": "same_person",
             "entity": "Omkar Patil"
         },
         {
             "source": "BI_REPORT.pdf",
-            "target": "docFile2.docx",
+            "target": "docFile3.docx",
             "relationship": "same_person",
-            "entity": "Anand Dane"
-        },
-        {
-            "source": "BI_REPORT.pdf",
-            "target": "docFile2.docx",
-            "relationship": "same_person",
-            "entity": "Swaroop Sawant"
+            "entity": "Omkar Patil"
         },
         {
             "source": "BI_REPORT.pdf",
@@ -115,12 +121,6 @@
         {
             "source": "BI_REPORT.pdf",
             "target": "Ds project.docx",
-            "relationship": "same_technology",
-            "entity": "machine learning"
-        },
-        {
-            "source": "BI_REPORT.pdf",
-            "target": "resume.pdf",
             "relationship": "same_technology",
             "entity": "machine learning"
         },
@@ -129,6 +129,18 @@
             "target": "resume.pdf",
             "relationship": "same_technology",
             "entity": "pandas"
+        },
+        {
+            "source": "BI_REPORT.pdf",
+            "target": "resume.pdf",
+            "relationship": "same_technology",
+            "entity": "machine learning"
+        },
+        {
+            "source": "docFile2.docx",
+            "target": "docFile3.docx",
+            "relationship": "same_person",
+            "entity": "Omkar Patil"
         },
         {
             "source": "docFile2.docx",
@@ -164,6 +176,12 @@
             "source": "docFile2.docx",
             "target": "resume.pdf",
             "relationship": "same_technology",
+            "entity": "python"
+        },
+        {
+            "source": "docFile2.docx",
+            "target": "resume.pdf",
+            "relationship": "same_technology",
             "entity": "express"
         },
         {
@@ -171,12 +189,6 @@
             "target": "resume.pdf",
             "relationship": "same_technology",
             "entity": "github"
-        },
-        {
-            "source": "docFile2.docx",
-            "target": "resume.pdf",
-            "relationship": "same_technology",
-            "entity": "python"
         },
         {
             "source": "Ds project.docx",
@@ -200,19 +212,13 @@
             "source": "file_4.pdf",
             "target": "resume.pdf",
             "relationship": "same_technology",
-            "entity": "express"
-        },
-        {
-            "source": "file_4.pdf",
-            "target": "resume.pdf",
-            "relationship": "same_technology",
             "entity": "git"
         },
         {
             "source": "file_4.pdf",
             "target": "resume.pdf",
             "relationship": "same_technology",
-            "entity": "node.js"
+            "entity": "github"
         },
         {
             "source": "file_4.pdf",
@@ -224,85 +230,85 @@
             "source": "file_4.pdf",
             "target": "resume.pdf",
             "relationship": "same_technology",
-            "entity": "github"
+            "entity": "express"
         },
         {
-            "source": "Sample1.txt",
-            "target": "sample4.txt",
+            "source": "sample1.txt",
+            "target": "Sample4.txt",
             "relationship": "same_person",
             "entity": "Elena Kagan"
         },
         {
-            "source": "Sample1.txt",
-            "target": "sample4.txt",
-            "relationship": "same_person",
-            "entity": "Marijuana Legalization"
-        },
-        {
-            "source": "Sample1.txt",
-            "target": "sample4.txt",
-            "relationship": "same_person",
-            "entity": "Samuel Alito"
-        },
-        {
-            "source": "Sample1.txt",
-            "target": "sample4.txt",
-            "relationship": "same_person",
-            "entity": "Barack Obama"
-        },
-        {
-            "source": "Sample1.txt",
-            "target": "sample4.txt",
+            "source": "sample1.txt",
+            "target": "Sample4.txt",
             "relationship": "same_person",
             "entity": "John Roberts"
         },
         {
-            "source": "Sample1.txt",
-            "target": "sample4.txt",
-            "relationship": "same_person",
-            "entity": "Sonia Sotomayor"
-        },
-        {
-            "source": "Sample1.txt",
-            "target": "sample4.txt",
-            "relationship": "same_person",
-            "entity": "Donald Verrilli"
-        },
-        {
-            "source": "Sample1.txt",
-            "target": "sample4.txt",
-            "relationship": "same_person",
-            "entity": "Peter Keisler"
-        },
-        {
-            "source": "Sample1.txt",
-            "target": "sample4.txt",
+            "source": "sample1.txt",
+            "target": "Sample4.txt",
             "relationship": "same_person",
             "entity": "Anthony Kennedy"
         },
         {
-            "source": "Sample1.txt",
-            "target": "sample4.txt",
-            "relationship": "same_organization",
-            "entity": "White House"
+            "source": "sample1.txt",
+            "target": "Sample4.txt",
+            "relationship": "same_person",
+            "entity": "Peter Keisler"
         },
         {
-            "source": "Sample1.txt",
-            "target": "sample4.txt",
+            "source": "sample1.txt",
+            "target": "Sample4.txt",
+            "relationship": "same_person",
+            "entity": "Barack Obama"
+        },
+        {
+            "source": "sample1.txt",
+            "target": "Sample4.txt",
+            "relationship": "same_person",
+            "entity": "Sonia Sotomayor"
+        },
+        {
+            "source": "sample1.txt",
+            "target": "Sample4.txt",
+            "relationship": "same_person",
+            "entity": "Samuel Alito"
+        },
+        {
+            "source": "sample1.txt",
+            "target": "Sample4.txt",
+            "relationship": "same_person",
+            "entity": "Donald Verrilli"
+        },
+        {
+            "source": "sample1.txt",
+            "target": "Sample4.txt",
+            "relationship": "same_organization",
+            "entity": "Environmental Protection Agency"
+        },
+        {
+            "source": "sample1.txt",
+            "target": "Sample4.txt",
             "relationship": "same_organization",
             "entity": "Defense of Marriage Act"
         },
         {
-            "source": "Sample1.txt",
-            "target": "sample4.txt",
+            "source": "sample1.txt",
+            "target": "Sample4.txt",
             "relationship": "same_organization",
             "entity": "Congress"
         },
         {
-            "source": "Sample1.txt",
-            "target": "sample4.txt",
+            "source": "sample1.txt",
+            "target": "Sample4.txt",
             "relationship": "same_organization",
-            "entity": "Environmental Protection Agency"
+            "entity": "Obamacare"
+        },
+        {
+            "source": "sample1.txt",
+            "target": "Sample4.txt",
+            "relationship": "same_organization",
+            "entity": "White House"
         }
     ]
 }

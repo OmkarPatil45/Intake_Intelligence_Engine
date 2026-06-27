@@ -22,43 +22,31 @@
     },
     "entities": {
         "names": [
-            "Docker",
-            "Git Config  Global",
-            "Npm Install",
+            "Drizzle",
+            "Heroku",
+            "Mastra",
             "Postman",
-            "Prisma",
-            "Quickstart",
-            "Render",
-            "Setup Checklist",
-            "Stuck",
-            "Tools",
-            "Vercel",
-            "Version Npm"
+            "Sample_C/",
+            "Supabase",
+            "Vercel"
         ],
         "organizations": [
-            "DBeaver",
-            "Drizzle",
-            "INSERT",
-            "Mastra",
-            "Mastra SDK",
-            "Mastra sandbox project boots",
-            "Node",
-            "POST",
-            "Postgres",
+            "Express 5",
+            "HTTPS",
+            "Homebrew",
+            "Knex",
+            "NEFT",
+            "POSTGRES_PASSWORD",
+            "Prisma",
             "Provue",
-            "Provue Engineering Take-Home",
-            "Railway",
-            "Swiggy / Swiggy Instamart",
-            "Terminal.app",
-            "UPI/NEFT",
-            "Workflows"
+            "Swiggy",
+            "postgresql.org Docker"
         ],
         "technologies": [
             "express",
             "git",
             "github",
             "javascript",
-            "node.js",
             "sql",
             "typescript"
         ],
@@ -67,77 +55,56 @@
             "git",
             "github",
             "javascript",
-            "node.js",
             "sql",
             "typescript"
         ],
-        "locations": [
-            "DATA_DIR=./data",
-            "Heroku",
-            "Node",
-            "Railway"
-        ],
+        "locations": [],
         "dates": [],
         "emails": [
-            "you@example.com"
+            "you@example.co"
         ],
         "phone_numbers": []
     },
     "rejected_entities": [
-        {
-            "entity": "Json",
-            "entity_type": "PERSON",
-            "reason": "Generic operational term"
-        },
-        {
-            "entity": "Node",
-            "entity_type": "PERSON",
-            "reason": "Suspicious short single-token name"
-        },
         {
             "entity": "Tara",
             "entity_type": "PERSON",
             "reason": "Suspicious short single-token name"
         },
         {
-            "entity": "Transactions.Json + Funds.Json + Holdings.Json",
-            "entity_type": "PERSON",
-            "reason": "File reference detected"
-        },
-        {
-            "entity": "GROUP BY",
+            "entity": "Google AI Studio",
             "entity_type": "ORG",
             "reason": "Likely person name misclassified as organization"
         },
         {
-            "entity": "Install Postgres",
+            "entity": "JSON",
             "entity_type": "ORG",
-            "reason": "Likely person name misclassified as organization"
+            "reason": "Generic operational term"
         },
         {
-            "entity": "Local Postgres",
+            "entity": "Mastra",
             "entity_type": "ORG",
-            "reason": "Likely person name misclassified as organization"
+            "reason": "Software framework"
         },
         {
             "entity": "Mastra Project Setup",
             "entity_type": "ORG",
-            "reason": "Likely person name misclassified as organization"
+            "reason": "Document heading"
         },
         {
-            "entity": "Postgres Observability",
+            "entity": "Model Provider Account & API Key",
             "entity_type": "ORG",
-            "reason": "Likely person name misclassified as organization"
+            "reason": "Technical phrase, not a person"
+        },
+        {
+            "entity": "POST",
+            "entity_type": "ORG",
+            "reason": "HTTP method"
         },
         {
             "entity": "Provue Engineering Take-Home",
             "entity_type": "ORG",
-            "reason": "Likely person name misclassified as organization"
-        },
-        {
-            "entity": "Railway Postgres",
-            "entity_type": "ORG",
-            "reason": "Likely person name misclassified as organization"
+            "reason": "Technical project phrase"
         },
         {
             "entity": "Sample Data",
@@ -145,12 +112,42 @@
             "reason": "Likely person name misclassified as organization"
         },
         {
-            "entity": "Windows Terminal",
+            "entity": "Setup Checklist",
             "entity_type": "ORG",
             "reason": "Likely person name misclassified as organization"
         },
         {
+            "entity": "Terminal.app",
+            "entity_type": "ORG",
+            "reason": "Software file/application"
+        },
+        {
+            "entity": "Windows Terminal",
+            "entity_type": "ORG",
+            "reason": "Technical component"
+        },
+        {
             "entity": "fed",
+            "entity_type": "ORG",
+            "reason": "Improper organization capitalization"
+        },
+        {
+            "entity": "ids",
+            "entity_type": "ORG",
+            "reason": "Improper organization capitalization"
+        },
+        {
+            "entity": "the Provue Engineering Take-Home",
+            "entity_type": "ORG",
+            "reason": "Technical project phrase"
+        },
+        {
+            "entity": "tsc",
+            "entity_type": "ORG",
+            "reason": "Improper organization capitalization"
+        },
+        {
+            "entity": "tsx",
             "entity_type": "ORG",
             "reason": "Improper organization capitalization"
         },
@@ -160,330 +157,26 @@
             "reason": "Entity too short"
         },
         {
+            "entity": "node.js",
+            "entity_type": "technologies",
+            "reason": "Software file/application"
+        },
+        {
             "entity": "c",
             "entity_type": "skills",
             "reason": "Entity too short"
+        },
+        {
+            "entity": "node.js",
+            "entity_type": "skills",
+            "reason": "Software file/application"
         }
     ],
     "evidence_report": {
-        "Docker": [
-            {
-                "paragraph": 1,
-                "sentence": "GitHub Repository Ubuntu/Debian: sudo apt install postgresql-16 Windows: the installer from postgresql.org Docker (fastest): docker run -d  name provue-pg -p 5432:5432 -e POSTGRES_PASSWORD=postgres postgres:16 Verify the server is up: psql  version prints a version, and psql -U postgres -c 'select 1' connects.",
-                "keywords": [
-                    "Docker"
-                ],
-                "reason": "Entity explicitly mentioned",
-                "confidence": 1.0
-            }
-        ],
-        "Git Config  Global": [
-            {
-                "paragraph": 1,
-                "sentence": "GitHub account ready (use a professional username \u2014 recruiters see it) Git installed and configured: git config  global user.name \"Your Name\" git config  global user.email \"you@example.com\" SSH key added to GitHub or a personal access token configured for HTTPS Create an empty private repo for your submission (you can flip it public when you submit) Add a .gitignore that excludes node_modules/ , .env, dist/, and any cached LLM logs Provue Engineering Take-Home \u2014 Pre-requisites Setup Checklist 3 \u2705 6.",
-                "keywords": [
-                    "Git Config  Global"
-                ],
-                "reason": "Entity explicitly mentioned",
-                "confidence": 1.0
-            }
-        ],
-        "Npm Install": [
-            {
-                "paragraph": 1,
-                "sentence": "Install it globally (optional but convenient): npm install -g tsx typescript Verify: tsx  version and tsc  version both print a version Scaffold a sandbox project: npm create mastra@latest During the wizard, select at minimum: Agents and Tools (Workflows is optional for this assignment) Provue Engineering Take-Home \u2014 Pre-requisites Setup Checklist 1 \u2705 3.",
-                "keywords": [
-                    "Npm Install"
-                ],
-                "reason": "Entity explicitly mentioned",
-                "confidence": 1.0
-            }
-        ],
-        "Postman": [
-            {
-                "paragraph": 1,
-                "sentence": "Deployment CLI installed if the platform uses one ( flyctl, railway ) You have run a \"hello world\" Node deploy on this platform at least once before You know how to set env vars on the platform \u2014 DATABASE_URL and your model API key both need to be configured for the deployed service Editor of choice installed: VS Code or Cursor Recommended extensions: TypeScript & JavaScript Language Features (built-in) Prettier \u2014 code formatter ESLint GitLens REST Client (for hitting POST /ask while developing) SQLTools or PostgreSQL \u2014 for inspecting tables and running queries from the editor A terminal you are comfortable in (Terminal.app, iTerm2, Windows Terminal, etc.) A way to send POST /ask requests: curl, Postman , or the REST Client extension You see three folders under data/: sample_a/ , sample_b/ , sample_c/ \u2014 each contains transactions.json , funds.json , holdings.json You have opened all three and compared them: different merchants appear in different folders; one folder uses more NEFT-style memos.",
-                "keywords": [
-                    "Postman"
-                ],
-                "reason": "Entity explicitly mentioned",
-                "confidence": 1.0
-            }
-        ],
-        "Prisma": [
-            {
-                "paragraph": 1,
-                "sentence": "Decide upfront how you'll talk to Postgres: raw SQL (pg), Drizzle , Prisma , Knex , or similar.",
-                "keywords": [
-                    "Prisma"
-                ],
-                "reason": "Entity explicitly mentioned",
-                "confidence": 1.0
-            }
-        ],
-        "Quickstart": [
-            {
-                "paragraph": 1,
-                "sentence": "Install PostgresPick a model provider you have a key for: OpenAI , Anthropic , or Google Boot the dev server: cd <project> npm run dev Open the Mastra playground in the browser (the CLI prints the URL on startup) and confirm the sample agent responds Bookmark the docs you will actually need during the build: Quickstart createTool reference Agent reference Adding Mastra to an Express server Text-to-SQL template (closest example) Account created with one of: OpenAI , Anthropic , or Google AI Studio Email + phone verification complete API key generated and stored in a password manager (never paste in chat, never commit) Billing: a payment method or pre-paid credits on file.",
-                "keywords": [
-                    "Quickstart"
-                ],
-                "reason": "Entity explicitly mentioned",
-                "confidence": 1.0
-            }
-        ],
-        "Render": [
-            {
-                "paragraph": 1,
-                "sentence": "Pick a free-tier hosted Postgres for the deployed service: Neon , Supabase , Render Postgres , or Railway Postgres .",
-                "keywords": [
-                    "Render"
-                ],
-                "reason": "Entity explicitly mentioned",
-                "confidence": 1.0
-            },
-            {
-                "paragraph": 1,
-                "sentence": "They are sample seed data only \u2014 your implementation must load them into Postgres via an ingest script and query the database from your tools.Account on one of: Render , Railway , Fly.io , Vercel (paired with hosted Postgres), Heroku , or your own AWS / GCP / Azure Free tier or trial credits cover both a small Node service and a small Postgres database .",
-                "keywords": [
-                    "Render"
-                ],
-                "reason": "Entity explicitly mentioned",
-                "confidence": 1.0
-            },
-            {
-                "paragraph": 1,
-                "sentence": "Render and Railway bundle both; Vercel needs a separate Postgres (Neon/Supabase).",
-                "keywords": [
-                    "Render"
-                ],
-                "reason": "Entity explicitly mentioned",
-                "confidence": 1.0
-            }
-        ],
-        "Setup Checklist": [
-            {
-                "paragraph": 1,
-                "sentence": "Provue Engineering Take-Home \u2014 Pre-requisites Setup Checklist This checklist gets your environment ready to build Tara, the finance-research persona described in the Provue Engineering Take-Home assignment.",
-                "keywords": [
-                    "Setup Checklist"
-                ],
-                "reason": "Entity explicitly mentioned",
-                "confidence": 1.0
-            },
-            {
-                "paragraph": 1,
-                "sentence": "\ud83d\udccb Setup Checklist \u2705 1.",
-                "keywords": [
-                    "Setup Checklist"
-                ],
-                "reason": "Entity explicitly mentioned",
-                "confidence": 1.0
-            },
-            {
-                "paragraph": 1,
-                "sentence": "Install it globally (optional but convenient): npm install -g tsx typescript Verify: tsx  version and tsc  version both print a version Scaffold a sandbox project: npm create mastra@latest During the wizard, select at minimum: Agents and Tools (Workflows is optional for this assignment) Provue Engineering Take-Home \u2014 Pre-requisites Setup Checklist 1 \u2705 3.",
-                "keywords": [
-                    "Setup Checklist"
-                ],
-                "reason": "Entity explicitly mentioned",
-                "confidence": 1.0
-            },
-            {
-                "paragraph": 1,
-                "sentence": "Pick one path: macOS (Homebrew): brew install postgresql@16 then brew services start postgresql@16 Provue Engineering Take-Home \u2014 Pre-requisites Setup Checklist 2 Create the assignment database Pick a query approach (no specific ORM required) Plan for managed Postgres at deploy time \u2705 5.",
-                "keywords": [
-                    "Setup Checklist"
-                ],
-                "reason": "Entity explicitly mentioned",
-                "confidence": 1.0
-            },
-            {
-                "paragraph": 1,
-                "sentence": "GitHub account ready (use a professional username \u2014 recruiters see it) Git installed and configured: git config  global user.name \"Your Name\" git config  global user.email \"you@example.com\" SSH key added to GitHub or a personal access token configured for HTTPS Create an empty private repo for your submission (you can flip it public when you submit) Add a .gitignore that excludes node_modules/ , .env, dist/, and any cached LLM logs Provue Engineering Take-Home \u2014 Pre-requisites Setup Checklist 3 \u2705 6.",
-                "keywords": [
-                    "Setup Checklist"
-                ],
-                "reason": "Entity explicitly mentioned",
-                "confidence": 1.0
-            },
-            {
-                "paragraph": 1,
-                "sentence": "Provue Engineering Take-Home \u2014 Pre-requisites Setup Checklist 4 \u2705 9.",
-                "keywords": [
-                    "Setup Checklist"
-                ],
-                "reason": "Entity explicitly mentioned",
-                "confidence": 1.0
-            },
-            {
-                "paragraph": 1,
-                "sentence": "Mastra sandbox project boots and the sample agent answers a question Model API key works from a script \u2014 non-zero token count returned Local Postgres is running and accessible ; provue_tara database exists and accepts a connection from psql or a client You can deploy a \"hello world\" Node service to your chosen platform and hit it from your browser You have a hosted Postgres connection string ready for the deployed environment An empty submission repo is on GitHub with .gitignore and a stub README.md All three data/sample_*/ snapshots open cleanly in your editor; you have eyeballed the variation between them You have read the assignment brief end-to-end at least once and noted the multi-snapshot grading model and the reliability rules Provue Engineering Take-Home \u2014 Pre-requisites Setup Checklist 5 \ud83c\udfaf What You Will Submit \ud83d\udcde Stuck?",
-                "keywords": [
-                    "Setup Checklist"
-                ],
-                "reason": "Entity explicitly mentioned",
-                "confidence": 1.0
-            },
-            {
-                "paragraph": 1,
-                "sentence": "Setup Checklist \u2014 for the Provue Engineering Take-Home: Build a Finance-Research Agent.You have skimmed DESIGN.md expectations \u2014 schema, indexes, formulas for spend, net spend, merchant matching, recurring detection, fund period return, holding realised return You know which model provider, which deployment target (app + Postgres), and roughly how many tools and tables you intend to build A GitHub repo (or zip) containing your schema, ingest script, code, README.md , DESIGN.md , and an eval script A public URL where POST /ask returns { \"answer\": \"...\" } for any question, backed by a deployed Postgres Observability evidence: logs, trace output, or screenshots showing one successful run and one handled no-data / failure run An eval script with at least 12 questions covering single lookup, date filtering, refunds, merchant aliases, transfers, category comparison, recurring subscriptions, no-data cases, fund period returns, and realised returns on holdings Provue Engineering Take-Home \u2014 Pre-requisites Setup Checklist 6",
-                "keywords": [
-                    "Setup Checklist"
-                ],
-                "reason": "Entity explicitly mentioned",
-                "confidence": 1.0
-            }
-        ],
-        "Stuck": [
-            {
-                "paragraph": 1,
-                "sentence": "Mastra sandbox project boots and the sample agent answers a question Model API key works from a script \u2014 non-zero token count returned Local Postgres is running and accessible ; provue_tara database exists and accepts a connection from psql or a client You can deploy a \"hello world\" Node service to your chosen platform and hit it from your browser You have a hosted Postgres connection string ready for the deployed environment An empty submission repo is on GitHub with .gitignore and a stub README.md All three data/sample_*/ snapshots open cleanly in your editor; you have eyeballed the variation between them You have read the assignment brief end-to-end at least once and noted the multi-snapshot grading model and the reliability rules Provue Engineering Take-Home \u2014 Pre-requisites Setup Checklist 5 \ud83c\udfaf What You Will Submit \ud83d\udcde Stuck?",
-                "keywords": [
-                    "Stuck"
-                ],
-                "reason": "Entity explicitly mentioned",
-                "confidence": 1.0
-            }
-        ],
-        "Tools": [
-            {
-                "paragraph": 1,
-                "sentence": "Work through it before you start the build \u2014 most of the 8\u201310 hour budget should go into schema, tools, agent, and orchestration, not into installing things.",
-                "keywords": [
-                    "Tools"
-                ],
-                "reason": "Entity explicitly mentioned",
-                "confidence": 1.0
-            },
-            {
-                "paragraph": 1,
-                "sentence": "Install it globally (optional but convenient): npm install -g tsx typescript Verify: tsx  version and tsc  version both print a version Scaffold a sandbox project: npm create mastra@latest During the wizard, select at minimum: Agents and Tools (Workflows is optional for this assignment) Provue Engineering Take-Home \u2014 Pre-requisites Setup Checklist 1 \u2705 3.",
-                "keywords": [
-                    "Tools"
-                ],
-                "reason": "Entity explicitly mentioned",
-                "confidence": 1.0
-            },
-            {
-                "paragraph": 1,
-                "sentence": "Postgres 14+ The assignment uses Postgres as the storage layer behind your tools.",
-                "keywords": [
-                    "Tools"
-                ],
-                "reason": "Entity explicitly mentioned",
-                "confidence": 1.0
-            },
-            {
-                "paragraph": 1,
-                "sentence": "The shipped JSON is sample seed data only \u2014 your ingest script will populate Postgres, and your tools will query Postgres at request time.",
-                "keywords": [
-                    "Tools"
-                ],
-                "reason": "Entity explicitly mentioned",
-                "confidence": 1.0
-            },
-            {
-                "paragraph": 1,
-                "sentence": "Create a database for the assignment: createdb provue_tara # or, via psql: # psql -U postgres -c \"CREATE DATABASE provue_tara;\" Save the connection string somewhere you'll remember (you'll need it in your .env): DATABASE_URL=postgres://postgres:postgres@localhost:5432/provue_tara Confirm a client tool can connect: psql (CLI), pgAdmin , DBeaver , or the VS Code SQLTools extension.",
-                "keywords": [
-                    "Tools"
-                ],
-                "reason": "Entity explicitly mentioned",
-                "confidence": 1.0
-            },
-            {
-                "paragraph": 1,
-                "sentence": "They are sample seed data only \u2014 your implementation must load them into Postgres via an ingest script and query the database from your tools.Account on one of: Render , Railway , Fly.io , Vercel (paired with hosted Postgres), Heroku , or your own AWS / GCP / Azure Free tier or trial credits cover both a small Node service and a small Postgres database .",
-                "keywords": [
-                    "Tools"
-                ],
-                "reason": "Entity explicitly mentioned",
-                "confidence": 1.0
-            },
-            {
-                "paragraph": 1,
-                "sentence": "Deployment CLI installed if the platform uses one ( flyctl, railway ) You have run a \"hello world\" Node deploy on this platform at least once before You know how to set env vars on the platform \u2014 DATABASE_URL and your model API key both need to be configured for the deployed service Editor of choice installed: VS Code or Cursor Recommended extensions: TypeScript & JavaScript Language Features (built-in) Prettier \u2014 code formatter ESLint GitLens REST Client (for hitting POST /ask while developing) SQLTools or PostgreSQL \u2014 for inspecting tables and running queries from the editor A terminal you are comfortable in (Terminal.app, iTerm2, Windows Terminal, etc.) A way to send POST /ask requests: curl, Postman , or the REST Client extension You see three folders under data/: sample_a/ , sample_b/ , sample_c/ \u2014 each contains transactions.json , funds.json , holdings.json You have opened all three and compared them: different merchants appear in different folders; one folder uses more NEFT-style memos.",
-                "keywords": [
-                    "Tools"
-                ],
-                "reason": "Entity explicitly mentioned",
-                "confidence": 1.0
-            },
-            {
-                "paragraph": 1,
-                "sentence": "The variation is the in-band signal that your tools must not hardcode merchant names, fund ids, aliases, or category lists .",
-                "keywords": [
-                    "Tools"
-                ],
-                "reason": "Entity explicitly mentioned",
-                "confidence": 1.0
-            },
-            {
-                "paragraph": 1,
-                "sentence": "Indexes on the columns your tools filter and group by.",
-                "keywords": [
-                    "Tools"
-                ],
-                "reason": "Entity explicitly mentioned",
-                "confidence": 1.0
-            },
-            {
-                "paragraph": 1,
-                "sentence": "Setup Checklist \u2014 for the Provue Engineering Take-Home: Build a Finance-Research Agent.You have skimmed DESIGN.md expectations \u2014 schema, indexes, formulas for spend, net spend, merchant matching, recurring detection, fund period return, holding realised return You know which model provider, which deployment target (app + Postgres), and roughly how many tools and tables you intend to build A GitHub repo (or zip) containing your schema, ingest script, code, README.md , DESIGN.md , and an eval script A public URL where POST /ask returns { \"answer\": \"...\" } for any question, backed by a deployed Postgres Observability evidence: logs, trace output, or screenshots showing one successful run and one handled no-data / failure run An eval script with at least 12 questions covering single lookup, date filtering, refunds, merchant aliases, transfers, category comparison, recurring subscriptions, no-data cases, fund period returns, and realised returns on holdings Provue Engineering Take-Home \u2014 Pre-requisites Setup Checklist 6",
-                "keywords": [
-                    "Tools"
-                ],
-                "reason": "Entity explicitly mentioned",
-                "confidence": 1.0
-            }
-        ],
-        "Vercel": [
-            {
-                "paragraph": 1,
-                "sentence": "They are sample seed data only \u2014 your implementation must load them into Postgres via an ingest script and query the database from your tools.Account on one of: Render , Railway , Fly.io , Vercel (paired with hosted Postgres), Heroku , or your own AWS / GCP / Azure Free tier or trial credits cover both a small Node service and a small Postgres database .",
-                "keywords": [
-                    "Vercel"
-                ],
-                "reason": "Entity explicitly mentioned",
-                "confidence": 1.0
-            },
-            {
-                "paragraph": 1,
-                "sentence": "Render and Railway bundle both; Vercel needs a separate Postgres (Neon/Supabase).",
-                "keywords": [
-                    "Vercel"
-                ],
-                "reason": "Entity explicitly mentioned",
-                "confidence": 1.0
-            }
-        ],
-        "Version Npm": [
-            {
-                "paragraph": 1,
-                "sentence": "Scaffold a fresh project to make sure the CLI works on your machine before the clock starts.Install Node.js v18 or newer (LTS recommended) from https://nodejs.org/ Verify in a terminal: node  version npm  version You should see Node 18+ and npm 9+ printed You will run TypeScript scripts directly with tsx.",
-                "keywords": [
-                    "Version Npm"
-                ],
-                "reason": "Entity explicitly mentioned",
-                "confidence": 1.0
-            }
-        ],
-        "DBeaver": [
-            {
-                "paragraph": 1,
-                "sentence": "Create a database for the assignment: createdb provue_tara # or, via psql: # psql -U postgres -c \"CREATE DATABASE provue_tara;\" Save the connection string somewhere you'll remember (you'll need it in your .env): DATABASE_URL=postgres://postgres:postgres@localhost:5432/provue_tara Confirm a client tool can connect: psql (CLI), pgAdmin , DBeaver , or the VS Code SQLTools extension.",
-                "keywords": [
-                    "DBeaver"
-                ],
-                "reason": "Entity explicitly mentioned",
-                "confidence": 1.0
-            }
-        ],
         "Drizzle": [
             {
                 "paragraph": 1,
-                "sentence": "Decide upfront how you'll talk to Postgres: raw SQL (pg), Drizzle , Prisma , Knex , or similar.",
+                "sentence": "Pick a query approach (no specific ORM required) Decide upfront how you'll talk to Postgres: raw SQL ( pg ), Drizzle, Prisma, Knex, or similar.",
                 "keywords": [
                     "Drizzle"
                 ],
@@ -491,12 +184,12 @@
                 "confidence": 1.0
             }
         ],
-        "INSERT": [
+        "Heroku": [
             {
                 "paragraph": 1,
-                "sentence": "Practice a tiny round-trip: CREATE TABLE , INSERT, SELECT from your chosen approach.",
+                "sentence": "Account on one of: Render, Railway, Fly.io, Vercel (paired with hosted Postgres), Heroku, or your own AWS / GCP / Azure Free tier or trial credits cover both a small Node service and a small Postgres database.",
                 "keywords": [
-                    "INSERT"
+                    "Heroku"
                 ],
                 "reason": "Entity explicitly mentioned",
                 "confidence": 1.0
@@ -505,7 +198,7 @@
         "Mastra": [
             {
                 "paragraph": 1,
-                "sentence": "Mastra Project Setup The assignment must be built using the Mastra SDK .",
+                "sentence": "Mastra Project Setup The assignment must be built using the Mastra SDK.",
                 "keywords": [
                     "Mastra"
                 ],
@@ -514,7 +207,7 @@
             },
             {
                 "paragraph": 1,
-                "sentence": "Install it globally (optional but convenient): npm install -g tsx typescript Verify: tsx  version and tsc  version both print a version Scaffold a sandbox project: npm create mastra@latest During the wizard, select at minimum: Agents and Tools (Workflows is optional for this assignment) Provue Engineering Take-Home \u2014 Pre-requisites Setup Checklist 1 \u2705 3.",
+                "sentence": "Scaffold a sandbox project: npm create mastra@latest During the wizard, select at minimum: Agents and Tools (Workflows is optional for this assignment) Provue Engineering Take-Home \u2014 Pre-requisites Setup Checklist 1 Pick a model provider you have a key for: OpenAI, Anthropic, or Google Boot the dev server: cd <project> npm run dev Open the Mastra playground in the browser (the CLI prints the URL on startup) and confirm the sample agent responds Bookmark the docs you will actually need during the build: Quickstart createTool reference Agent reference Adding Mastra to an Express server Text-to-SQL template (closest example) \u2705 3.",
                 "keywords": [
                     "Mastra"
                 ],
@@ -523,7 +216,7 @@
             },
             {
                 "paragraph": 1,
-                "sentence": "Install PostgresPick a model provider you have a key for: OpenAI , Anthropic , or Google Boot the dev server: cd <project> npm run dev Open the Mastra playground in the browser (the CLI prints the URL on startup) and confirm the sample agent responds Bookmark the docs you will actually need during the build: Quickstart createTool reference Agent reference Adding Mastra to an Express server Text-to-SQL template (closest example) Account created with one of: OpenAI , Anthropic , or Google AI Studio Email + phone verification complete API key generated and stored in a password manager (never paste in chat, never commit) Billing: a payment method or pre-paid credits on file.",
+                "sentence": "LLM tool calling: how the model emits a tool call, how the runtime executes it, how the result is fed back Mastra primitives: createTool , Agent , the agent loop Zod schemas: validating tool inputs from a non-deterministic caller Grounding: why every number must come from a tool query, not the model's prose Multi-step orchestration: handling questions that need two or more tool calls (compare, rank, derive, join) Express 5: a single POST /ask route, JSON request and response SQL fundamentals: WHERE , GROUP BY , aggregates, dates, joins.",
                 "keywords": [
                     "Mastra"
                 ],
@@ -532,16 +225,7 @@
             },
             {
                 "paragraph": 1,
-                "sentence": "LLM tool calling : how the model emits a tool call, how the runtime executes it, how the result is fed back Mastra primitives : createTool , Agent, the agent loop Zod schemas : validating tool inputs from a non-deterministic caller Grounding : why every number must come from a tool query, not the model's prose Multi-step orchestration : handling questions that need two or more tool calls (compare, rank, derive, join) Express 5 : a single POST /ask route, JSON request and response SQL fundamentals : WHERE, GROUP BY , aggregates, dates, joins.",
-                "keywords": [
-                    "Mastra"
-                ],
-                "reason": "Entity explicitly mentioned",
-                "confidence": 1.0
-            },
-            {
-                "paragraph": 1,
-                "sentence": "Mastra sandbox project boots and the sample agent answers a question Model API key works from a script \u2014 non-zero token count returned Local Postgres is running and accessible ; provue_tara database exists and accepts a connection from psql or a client You can deploy a \"hello world\" Node service to your chosen platform and hit it from your browser You have a hosted Postgres connection string ready for the deployed environment An empty submission repo is on GitHub with .gitignore and a stub README.md All three data/sample_*/ snapshots open cleanly in your editor; you have eyeballed the variation between them You have read the assignment brief end-to-end at least once and noted the multi-snapshot grading model and the reliability rules Provue Engineering Take-Home \u2014 Pre-requisites Setup Checklist 5 \ud83c\udfaf What You Will Submit \ud83d\udcde Stuck?",
+                "sentence": "Final Verification Before You Start Mastra sandbox project boots and the sample agent answers a question Model API key works from a script \u2014 non-zero token count returned Local Postgres is running and accessible; provue_tara database exists and accepts a connection from psql or a client You can deploy a \"hello world\" Node service to your chosen platform and hit it from your browser You have a hosted Postgres connection string ready for the deployed environment An empty submission repo is on GitHub with .gitignore and a stub README.md All three data/sample_*/ snapshots open cleanly in your editor; you have eyeballed the variation between them You have read the assignment brief end-to-end at least once and noted the multi-snapshot grading model and the reliability rules Provue Engineering Take-Home \u2014 Pre-requisites Setup Checklist 5 You have skimmed DESIGN.md expectations \u2014 schema, indexes, formulas for spend, net spend, merchant matching, recurring detection, fund period return, holding realised return You know which model provider, which deployment target (app + Postgres), and roughly how many tools and tables you intend to build \ud83c\udfaf What You Will Submit A GitHub repo (or zip) containing your schema, ingest script, code, README.md , DESIGN.md , and an eval script A public URL where POST /ask returns { \"answer\": \"...\" } for any question, backed by a deployed Postgres Observability evidence: logs, trace output, or screenshots showing one successful run and one handled no-data / failure run An eval script with at least 12 questions covering single lookup, date filtering, refunds, merchant aliases, transfers, category comparison, recurring subscriptions, no-data cases, fund period returns, and realised returns on holdings \ud83d\udcde Stuck?",
                 "keywords": [
                     "Mastra"
                 ],
@@ -549,189 +233,34 @@
                 "confidence": 1.0
             }
         ],
-        "Mastra SDK": [
+        "Postman": [
             {
                 "paragraph": 1,
-                "sentence": "Mastra Project Setup The assignment must be built using the Mastra SDK .",
+                "sentence": "Local Dev Environment Editor of choice installed: VS Code or Cursor Recommended extensions: TypeScript & JavaScript Language Features (built-in) Prettier \u2014 code formatter ESLint GitLens REST Client (for hitting POST /ask while developing) SQLTools or PostgreSQL \u2014 for inspecting tables and running queries from the editor A terminal you are comfortable in (Terminal.app, iTerm2, Windows Terminal, etc.) A way to send POST /ask requests: curl, Postman, or the REST Client extension \u2705 8.",
                 "keywords": [
-                    "Mastra SDK"
+                    "Postman"
                 ],
                 "reason": "Entity explicitly mentioned",
                 "confidence": 1.0
             }
         ],
-        "Mastra sandbox project boots": [
+        "Sample_C/": [
             {
                 "paragraph": 1,
-                "sentence": "Mastra sandbox project boots and the sample agent answers a question Model API key works from a script \u2014 non-zero token count returned Local Postgres is running and accessible ; provue_tara database exists and accepts a connection from psql or a client You can deploy a \"hello world\" Node service to your chosen platform and hit it from your browser You have a hosted Postgres connection string ready for the deployed environment An empty submission repo is on GitHub with .gitignore and a stub README.md All three data/sample_*/ snapshots open cleanly in your editor; you have eyeballed the variation between them You have read the assignment brief end-to-end at least once and noted the multi-snapshot grading model and the reliability rules Provue Engineering Take-Home \u2014 Pre-requisites Setup Checklist 5 \ud83c\udfaf What You Will Submit \ud83d\udcde Stuck?",
+                "sentence": "You see three folders under data/ : sample_a/ , sample_b/ , sample_c/ \u2014 each contains transactions.json , funds.json , holdings.json You have opened all three and compared them: different merchants appear in different folders; one folder uses more NEFT-style memos.",
                 "keywords": [
-                    "Mastra sandbox project boots"
+                    "Sample_C/"
                 ],
                 "reason": "Entity explicitly mentioned",
                 "confidence": 1.0
             }
         ],
-        "Node": [
+        "Supabase": [
             {
                 "paragraph": 1,
-                "sentence": "Node.js and TypeScript Install Node.js TypeScript runner \u2705 2.",
+                "sentence": "Plan for managed Postgres at deploy time Pick a free-tier hosted Postgres for the deployed service: Neon, Supabase, Render Postgres, or Railway Postgres.",
                 "keywords": [
-                    "Node"
-                ],
-                "reason": "Entity explicitly mentioned",
-                "confidence": 1.0
-            },
-            {
-                "paragraph": 1,
-                "sentence": "Scaffold a fresh project to make sure the CLI works on your machine before the clock starts.Install Node.js v18 or newer (LTS recommended) from https://nodejs.org/ Verify in a terminal: node  version npm  version You should see Node 18+ and npm 9+ printed You will run TypeScript scripts directly with tsx.",
-                "keywords": [
-                    "Node"
-                ],
-                "reason": "Entity explicitly mentioned",
-                "confidence": 1.0
-            },
-            {
-                "paragraph": 1,
-                "sentence": "GitHub account ready (use a professional username \u2014 recruiters see it) Git installed and configured: git config  global user.name \"Your Name\" git config  global user.email \"you@example.com\" SSH key added to GitHub or a personal access token configured for HTTPS Create an empty private repo for your submission (you can flip it public when you submit) Add a .gitignore that excludes node_modules/ , .env, dist/, and any cached LLM logs Provue Engineering Take-Home \u2014 Pre-requisites Setup Checklist 3 \u2705 6.",
-                "keywords": [
-                    "Node"
-                ],
-                "reason": "Entity explicitly mentioned",
-                "confidence": 1.0
-            },
-            {
-                "paragraph": 1,
-                "sentence": "They are sample seed data only \u2014 your implementation must load them into Postgres via an ingest script and query the database from your tools.Account on one of: Render , Railway , Fly.io , Vercel (paired with hosted Postgres), Heroku , or your own AWS / GCP / Azure Free tier or trial credits cover both a small Node service and a small Postgres database .",
-                "keywords": [
-                    "Node"
-                ],
-                "reason": "Entity explicitly mentioned",
-                "confidence": 1.0
-            },
-            {
-                "paragraph": 1,
-                "sentence": "Deployment CLI installed if the platform uses one ( flyctl, railway ) You have run a \"hello world\" Node deploy on this platform at least once before You know how to set env vars on the platform \u2014 DATABASE_URL and your model API key both need to be configured for the deployed service Editor of choice installed: VS Code or Cursor Recommended extensions: TypeScript & JavaScript Language Features (built-in) Prettier \u2014 code formatter ESLint GitLens REST Client (for hitting POST /ask while developing) SQLTools or PostgreSQL \u2014 for inspecting tables and running queries from the editor A terminal you are comfortable in (Terminal.app, iTerm2, Windows Terminal, etc.) A way to send POST /ask requests: curl, Postman , or the REST Client extension You see three folders under data/: sample_a/ , sample_b/ , sample_c/ \u2014 each contains transactions.json , funds.json , holdings.json You have opened all three and compared them: different merchants appear in different folders; one folder uses more NEFT-style memos.",
-                "keywords": [
-                    "Node"
-                ],
-                "reason": "Entity explicitly mentioned",
-                "confidence": 1.0
-            },
-            {
-                "paragraph": 1,
-                "sentence": "Mastra sandbox project boots and the sample agent answers a question Model API key works from a script \u2014 non-zero token count returned Local Postgres is running and accessible ; provue_tara database exists and accepts a connection from psql or a client You can deploy a \"hello world\" Node service to your chosen platform and hit it from your browser You have a hosted Postgres connection string ready for the deployed environment An empty submission repo is on GitHub with .gitignore and a stub README.md All three data/sample_*/ snapshots open cleanly in your editor; you have eyeballed the variation between them You have read the assignment brief end-to-end at least once and noted the multi-snapshot grading model and the reliability rules Provue Engineering Take-Home \u2014 Pre-requisites Setup Checklist 5 \ud83c\udfaf What You Will Submit \ud83d\udcde Stuck?",
-                "keywords": [
-                    "Node"
-                ],
-                "reason": "Entity explicitly mentioned",
-                "confidence": 1.0
-            },
-            {
-                "paragraph": 1,
-                "sentence": "Reach out before the clock starts \u2014 debugging Node or Postgres installs is not what the 8\u201310 hours are for.",
-                "keywords": [
-                    "Node"
-                ],
-                "reason": "Entity explicitly mentioned",
-                "confidence": 1.0
-            }
-        ],
-        "POST": [
-            {
-                "paragraph": 1,
-                "sentence": "Postgres 14+ The assignment uses Postgres as the storage layer behind your tools.",
-                "keywords": [
-                    "POST"
-                ],
-                "reason": "Entity explicitly mentioned",
-                "confidence": 1.0
-            },
-            {
-                "paragraph": 1,
-                "sentence": "The shipped JSON is sample seed data only \u2014 your ingest script will populate Postgres, and your tools will query Postgres at request time.",
-                "keywords": [
-                    "POST"
-                ],
-                "reason": "Entity explicitly mentioned",
-                "confidence": 1.0
-            },
-            {
-                "paragraph": 1,
-                "sentence": "Install PostgresPick a model provider you have a key for: OpenAI , Anthropic , or Google Boot the dev server: cd <project> npm run dev Open the Mastra playground in the browser (the CLI prints the URL on startup) and confirm the sample agent responds Bookmark the docs you will actually need during the build: Quickstart createTool reference Agent reference Adding Mastra to an Express server Text-to-SQL template (closest example) Account created with one of: OpenAI , Anthropic , or Google AI Studio Email + phone verification complete API key generated and stored in a password manager (never paste in chat, never commit) Billing: a payment method or pre-paid credits on file.",
-                "keywords": [
-                    "POST"
-                ],
-                "reason": "Entity explicitly mentioned",
-                "confidence": 1.0
-            },
-            {
-                "paragraph": 1,
-                "sentence": "npx tsx -e \"console.log('key length:', process.env.OPENAI_API_KEY?.length)\" Add the key to a local .env file (which is in .gitignore ) If you cannot get a key: mention it in your README \u2014 Provue will help unblock you Install Postgres 14 or newer .",
-                "keywords": [
-                    "POST"
-                ],
-                "reason": "Entity explicitly mentioned",
-                "confidence": 1.0
-            },
-            {
-                "paragraph": 1,
-                "sentence": "Pick one path: macOS (Homebrew): brew install postgresql@16 then brew services start postgresql@16 Provue Engineering Take-Home \u2014 Pre-requisites Setup Checklist 2 Create the assignment database Pick a query approach (no specific ORM required) Plan for managed Postgres at deploy time \u2705 5.",
-                "keywords": [
-                    "POST"
-                ],
-                "reason": "Entity explicitly mentioned",
-                "confidence": 1.0
-            },
-            {
-                "paragraph": 1,
-                "sentence": "GitHub Repository Ubuntu/Debian: sudo apt install postgresql-16 Windows: the installer from postgresql.org Docker (fastest): docker run -d  name provue-pg -p 5432:5432 -e POSTGRES_PASSWORD=postgres postgres:16 Verify the server is up: psql  version prints a version, and psql -U postgres -c 'select 1' connects.",
-                "keywords": [
-                    "POST"
-                ],
-                "reason": "Entity explicitly mentioned",
-                "confidence": 1.0
-            },
-            {
-                "paragraph": 1,
-                "sentence": "Create a database for the assignment: createdb provue_tara # or, via psql: # psql -U postgres -c \"CREATE DATABASE provue_tara;\" Save the connection string somewhere you'll remember (you'll need it in your .env): DATABASE_URL=postgres://postgres:postgres@localhost:5432/provue_tara Confirm a client tool can connect: psql (CLI), pgAdmin , DBeaver , or the VS Code SQLTools extension.",
-                "keywords": [
-                    "POST"
-                ],
-                "reason": "Entity explicitly mentioned",
-                "confidence": 1.0
-            },
-            {
-                "paragraph": 1,
-                "sentence": "Decide upfront how you'll talk to Postgres: raw SQL (pg), Drizzle , Prisma , Knex , or similar.",
-                "keywords": [
-                    "POST"
-                ],
-                "reason": "Entity explicitly mentioned",
-                "confidence": 1.0
-            },
-            {
-                "paragraph": 1,
-                "sentence": "Pick a free-tier hosted Postgres for the deployed service: Neon , Supabase , Render Postgres , or Railway Postgres .",
-                "keywords": [
-                    "POST"
-                ],
-                "reason": "Entity explicitly mentioned",
-                "confidence": 1.0
-            },
-            {
-                "paragraph": 1,
-                "sentence": "Deployment Platform The finished service must be reachable at a public URL, with a working Postgres connection on the deployed side.",
-                "keywords": [
-                    "POST"
-                ],
-                "reason": "Entity explicitly mentioned",
-                "confidence": 1.0
-            },
-            {
-                "paragraph": 1,
-                "sentence": "They are sample seed data only \u2014 your implementation must load them into Postgres via an ingest script and query the database from your tools.Account on one of: Render , Railway , Fly.io , Vercel (paired with hosted Postgres), Heroku , or your own AWS / GCP / Azure Free tier or trial credits cover both a small Node service and a small Postgres database .",
-                "keywords": [
-                    "POST"
+                    "Supabase"
                 ],
                 "reason": "Entity explicitly mentioned",
                 "confidence": 1.0
@@ -740,162 +269,18 @@
                 "paragraph": 1,
                 "sentence": "Render and Railway bundle both; Vercel needs a separate Postgres (Neon/Supabase).",
                 "keywords": [
-                    "POST"
-                ],
-                "reason": "Entity explicitly mentioned",
-                "confidence": 1.0
-            },
-            {
-                "paragraph": 1,
-                "sentence": "Deployment CLI installed if the platform uses one ( flyctl, railway ) You have run a \"hello world\" Node deploy on this platform at least once before You know how to set env vars on the platform \u2014 DATABASE_URL and your model API key both need to be configured for the deployed service Editor of choice installed: VS Code or Cursor Recommended extensions: TypeScript & JavaScript Language Features (built-in) Prettier \u2014 code formatter ESLint GitLens REST Client (for hitting POST /ask while developing) SQLTools or PostgreSQL \u2014 for inspecting tables and running queries from the editor A terminal you are comfortable in (Terminal.app, iTerm2, Windows Terminal, etc.) A way to send POST /ask requests: curl, Postman , or the REST Client extension You see three folders under data/: sample_a/ , sample_b/ , sample_c/ \u2014 each contains transactions.json , funds.json , holdings.json You have opened all three and compared them: different merchants appear in different folders; one folder uses more NEFT-style memos.",
-                "keywords": [
-                    "POST"
-                ],
-                "reason": "Entity explicitly mentioned",
-                "confidence": 1.0
-            },
-            {
-                "paragraph": 1,
-                "sentence": "Final Verification Before You Start You understand the grading model: Provue runs your ingest script against a fourth snapshot you have never seen , then hits POST /ask .",
-                "keywords": [
-                    "POST"
-                ],
-                "reason": "Entity explicitly mentioned",
-                "confidence": 1.0
-            },
-            {
-                "paragraph": 1,
-                "sentence": "LLM tool calling : how the model emits a tool call, how the runtime executes it, how the result is fed back Mastra primitives : createTool , Agent, the agent loop Zod schemas : validating tool inputs from a non-deterministic caller Grounding : why every number must come from a tool query, not the model's prose Multi-step orchestration : handling questions that need two or more tool calls (compare, rank, derive, join) Express 5 : a single POST /ask route, JSON request and response SQL fundamentals : WHERE, GROUP BY , aggregates, dates, joins.",
-                "keywords": [
-                    "POST"
-                ],
-                "reason": "Entity explicitly mentioned",
-                "confidence": 1.0
-            },
-            {
-                "paragraph": 1,
-                "sentence": "Mastra sandbox project boots and the sample agent answers a question Model API key works from a script \u2014 non-zero token count returned Local Postgres is running and accessible ; provue_tara database exists and accepts a connection from psql or a client You can deploy a \"hello world\" Node service to your chosen platform and hit it from your browser You have a hosted Postgres connection string ready for the deployed environment An empty submission repo is on GitHub with .gitignore and a stub README.md All three data/sample_*/ snapshots open cleanly in your editor; you have eyeballed the variation between them You have read the assignment brief end-to-end at least once and noted the multi-snapshot grading model and the reliability rules Provue Engineering Take-Home \u2014 Pre-requisites Setup Checklist 5 \ud83c\udfaf What You Will Submit \ud83d\udcde Stuck?",
-                "keywords": [
-                    "POST"
-                ],
-                "reason": "Entity explicitly mentioned",
-                "confidence": 1.0
-            },
-            {
-                "paragraph": 1,
-                "sentence": "Reach out before the clock starts \u2014 debugging Node or Postgres installs is not what the 8\u201310 hours are for.",
-                "keywords": [
-                    "POST"
-                ],
-                "reason": "Entity explicitly mentioned",
-                "confidence": 1.0
-            },
-            {
-                "paragraph": 1,
-                "sentence": "Setup Checklist \u2014 for the Provue Engineering Take-Home: Build a Finance-Research Agent.You have skimmed DESIGN.md expectations \u2014 schema, indexes, formulas for spend, net spend, merchant matching, recurring detection, fund period return, holding realised return You know which model provider, which deployment target (app + Postgres), and roughly how many tools and tables you intend to build A GitHub repo (or zip) containing your schema, ingest script, code, README.md , DESIGN.md , and an eval script A public URL where POST /ask returns { \"answer\": \"...\" } for any question, backed by a deployed Postgres Observability evidence: logs, trace output, or screenshots showing one successful run and one handled no-data / failure run An eval script with at least 12 questions covering single lookup, date filtering, refunds, merchant aliases, transfers, category comparison, recurring subscriptions, no-data cases, fund period returns, and realised returns on holdings Provue Engineering Take-Home \u2014 Pre-requisites Setup Checklist 6",
-                "keywords": [
-                    "POST"
+                    "Supabase"
                 ],
                 "reason": "Entity explicitly mentioned",
                 "confidence": 1.0
             }
         ],
-        "Postgres": [
+        "Vercel": [
             {
                 "paragraph": 1,
-                "sentence": "Postgres 14+ The assignment uses Postgres as the storage layer behind your tools.",
+                "sentence": "Account on one of: Render, Railway, Fly.io, Vercel (paired with hosted Postgres), Heroku, or your own AWS / GCP / Azure Free tier or trial credits cover both a small Node service and a small Postgres database.",
                 "keywords": [
-                    "Postgres"
-                ],
-                "reason": "Entity explicitly mentioned",
-                "confidence": 1.0
-            },
-            {
-                "paragraph": 1,
-                "sentence": "The shipped JSON is sample seed data only \u2014 your ingest script will populate Postgres, and your tools will query Postgres at request time.",
-                "keywords": [
-                    "Postgres"
-                ],
-                "reason": "Entity explicitly mentioned",
-                "confidence": 1.0
-            },
-            {
-                "paragraph": 1,
-                "sentence": "Install PostgresPick a model provider you have a key for: OpenAI , Anthropic , or Google Boot the dev server: cd <project> npm run dev Open the Mastra playground in the browser (the CLI prints the URL on startup) and confirm the sample agent responds Bookmark the docs you will actually need during the build: Quickstart createTool reference Agent reference Adding Mastra to an Express server Text-to-SQL template (closest example) Account created with one of: OpenAI , Anthropic , or Google AI Studio Email + phone verification complete API key generated and stored in a password manager (never paste in chat, never commit) Billing: a payment method or pre-paid credits on file.",
-                "keywords": [
-                    "Postgres"
-                ],
-                "reason": "Entity explicitly mentioned",
-                "confidence": 1.0
-            },
-            {
-                "paragraph": 1,
-                "sentence": "npx tsx -e \"console.log('key length:', process.env.OPENAI_API_KEY?.length)\" Add the key to a local .env file (which is in .gitignore ) If you cannot get a key: mention it in your README \u2014 Provue will help unblock you Install Postgres 14 or newer .",
-                "keywords": [
-                    "Postgres"
-                ],
-                "reason": "Entity explicitly mentioned",
-                "confidence": 1.0
-            },
-            {
-                "paragraph": 1,
-                "sentence": "Pick one path: macOS (Homebrew): brew install postgresql@16 then brew services start postgresql@16 Provue Engineering Take-Home \u2014 Pre-requisites Setup Checklist 2 Create the assignment database Pick a query approach (no specific ORM required) Plan for managed Postgres at deploy time \u2705 5.",
-                "keywords": [
-                    "Postgres"
-                ],
-                "reason": "Entity explicitly mentioned",
-                "confidence": 1.0
-            },
-            {
-                "paragraph": 1,
-                "sentence": "GitHub Repository Ubuntu/Debian: sudo apt install postgresql-16 Windows: the installer from postgresql.org Docker (fastest): docker run -d  name provue-pg -p 5432:5432 -e POSTGRES_PASSWORD=postgres postgres:16 Verify the server is up: psql  version prints a version, and psql -U postgres -c 'select 1' connects.",
-                "keywords": [
-                    "Postgres"
-                ],
-                "reason": "Entity explicitly mentioned",
-                "confidence": 1.0
-            },
-            {
-                "paragraph": 1,
-                "sentence": "Create a database for the assignment: createdb provue_tara # or, via psql: # psql -U postgres -c \"CREATE DATABASE provue_tara;\" Save the connection string somewhere you'll remember (you'll need it in your .env): DATABASE_URL=postgres://postgres:postgres@localhost:5432/provue_tara Confirm a client tool can connect: psql (CLI), pgAdmin , DBeaver , or the VS Code SQLTools extension.",
-                "keywords": [
-                    "Postgres"
-                ],
-                "reason": "Entity explicitly mentioned",
-                "confidence": 1.0
-            },
-            {
-                "paragraph": 1,
-                "sentence": "Decide upfront how you'll talk to Postgres: raw SQL (pg), Drizzle , Prisma , Knex , or similar.",
-                "keywords": [
-                    "Postgres"
-                ],
-                "reason": "Entity explicitly mentioned",
-                "confidence": 1.0
-            },
-            {
-                "paragraph": 1,
-                "sentence": "Pick a free-tier hosted Postgres for the deployed service: Neon , Supabase , Render Postgres , or Railway Postgres .",
-                "keywords": [
-                    "Postgres"
-                ],
-                "reason": "Entity explicitly mentioned",
-                "confidence": 1.0
-            },
-            {
-                "paragraph": 1,
-                "sentence": "Deployment Platform The finished service must be reachable at a public URL, with a working Postgres connection on the deployed side.",
-                "keywords": [
-                    "Postgres"
-                ],
-                "reason": "Entity explicitly mentioned",
-                "confidence": 1.0
-            },
-            {
-                "paragraph": 1,
-                "sentence": "They are sample seed data only \u2014 your implementation must load them into Postgres via an ingest script and query the database from your tools.Account on one of: Render , Railway , Fly.io , Vercel (paired with hosted Postgres), Heroku , or your own AWS / GCP / Azure Free tier or trial credits cover both a small Node service and a small Postgres database .",
-                "keywords": [
-                    "Postgres"
+                    "Vercel"
                 ],
                 "reason": "Entity explicitly mentioned",
                 "confidence": 1.0
@@ -904,43 +289,102 @@
                 "paragraph": 1,
                 "sentence": "Render and Railway bundle both; Vercel needs a separate Postgres (Neon/Supabase).",
                 "keywords": [
-                    "Postgres"
+                    "Vercel"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            }
+        ],
+        "Express 5": [
+            {
+                "paragraph": 1,
+                "sentence": "LLM tool calling: how the model emits a tool call, how the runtime executes it, how the result is fed back Mastra primitives: createTool , Agent , the agent loop Zod schemas: validating tool inputs from a non-deterministic caller Grounding: why every number must come from a tool query, not the model's prose Multi-step orchestration: handling questions that need two or more tool calls (compare, rank, derive, join) Express 5: a single POST /ask route, JSON request and response SQL fundamentals: WHERE , GROUP BY , aggregates, dates, joins.",
+                "keywords": [
+                    "Express 5"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            }
+        ],
+        "HTTPS": [
+            {
+                "paragraph": 1,
+                "sentence": "Node.js and TypeScript Install Node.js Install Node.js v18 or newer (LTS recommended) from https://nodejs.org/ Verify in a terminal: node  version npm  version You should see Node 18+ and npm 9+ printed TypeScript runner You will run TypeScript scripts directly with tsx .",
+                "keywords": [
+                    "HTTPS"
                 ],
                 "reason": "Entity explicitly mentioned",
                 "confidence": 1.0
             },
             {
                 "paragraph": 1,
-                "sentence": "Deployment CLI installed if the platform uses one ( flyctl, railway ) You have run a \"hello world\" Node deploy on this platform at least once before You know how to set env vars on the platform \u2014 DATABASE_URL and your model API key both need to be configured for the deployed service Editor of choice installed: VS Code or Cursor Recommended extensions: TypeScript & JavaScript Language Features (built-in) Prettier \u2014 code formatter ESLint GitLens REST Client (for hitting POST /ask while developing) SQLTools or PostgreSQL \u2014 for inspecting tables and running queries from the editor A terminal you are comfortable in (Terminal.app, iTerm2, Windows Terminal, etc.) A way to send POST /ask requests: curl, Postman , or the REST Client extension You see three folders under data/: sample_a/ , sample_b/ , sample_c/ \u2014 each contains transactions.json , funds.json , holdings.json You have opened all three and compared them: different merchants appear in different folders; one folder uses more NEFT-style memos.",
+                "sentence": "GitHub Repository GitHub account ready (use a professional username \u2014 recruiters see it) Git installed and configured: git config  global user.name \"Your Name\" git config  global user.email \"you@example.co SSH key added to GitHub or a personal access token configured for HTTPS Create an empty private repo for your submission (you can flip it public when you submit) Add a .gitignore that excludes node_modules/ , .env , dist/ , and any cached LLM logs Provue Engineering Take-Home \u2014 Pre-requisites Setup Checklist 3 \u2705 6.",
                 "keywords": [
-                    "Postgres"
+                    "HTTPS"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            }
+        ],
+        "Homebrew": [
+            {
+                "paragraph": 1,
+                "sentence": "Pick one path: macOS (Homebrew): brew install postgresql@16 then brew services start postgresql@16 Provue Engineering Take-Home \u2014 Pre-requisites Setup Checklist 2 Ubuntu/Debian: sudo apt install postgresql-16 Windows: the installer from postgresql.org Docker (fastest): docker run -d  name provue-pg -p 5432:5432 -e POSTGRES_PASSWORD=postgres postgres:16 Verify the server is up: psql  version prints a version, and psql -U postgres -c 'select 1' connects.",
+                "keywords": [
+                    "Homebrew"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            }
+        ],
+        "Knex": [
+            {
+                "paragraph": 1,
+                "sentence": "Pick a query approach (no specific ORM required) Decide upfront how you'll talk to Postgres: raw SQL ( pg ), Drizzle, Prisma, Knex, or similar.",
+                "keywords": [
+                    "Knex"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            }
+        ],
+        "NEFT": [
+            {
+                "paragraph": 1,
+                "sentence": "You see three folders under data/ : sample_a/ , sample_b/ , sample_c/ \u2014 each contains transactions.json , funds.json , holdings.json You have opened all three and compared them: different merchants appear in different folders; one folder uses more NEFT-style memos.",
+                "keywords": [
+                    "NEFT"
                 ],
                 "reason": "Entity explicitly mentioned",
                 "confidence": 1.0
             },
             {
                 "paragraph": 1,
-                "sentence": "Mastra sandbox project boots and the sample agent answers a question Model API key works from a script \u2014 non-zero token count returned Local Postgres is running and accessible ; provue_tara database exists and accepts a connection from psql or a client You can deploy a \"hello world\" Node service to your chosen platform and hit it from your browser You have a hosted Postgres connection string ready for the deployed environment An empty submission repo is on GitHub with .gitignore and a stub README.md All three data/sample_*/ snapshots open cleanly in your editor; you have eyeballed the variation between them You have read the assignment brief end-to-end at least once and noted the multi-snapshot grading model and the reliability rules Provue Engineering Take-Home \u2014 Pre-requisites Setup Checklist 5 \ud83c\udfaf What You Will Submit \ud83d\udcde Stuck?",
+                "sentence": "You have spotted the deliberate complications: refunds (negative amount ), merchant aliases ( Swiggy / Swiggy Instamart / SWIGGY*ORDER / SWIGGY BANGALORE ), self-transfers, missing categories ( uncategorized ), noisy UPI/NEFT memos.",
                 "keywords": [
-                    "Postgres"
+                    "NEFT"
                 ],
                 "reason": "Entity explicitly mentioned",
                 "confidence": 1.0
-            },
+            }
+        ],
+        "POSTGRES_PASSWORD": [
             {
                 "paragraph": 1,
-                "sentence": "Reach out before the clock starts \u2014 debugging Node or Postgres installs is not what the 8\u201310 hours are for.",
+                "sentence": "Pick one path: macOS (Homebrew): brew install postgresql@16 then brew services start postgresql@16 Provue Engineering Take-Home \u2014 Pre-requisites Setup Checklist 2 Ubuntu/Debian: sudo apt install postgresql-16 Windows: the installer from postgresql.org Docker (fastest): docker run -d  name provue-pg -p 5432:5432 -e POSTGRES_PASSWORD=postgres postgres:16 Verify the server is up: psql  version prints a version, and psql -U postgres -c 'select 1' connects.",
                 "keywords": [
-                    "Postgres"
+                    "POSTGRES_PASSWORD"
                 ],
                 "reason": "Entity explicitly mentioned",
                 "confidence": 1.0
-            },
+            }
+        ],
+        "Prisma": [
             {
                 "paragraph": 1,
-                "sentence": "Setup Checklist \u2014 for the Provue Engineering Take-Home: Build a Finance-Research Agent.You have skimmed DESIGN.md expectations \u2014 schema, indexes, formulas for spend, net spend, merchant matching, recurring detection, fund period return, holding realised return You know which model provider, which deployment target (app + Postgres), and roughly how many tools and tables you intend to build A GitHub repo (or zip) containing your schema, ingest script, code, README.md , DESIGN.md , and an eval script A public URL where POST /ask returns { \"answer\": \"...\" } for any question, backed by a deployed Postgres Observability evidence: logs, trace output, or screenshots showing one successful run and one handled no-data / failure run An eval script with at least 12 questions covering single lookup, date filtering, refunds, merchant aliases, transfers, category comparison, recurring subscriptions, no-data cases, fund period returns, and realised returns on holdings Provue Engineering Take-Home \u2014 Pre-requisites Setup Checklist 6",
+                "sentence": "Pick a query approach (no specific ORM required) Decide upfront how you'll talk to Postgres: raw SQL ( pg ), Drizzle, Prisma, Knex, or similar.",
                 "keywords": [
-                    "Postgres"
+                    "Prisma"
                 ],
                 "reason": "Entity explicitly mentioned",
                 "confidence": 1.0
@@ -958,7 +402,7 @@
             },
             {
                 "paragraph": 1,
-                "sentence": "Install it globally (optional but convenient): npm install -g tsx typescript Verify: tsx  version and tsc  version both print a version Scaffold a sandbox project: npm create mastra@latest During the wizard, select at minimum: Agents and Tools (Workflows is optional for this assignment) Provue Engineering Take-Home \u2014 Pre-requisites Setup Checklist 1 \u2705 3.",
+                "sentence": "Scaffold a sandbox project: npm create mastra@latest During the wizard, select at minimum: Agents and Tools (Workflows is optional for this assignment) Provue Engineering Take-Home \u2014 Pre-requisites Setup Checklist 1 Pick a model provider you have a key for: OpenAI, Anthropic, or Google Boot the dev server: cd <project> npm run dev Open the Mastra playground in the browser (the CLI prints the URL on startup) and confirm the sample agent responds Bookmark the docs you will actually need during the build: Quickstart createTool reference Agent reference Adding Mastra to an Express server Text-to-SQL template (closest example) \u2705 3.",
                 "keywords": [
                     "Provue"
                 ],
@@ -967,7 +411,7 @@
             },
             {
                 "paragraph": 1,
-                "sentence": "npx tsx -e \"console.log('key length:', process.env.OPENAI_API_KEY?.length)\" Add the key to a local .env file (which is in .gitignore ) If you cannot get a key: mention it in your README \u2014 Provue will help unblock you Install Postgres 14 or newer .",
+                "sentence": "Add the key to a local .env file (which is in .gitignore ) If you cannot get a key: mention it in your README \u2014 Provue will help unblock you \u2705 4.",
                 "keywords": [
                     "Provue"
                 ],
@@ -976,7 +420,7 @@
             },
             {
                 "paragraph": 1,
-                "sentence": "Pick one path: macOS (Homebrew): brew install postgresql@16 then brew services start postgresql@16 Provue Engineering Take-Home \u2014 Pre-requisites Setup Checklist 2 Create the assignment database Pick a query approach (no specific ORM required) Plan for managed Postgres at deploy time \u2705 5.",
+                "sentence": "Pick one path: macOS (Homebrew): brew install postgresql@16 then brew services start postgresql@16 Provue Engineering Take-Home \u2014 Pre-requisites Setup Checklist 2 Ubuntu/Debian: sudo apt install postgresql-16 Windows: the installer from postgresql.org Docker (fastest): docker run -d  name provue-pg -p 5432:5432 -e POSTGRES_PASSWORD=postgres postgres:16 Verify the server is up: psql  version prints a version, and psql -U postgres -c 'select 1' connects.",
                 "keywords": [
                     "Provue"
                 ],
@@ -985,7 +429,7 @@
             },
             {
                 "paragraph": 1,
-                "sentence": "GitHub Repository Ubuntu/Debian: sudo apt install postgresql-16 Windows: the installer from postgresql.org Docker (fastest): docker run -d  name provue-pg -p 5432:5432 -e POSTGRES_PASSWORD=postgres postgres:16 Verify the server is up: psql  version prints a version, and psql -U postgres -c 'select 1' connects.",
+                "sentence": "Create the assignment database Create a database for the assignment: createdb provue_tara # or, via psql: # psql -U postgres -c \"CREATE DATABASE provue_tara; Save the connection string somewhere you'll remember (you'll need it in your .env ): DATABASE_URL=postgres://postgres:postgres@localhost:5432/provue_tara Confirm a client tool can connect: psql (CLI), pgAdmin, DBeaver, or the VS Code SQLTools extension.",
                 "keywords": [
                     "Provue"
                 ],
@@ -994,7 +438,7 @@
             },
             {
                 "paragraph": 1,
-                "sentence": "Create a database for the assignment: createdb provue_tara # or, via psql: # psql -U postgres -c \"CREATE DATABASE provue_tara;\" Save the connection string somewhere you'll remember (you'll need it in your .env): DATABASE_URL=postgres://postgres:postgres@localhost:5432/provue_tara Confirm a client tool can connect: psql (CLI), pgAdmin , DBeaver , or the VS Code SQLTools extension.",
+                "sentence": "GitHub Repository GitHub account ready (use a professional username \u2014 recruiters see it) Git installed and configured: git config  global user.name \"Your Name\" git config  global user.email \"you@example.co SSH key added to GitHub or a personal access token configured for HTTPS Create an empty private repo for your submission (you can flip it public when you submit) Add a .gitignore that excludes node_modules/ , .env , dist/ , and any cached LLM logs Provue Engineering Take-Home \u2014 Pre-requisites Setup Checklist 3 \u2705 6.",
                 "keywords": [
                     "Provue"
                 ],
@@ -1003,7 +447,7 @@
             },
             {
                 "paragraph": 1,
-                "sentence": "GitHub account ready (use a professional username \u2014 recruiters see it) Git installed and configured: git config  global user.name \"Your Name\" git config  global user.email \"you@example.com\" SSH key added to GitHub or a personal access token configured for HTTPS Create an empty private repo for your submission (you can flip it public when you submit) Add a .gitignore that excludes node_modules/ , .env, dist/, and any cached LLM logs Provue Engineering Take-Home \u2014 Pre-requisites Setup Checklist 3 \u2705 6.",
+                "sentence": "Provue Engineering Take-Home \u2014 Pre-requisites Setup Checklist 4 You understand the grading model: Provue runs your ingest script against a fourth snapshot you have never seen, then hits POST /ask .",
                 "keywords": [
                     "Provue"
                 ],
@@ -1012,7 +456,7 @@
             },
             {
                 "paragraph": 1,
-                "sentence": "Provue Engineering Take-Home \u2014 Pre-requisites Setup Checklist 4 \u2705 9.",
+                "sentence": "Final Verification Before You Start Mastra sandbox project boots and the sample agent answers a question Model API key works from a script \u2014 non-zero token count returned Local Postgres is running and accessible; provue_tara database exists and accepts a connection from psql or a client You can deploy a \"hello world\" Node service to your chosen platform and hit it from your browser You have a hosted Postgres connection string ready for the deployed environment An empty submission repo is on GitHub with .gitignore and a stub README.md All three data/sample_*/ snapshots open cleanly in your editor; you have eyeballed the variation between them You have read the assignment brief end-to-end at least once and noted the multi-snapshot grading model and the reliability rules Provue Engineering Take-Home \u2014 Pre-requisites Setup Checklist 5 You have skimmed DESIGN.md expectations \u2014 schema, indexes, formulas for spend, net spend, merchant matching, recurring detection, fund period return, holding realised return You know which model provider, which deployment target (app + Postgres), and roughly how many tools and tables you intend to build \ud83c\udfaf What You Will Submit A GitHub repo (or zip) containing your schema, ingest script, code, README.md , DESIGN.md , and an eval script A public URL where POST /ask returns { \"answer\": \"...\" } for any question, backed by a deployed Postgres Observability evidence: logs, trace output, or screenshots showing one successful run and one handled no-data / failure run An eval script with at least 12 questions covering single lookup, date filtering, refunds, merchant aliases, transfers, category comparison, recurring subscriptions, no-data cases, fund period returns, and realised returns on holdings \ud83d\udcde Stuck?",
                 "keywords": [
                     "Provue"
                 ],
@@ -1021,7 +465,7 @@
             },
             {
                 "paragraph": 1,
-                "sentence": "Final Verification Before You Start You understand the grading model: Provue runs your ingest script against a fourth snapshot you have never seen , then hits POST /ask .",
+                "sentence": "Setup Checklist \u2014 for the Provue Engineering Take-Home: Build a Finance-Research Agent.",
                 "keywords": [
                     "Provue"
                 ],
@@ -1030,16 +474,7 @@
             },
             {
                 "paragraph": 1,
-                "sentence": "Mastra sandbox project boots and the sample agent answers a question Model API key works from a script \u2014 non-zero token count returned Local Postgres is running and accessible ; provue_tara database exists and accepts a connection from psql or a client You can deploy a \"hello world\" Node service to your chosen platform and hit it from your browser You have a hosted Postgres connection string ready for the deployed environment An empty submission repo is on GitHub with .gitignore and a stub README.md All three data/sample_*/ snapshots open cleanly in your editor; you have eyeballed the variation between them You have read the assignment brief end-to-end at least once and noted the multi-snapshot grading model and the reliability rules Provue Engineering Take-Home \u2014 Pre-requisites Setup Checklist 5 \ud83c\udfaf What You Will Submit \ud83d\udcde Stuck?",
-                "keywords": [
-                    "Provue"
-                ],
-                "reason": "Entity explicitly mentioned",
-                "confidence": 1.0
-            },
-            {
-                "paragraph": 1,
-                "sentence": "Setup Checklist \u2014 for the Provue Engineering Take-Home: Build a Finance-Research Agent.You have skimmed DESIGN.md expectations \u2014 schema, indexes, formulas for spend, net spend, merchant matching, recurring detection, fund period return, holding realised return You know which model provider, which deployment target (app + Postgres), and roughly how many tools and tables you intend to build A GitHub repo (or zip) containing your schema, ingest script, code, README.md , DESIGN.md , and an eval script A public URL where POST /ask returns { \"answer\": \"...\" } for any question, backed by a deployed Postgres Observability evidence: logs, trace output, or screenshots showing one successful run and one handled no-data / failure run An eval script with at least 12 questions covering single lookup, date filtering, refunds, merchant aliases, transfers, category comparison, recurring subscriptions, no-data cases, fund period returns, and realised returns on holdings Provue Engineering Take-Home \u2014 Pre-requisites Setup Checklist 6",
+                "sentence": "Provue Engineering Take-Home \u2014 Pre-requisites Setup Checklist 6",
                 "keywords": [
                     "Provue"
                 ],
@@ -1047,148 +482,23 @@
                 "confidence": 1.0
             }
         ],
-        "Provue Engineering Take-Home": [
+        "Swiggy": [
             {
                 "paragraph": 1,
-                "sentence": "Provue Engineering Take-Home \u2014 Pre-requisites Setup Checklist This checklist gets your environment ready to build Tara, the finance-research persona described in the Provue Engineering Take-Home assignment.",
+                "sentence": "You have spotted the deliberate complications: refunds (negative amount ), merchant aliases ( Swiggy / Swiggy Instamart / SWIGGY*ORDER / SWIGGY BANGALORE ), self-transfers, missing categories ( uncategorized ), noisy UPI/NEFT memos.",
                 "keywords": [
-                    "Provue Engineering Take-Home"
-                ],
-                "reason": "Entity explicitly mentioned",
-                "confidence": 1.0
-            },
-            {
-                "paragraph": 1,
-                "sentence": "Install it globally (optional but convenient): npm install -g tsx typescript Verify: tsx  version and tsc  version both print a version Scaffold a sandbox project: npm create mastra@latest During the wizard, select at minimum: Agents and Tools (Workflows is optional for this assignment) Provue Engineering Take-Home \u2014 Pre-requisites Setup Checklist 1 \u2705 3.",
-                "keywords": [
-                    "Provue Engineering Take-Home"
-                ],
-                "reason": "Entity explicitly mentioned",
-                "confidence": 1.0
-            },
-            {
-                "paragraph": 1,
-                "sentence": "Pick one path: macOS (Homebrew): brew install postgresql@16 then brew services start postgresql@16 Provue Engineering Take-Home \u2014 Pre-requisites Setup Checklist 2 Create the assignment database Pick a query approach (no specific ORM required) Plan for managed Postgres at deploy time \u2705 5.",
-                "keywords": [
-                    "Provue Engineering Take-Home"
-                ],
-                "reason": "Entity explicitly mentioned",
-                "confidence": 1.0
-            },
-            {
-                "paragraph": 1,
-                "sentence": "GitHub account ready (use a professional username \u2014 recruiters see it) Git installed and configured: git config  global user.name \"Your Name\" git config  global user.email \"you@example.com\" SSH key added to GitHub or a personal access token configured for HTTPS Create an empty private repo for your submission (you can flip it public when you submit) Add a .gitignore that excludes node_modules/ , .env, dist/, and any cached LLM logs Provue Engineering Take-Home \u2014 Pre-requisites Setup Checklist 3 \u2705 6.",
-                "keywords": [
-                    "Provue Engineering Take-Home"
-                ],
-                "reason": "Entity explicitly mentioned",
-                "confidence": 1.0
-            },
-            {
-                "paragraph": 1,
-                "sentence": "Provue Engineering Take-Home \u2014 Pre-requisites Setup Checklist 4 \u2705 9.",
-                "keywords": [
-                    "Provue Engineering Take-Home"
-                ],
-                "reason": "Entity explicitly mentioned",
-                "confidence": 1.0
-            },
-            {
-                "paragraph": 1,
-                "sentence": "Mastra sandbox project boots and the sample agent answers a question Model API key works from a script \u2014 non-zero token count returned Local Postgres is running and accessible ; provue_tara database exists and accepts a connection from psql or a client You can deploy a \"hello world\" Node service to your chosen platform and hit it from your browser You have a hosted Postgres connection string ready for the deployed environment An empty submission repo is on GitHub with .gitignore and a stub README.md All three data/sample_*/ snapshots open cleanly in your editor; you have eyeballed the variation between them You have read the assignment brief end-to-end at least once and noted the multi-snapshot grading model and the reliability rules Provue Engineering Take-Home \u2014 Pre-requisites Setup Checklist 5 \ud83c\udfaf What You Will Submit \ud83d\udcde Stuck?",
-                "keywords": [
-                    "Provue Engineering Take-Home"
-                ],
-                "reason": "Entity explicitly mentioned",
-                "confidence": 1.0
-            },
-            {
-                "paragraph": 1,
-                "sentence": "Setup Checklist \u2014 for the Provue Engineering Take-Home: Build a Finance-Research Agent.You have skimmed DESIGN.md expectations \u2014 schema, indexes, formulas for spend, net spend, merchant matching, recurring detection, fund period return, holding realised return You know which model provider, which deployment target (app + Postgres), and roughly how many tools and tables you intend to build A GitHub repo (or zip) containing your schema, ingest script, code, README.md , DESIGN.md , and an eval script A public URL where POST /ask returns { \"answer\": \"...\" } for any question, backed by a deployed Postgres Observability evidence: logs, trace output, or screenshots showing one successful run and one handled no-data / failure run An eval script with at least 12 questions covering single lookup, date filtering, refunds, merchant aliases, transfers, category comparison, recurring subscriptions, no-data cases, fund period returns, and realised returns on holdings Provue Engineering Take-Home \u2014 Pre-requisites Setup Checklist 6",
-                "keywords": [
-                    "Provue Engineering Take-Home"
+                    "Swiggy"
                 ],
                 "reason": "Entity explicitly mentioned",
                 "confidence": 1.0
             }
         ],
-        "Railway": [
+        "postgresql.org Docker": [
             {
                 "paragraph": 1,
-                "sentence": "Pick a free-tier hosted Postgres for the deployed service: Neon , Supabase , Render Postgres , or Railway Postgres .",
+                "sentence": "Pick one path: macOS (Homebrew): brew install postgresql@16 then brew services start postgresql@16 Provue Engineering Take-Home \u2014 Pre-requisites Setup Checklist 2 Ubuntu/Debian: sudo apt install postgresql-16 Windows: the installer from postgresql.org Docker (fastest): docker run -d  name provue-pg -p 5432:5432 -e POSTGRES_PASSWORD=postgres postgres:16 Verify the server is up: psql  version prints a version, and psql -U postgres -c 'select 1' connects.",
                 "keywords": [
-                    "Railway"
-                ],
-                "reason": "Entity explicitly mentioned",
-                "confidence": 1.0
-            },
-            {
-                "paragraph": 1,
-                "sentence": "They are sample seed data only \u2014 your implementation must load them into Postgres via an ingest script and query the database from your tools.Account on one of: Render , Railway , Fly.io , Vercel (paired with hosted Postgres), Heroku , or your own AWS / GCP / Azure Free tier or trial credits cover both a small Node service and a small Postgres database .",
-                "keywords": [
-                    "Railway"
-                ],
-                "reason": "Entity explicitly mentioned",
-                "confidence": 1.0
-            },
-            {
-                "paragraph": 1,
-                "sentence": "Render and Railway bundle both; Vercel needs a separate Postgres (Neon/Supabase).",
-                "keywords": [
-                    "Railway"
-                ],
-                "reason": "Entity explicitly mentioned",
-                "confidence": 1.0
-            },
-            {
-                "paragraph": 1,
-                "sentence": "Deployment CLI installed if the platform uses one ( flyctl, railway ) You have run a \"hello world\" Node deploy on this platform at least once before You know how to set env vars on the platform \u2014 DATABASE_URL and your model API key both need to be configured for the deployed service Editor of choice installed: VS Code or Cursor Recommended extensions: TypeScript & JavaScript Language Features (built-in) Prettier \u2014 code formatter ESLint GitLens REST Client (for hitting POST /ask while developing) SQLTools or PostgreSQL \u2014 for inspecting tables and running queries from the editor A terminal you are comfortable in (Terminal.app, iTerm2, Windows Terminal, etc.) A way to send POST /ask requests: curl, Postman , or the REST Client extension You see three folders under data/: sample_a/ , sample_b/ , sample_c/ \u2014 each contains transactions.json , funds.json , holdings.json You have opened all three and compared them: different merchants appear in different folders; one folder uses more NEFT-style memos.",
-                "keywords": [
-                    "Railway"
-                ],
-                "reason": "Entity explicitly mentioned",
-                "confidence": 1.0
-            }
-        ],
-        "Swiggy / Swiggy Instamart": [
-            {
-                "paragraph": 1,
-                "sentence": "You have spotted the deliberate complications: refunds (negative amount), merchant aliases (Swiggy / Swiggy Instamart / SWIGGY*ORDER / SWIGGY BANGALORE ), self-transfers, missing categories ( uncategorized ), noisy UPI/NEFT memos.",
-                "keywords": [
-                    "Swiggy / Swiggy Instamart"
-                ],
-                "reason": "Entity explicitly mentioned",
-                "confidence": 1.0
-            }
-        ],
-        "Terminal.app": [
-            {
-                "paragraph": 1,
-                "sentence": "Deployment CLI installed if the platform uses one ( flyctl, railway ) You have run a \"hello world\" Node deploy on this platform at least once before You know how to set env vars on the platform \u2014 DATABASE_URL and your model API key both need to be configured for the deployed service Editor of choice installed: VS Code or Cursor Recommended extensions: TypeScript & JavaScript Language Features (built-in) Prettier \u2014 code formatter ESLint GitLens REST Client (for hitting POST /ask while developing) SQLTools or PostgreSQL \u2014 for inspecting tables and running queries from the editor A terminal you are comfortable in (Terminal.app, iTerm2, Windows Terminal, etc.) A way to send POST /ask requests: curl, Postman , or the REST Client extension You see three folders under data/: sample_a/ , sample_b/ , sample_c/ \u2014 each contains transactions.json , funds.json , holdings.json You have opened all three and compared them: different merchants appear in different folders; one folder uses more NEFT-style memos.",
-                "keywords": [
-                    "Terminal.app"
-                ],
-                "reason": "Entity explicitly mentioned",
-                "confidence": 1.0
-            }
-        ],
-        "UPI/NEFT": [
-            {
-                "paragraph": 1,
-                "sentence": "You have spotted the deliberate complications: refunds (negative amount), merchant aliases (Swiggy / Swiggy Instamart / SWIGGY*ORDER / SWIGGY BANGALORE ), self-transfers, missing categories ( uncategorized ), noisy UPI/NEFT memos.",
-                "keywords": [
-                    "UPI/NEFT"
-                ],
-                "reason": "Entity explicitly mentioned",
-                "confidence": 1.0
-            }
-        ],
-        "Workflows": [
-            {
-                "paragraph": 1,
-                "sentence": "Install it globally (optional but convenient): npm install -g tsx typescript Verify: tsx  version and tsc  version both print a version Scaffold a sandbox project: npm create mastra@latest During the wizard, select at minimum: Agents and Tools (Workflows is optional for this assignment) Provue Engineering Take-Home \u2014 Pre-requisites Setup Checklist 1 \u2705 3.",
-                "keywords": [
-                    "Workflows"
+                    "postgresql.org Docker"
                 ],
                 "reason": "Entity explicitly mentioned",
                 "confidence": 1.0
@@ -1197,7 +507,7 @@
         "express": [
             {
                 "paragraph": 1,
-                "sentence": "Install PostgresPick a model provider you have a key for: OpenAI , Anthropic , or Google Boot the dev server: cd <project> npm run dev Open the Mastra playground in the browser (the CLI prints the URL on startup) and confirm the sample agent responds Bookmark the docs you will actually need during the build: Quickstart createTool reference Agent reference Adding Mastra to an Express server Text-to-SQL template (closest example) Account created with one of: OpenAI , Anthropic , or Google AI Studio Email + phone verification complete API key generated and stored in a password manager (never paste in chat, never commit) Billing: a payment method or pre-paid credits on file.",
+                "sentence": "Scaffold a sandbox project: npm create mastra@latest During the wizard, select at minimum: Agents and Tools (Workflows is optional for this assignment) Provue Engineering Take-Home \u2014 Pre-requisites Setup Checklist 1 Pick a model provider you have a key for: OpenAI, Anthropic, or Google Boot the dev server: cd <project> npm run dev Open the Mastra playground in the browser (the CLI prints the URL on startup) and confirm the sample agent responds Bookmark the docs you will actually need during the build: Quickstart createTool reference Agent reference Adding Mastra to an Express server Text-to-SQL template (closest example) \u2705 3.",
                 "keywords": [
                     "express"
                 ],
@@ -1206,7 +516,7 @@
             },
             {
                 "paragraph": 1,
-                "sentence": "LLM tool calling : how the model emits a tool call, how the runtime executes it, how the result is fed back Mastra primitives : createTool , Agent, the agent loop Zod schemas : validating tool inputs from a non-deterministic caller Grounding : why every number must come from a tool query, not the model's prose Multi-step orchestration : handling questions that need two or more tool calls (compare, rank, derive, join) Express 5 : a single POST /ask route, JSON request and response SQL fundamentals : WHERE, GROUP BY , aggregates, dates, joins.",
+                "sentence": "LLM tool calling: how the model emits a tool call, how the runtime executes it, how the result is fed back Mastra primitives: createTool , Agent , the agent loop Zod schemas: validating tool inputs from a non-deterministic caller Grounding: why every number must come from a tool query, not the model's prose Multi-step orchestration: handling questions that need two or more tool calls (compare, rank, derive, join) Express 5: a single POST /ask route, JSON request and response SQL fundamentals: WHERE , GROUP BY , aggregates, dates, joins.",
                 "keywords": [
                     "express"
                 ],
@@ -1217,7 +527,7 @@
         "git": [
             {
                 "paragraph": 1,
-                "sentence": "npx tsx -e \"console.log('key length:', process.env.OPENAI_API_KEY?.length)\" Add the key to a local .env file (which is in .gitignore ) If you cannot get a key: mention it in your README \u2014 Provue will help unblock you Install Postgres 14 or newer .",
+                "sentence": "Add the key to a local .env file (which is in .gitignore ) If you cannot get a key: mention it in your README \u2014 Provue will help unblock you \u2705 4.",
                 "keywords": [
                     "git"
                 ],
@@ -1226,7 +536,7 @@
             },
             {
                 "paragraph": 1,
-                "sentence": "GitHub Repository Ubuntu/Debian: sudo apt install postgresql-16 Windows: the installer from postgresql.org Docker (fastest): docker run -d  name provue-pg -p 5432:5432 -e POSTGRES_PASSWORD=postgres postgres:16 Verify the server is up: psql  version prints a version, and psql -U postgres -c 'select 1' connects.",
+                "sentence": "GitHub Repository GitHub account ready (use a professional username \u2014 recruiters see it) Git installed and configured: git config  global user.name \"Your Name\" git config  global user.email \"you@example.co SSH key added to GitHub or a personal access token configured for HTTPS Create an empty private repo for your submission (you can flip it public when you submit) Add a .gitignore that excludes node_modules/ , .env , dist/ , and any cached LLM logs Provue Engineering Take-Home \u2014 Pre-requisites Setup Checklist 3 \u2705 6.",
                 "keywords": [
                     "git"
                 ],
@@ -1235,7 +545,7 @@
             },
             {
                 "paragraph": 1,
-                "sentence": "GitHub account ready (use a professional username \u2014 recruiters see it) Git installed and configured: git config  global user.name \"Your Name\" git config  global user.email \"you@example.com\" SSH key added to GitHub or a personal access token configured for HTTPS Create an empty private repo for your submission (you can flip it public when you submit) Add a .gitignore that excludes node_modules/ , .env, dist/, and any cached LLM logs Provue Engineering Take-Home \u2014 Pre-requisites Setup Checklist 3 \u2705 6.",
+                "sentence": "Local Dev Environment Editor of choice installed: VS Code or Cursor Recommended extensions: TypeScript & JavaScript Language Features (built-in) Prettier \u2014 code formatter ESLint GitLens REST Client (for hitting POST /ask while developing) SQLTools or PostgreSQL \u2014 for inspecting tables and running queries from the editor A terminal you are comfortable in (Terminal.app, iTerm2, Windows Terminal, etc.) A way to send POST /ask requests: curl, Postman, or the REST Client extension \u2705 8.",
                 "keywords": [
                     "git"
                 ],
@@ -1244,25 +554,7 @@
             },
             {
                 "paragraph": 1,
-                "sentence": "Deployment CLI installed if the platform uses one ( flyctl, railway ) You have run a \"hello world\" Node deploy on this platform at least once before You know how to set env vars on the platform \u2014 DATABASE_URL and your model API key both need to be configured for the deployed service Editor of choice installed: VS Code or Cursor Recommended extensions: TypeScript & JavaScript Language Features (built-in) Prettier \u2014 code formatter ESLint GitLens REST Client (for hitting POST /ask while developing) SQLTools or PostgreSQL \u2014 for inspecting tables and running queries from the editor A terminal you are comfortable in (Terminal.app, iTerm2, Windows Terminal, etc.) A way to send POST /ask requests: curl, Postman , or the REST Client extension You see three folders under data/: sample_a/ , sample_b/ , sample_c/ \u2014 each contains transactions.json , funds.json , holdings.json You have opened all three and compared them: different merchants appear in different folders; one folder uses more NEFT-style memos.",
-                "keywords": [
-                    "git"
-                ],
-                "reason": "Entity explicitly mentioned",
-                "confidence": 1.0
-            },
-            {
-                "paragraph": 1,
-                "sentence": "Mastra sandbox project boots and the sample agent answers a question Model API key works from a script \u2014 non-zero token count returned Local Postgres is running and accessible ; provue_tara database exists and accepts a connection from psql or a client You can deploy a \"hello world\" Node service to your chosen platform and hit it from your browser You have a hosted Postgres connection string ready for the deployed environment An empty submission repo is on GitHub with .gitignore and a stub README.md All three data/sample_*/ snapshots open cleanly in your editor; you have eyeballed the variation between them You have read the assignment brief end-to-end at least once and noted the multi-snapshot grading model and the reliability rules Provue Engineering Take-Home \u2014 Pre-requisites Setup Checklist 5 \ud83c\udfaf What You Will Submit \ud83d\udcde Stuck?",
-                "keywords": [
-                    "git"
-                ],
-                "reason": "Entity explicitly mentioned",
-                "confidence": 1.0
-            },
-            {
-                "paragraph": 1,
-                "sentence": "Setup Checklist \u2014 for the Provue Engineering Take-Home: Build a Finance-Research Agent.You have skimmed DESIGN.md expectations \u2014 schema, indexes, formulas for spend, net spend, merchant matching, recurring detection, fund period return, holding realised return You know which model provider, which deployment target (app + Postgres), and roughly how many tools and tables you intend to build A GitHub repo (or zip) containing your schema, ingest script, code, README.md , DESIGN.md , and an eval script A public URL where POST /ask returns { \"answer\": \"...\" } for any question, backed by a deployed Postgres Observability evidence: logs, trace output, or screenshots showing one successful run and one handled no-data / failure run An eval script with at least 12 questions covering single lookup, date filtering, refunds, merchant aliases, transfers, category comparison, recurring subscriptions, no-data cases, fund period returns, and realised returns on holdings Provue Engineering Take-Home \u2014 Pre-requisites Setup Checklist 6",
+                "sentence": "Final Verification Before You Start Mastra sandbox project boots and the sample agent answers a question Model API key works from a script \u2014 non-zero token count returned Local Postgres is running and accessible; provue_tara database exists and accepts a connection from psql or a client You can deploy a \"hello world\" Node service to your chosen platform and hit it from your browser You have a hosted Postgres connection string ready for the deployed environment An empty submission repo is on GitHub with .gitignore and a stub README.md All three data/sample_*/ snapshots open cleanly in your editor; you have eyeballed the variation between them You have read the assignment brief end-to-end at least once and noted the multi-snapshot grading model and the reliability rules Provue Engineering Take-Home \u2014 Pre-requisites Setup Checklist 5 You have skimmed DESIGN.md expectations \u2014 schema, indexes, formulas for spend, net spend, merchant matching, recurring detection, fund period return, holding realised return You know which model provider, which deployment target (app + Postgres), and roughly how many tools and tables you intend to build \ud83c\udfaf What You Will Submit A GitHub repo (or zip) containing your schema, ingest script, code, README.md , DESIGN.md , and an eval script A public URL where POST /ask returns { \"answer\": \"...\" } for any question, backed by a deployed Postgres Observability evidence: logs, trace output, or screenshots showing one successful run and one handled no-data / failure run An eval script with at least 12 questions covering single lookup, date filtering, refunds, merchant aliases, transfers, category comparison, recurring subscriptions, no-data cases, fund period returns, and realised returns on holdings \ud83d\udcde Stuck?",
                 "keywords": [
                     "git"
                 ],
@@ -1273,7 +565,7 @@
         "github": [
             {
                 "paragraph": 1,
-                "sentence": "GitHub Repository Ubuntu/Debian: sudo apt install postgresql-16 Windows: the installer from postgresql.org Docker (fastest): docker run -d  name provue-pg -p 5432:5432 -e POSTGRES_PASSWORD=postgres postgres:16 Verify the server is up: psql  version prints a version, and psql -U postgres -c 'select 1' connects.",
+                "sentence": "GitHub Repository GitHub account ready (use a professional username \u2014 recruiters see it) Git installed and configured: git config  global user.name \"Your Name\" git config  global user.email \"you@example.co SSH key added to GitHub or a personal access token configured for HTTPS Create an empty private repo for your submission (you can flip it public when you submit) Add a .gitignore that excludes node_modules/ , .env , dist/ , and any cached LLM logs Provue Engineering Take-Home \u2014 Pre-requisites Setup Checklist 3 \u2705 6.",
                 "keywords": [
                     "github"
                 ],
@@ -1282,25 +574,7 @@
             },
             {
                 "paragraph": 1,
-                "sentence": "GitHub account ready (use a professional username \u2014 recruiters see it) Git installed and configured: git config  global user.name \"Your Name\" git config  global user.email \"you@example.com\" SSH key added to GitHub or a personal access token configured for HTTPS Create an empty private repo for your submission (you can flip it public when you submit) Add a .gitignore that excludes node_modules/ , .env, dist/, and any cached LLM logs Provue Engineering Take-Home \u2014 Pre-requisites Setup Checklist 3 \u2705 6.",
-                "keywords": [
-                    "github"
-                ],
-                "reason": "Entity explicitly mentioned",
-                "confidence": 1.0
-            },
-            {
-                "paragraph": 1,
-                "sentence": "Mastra sandbox project boots and the sample agent answers a question Model API key works from a script \u2014 non-zero token count returned Local Postgres is running and accessible ; provue_tara database exists and accepts a connection from psql or a client You can deploy a \"hello world\" Node service to your chosen platform and hit it from your browser You have a hosted Postgres connection string ready for the deployed environment An empty submission repo is on GitHub with .gitignore and a stub README.md All three data/sample_*/ snapshots open cleanly in your editor; you have eyeballed the variation between them You have read the assignment brief end-to-end at least once and noted the multi-snapshot grading model and the reliability rules Provue Engineering Take-Home \u2014 Pre-requisites Setup Checklist 5 \ud83c\udfaf What You Will Submit \ud83d\udcde Stuck?",
-                "keywords": [
-                    "github"
-                ],
-                "reason": "Entity explicitly mentioned",
-                "confidence": 1.0
-            },
-            {
-                "paragraph": 1,
-                "sentence": "Setup Checklist \u2014 for the Provue Engineering Take-Home: Build a Finance-Research Agent.You have skimmed DESIGN.md expectations \u2014 schema, indexes, formulas for spend, net spend, merchant matching, recurring detection, fund period return, holding realised return You know which model provider, which deployment target (app + Postgres), and roughly how many tools and tables you intend to build A GitHub repo (or zip) containing your schema, ingest script, code, README.md , DESIGN.md , and an eval script A public URL where POST /ask returns { \"answer\": \"...\" } for any question, backed by a deployed Postgres Observability evidence: logs, trace output, or screenshots showing one successful run and one handled no-data / failure run An eval script with at least 12 questions covering single lookup, date filtering, refunds, merchant aliases, transfers, category comparison, recurring subscriptions, no-data cases, fund period returns, and realised returns on holdings Provue Engineering Take-Home \u2014 Pre-requisites Setup Checklist 6",
+                "sentence": "Final Verification Before You Start Mastra sandbox project boots and the sample agent answers a question Model API key works from a script \u2014 non-zero token count returned Local Postgres is running and accessible; provue_tara database exists and accepts a connection from psql or a client You can deploy a \"hello world\" Node service to your chosen platform and hit it from your browser You have a hosted Postgres connection string ready for the deployed environment An empty submission repo is on GitHub with .gitignore and a stub README.md All three data/sample_*/ snapshots open cleanly in your editor; you have eyeballed the variation between them You have read the assignment brief end-to-end at least once and noted the multi-snapshot grading model and the reliability rules Provue Engineering Take-Home \u2014 Pre-requisites Setup Checklist 5 You have skimmed DESIGN.md expectations \u2014 schema, indexes, formulas for spend, net spend, merchant matching, recurring detection, fund period return, holding realised return You know which model provider, which deployment target (app + Postgres), and roughly how many tools and tables you intend to build \ud83c\udfaf What You Will Submit A GitHub repo (or zip) containing your schema, ingest script, code, README.md , DESIGN.md , and an eval script A public URL where POST /ask returns { \"answer\": \"...\" } for any question, backed by a deployed Postgres Observability evidence: logs, trace output, or screenshots showing one successful run and one handled no-data / failure run An eval script with at least 12 questions covering single lookup, date filtering, refunds, merchant aliases, transfers, category comparison, recurring subscriptions, no-data cases, fund period returns, and realised returns on holdings \ud83d\udcde Stuck?",
                 "keywords": [
                     "github"
                 ],
@@ -1311,29 +585,9 @@
         "javascript": [
             {
                 "paragraph": 1,
-                "sentence": "Deployment CLI installed if the platform uses one ( flyctl, railway ) You have run a \"hello world\" Node deploy on this platform at least once before You know how to set env vars on the platform \u2014 DATABASE_URL and your model API key both need to be configured for the deployed service Editor of choice installed: VS Code or Cursor Recommended extensions: TypeScript & JavaScript Language Features (built-in) Prettier \u2014 code formatter ESLint GitLens REST Client (for hitting POST /ask while developing) SQLTools or PostgreSQL \u2014 for inspecting tables and running queries from the editor A terminal you are comfortable in (Terminal.app, iTerm2, Windows Terminal, etc.) A way to send POST /ask requests: curl, Postman , or the REST Client extension You see three folders under data/: sample_a/ , sample_b/ , sample_c/ \u2014 each contains transactions.json , funds.json , holdings.json You have opened all three and compared them: different merchants appear in different folders; one folder uses more NEFT-style memos.",
+                "sentence": "Local Dev Environment Editor of choice installed: VS Code or Cursor Recommended extensions: TypeScript & JavaScript Language Features (built-in) Prettier \u2014 code formatter ESLint GitLens REST Client (for hitting POST /ask while developing) SQLTools or PostgreSQL \u2014 for inspecting tables and running queries from the editor A terminal you are comfortable in (Terminal.app, iTerm2, Windows Terminal, etc.) A way to send POST /ask requests: curl, Postman, or the REST Client extension \u2705 8.",
                 "keywords": [
                     "javascript"
-                ],
-                "reason": "Entity explicitly mentioned",
-                "confidence": 1.0
-            }
-        ],
-        "node.js": [
-            {
-                "paragraph": 1,
-                "sentence": "Node.js and TypeScript Install Node.js TypeScript runner \u2705 2.",
-                "keywords": [
-                    "node.js"
-                ],
-                "reason": "Entity explicitly mentioned",
-                "confidence": 1.0
-            },
-            {
-                "paragraph": 1,
-                "sentence": "Scaffold a fresh project to make sure the CLI works on your machine before the clock starts.Install Node.js v18 or newer (LTS recommended) from https://nodejs.org/ Verify in a terminal: node  version npm  version You should see Node 18+ and npm 9+ printed You will run TypeScript scripts directly with tsx.",
-                "keywords": [
-                    "node.js"
                 ],
                 "reason": "Entity explicitly mentioned",
                 "confidence": 1.0
@@ -1342,7 +596,7 @@
         "sql": [
             {
                 "paragraph": 1,
-                "sentence": "Install PostgresPick a model provider you have a key for: OpenAI , Anthropic , or Google Boot the dev server: cd <project> npm run dev Open the Mastra playground in the browser (the CLI prints the URL on startup) and confirm the sample agent responds Bookmark the docs you will actually need during the build: Quickstart createTool reference Agent reference Adding Mastra to an Express server Text-to-SQL template (closest example) Account created with one of: OpenAI , Anthropic , or Google AI Studio Email + phone verification complete API key generated and stored in a password manager (never paste in chat, never commit) Billing: a payment method or pre-paid credits on file.",
+                "sentence": "Scaffold a sandbox project: npm create mastra@latest During the wizard, select at minimum: Agents and Tools (Workflows is optional for this assignment) Provue Engineering Take-Home \u2014 Pre-requisites Setup Checklist 1 Pick a model provider you have a key for: OpenAI, Anthropic, or Google Boot the dev server: cd <project> npm run dev Open the Mastra playground in the browser (the CLI prints the URL on startup) and confirm the sample agent responds Bookmark the docs you will actually need during the build: Quickstart createTool reference Agent reference Adding Mastra to an Express server Text-to-SQL template (closest example) \u2705 3.",
                 "keywords": [
                     "sql"
                 ],
@@ -1351,7 +605,7 @@
             },
             {
                 "paragraph": 1,
-                "sentence": "Pick one path: macOS (Homebrew): brew install postgresql@16 then brew services start postgresql@16 Provue Engineering Take-Home \u2014 Pre-requisites Setup Checklist 2 Create the assignment database Pick a query approach (no specific ORM required) Plan for managed Postgres at deploy time \u2705 5.",
+                "sentence": "Pick one path: macOS (Homebrew): brew install postgresql@16 then brew services start postgresql@16 Provue Engineering Take-Home \u2014 Pre-requisites Setup Checklist 2 Ubuntu/Debian: sudo apt install postgresql-16 Windows: the installer from postgresql.org Docker (fastest): docker run -d  name provue-pg -p 5432:5432 -e POSTGRES_PASSWORD=postgres postgres:16 Verify the server is up: psql  version prints a version, and psql -U postgres -c 'select 1' connects.",
                 "keywords": [
                     "sql"
                 ],
@@ -1360,7 +614,7 @@
             },
             {
                 "paragraph": 1,
-                "sentence": "GitHub Repository Ubuntu/Debian: sudo apt install postgresql-16 Windows: the installer from postgresql.org Docker (fastest): docker run -d  name provue-pg -p 5432:5432 -e POSTGRES_PASSWORD=postgres postgres:16 Verify the server is up: psql  version prints a version, and psql -U postgres -c 'select 1' connects.",
+                "sentence": "Create the assignment database Create a database for the assignment: createdb provue_tara # or, via psql: # psql -U postgres -c \"CREATE DATABASE provue_tara; Save the connection string somewhere you'll remember (you'll need it in your .env ): DATABASE_URL=postgres://postgres:postgres@localhost:5432/provue_tara Confirm a client tool can connect: psql (CLI), pgAdmin, DBeaver, or the VS Code SQLTools extension.",
                 "keywords": [
                     "sql"
                 ],
@@ -1369,7 +623,7 @@
             },
             {
                 "paragraph": 1,
-                "sentence": "Create a database for the assignment: createdb provue_tara # or, via psql: # psql -U postgres -c \"CREATE DATABASE provue_tara;\" Save the connection string somewhere you'll remember (you'll need it in your .env): DATABASE_URL=postgres://postgres:postgres@localhost:5432/provue_tara Confirm a client tool can connect: psql (CLI), pgAdmin , DBeaver , or the VS Code SQLTools extension.",
+                "sentence": "Pick a query approach (no specific ORM required) Decide upfront how you'll talk to Postgres: raw SQL ( pg ), Drizzle, Prisma, Knex, or similar.",
                 "keywords": [
                     "sql"
                 ],
@@ -1378,7 +632,7 @@
             },
             {
                 "paragraph": 1,
-                "sentence": "Decide upfront how you'll talk to Postgres: raw SQL (pg), Drizzle , Prisma , Knex , or similar.",
+                "sentence": "Local Dev Environment Editor of choice installed: VS Code or Cursor Recommended extensions: TypeScript & JavaScript Language Features (built-in) Prettier \u2014 code formatter ESLint GitLens REST Client (for hitting POST /ask while developing) SQLTools or PostgreSQL \u2014 for inspecting tables and running queries from the editor A terminal you are comfortable in (Terminal.app, iTerm2, Windows Terminal, etc.) A way to send POST /ask requests: curl, Postman, or the REST Client extension \u2705 8.",
                 "keywords": [
                     "sql"
                 ],
@@ -1387,7 +641,7 @@
             },
             {
                 "paragraph": 1,
-                "sentence": "Deployment CLI installed if the platform uses one ( flyctl, railway ) You have run a \"hello world\" Node deploy on this platform at least once before You know how to set env vars on the platform \u2014 DATABASE_URL and your model API key both need to be configured for the deployed service Editor of choice installed: VS Code or Cursor Recommended extensions: TypeScript & JavaScript Language Features (built-in) Prettier \u2014 code formatter ESLint GitLens REST Client (for hitting POST /ask while developing) SQLTools or PostgreSQL \u2014 for inspecting tables and running queries from the editor A terminal you are comfortable in (Terminal.app, iTerm2, Windows Terminal, etc.) A way to send POST /ask requests: curl, Postman , or the REST Client extension You see three folders under data/: sample_a/ , sample_b/ , sample_c/ \u2014 each contains transactions.json , funds.json , holdings.json You have opened all three and compared them: different merchants appear in different folders; one folder uses more NEFT-style memos.",
+                "sentence": "LLM tool calling: how the model emits a tool call, how the runtime executes it, how the result is fed back Mastra primitives: createTool , Agent , the agent loop Zod schemas: validating tool inputs from a non-deterministic caller Grounding: why every number must come from a tool query, not the model's prose Multi-step orchestration: handling questions that need two or more tool calls (compare, rank, derive, join) Express 5: a single POST /ask route, JSON request and response SQL fundamentals: WHERE , GROUP BY , aggregates, dates, joins.",
                 "keywords": [
                     "sql"
                 ],
@@ -1396,16 +650,7 @@
             },
             {
                 "paragraph": 1,
-                "sentence": "LLM tool calling : how the model emits a tool call, how the runtime executes it, how the result is fed back Mastra primitives : createTool , Agent, the agent loop Zod schemas : validating tool inputs from a non-deterministic caller Grounding : why every number must come from a tool query, not the model's prose Multi-step orchestration : handling questions that need two or more tool calls (compare, rank, derive, join) Express 5 : a single POST /ask route, JSON request and response SQL fundamentals : WHERE, GROUP BY , aggregates, dates, joins.",
-                "keywords": [
-                    "sql"
-                ],
-                "reason": "Entity explicitly mentioned",
-                "confidence": 1.0
-            },
-            {
-                "paragraph": 1,
-                "sentence": "Mastra sandbox project boots and the sample agent answers a question Model API key works from a script \u2014 non-zero token count returned Local Postgres is running and accessible ; provue_tara database exists and accepts a connection from psql or a client You can deploy a \"hello world\" Node service to your chosen platform and hit it from your browser You have a hosted Postgres connection string ready for the deployed environment An empty submission repo is on GitHub with .gitignore and a stub README.md All three data/sample_*/ snapshots open cleanly in your editor; you have eyeballed the variation between them You have read the assignment brief end-to-end at least once and noted the multi-snapshot grading model and the reliability rules Provue Engineering Take-Home \u2014 Pre-requisites Setup Checklist 5 \ud83c\udfaf What You Will Submit \ud83d\udcde Stuck?",
+                "sentence": "Final Verification Before You Start Mastra sandbox project boots and the sample agent answers a question Model API key works from a script \u2014 non-zero token count returned Local Postgres is running and accessible; provue_tara database exists and accepts a connection from psql or a client You can deploy a \"hello world\" Node service to your chosen platform and hit it from your browser You have a hosted Postgres connection string ready for the deployed environment An empty submission repo is on GitHub with .gitignore and a stub README.md All three data/sample_*/ snapshots open cleanly in your editor; you have eyeballed the variation between them You have read the assignment brief end-to-end at least once and noted the multi-snapshot grading model and the reliability rules Provue Engineering Take-Home \u2014 Pre-requisites Setup Checklist 5 You have skimmed DESIGN.md expectations \u2014 schema, indexes, formulas for spend, net spend, merchant matching, recurring detection, fund period return, holding realised return You know which model provider, which deployment target (app + Postgres), and roughly how many tools and tables you intend to build \ud83c\udfaf What You Will Submit A GitHub repo (or zip) containing your schema, ingest script, code, README.md , DESIGN.md , and an eval script A public URL where POST /ask returns { \"answer\": \"...\" } for any question, backed by a deployed Postgres Observability evidence: logs, trace output, or screenshots showing one successful run and one handled no-data / failure run An eval script with at least 12 questions covering single lookup, date filtering, refunds, merchant aliases, transfers, category comparison, recurring subscriptions, no-data cases, fund period returns, and realised returns on holdings \ud83d\udcde Stuck?",
                 "keywords": [
                     "sql"
                 ],
@@ -1416,7 +661,7 @@
         "typescript": [
             {
                 "paragraph": 1,
-                "sentence": "Node.js and TypeScript Install Node.js TypeScript runner \u2705 2.",
+                "sentence": "Node.js and TypeScript Install Node.js Install Node.js v18 or newer (LTS recommended) from https://nodejs.org/ Verify in a terminal: node  version npm  version You should see Node 18+ and npm 9+ printed TypeScript runner You will run TypeScript scripts directly with tsx .",
                 "keywords": [
                     "typescript"
                 ],
@@ -1425,7 +670,7 @@
             },
             {
                 "paragraph": 1,
-                "sentence": "Scaffold a fresh project to make sure the CLI works on your machine before the clock starts.Install Node.js v18 or newer (LTS recommended) from https://nodejs.org/ Verify in a terminal: node  version npm  version You should see Node 18+ and npm 9+ printed You will run TypeScript scripts directly with tsx.",
+                "sentence": "Install it globally (optional but convenient): npm install -g tsx typescript Verify: tsx  version and tsc  version both print a version \u2705 2.",
                 "keywords": [
                     "typescript"
                 ],
@@ -1434,16 +679,7 @@
             },
             {
                 "paragraph": 1,
-                "sentence": "Install it globally (optional but convenient): npm install -g tsx typescript Verify: tsx  version and tsc  version both print a version Scaffold a sandbox project: npm create mastra@latest During the wizard, select at minimum: Agents and Tools (Workflows is optional for this assignment) Provue Engineering Take-Home \u2014 Pre-requisites Setup Checklist 1 \u2705 3.",
-                "keywords": [
-                    "typescript"
-                ],
-                "reason": "Entity explicitly mentioned",
-                "confidence": 1.0
-            },
-            {
-                "paragraph": 1,
-                "sentence": "Deployment CLI installed if the platform uses one ( flyctl, railway ) You have run a \"hello world\" Node deploy on this platform at least once before You know how to set env vars on the platform \u2014 DATABASE_URL and your model API key both need to be configured for the deployed service Editor of choice installed: VS Code or Cursor Recommended extensions: TypeScript & JavaScript Language Features (built-in) Prettier \u2014 code formatter ESLint GitLens REST Client (for hitting POST /ask while developing) SQLTools or PostgreSQL \u2014 for inspecting tables and running queries from the editor A terminal you are comfortable in (Terminal.app, iTerm2, Windows Terminal, etc.) A way to send POST /ask requests: curl, Postman , or the REST Client extension You see three folders under data/: sample_a/ , sample_b/ , sample_c/ \u2014 each contains transactions.json , funds.json , holdings.json You have opened all three and compared them: different merchants appear in different folders; one folder uses more NEFT-style memos.",
+                "sentence": "Local Dev Environment Editor of choice installed: VS Code or Cursor Recommended extensions: TypeScript & JavaScript Language Features (built-in) Prettier \u2014 code formatter ESLint GitLens REST Client (for hitting POST /ask while developing) SQLTools or PostgreSQL \u2014 for inspecting tables and running queries from the editor A terminal you are comfortable in (Terminal.app, iTerm2, Windows Terminal, etc.) A way to send POST /ask requests: curl, Postman, or the REST Client extension \u2705 8.",
                 "keywords": [
                     "typescript"
                 ],
@@ -1451,34 +687,12 @@
                 "confidence": 1.0
             }
         ],
-        "DATA_DIR=./data": [
+        "you@example.co": [
             {
                 "paragraph": 1,
-                "sentence": "DATA_DIR=./data/sample_a npx tsx scripts/ingest.ts \u2014 your script accepts a snapshot path and populates the database.",
+                "sentence": "GitHub Repository GitHub account ready (use a professional username \u2014 recruiters see it) Git installed and configured: git config  global user.name \"Your Name\" git config  global user.email \"you@example.co SSH key added to GitHub or a personal access token configured for HTTPS Create an empty private repo for your submission (you can flip it public when you submit) Add a .gitignore that excludes node_modules/ , .env , dist/ , and any cached LLM logs Provue Engineering Take-Home \u2014 Pre-requisites Setup Checklist 3 \u2705 6.",
                 "keywords": [
-                    "DATA_DIR=./data"
-                ],
-                "reason": "Entity explicitly mentioned",
-                "confidence": 1.0
-            }
-        ],
-        "Heroku": [
-            {
-                "paragraph": 1,
-                "sentence": "They are sample seed data only \u2014 your implementation must load them into Postgres via an ingest script and query the database from your tools.Account on one of: Render , Railway , Fly.io , Vercel (paired with hosted Postgres), Heroku , or your own AWS / GCP / Azure Free tier or trial credits cover both a small Node service and a small Postgres database .",
-                "keywords": [
-                    "Heroku"
-                ],
-                "reason": "Entity explicitly mentioned",
-                "confidence": 1.0
-            }
-        ],
-        "you@example.com": [
-            {
-                "paragraph": 1,
-                "sentence": "GitHub account ready (use a professional username \u2014 recruiters see it) Git installed and configured: git config  global user.name \"Your Name\" git config  global user.email \"you@example.com\" SSH key added to GitHub or a personal access token configured for HTTPS Create an empty private repo for your submission (you can flip it public when you submit) Add a .gitignore that excludes node_modules/ , .env, dist/, and any cached LLM logs Provue Engineering Take-Home \u2014 Pre-requisites Setup Checklist 3 \u2705 6.",
-                "keywords": [
-                    "you@example.com"
+                    "you@example.co"
                 ],
                 "reason": "Entity explicitly mentioned",
                 "confidence": 1.0
@@ -1514,12 +728,12 @@
         "classification_explanation": "AI selected because it contains 2 supporting keyword(s): llm, rag"
     },
     "confidence": {
-        "score": 95,
-        "supporting_evidence_count": 138,
-        "validated_entity_count": 47,
-        "document_completeness": 0.75,
+        "score": 92,
+        "supporting_evidence_count": 53,
+        "validated_entity_count": 30,
+        "document_completeness": 0.62,
         "contradictory_evidence_count": 0,
-        "explanation": "Confidence derived from 138 supporting evidences, 47 validated entities, and document completeness of 75%."
+        "explanation": "Confidence derived from 53 supporting evidences, 30 validated entities, and document completeness of 62%."
     },
     "recommendations": {
         "related_domains": [
@@ -1548,7 +762,7 @@
         "intelligence_summary": "This document primarily belongs to the AI domain. It is strongly associated with Machine Learning, Data Science. The extracted intelligence can be used for classification, search, and knowledge management purposes. Additional recommendations have been generated to enrich future analysis."
     },
     "processing_trace": {
-        "execution_timestamp": "2026-06-22 11:25:19",
+        "execution_timestamp": "2026-06-27 20:51:45",
         "overall_status": "SUCCESS",
         "processing_trace": [
             {
@@ -1561,7 +775,7 @@
             },
             {
                 "step": "Content Extraction",
-                "details": "10584 characters extracted"
+                "details": "11511 characters extracted"
             },
             {
                 "step": "PDF Metadata",
@@ -1573,15 +787,15 @@
             },
             {
                 "step": "Entity Extraction",
-                "details": "47 entities extracted"
+                "details": "30 entities extracted"
             },
             {
                 "step": "Entity Validation",
-                "details": "47 validated, 16 rejected"
+                "details": "30 validated, 21 rejected"
             },
             {
                 "step": "Evidence Generation",
-                "details": "38 evidence records generated"
+                "details": "24 evidence records generated"
             },
             {
                 "step": "Classification",
@@ -1589,7 +803,7 @@
             },
             {
                 "step": "Confidence Scoring",
-                "details": "Confidence Score: 95"
+                "details": "Confidence Score: 92"
             },
             {
                 "step": "Recommendation Generation",
@@ -1606,7 +820,7 @@
         "primary_category": "AI",
         "secondary_category": "Infrastructure",
         "classification_confidence": 0.18,
-        "overall_confidence": 95,
+        "overall_confidence": 92,
         "recommended_tags": [
             "artificial-intelligence",
             "machine-learning",
@@ -1614,8 +828,8 @@
             "chatbot",
             "automation"
         ],
-        "entity_count": 47,
-        "rejected_entity_count": 16,
-        "evidence_count": 138
+        "entity_count": 30,
+        "rejected_entity_count": 21,
+        "evidence_count": 53
     }
 }

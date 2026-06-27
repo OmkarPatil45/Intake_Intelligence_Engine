@@ -3,7 +3,7 @@
         "source_type": "txt"
     },
     "metadata": {
-        "file_name": "sample4.txt",
+        "file_name": "Sample4.txt",
         "file_extension": ".txt",
         "file_size_bytes": 5515
     },
@@ -25,7 +25,6 @@
             "Donald Verrilli",
             "Elena Kagan",
             "John Roberts",
-            "Marijuana Legalization",
             "Peter Keisler",
             "Samuel Alito",
             "Sonia Sotomayor"
@@ -34,12 +33,14 @@
             "Congress",
             "Defense of Marriage Act",
             "Environmental Protection Agency",
+            "Obamacare",
             "White House"
         ],
         "technologies": [],
         "skills": [],
         "locations": [
             "Texas",
+            "U.S.",
             "Virginia"
         ],
         "dates": [],
@@ -64,11 +65,6 @@
         },
         {
             "entity": "The White House",
-            "entity_type": "ORG",
-            "reason": "Likely person name misclassified as organization"
-        },
-        {
-            "entity": "U.S. Solicitor",
             "entity_type": "ORG",
             "reason": "Likely person name misclassified as organization"
         }
@@ -124,17 +120,6 @@
                 "sentence": "\"Could it do this for another pollutant, something other than any of the greenhouse gases?\" After Kennedy and Chief Justice John Roberts pressed the point, Verrilli suggested the EPA could broaden its discretionary authority, absent a specific congressional mandate.",
                 "keywords": [
                     "John Roberts"
-                ],
-                "reason": "Entity explicitly mentioned",
-                "confidence": 1.0
-            }
-        ],
-        "Marijuana Legalization": [
-            {
-                "paragraph": 1,
-                "sentence": "Republicans in Congress and their allies have expressed similar concerns over discretionary executive branch changes and delays in implementing the Obamacare health reform law, a tepid federal response to recent state marijuana legalization, and a refusal to defend a law that did not recognize legally-married same-sex couples for federal purposes.",
-                "keywords": [
-                    "Marijuana Legalization"
                 ],
                 "reason": "Entity explicitly mentioned",
                 "confidence": 1.0
@@ -224,6 +209,17 @@
                 "confidence": 1.0
             }
         ],
+        "Obamacare": [
+            {
+                "paragraph": 1,
+                "sentence": "Republicans in Congress and their allies have expressed similar concerns over discretionary executive branch changes and delays in implementing the Obamacare health reform law, a tepid federal response to recent state marijuana legalization, and a refusal to defend a law that did not recognize legally-married same-sex couples for federal purposes.",
+                "keywords": [
+                    "Obamacare"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            }
+        ],
         "White House": [
             {
                 "paragraph": 1,
@@ -250,6 +246,17 @@
                 "sentence": "Texas and 16 other the states in the South and Midwest were among the parties whose cases are under review by the high court.",
                 "keywords": [
                     "Texas"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            }
+        ],
+        "U.S.": [
+            {
+                "paragraph": 1,
+                "sentence": "\"So if your side can't even come to one interpretation, why shouldn't we defer to the agency?\" But Justice Anthony Kennedy, who could prove the court's decisive fifth vote, bluntly addressed U.S.",
+                "keywords": [
+                    "U.S."
                 ],
                 "reason": "Entity explicitly mentioned",
                 "confidence": 1.0
@@ -292,11 +299,11 @@
     },
     "confidence": {
         "score": 88,
-        "supporting_evidence_count": 18,
-        "validated_entity_count": 15,
+        "supporting_evidence_count": 19,
+        "validated_entity_count": 16,
         "document_completeness": 0.38,
         "contradictory_evidence_count": 0,
-        "explanation": "Confidence derived from 18 supporting evidences, 15 validated entities, and document completeness of 38%."
+        "explanation": "Confidence derived from 19 supporting evidences, 16 validated entities, and document completeness of 38%."
     },
     "recommendations": {
         "related_domains": [
@@ -321,12 +328,12 @@
         "intelligence_summary": "This document primarily belongs to the Healthcare domain. It is strongly associated with Medical Analytics, Telemedicine. The extracted intelligence can be used for classification, search, and knowledge management purposes. Additional recommendations have been generated to enrich future analysis."
     },
     "processing_trace": {
-        "execution_timestamp": "2026-06-22 11:20:11",
+        "execution_timestamp": "2026-06-27 21:17:40",
         "overall_status": "SUCCESS",
         "processing_trace": [
             {
                 "step": "File Received",
-                "details": "sample4.txt received"
+                "details": "Sample4.txt received"
             },
             {
                 "step": "Source Detection",
@@ -342,15 +349,15 @@
             },
             {
                 "step": "Entity Extraction",
-                "details": "15 entities extracted"
+                "details": "16 entities extracted"
             },
             {
                 "step": "Entity Validation",
-                "details": "15 validated, 5 rejected"
+                "details": "16 validated, 4 rejected"
             },
             {
                 "step": "Evidence Generation",
-                "details": "15 evidence records generated"
+                "details": "16 evidence records generated"
             },
             {
                 "step": "Classification",
@@ -381,8 +388,8 @@
             "medical",
             "patient-care"
         ],
-        "entity_count": 15,
-        "rejected_entity_count": 5,
-        "evidence_count": 18
+        "entity_count": 16,
+        "rejected_entity_count": 4,
+        "evidence_count": 19
     }
 }

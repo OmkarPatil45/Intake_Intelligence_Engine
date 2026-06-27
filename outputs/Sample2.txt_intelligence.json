@@ -20,16 +20,15 @@
     },
     "entities": {
         "names": [
-            "Butch\u00e2 Harmon \u00c2\u20ac",
             "Phil Mickelson",
             "Phil Mickleson",
             "Rickie Fowler",
             "Sergio Garcia",
-            "Tiger"
+            "Ulsterman"
         ],
         "organizations": [
-            "Fowler",
-            "Hoylake"
+            "Hoylake",
+            "Wells Fargo Championship"
         ],
         "technologies": [],
         "skills": [],
@@ -56,25 +55,9 @@
             "entity": "Olklahoma State University",
             "entity_type": "ORG",
             "reason": "Likely person name misclassified as organization"
-        },
-        {
-            "entity": "Wells Fargo Championship",
-            "entity_type": "ORG",
-            "reason": "Likely person name misclassified as organization"
         }
     ],
     "evidence_report": {
-        "Butch\u00e2 Harmon \u00c2\u20ac": [
-            {
-                "paragraph": 1,
-                "sentence": "Not just playing on Tuesday, but having dinner with him and\u00c2 seeing how he operates on and off the golf course.' Thanks to the work he has been doing this past year with Butch\u00c2 Harmon \u00e2\u20ac\u201c a coach Fowler described as the 'best in the world' \u00e2\u20ac\u201c the young American has been\u00c2 itting his irons superbly and at times he putted beautifully too,\u00c2 sinking one from around 30 feet on the second hole.",
-                "keywords": [
-                    "Butch\u00e2 Harmon \u00c2\u20ac"
-                ],
-                "reason": "Entity explicitly mentioned",
-                "confidence": 1.0
-            }
-        ],
         "Phil Mickelson": [
             {
                 "paragraph": 1,
@@ -155,149 +138,12 @@
                 "confidence": 1.0
             }
         ],
-        "Tiger": [
+        "Ulsterman": [
             {
                 "paragraph": 1,
-                "sentence": "NEWS ARTICLES - This was, Sergio Garcia conceded, much like being hunted by Tiger, complete with the roars that\u00c2 provided the first sign of danger.",
+                "sentence": "As the American and the Spaniard then made their way across the third fairway to the scorer's tent, there came another roar for yet another eagle on 18 for the Ulsterman.",
                 "keywords": [
-                    "Tiger"
-                ],
-                "reason": "Entity explicitly mentioned",
-                "confidence": 1.0
-            },
-            {
-                "paragraph": 1,
-                "sentence": "'I don't think Rory has been as consistent as Tiger was for so many years, but when he's at his best he's right up there,' said Garcia.",
-                "keywords": [
-                    "Tiger"
-                ],
-                "reason": "Entity explicitly mentioned",
-                "confidence": 1.0
-            }
-        ],
-        "Fowler": [
-            {
-                "paragraph": 1,
-                "sentence": "For Garcia and Rickie Fowler, it made the final few holes of a dramatic third round here in Hoylake all the more torturous.",
-                "keywords": [
-                    "Fowler"
-                ],
-                "reason": "Entity explicitly mentioned",
-                "confidence": 1.0
-            },
-            {
-                "paragraph": 1,
-                "sentence": "As Fowler dropped a shot on 17, his third bogey in four holes, McIlroy could be heard making eagle on the adjacent 16th.",
-                "keywords": [
-                    "Fowler"
-                ],
-                "reason": "Entity explicitly mentioned",
-                "confidence": 1.0
-            },
-            {
-                "paragraph": 1,
-                "sentence": "Under pressure: Sergio Garcia and Rickie Fowler during the third round on Saturday .",
-                "keywords": [
-                    "Fowler"
-                ],
-                "reason": "Entity explicitly mentioned",
-                "confidence": 1.0
-            },
-            {
-                "paragraph": 1,
-                "sentence": "Fowler had just birdied 18 but even that failed to stop the gap between first and second widening.",
-                "keywords": [
-                    "Fowler"
-                ],
-                "reason": "Entity explicitly mentioned",
-                "confidence": 1.0
-            },
-            {
-                "paragraph": 1,
-                "sentence": "The only thing you can do is say \"well done\".' For Fowler is proved particularly galling.",
-                "keywords": [
-                    "Fowler"
-                ],
-                "reason": "Entity explicitly mentioned",
-                "confidence": 1.0
-            },
-            {
-                "paragraph": 1,
-                "sentence": "Fowler will nevertheless take encouragement from the fact that the six-shot lead McIlroy now has this afternoon can be closed, because he did it in 12 holes yesterday.",
-                "keywords": [
-                    "Fowler"
-                ],
-                "reason": "Entity explicitly mentioned",
-                "confidence": 1.0
-            },
-            {
-                "paragraph": 1,
-                "sentence": "Add to that the benefit of having been in much the same position in the US Open last month, not to\u00c2 mention the confidence of having already finished in the top five in both majors this year, and Fowler goes into the final pairing today in decent shape.",
-                "keywords": [
-                    "Fowler"
-                ],
-                "reason": "Entity explicitly mentioned",
-                "confidence": 1.0
-            },
-            {
-                "paragraph": 1,
-                "sentence": "Feel the force: Rickie Fowler tees off on the 13th hole at Hoylake on Saturday .",
-                "keywords": [
-                    "Fowler"
-                ],
-                "reason": "Entity explicitly mentioned",
-                "confidence": 1.0
-            },
-            {
-                "paragraph": 1,
-                "sentence": "'I've learned a lot from Phil,' said Fowler.",
-                "keywords": [
-                    "Fowler"
-                ],
-                "reason": "Entity explicitly mentioned",
-                "confidence": 1.0
-            },
-            {
-                "paragraph": 1,
-                "sentence": "Not just playing on Tuesday, but having dinner with him and\u00c2 seeing how he operates on and off the golf course.' Thanks to the work he has been doing this past year with Butch\u00c2 Harmon \u00e2\u20ac\u201c a coach Fowler described as the 'best in the world' \u00e2\u20ac\u201c the young American has been\u00c2 itting his irons superbly and at times he putted beautifully too,\u00c2 sinking one from around 30 feet on the second hole.",
-                "keywords": [
-                    "Fowler"
-                ],
-                "reason": "Entity explicitly mentioned",
-                "confidence": 1.0
-            },
-            {
-                "paragraph": 1,
-                "sentence": "There's not really a lot of weaknesses in his game.' In the swing: American Rickie Fowler has been hitting his irons superbly .",
-                "keywords": [
-                    "Fowler"
-                ],
-                "reason": "Entity explicitly mentioned",
-                "confidence": 1.0
-            },
-            {
-                "paragraph": 1,
-                "sentence": "Fowler knows that too, having grown up competing against\u00c2 McIlroy.",
-                "keywords": [
-                    "Fowler"
-                ],
-                "reason": "Entity explicitly mentioned",
-                "confidence": 1.0
-            },
-            {
-                "paragraph": 1,
-                "sentence": "They also have a penchant for brightly covered clothing even if McIlroy joked this week that\u00c2 Fowler's fashion sense \u00e2\u20ac\u201c he will once again wear the orange of Olklahoma State University today \u00e2\u20ac\u201c was highly questionable.",
-                "keywords": [
-                    "Fowler"
-                ],
-                "reason": "Entity explicitly mentioned",
-                "confidence": 1.0
-            },
-            {
-                "paragraph": 1,
-                "sentence": "'We've travelled a bit together between tournaments,' said Fowler.",
-                "keywords": [
-                    "Fowler"
+                    "Ulsterman"
                 ],
                 "reason": "Entity explicitly mentioned",
                 "confidence": 1.0
@@ -318,6 +164,17 @@
                 "sentence": "Feel the force: Rickie Fowler tees off on the 13th hole at Hoylake on Saturday .",
                 "keywords": [
                     "Hoylake"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            }
+        ],
+        "Wells Fargo Championship": [
+            {
+                "paragraph": 1,
+                "sentence": "His first victory, the Wells Fargo Championship two years ago, came after beating McIlroy on the first extra hole of a sudden-death play-off.",
+                "keywords": [
+                    "Wells Fargo Championship"
                 ],
                 "reason": "Entity explicitly mentioned",
                 "confidence": 1.0
@@ -375,12 +232,12 @@
         "classification_explanation": "Education selected because it contains 2 supporting keyword(s): university, course"
     },
     "confidence": {
-        "score": 78,
-        "supporting_evidence_count": 29,
-        "validated_entity_count": 10,
+        "score": 76,
+        "supporting_evidence_count": 14,
+        "validated_entity_count": 9,
         "document_completeness": 0.38,
         "contradictory_evidence_count": 0,
-        "explanation": "Confidence derived from 29 supporting evidences, 10 validated entities, and document completeness of 38%."
+        "explanation": "Confidence derived from 14 supporting evidences, 9 validated entities, and document completeness of 38%."
     },
     "recommendations": {
         "related_domains": [
@@ -406,7 +263,7 @@
         "intelligence_summary": "This document primarily belongs to the Education domain. It is strongly associated with E-Learning, Student Analytics. The extracted intelligence can be used for classification, search, and knowledge management purposes. Additional recommendations have been generated to enrich future analysis."
     },
     "processing_trace": {
-        "execution_timestamp": "2026-06-22 11:17:25",
+        "execution_timestamp": "2026-06-27 21:15:22",
         "overall_status": "SUCCESS",
         "processing_trace": [
             {
@@ -427,15 +284,15 @@
             },
             {
                 "step": "Entity Extraction",
-                "details": "10 entities extracted"
+                "details": "9 entities extracted"
             },
             {
                 "step": "Entity Validation",
-                "details": "10 validated, 4 rejected"
+                "details": "9 validated, 3 rejected"
             },
             {
                 "step": "Evidence Generation",
-                "details": "10 evidence records generated"
+                "details": "9 evidence records generated"
             },
             {
                 "step": "Classification",
@@ -443,7 +300,7 @@
             },
             {
                 "step": "Confidence Scoring",
-                "details": "Confidence Score: 78"
+                "details": "Confidence Score: 76"
             },
             {
                 "step": "Recommendation Generation",
@@ -460,15 +317,15 @@
         "primary_category": "Education",
         "secondary_category": "AI",
         "classification_confidence": 0.25,
-        "overall_confidence": 78,
+        "overall_confidence": 76,
         "recommended_tags": [
             "education",
             "learning",
             "students",
             "academic"
         ],
-        "entity_count": 10,
-        "rejected_entity_count": 4,
-        "evidence_count": 29
+        "entity_count": 9,
+        "rejected_entity_count": 3,
+        "evidence_count": 14
     }
 }

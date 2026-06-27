@@ -22,12 +22,16 @@
         "names": [
             "Vihaan Sharma"
         ],
-        "organizations": [],
+        "organizations": [
+            "Amazon",
+            "Home & Kitchen"
+        ],
         "technologies": [],
         "skills": [],
         "locations": [
             "Fort Worth",
             "India",
+            "United States",
             "Washington"
         ],
         "dates": [],
@@ -42,6 +46,28 @@
                 "sentence": "[ { \"OrderID\": \"ORD0000001\", \"OrderDate\": \"2023-01-31\", \"CustomerID\": \"CUST001504\", \"CustomerName\": \"Vihaan Sharma\", \"ProductID\": \"P00014\", \"ProductName\": \"Drone Mini\", \"Category\": \"Books\", \"Brand\": \"BrightLux\", \"Quantity\": \"3\", \"UnitPrice\": \"106.59\", \"Discount\": \"0.0\", \"Tax\": \"0.0\", \"ShippingCost\": \"0.09\", \"TotalAmount\": \"319.86\", \"PaymentMethod\": \"Debit Card\", \"OrderStatus\": \"Delivered\", \"City\": \"Washington\", \"State\": \"DC\", \"Country\": \"India\", \"SellerID\": \"SELL01967\" }, { \"OrderID\": \"ORD0000002\", \"OrderDate\": \"2023-12-30\", \"CustomerID\": \"CUST000178\", \"CustomerName\": \"Pooja Kumar\", \"ProductID\": \"P00040\", \"ProductName\": \"Microphone\", \"Category\": \"Home & Kitchen\", \"Brand\": \"UrbanStyle\", \"Quantity\": \"1\", \"UnitPrice\": \"251.37\", \"Discount\": \"0.05\", \"Tax\": \"19.1\", \"ShippingCost\": \"1.74\", \"TotalAmount\": \"259.64\", \"PaymentMethod\": \"Amazon Pay\", \"OrderStatus\": \"Delivered\", \"City\": \"Fort Worth\", \"State\": \"TX\", \"Country\": \"United States\", \"SellerID\": \"SELL01298\" } ]",
                 "keywords": [
                     "Vihaan Sharma"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            }
+        ],
+        "Amazon": [
+            {
+                "paragraph": 1,
+                "sentence": "[ { \"OrderID\": \"ORD0000001\", \"OrderDate\": \"2023-01-31\", \"CustomerID\": \"CUST001504\", \"CustomerName\": \"Vihaan Sharma\", \"ProductID\": \"P00014\", \"ProductName\": \"Drone Mini\", \"Category\": \"Books\", \"Brand\": \"BrightLux\", \"Quantity\": \"3\", \"UnitPrice\": \"106.59\", \"Discount\": \"0.0\", \"Tax\": \"0.0\", \"ShippingCost\": \"0.09\", \"TotalAmount\": \"319.86\", \"PaymentMethod\": \"Debit Card\", \"OrderStatus\": \"Delivered\", \"City\": \"Washington\", \"State\": \"DC\", \"Country\": \"India\", \"SellerID\": \"SELL01967\" }, { \"OrderID\": \"ORD0000002\", \"OrderDate\": \"2023-12-30\", \"CustomerID\": \"CUST000178\", \"CustomerName\": \"Pooja Kumar\", \"ProductID\": \"P00040\", \"ProductName\": \"Microphone\", \"Category\": \"Home & Kitchen\", \"Brand\": \"UrbanStyle\", \"Quantity\": \"1\", \"UnitPrice\": \"251.37\", \"Discount\": \"0.05\", \"Tax\": \"19.1\", \"ShippingCost\": \"1.74\", \"TotalAmount\": \"259.64\", \"PaymentMethod\": \"Amazon Pay\", \"OrderStatus\": \"Delivered\", \"City\": \"Fort Worth\", \"State\": \"TX\", \"Country\": \"United States\", \"SellerID\": \"SELL01298\" } ]",
+                "keywords": [
+                    "Amazon"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            }
+        ],
+        "Home & Kitchen": [
+            {
+                "paragraph": 1,
+                "sentence": "[ { \"OrderID\": \"ORD0000001\", \"OrderDate\": \"2023-01-31\", \"CustomerID\": \"CUST001504\", \"CustomerName\": \"Vihaan Sharma\", \"ProductID\": \"P00014\", \"ProductName\": \"Drone Mini\", \"Category\": \"Books\", \"Brand\": \"BrightLux\", \"Quantity\": \"3\", \"UnitPrice\": \"106.59\", \"Discount\": \"0.0\", \"Tax\": \"0.0\", \"ShippingCost\": \"0.09\", \"TotalAmount\": \"319.86\", \"PaymentMethod\": \"Debit Card\", \"OrderStatus\": \"Delivered\", \"City\": \"Washington\", \"State\": \"DC\", \"Country\": \"India\", \"SellerID\": \"SELL01967\" }, { \"OrderID\": \"ORD0000002\", \"OrderDate\": \"2023-12-30\", \"CustomerID\": \"CUST000178\", \"CustomerName\": \"Pooja Kumar\", \"ProductID\": \"P00040\", \"ProductName\": \"Microphone\", \"Category\": \"Home & Kitchen\", \"Brand\": \"UrbanStyle\", \"Quantity\": \"1\", \"UnitPrice\": \"251.37\", \"Discount\": \"0.05\", \"Tax\": \"19.1\", \"ShippingCost\": \"1.74\", \"TotalAmount\": \"259.64\", \"PaymentMethod\": \"Amazon Pay\", \"OrderStatus\": \"Delivered\", \"City\": \"Fort Worth\", \"State\": \"TX\", \"Country\": \"United States\", \"SellerID\": \"SELL01298\" } ]",
+                "keywords": [
+                    "Home & Kitchen"
                 ],
                 "reason": "Entity explicitly mentioned",
                 "confidence": 1.0
@@ -64,6 +90,17 @@
                 "sentence": "[ { \"OrderID\": \"ORD0000001\", \"OrderDate\": \"2023-01-31\", \"CustomerID\": \"CUST001504\", \"CustomerName\": \"Vihaan Sharma\", \"ProductID\": \"P00014\", \"ProductName\": \"Drone Mini\", \"Category\": \"Books\", \"Brand\": \"BrightLux\", \"Quantity\": \"3\", \"UnitPrice\": \"106.59\", \"Discount\": \"0.0\", \"Tax\": \"0.0\", \"ShippingCost\": \"0.09\", \"TotalAmount\": \"319.86\", \"PaymentMethod\": \"Debit Card\", \"OrderStatus\": \"Delivered\", \"City\": \"Washington\", \"State\": \"DC\", \"Country\": \"India\", \"SellerID\": \"SELL01967\" }, { \"OrderID\": \"ORD0000002\", \"OrderDate\": \"2023-12-30\", \"CustomerID\": \"CUST000178\", \"CustomerName\": \"Pooja Kumar\", \"ProductID\": \"P00040\", \"ProductName\": \"Microphone\", \"Category\": \"Home & Kitchen\", \"Brand\": \"UrbanStyle\", \"Quantity\": \"1\", \"UnitPrice\": \"251.37\", \"Discount\": \"0.05\", \"Tax\": \"19.1\", \"ShippingCost\": \"1.74\", \"TotalAmount\": \"259.64\", \"PaymentMethod\": \"Amazon Pay\", \"OrderStatus\": \"Delivered\", \"City\": \"Fort Worth\", \"State\": \"TX\", \"Country\": \"United States\", \"SellerID\": \"SELL01298\" } ]",
                 "keywords": [
                     "India"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            }
+        ],
+        "United States": [
+            {
+                "paragraph": 1,
+                "sentence": "[ { \"OrderID\": \"ORD0000001\", \"OrderDate\": \"2023-01-31\", \"CustomerID\": \"CUST001504\", \"CustomerName\": \"Vihaan Sharma\", \"ProductID\": \"P00014\", \"ProductName\": \"Drone Mini\", \"Category\": \"Books\", \"Brand\": \"BrightLux\", \"Quantity\": \"3\", \"UnitPrice\": \"106.59\", \"Discount\": \"0.0\", \"Tax\": \"0.0\", \"ShippingCost\": \"0.09\", \"TotalAmount\": \"319.86\", \"PaymentMethod\": \"Debit Card\", \"OrderStatus\": \"Delivered\", \"City\": \"Washington\", \"State\": \"DC\", \"Country\": \"India\", \"SellerID\": \"SELL01967\" }, { \"OrderID\": \"ORD0000002\", \"OrderDate\": \"2023-12-30\", \"CustomerID\": \"CUST000178\", \"CustomerName\": \"Pooja Kumar\", \"ProductID\": \"P00040\", \"ProductName\": \"Microphone\", \"Category\": \"Home & Kitchen\", \"Brand\": \"UrbanStyle\", \"Quantity\": \"1\", \"UnitPrice\": \"251.37\", \"Discount\": \"0.05\", \"Tax\": \"19.1\", \"ShippingCost\": \"1.74\", \"TotalAmount\": \"259.64\", \"PaymentMethod\": \"Amazon Pay\", \"OrderStatus\": \"Delivered\", \"City\": \"Fort Worth\", \"State\": \"TX\", \"Country\": \"United States\", \"SellerID\": \"SELL01298\" } ]",
+                "keywords": [
+                    "United States"
                 ],
                 "reason": "Entity explicitly mentioned",
                 "confidence": 1.0
@@ -105,12 +142,12 @@
         "classification_explanation": "Agriculture selected because it contains 1 supporting keyword(s): crop"
     },
     "confidence": {
-        "score": 33,
-        "supporting_evidence_count": 4,
-        "validated_entity_count": 4,
-        "document_completeness": 0.25,
+        "score": 57,
+        "supporting_evidence_count": 7,
+        "validated_entity_count": 7,
+        "document_completeness": 0.38,
         "contradictory_evidence_count": 0,
-        "explanation": "Confidence derived from 4 supporting evidences, 4 validated entities, and document completeness of 25%."
+        "explanation": "Confidence derived from 7 supporting evidences, 7 validated entities, and document completeness of 38%."
     },
     "recommendations": {
         "related_domains": [
@@ -135,7 +172,7 @@
         "intelligence_summary": "This document primarily belongs to the Agriculture domain. It is strongly associated with Smart Farming, AgriTech. The extracted intelligence can be used for classification, search, and knowledge management purposes. Additional recommendations have been generated to enrich future analysis."
     },
     "processing_trace": {
-        "execution_timestamp": "2026-06-22 11:44:10",
+        "execution_timestamp": "2026-06-27 21:11:12",
         "overall_status": "SUCCESS",
         "processing_trace": [
             {
@@ -160,15 +197,15 @@
             },
             {
                 "step": "Entity Extraction",
-                "details": "4 entities extracted"
+                "details": "7 entities extracted"
             },
             {
                 "step": "Entity Validation",
-                "details": "4 validated, 0 rejected"
+                "details": "7 validated, 0 rejected"
             },
             {
                 "step": "Evidence Generation",
-                "details": "4 evidence records generated"
+                "details": "7 evidence records generated"
             },
             {
                 "step": "Classification",
@@ -176,7 +213,7 @@
             },
             {
                 "step": "Confidence Scoring",
-                "details": "Confidence Score: 33"
+                "details": "Confidence Score: 57"
             },
             {
                 "step": "Recommendation Generation",
@@ -193,14 +230,14 @@
         "primary_category": "Agriculture",
         "secondary_category": "Marine",
         "classification_confidence": 0.17,
-        "overall_confidence": 33,
+        "overall_confidence": 57,
         "recommended_tags": [
             "agriculture",
             "crop-management",
             "farming"
         ],
-        "entity_count": 4,
+        "entity_count": 7,
         "rejected_entity_count": 0,
-        "evidence_count": 4
+        "evidence_count": 7
     }
 }

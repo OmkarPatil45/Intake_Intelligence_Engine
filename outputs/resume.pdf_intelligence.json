@@ -38,12 +38,10 @@
             "javascript",
             "machine learning",
             "mongodb",
-            "node.js",
             "numpy",
             "pandas",
             "python",
             "react",
-            "react.js",
             "scikit-learn",
             "sql"
         ],
@@ -58,12 +56,10 @@
             "javascript",
             "machine learning",
             "mongodb",
-            "node.js",
             "numpy",
             "pandas",
             "python",
             "react",
-            "react.js",
             "scikit-learn",
             "sql"
         ],
@@ -110,9 +106,29 @@
             "reason": "Entity too short"
         },
         {
+            "entity": "node.js",
+            "entity_type": "technologies",
+            "reason": "Software file/application"
+        },
+        {
+            "entity": "react.js",
+            "entity_type": "technologies",
+            "reason": "Software file/application"
+        },
+        {
             "entity": "c",
             "entity_type": "skills",
             "reason": "Entity too short"
+        },
+        {
+            "entity": "node.js",
+            "entity_type": "skills",
+            "reason": "Software file/application"
+        },
+        {
+            "entity": "react.js",
+            "entity_type": "skills",
+            "reason": "Software file/application"
         }
     ],
     "evidence_report": {
@@ -309,26 +325,6 @@
                 "confidence": 1.0
             }
         ],
-        "node.js": [
-            {
-                "paragraph": 1,
-                "sentence": "TECHNICAL SKILLS   Programming Languages: C++, Python   Web Technologies: HTML5, CSS3, Bootstrap, JavaScript, React.js, Node.js   Databases: SQL, MongoDB   Machine Learning: Supervised Learning, Unsupervised Learning   Development Tools: Git, Github, VS Code, Hoppscotch EDUCATION   VasantdadaPatil College Of Engineering B.E in Information Technology Nov 2022 - May 2026 CGPA : 7.2 ( 6 sem )   S.V.K.T Junior College Higher Senior Secondary (ClassXII) March 2022 Percentage : 59.00   Nutan Vidhyamandir Deolali Camp Senior Secondary (Class X) March 2020 Percentage : 86.60 PROJECT   Wanderlust \u2013 Travel Web Application Developed a full-stack travel web application for exploring destinations, planning trips, and managing itineraries.",
-                "keywords": [
-                    "node.js"
-                ],
-                "reason": "Entity explicitly mentioned",
-                "confidence": 1.0
-            },
-            {
-                "paragraph": 1,
-                "sentence": "Built frontend with HTML, CSS, JavaScript, backend with Node.js/Express, and MongoDB for data management, including user authentication, CRUD operations, and responsive design for a seamless user experience.",
-                "keywords": [
-                    "node.js"
-                ],
-                "reason": "Entity explicitly mentioned",
-                "confidence": 1.0
-            }
-        ],
         "numpy": [
             {
                 "paragraph": 1,
@@ -377,17 +373,6 @@
                 "sentence": "TECHNICAL SKILLS   Programming Languages: C++, Python   Web Technologies: HTML5, CSS3, Bootstrap, JavaScript, React.js, Node.js   Databases: SQL, MongoDB   Machine Learning: Supervised Learning, Unsupervised Learning   Development Tools: Git, Github, VS Code, Hoppscotch EDUCATION   VasantdadaPatil College Of Engineering B.E in Information Technology Nov 2022 - May 2026 CGPA : 7.2 ( 6 sem )   S.V.K.T Junior College Higher Senior Secondary (ClassXII) March 2022 Percentage : 59.00   Nutan Vidhyamandir Deolali Camp Senior Secondary (Class X) March 2020 Percentage : 86.60 PROJECT   Wanderlust \u2013 Travel Web Application Developed a full-stack travel web application for exploring destinations, planning trips, and managing itineraries.",
                 "keywords": [
                     "react"
-                ],
-                "reason": "Entity explicitly mentioned",
-                "confidence": 1.0
-            }
-        ],
-        "react.js": [
-            {
-                "paragraph": 1,
-                "sentence": "TECHNICAL SKILLS   Programming Languages: C++, Python   Web Technologies: HTML5, CSS3, Bootstrap, JavaScript, React.js, Node.js   Databases: SQL, MongoDB   Machine Learning: Supervised Learning, Unsupervised Learning   Development Tools: Git, Github, VS Code, Hoppscotch EDUCATION   VasantdadaPatil College Of Engineering B.E in Information Technology Nov 2022 - May 2026 CGPA : 7.2 ( 6 sem )   S.V.K.T Junior College Higher Senior Secondary (ClassXII) March 2022 Percentage : 59.00   Nutan Vidhyamandir Deolali Camp Senior Secondary (Class X) March 2020 Percentage : 86.60 PROJECT   Wanderlust \u2013 Travel Web Application Developed a full-stack travel web application for exploring destinations, planning trips, and managing itineraries.",
-                "keywords": [
-                    "react.js"
                 ],
                 "reason": "Entity explicitly mentioned",
                 "confidence": 1.0
@@ -489,11 +474,11 @@
     },
     "confidence": {
         "score": 95,
-        "supporting_evidence_count": 32,
-        "validated_entity_count": 40,
+        "supporting_evidence_count": 29,
+        "validated_entity_count": 36,
         "document_completeness": 0.75,
         "contradictory_evidence_count": 0,
-        "explanation": "Confidence derived from 32 supporting evidences, 40 validated entities, and document completeness of 75%."
+        "explanation": "Confidence derived from 29 supporting evidences, 36 validated entities, and document completeness of 75%."
     },
     "recommendations": {
         "related_domains": [
@@ -522,7 +507,7 @@
         "intelligence_summary": "This document primarily belongs to the AI domain. It is strongly associated with Machine Learning, Data Science. The extracted intelligence can be used for classification, search, and knowledge management purposes. Additional recommendations have been generated to enrich future analysis."
     },
     "processing_trace": {
-        "execution_timestamp": "2026-06-26 10:43:43",
+        "execution_timestamp": "2026-06-27 20:57:05",
         "overall_status": "SUCCESS",
         "processing_trace": [
             {
@@ -547,15 +532,15 @@
             },
             {
                 "step": "Entity Extraction",
-                "details": "40 entities extracted"
+                "details": "36 entities extracted"
             },
             {
                 "step": "Entity Validation",
-                "details": "40 validated, 7 rejected"
+                "details": "36 validated, 11 rejected"
             },
             {
                 "step": "Evidence Generation",
-                "details": "22 evidence records generated"
+                "details": "20 evidence records generated"
             },
             {
                 "step": "Classification",
@@ -588,8 +573,8 @@
             "chatbot",
             "automation"
         ],
-        "entity_count": 40,
-        "rejected_entity_count": 7,
-        "evidence_count": 32
+        "entity_count": 36,
+        "rejected_entity_count": 11,
+        "evidence_count": 29
     }
 }

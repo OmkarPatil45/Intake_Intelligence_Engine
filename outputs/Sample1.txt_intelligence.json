@@ -3,7 +3,7 @@
         "source_type": "txt"
     },
     "metadata": {
-        "file_name": "Sample1.txt",
+        "file_name": "sample1.txt",
         "file_extension": ".txt",
         "file_size_bytes": 6336
     },
@@ -25,7 +25,6 @@
             "Donald Verrilli",
             "Elena Kagan",
             "John Roberts",
-            "Marijuana Legalization",
             "Peter Keisler",
             "Samuel Alito",
             "Sonia Sotomayor"
@@ -34,7 +33,9 @@
             "Chamber of Commerce",
             "Congress",
             "Defense of Marriage Act",
+            "Energy-Intensive",
             "Environmental Protection Agency",
+            "Obamacare",
             "Utility Air Regulatory Group",
             "White House"
         ],
@@ -42,6 +43,7 @@
         "skills": [],
         "locations": [
             "Texas",
+            "U.S.",
             "Virginia",
             "the United States"
         ],
@@ -57,6 +59,11 @@
         },
         {
             "entity": "Capitol Hill",
+            "entity_type": "ORG",
+            "reason": "Likely person name misclassified as organization"
+        },
+        {
+            "entity": "Manufacturers Working Group",
             "entity_type": "ORG",
             "reason": "Likely person name misclassified as organization"
         },
@@ -77,11 +84,6 @@
         },
         {
             "entity": "The White House",
-            "entity_type": "ORG",
-            "reason": "Likely person name misclassified as organization"
-        },
-        {
-            "entity": "U.S. Solicitor",
             "entity_type": "ORG",
             "reason": "Likely person name misclassified as organization"
         }
@@ -137,17 +139,6 @@
                 "sentence": "\"Could it do this for another pollutant, something other than any of the greenhouse gases?\" After Kennedy and Chief Justice John Roberts pressed the point, Verrilli suggested the EPA could broaden its discretionary authority, absent a specific congressional mandate.",
                 "keywords": [
                     "John Roberts"
-                ],
-                "reason": "Entity explicitly mentioned",
-                "confidence": 1.0
-            }
-        ],
-        "Marijuana Legalization": [
-            {
-                "paragraph": 1,
-                "sentence": "Republicans in Congress and their allies have expressed similar concerns over discretionary executive branch changes and delays in implementing the Obamacare health reform law, a tepid federal response to recent state marijuana legalization, and a refusal to defend a law that did not recognize legally-married same-sex couples for federal purposes.",
-                "keywords": [
-                    "Marijuana Legalization"
                 ],
                 "reason": "Entity explicitly mentioned",
                 "confidence": 1.0
@@ -246,12 +237,34 @@
                 "confidence": 1.0
             }
         ],
+        "Energy-Intensive": [
+            {
+                "paragraph": 1,
+                "sentence": "EPA (12-1268); Energy-Intensive Manufacturers Working Group on Greenhouse Gas Regulation v.",
+                "keywords": [
+                    "Energy-Intensive"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            }
+        ],
         "Environmental Protection Agency": [
             {
                 "paragraph": 1,
                 "sentence": "At issue is narrow, but potentially far-reaching   whether the Environmental Protection Agency can tighten emissions standards for \"stationary\" greenhouse gas sources, such as power plants, in what the administration says is an effort to stem the effects of climate change and global warming.",
                 "keywords": [
                     "Environmental Protection Agency"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            }
+        ],
+        "Obamacare": [
+            {
+                "paragraph": 1,
+                "sentence": "Republicans in Congress and their allies have expressed similar concerns over discretionary executive branch changes and delays in implementing the Obamacare health reform law, a tepid federal response to recent state marijuana legalization, and a refusal to defend a law that did not recognize legally-married same-sex couples for federal purposes.",
+                "keywords": [
+                    "Obamacare"
                 ],
                 "reason": "Entity explicitly mentioned",
                 "confidence": 1.0
@@ -303,6 +316,17 @@
                 "sentence": "EPA (12-1272); Texas v.",
                 "keywords": [
                     "Texas"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            }
+        ],
+        "U.S.": [
+            {
+                "paragraph": 1,
+                "sentence": "\"So if your side can't even come to one interpretation, why shouldn't we defer to the agency?\" But Justice Anthony Kennedy, who could prove the court's decisive fifth vote, bluntly addressed U.S.",
+                "keywords": [
+                    "U.S."
                 ],
                 "reason": "Entity explicitly mentioned",
                 "confidence": 1.0
@@ -361,11 +385,11 @@
     },
     "confidence": {
         "score": 88,
-        "supporting_evidence_count": 23,
-        "validated_entity_count": 18,
+        "supporting_evidence_count": 25,
+        "validated_entity_count": 20,
         "document_completeness": 0.38,
         "contradictory_evidence_count": 0,
-        "explanation": "Confidence derived from 23 supporting evidences, 18 validated entities, and document completeness of 38%."
+        "explanation": "Confidence derived from 25 supporting evidences, 20 validated entities, and document completeness of 38%."
     },
     "recommendations": {
         "related_domains": [
@@ -390,12 +414,12 @@
         "intelligence_summary": "This document primarily belongs to the Governance domain. It is strongly associated with Public Administration, Citizen Services. The extracted intelligence can be used for classification, search, and knowledge management purposes. Additional recommendations have been generated to enrich future analysis."
     },
     "processing_trace": {
-        "execution_timestamp": "2026-06-22 11:15:49",
+        "execution_timestamp": "2026-06-27 21:13:50",
         "overall_status": "SUCCESS",
         "processing_trace": [
             {
                 "step": "File Received",
-                "details": "Sample1.txt received"
+                "details": "sample1.txt received"
             },
             {
                 "step": "Source Detection",
@@ -411,15 +435,15 @@
             },
             {
                 "step": "Entity Extraction",
-                "details": "18 entities extracted"
+                "details": "20 entities extracted"
             },
             {
                 "step": "Entity Validation",
-                "details": "18 validated, 7 rejected"
+                "details": "20 validated, 7 rejected"
             },
             {
                 "step": "Evidence Generation",
-                "details": "18 evidence records generated"
+                "details": "20 evidence records generated"
             },
             {
                 "step": "Classification",
@@ -450,8 +474,8 @@
             "public-services",
             "government"
         ],
-        "entity_count": 18,
+        "entity_count": 20,
         "rejected_entity_count": 7,
-        "evidence_count": 23
+        "evidence_count": 25
     }
 }

@@ -26,8 +26,6 @@
         "names": [
             "Alam N. Shaikh",
             "Anand Dane",
-            "Data Science",
-            "Inputn.Strip",
             "Pradip Mane",
             "Streamlit",
             "Swaroop Sawant",
@@ -524,7 +522,7 @@
         "intelligence_summary": "This document primarily belongs to the AI domain. It is strongly associated with Machine Learning, Data Science. The extracted intelligence can be used for classification, search, and knowledge management purposes. Additional recommendations have been generated to enrich future analysis."
     },
     "processing_trace": {
-        "execution_timestamp": "2026-06-26 10:50:45",
+        "execution_timestamp": "2026-06-27 21:08:17",
         "overall_status": "SUCCESS",
         "processing_trace": [
             {

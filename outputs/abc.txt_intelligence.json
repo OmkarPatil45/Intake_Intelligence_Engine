@@ -28,13 +28,7 @@
         "emails": [],
         "phone_numbers": []
     },
-    "rejected_entities": [
-        {
-            "entity": "Fast Read-Write Operations",
-            "entity_type": "ORG",
-            "reason": "Likely person name misclassified as organization"
-        }
-    ],
+    "rejected_entities": [],
     "evidence_report": {},
     "classification": {
         "primary_category": "AI",
@@ -87,7 +81,7 @@
         "intelligence_summary": "This document primarily belongs to the AI domain. It is strongly associated with Machine Learning, Data Science. The extracted intelligence can be used for classification, search, and knowledge management purposes. Additional recommendations have been generated to enrich future analysis."
     },
     "processing_trace": {
-        "execution_timestamp": "2026-06-22 11:13:24",
+        "execution_timestamp": "2026-06-27 21:00:36",
         "overall_status": "SUCCESS",
         "processing_trace": [
             {
@@ -112,7 +106,7 @@
             },
             {
                 "step": "Entity Validation",
-                "details": "0 validated, 1 rejected"
+                "details": "0 validated, 0 rejected"
             },
             {
                 "step": "Evidence Generation",
@@ -150,7 +144,7 @@
             "automation"
         ],
         "entity_count": 0,
-        "rejected_entity_count": 1,
+        "rejected_entity_count": 0,
         "evidence_count": 0
     }
 }

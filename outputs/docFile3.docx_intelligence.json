@@ -20,7 +20,7 @@
     },
     "entities": {
         "names": [
-            "Omkar Patil Id:"
+            "Omkar Patil"
         ],
         "organizations": [],
         "technologies": [],
@@ -30,20 +30,14 @@
         "emails": [],
         "phone_numbers": []
     },
-    "rejected_entities": [
-        {
-            "entity": "trace_file.txt",
-            "entity_type": "GPE",
-            "reason": "File reference detected"
-        }
-    ],
+    "rejected_entities": [],
     "evidence_report": {
-        "Omkar Patil Id:": [
+        "Omkar Patil": [
             {
                 "paragraph": 1,
                 "sentence": "Name: Omkar Patil ID: VU4F2223108 Experiment 6 Aim: Analyze network performance for quality-of-service parameters such as throughput, latency etc.",
                 "keywords": [
-                    "Omkar Patil Id:"
+                    "Omkar Patil"
                 ],
                 "reason": "Entity explicitly mentioned",
                 "confidence": 1.0
@@ -101,7 +95,7 @@
         "intelligence_summary": "This document primarily belongs to the AI domain. It is strongly associated with Machine Learning, Data Science. The extracted intelligence can be used for classification, search, and knowledge management purposes. Additional recommendations have been generated to enrich future analysis."
     },
     "processing_trace": {
-        "execution_timestamp": "2026-06-22 11:49:24",
+        "execution_timestamp": "2026-06-27 21:07:05",
         "overall_status": "SUCCESS",
         "processing_trace": [
             {
@@ -130,7 +124,7 @@
             },
             {
                 "step": "Entity Validation",
-                "details": "1 validated, 1 rejected"
+                "details": "1 validated, 0 rejected"
             },
             {
                 "step": "Evidence Generation",
@@ -168,7 +162,7 @@
             "automation"
         ],
         "entity_count": 1,
-        "rejected_entity_count": 1,
+        "rejected_entity_count": 0,
         "evidence_count": 1
     }
 }

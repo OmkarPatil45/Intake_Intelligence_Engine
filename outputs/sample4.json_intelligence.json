@@ -19,9 +19,12 @@
     "entities": {
         "names": [
             "Jackson",
-            "James"
+            "James",
+            "Smith"
         ],
-        "organizations": [],
+        "organizations": [
+            "Healthcare"
+        ],
         "technologies": [],
         "skills": [],
         "locations": [],
@@ -56,6 +59,28 @@
                 "sentence": "{ \"people\": [ { \"firstName\": \"Joe\", \"lastName\": \"Jackson\", \"gender\": \"male\", \"age\": 28, \"number\": \"7349282382\", \"subject_area\": \"Agriculture\" }, { \"firstName\": \"James\", \"lastName\": \"Smith\", \"gender\": \"male\", \"age\": 32, \"number\": \"5678568567\", \"subject_area\": \"Healthcare\" }, { \"firstName\": \"Emily\", \"lastName\": \"Jones\", \"gender\": \"female\", \"age\": 24, \"number\": \"456754675\", \"subject_area\": \"Engineering\" } ] }",
                 "keywords": [
                     "James"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            }
+        ],
+        "Smith": [
+            {
+                "paragraph": 1,
+                "sentence": "{ \"people\": [ { \"firstName\": \"Joe\", \"lastName\": \"Jackson\", \"gender\": \"male\", \"age\": 28, \"number\": \"7349282382\", \"subject_area\": \"Agriculture\" }, { \"firstName\": \"James\", \"lastName\": \"Smith\", \"gender\": \"male\", \"age\": 32, \"number\": \"5678568567\", \"subject_area\": \"Healthcare\" }, { \"firstName\": \"Emily\", \"lastName\": \"Jones\", \"gender\": \"female\", \"age\": 24, \"number\": \"456754675\", \"subject_area\": \"Engineering\" } ] }",
+                "keywords": [
+                    "Smith"
+                ],
+                "reason": "Entity explicitly mentioned",
+                "confidence": 1.0
+            }
+        ],
+        "Healthcare": [
+            {
+                "paragraph": 1,
+                "sentence": "{ \"people\": [ { \"firstName\": \"Joe\", \"lastName\": \"Jackson\", \"gender\": \"male\", \"age\": 28, \"number\": \"7349282382\", \"subject_area\": \"Agriculture\" }, { \"firstName\": \"James\", \"lastName\": \"Smith\", \"gender\": \"male\", \"age\": 32, \"number\": \"5678568567\", \"subject_area\": \"Healthcare\" }, { \"firstName\": \"Emily\", \"lastName\": \"Jones\", \"gender\": \"female\", \"age\": 24, \"number\": \"456754675\", \"subject_area\": \"Engineering\" } ] }",
+                "keywords": [
+                    "Healthcare"
                 ],
                 "reason": "Entity explicitly mentioned",
                 "confidence": 1.0
@@ -97,12 +122,12 @@
         "classification_explanation": "Healthcare selected because it contains 1 supporting keyword(s): health"
     },
     "confidence": {
-        "score": 26,
-        "supporting_evidence_count": 3,
-        "validated_entity_count": 3,
-        "document_completeness": 0.25,
+        "score": 43,
+        "supporting_evidence_count": 5,
+        "validated_entity_count": 5,
+        "document_completeness": 0.38,
         "contradictory_evidence_count": 0,
-        "explanation": "Confidence derived from 3 supporting evidences, 3 validated entities, and document completeness of 25%."
+        "explanation": "Confidence derived from 5 supporting evidences, 5 validated entities, and document completeness of 38%."
     },
     "recommendations": {
         "related_domains": [
@@ -127,7 +152,7 @@
         "intelligence_summary": "This document primarily belongs to the Healthcare domain. It is strongly associated with Medical Analytics, Telemedicine. The extracted intelligence can be used for classification, search, and knowledge management purposes. Additional recommendations have been generated to enrich future analysis."
     },
     "processing_trace": {
-        "execution_timestamp": "2026-06-22 11:46:18",
+        "execution_timestamp": "2026-06-27 21:12:58",
         "overall_status": "SUCCESS",
         "processing_trace": [
             {
@@ -152,15 +177,15 @@
             },
             {
                 "step": "Entity Extraction",
-                "details": "3 entities extracted"
+                "details": "5 entities extracted"
             },
             {
                 "step": "Entity Validation",
-                "details": "3 validated, 1 rejected"
+                "details": "5 validated, 1 rejected"
             },
             {
                 "step": "Evidence Generation",
-                "details": "3 evidence records generated"
+                "details": "5 evidence records generated"
             },
             {
                 "step": "Classification",
@@ -168,7 +193,7 @@
             },
             {
                 "step": "Confidence Scoring",
-                "details": "Confidence Score: 26"
+                "details": "Confidence Score: 43"
             },
             {
                 "step": "Recommendation Generation",
@@ -185,14 +210,14 @@
         "primary_category": "Healthcare",
         "secondary_category": "Agriculture",
         "classification_confidence": 0.14,
-        "overall_confidence": 26,
+        "overall_confidence": 43,
         "recommended_tags": [
             "healthcare",
             "medical",
             "patient-care"
         ],
-        "entity_count": 3,
+        "entity_count": 5,
         "rejected_entity_count": 1,
-        "evidence_count": 3
+        "evidence_count": 5
     }
 }

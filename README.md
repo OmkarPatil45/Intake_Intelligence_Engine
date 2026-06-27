@@ -414,7 +414,7 @@ A complete project demonstration is available on YouTube.
 **Demo Link:**
 
 ```text
-https://www.youtube.com/watch?v=uOuFA8z2c7E
+https://youtu.be/8eSwjXgMzoc
 ```
 
 ---

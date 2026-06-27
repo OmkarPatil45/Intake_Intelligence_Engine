@@ -18,7 +18,7 @@ from processing.processing_trace import ProcessingTrace
 
 
 loader = IntakeLoader()
-result = loader.load("dataset/user_device_.csv")
+result = loader.load("dataset/BI_REPORT.pdf")
 
 loader = IntakeLoader()
 analyzer = ContentAnalyzer()

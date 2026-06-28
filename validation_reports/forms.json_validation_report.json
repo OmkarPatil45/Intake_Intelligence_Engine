@@ -1,0 +1,286 @@
+{
+    "validation_summary": {
+        "total_checks": 37,
+        "passed_checks": 37,
+        "failed_checks": 0,
+        "warning_checks": 0
+    },
+    "validator_reports": [
+        {
+            "validator": "Schema Validator",
+            "total_checks": 24,
+            "passed_checks": 24,
+            "failed_checks": 0,
+            "results": [
+                {
+                    "rule": "Required Field Check",
+                    "status": "PASS",
+                    "target": "source",
+                    "message": "Required field present.",
+                    "severity": "INFO"
+                },
+                {
+                    "rule": "Required Field Check",
+                    "status": "PASS",
+                    "target": "metadata",
+                    "message": "Required field present.",
+                    "severity": "INFO"
+                },
+                {
+                    "rule": "Required Field Check",
+                    "status": "PASS",
+                    "target": "analysis",
+                    "message": "Required field present.",
+                    "severity": "INFO"
+                },
+                {
+                    "rule": "Required Field Check",
+                    "status": "PASS",
+                    "target": "entities",
+                    "message": "Required field present.",
+                    "severity": "INFO"
+                },
+                {
+                    "rule": "Required Field Check",
+                    "status": "PASS",
+                    "target": "classification",
+                    "message": "Required field present.",
+                    "severity": "INFO"
+                },
+                {
+                    "rule": "Required Field Check",
+                    "status": "PASS",
+                    "target": "confidence",
+                    "message": "Required field present.",
+                    "severity": "INFO"
+                },
+                {
+                    "rule": "Required Field Check",
+                    "status": "PASS",
+                    "target": "recommendations",
+                    "message": "Required field present.",
+                    "severity": "INFO"
+                },
+                {
+                    "rule": "Required Field Check",
+                    "status": "PASS",
+                    "target": "processing_trace",
+                    "message": "Required field present.",
+                    "severity": "INFO"
+                },
+                {
+                    "rule": "Data Type Check",
+                    "status": "PASS",
+                    "target": "source",
+                    "message": "Correct type (dict).",
+                    "severity": "INFO"
+                },
+                {
+                    "rule": "Data Type Check",
+                    "status": "PASS",
+                    "target": "metadata",
+                    "message": "Correct type (dict).",
+                    "severity": "INFO"
+                },
+                {
+                    "rule": "Data Type Check",
+                    "status": "PASS",
+                    "target": "analysis",
+                    "message": "Correct type (dict).",
+                    "severity": "INFO"
+                },
+                {
+                    "rule": "Data Type Check",
+                    "status": "PASS",
+                    "target": "entities",
+                    "message": "Correct type (dict).",
+                    "severity": "INFO"
+                },
+                {
+                    "rule": "Data Type Check",
+                    "status": "PASS",
+                    "target": "classification",
+                    "message": "Correct type (dict).",
+                    "severity": "INFO"
+                },
+                {
+                    "rule": "Data Type Check",
+                    "status": "PASS",
+                    "target": "confidence",
+                    "message": "Correct type (dict).",
+                    "severity": "INFO"
+                },
+                {
+                    "rule": "Data Type Check",
+                    "status": "PASS",
+                    "target": "recommendations",
+                    "message": "Correct type (dict).",
+                    "severity": "INFO"
+                },
+                {
+                    "rule": "Data Type Check",
+                    "status": "PASS",
+                    "target": "processing_trace",
+                    "message": "Correct type (dict).",
+                    "severity": "INFO"
+                },
+                {
+                    "rule": "Empty Value Check",
+                    "status": "PASS",
+                    "target": "source",
+                    "message": "Field contains data.",
+                    "severity": "INFO"
+                },
+                {
+                    "rule": "Empty Value Check",
+                    "status": "PASS",
+                    "target": "metadata",
+                    "message": "Field contains data.",
+                    "severity": "INFO"
+                },
+                {
+                    "rule": "Empty Value Check",
+                    "status": "PASS",
+                    "target": "analysis",
+                    "message": "Field contains data.",
+                    "severity": "INFO"
+                },
+                {
+                    "rule": "Empty Value Check",
+                    "status": "PASS",
+                    "target": "entities",
+                    "message": "Field contains data.",
+                    "severity": "INFO"
+                },
+                {
+                    "rule": "Empty Value Check",
+                    "status": "PASS",
+                    "target": "classification",
+                    "message": "Field contains data.",
+                    "severity": "INFO"
+                },
+                {
+                    "rule": "Empty Value Check",
+                    "status": "PASS",
+                    "target": "confidence",
+                    "message": "Field contains data.",
+                    "severity": "INFO"
+                },
+                {
+                    "rule": "Empty Value Check",
+                    "status": "PASS",
+                    "target": "recommendations",
+                    "message": "Field contains data.",
+                    "severity": "INFO"
+                },
+                {
+                    "rule": "Empty Value Check",
+                    "status": "PASS",
+                    "target": "processing_trace",
+                    "message": "Field contains data.",
+                    "severity": "INFO"
+                }
+            ]
+        },
+        {
+            "validator": "Consistency Validator",
+            "total_checks": 13,
+            "passed_checks": 13,
+            "failed_checks": 0,
+            "warning_checks": 0,
+            "results": [
+                {
+                    "rule": "Duplicate Entity Check",
+                    "status": "PASS",
+                    "target": "names",
+                    "message": "No duplicate entities.",
+                    "severity": "INFO"
+                },
+                {
+                    "rule": "Duplicate Entity Check",
+                    "status": "PASS",
+                    "target": "organizations",
+                    "message": "No duplicate entities.",
+                    "severity": "INFO"
+                },
+                {
+                    "rule": "Duplicate Entity Check",
+                    "status": "PASS",
+                    "target": "technologies",
+                    "message": "No duplicate entities.",
+                    "severity": "INFO"
+                },
+                {
+                    "rule": "Duplicate Entity Check",
+                    "status": "PASS",
+                    "target": "skills",
+                    "message": "No duplicate entities.",
+                    "severity": "INFO"
+                },
+                {
+                    "rule": "Duplicate Entity Check",
+                    "status": "PASS",
+                    "target": "locations",
+                    "message": "No duplicate entities.",
+                    "severity": "INFO"
+                },
+                {
+                    "rule": "Duplicate Entity Check",
+                    "status": "PASS",
+                    "target": "dates",
+                    "message": "No duplicate entities.",
+                    "severity": "INFO"
+                },
+                {
+                    "rule": "Duplicate Entity Check",
+                    "status": "PASS",
+                    "target": "emails",
+                    "message": "No duplicate entities.",
+                    "severity": "INFO"
+                },
+                {
+                    "rule": "Duplicate Entity Check",
+                    "status": "PASS",
+                    "target": "phone_numbers",
+                    "message": "No duplicate entities.",
+                    "severity": "INFO"
+                },
+                {
+                    "rule": "Entity Consistency",
+                    "status": "PASS",
+                    "target": "entities",
+                    "message": "4 entities found.",
+                    "severity": "INFO"
+                },
+                {
+                    "rule": "Classification Consistency",
+                    "status": "PASS",
+                    "target": "classification.primary_category",
+                    "message": "Primary category: Education",
+                    "severity": "INFO"
+                },
+                {
+                    "rule": "Confidence Check",
+                    "status": "PASS",
+                    "target": "confidence.score",
+                    "message": "Confidence score: 38",
+                    "severity": "INFO"
+                },
+                {
+                    "rule": "Evidence Check",
+                    "status": "PASS",
+                    "target": "evidence_report",
+                    "message": "4 evidence records found.",
+                    "severity": "INFO"
+                },
+                {
+                    "rule": "Processing Trace",
+                    "status": "PASS",
+                    "target": "processing_trace",
+                    "message": "12 processing steps found.",
+                    "severity": "INFO"
+                }
+            ]
+        }
+    ]
+}

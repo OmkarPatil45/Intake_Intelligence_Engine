@@ -1,0 +1,27 @@
+{
+    "quality_score": 95,
+    "validation_status": "PASS",
+    "errors": [
+        {
+            "rule": "Entity Consistency",
+            "status": "FAIL",
+            "target": "entities",
+            "message": "No entities found.",
+            "severity": "ERROR"
+        }
+    ],
+    "warnings": [
+        {
+            "rule": "Evidence Check",
+            "status": "WARNING",
+            "target": "evidence_report",
+            "message": "Evidence report is empty.",
+            "severity": "WARNING"
+        }
+    ],
+    "improvement_suggestions": [
+        "Generate evidence for every important classification and entity.",
+        "Verify extracted entities and ensure entity lists are populated."
+    ],
+    "explanation": "The package passed 35 of 37 validation checks. 1 failed and 1 produced warnings."
+}

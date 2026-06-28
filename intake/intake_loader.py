@@ -3,7 +3,7 @@ from pathlib import Path
 import json
 import pandas as pd
 from docx import Document
-from PyPDF2 import PdfReader
+import fitz #3
 
 from intake.source_detector import SourceDetector
 
@@ -49,30 +49,35 @@ class IntakeLoader:
             **extracted_data,
         }
     
-    
+    #3
     def _load_pdf(self, file_path: Path) -> dict:
         """
-        Extract text and metadata from PDF.
+        Extract text and metadata from PDF using PyMuPDF.
         """
 
-        reader = PdfReader(str(file_path))
+        document = fitz.open(str(file_path))
 
-        text = ""
+        extracted_pages = []
 
-        for page in reader.pages:
-            page_text = page.extract_text()
+        for page in document:
+
+            page_text = page.get_text("text", sort = True)
 
             if page_text:
-                text += page_text + "\n"
+                extracted_pages.append(page_text.strip())
 
-        return { 
+        document.close()
+
+        full_text = "\n\n".join(extracted_pages)
+
+        return {
             "extraction": {
                 "status": "success",
-                "content": text.strip(),
-                "page_count": len(reader.pages),
+                "content": full_text,
+                "page_count": len(extracted_pages)
             }
         }
-
+    
     def _load_docx(self, file_path: Path) -> dict:
         """
         Extract text from DOCX.

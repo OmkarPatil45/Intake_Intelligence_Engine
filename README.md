@@ -321,7 +321,7 @@ Launches the interactive validation console.
 
 ## Intelligence Outputs
 
-```text
+```
 outputs/
 
 resume.pdf_intelligence.json
@@ -329,6 +329,7 @@ resume.pdf_intelligence.json
 project.docx_intelligence.json
 
 relationship_graph.json
+```
 ```
 {
     "source": "resume.pdf",
@@ -342,7 +343,7 @@ relationship_graph.json
 
 ## Validation Reports
 
-```text
+```
 validation_reports/
 
 resume_validation_report.json
